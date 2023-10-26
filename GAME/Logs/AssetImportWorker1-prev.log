@@ -1,0 +1,250 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.16f1 (e5ad54273a6f) revision 15052116'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pt' Physical Memory: 8174 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/vitória/multplayer/product/TENNIS/GAME
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57448
+Successfully changed project path to: D:/vitória/multplayer/product/TENNIS/GAME
+D:/vitória/multplayer/product/TENNIS/GAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23424] Host "[IP] 192.168.10.85 [Port] 0 [Flags] 2 [Guid] 595142634 [EditorId] 595142634 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2KE21E2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23424] Host "[IP] 192.168.10.85 [Port] 0 [Flags] 2 [Guid] 595142634 [EditorId] 595142634 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2KE21E2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 59.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.16f1 (e5ad54273a6f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vitória/multplayer/product/TENNIS/GAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     2006 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.020549 seconds.
+- Loaded All Assemblies, in  1.039 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.940 seconds
+Domain Reload Profiling: 1973ms
+	BeginReloadAssembly (292ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (180ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (426ms)
+			TypeCache.Refresh (424ms)
+				TypeCache.ScanAssembly (395ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (941ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (830ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (102ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (20ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Assembly 'Library/ScriptAssemblies/Assembly-CSharp.dll' will not be loaded due to errors:
+Unable to resolve reference 'WebService'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Unable to resolve reference 'TENNIS.DAO'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory doesn't match image D:\vitória\multplayer\product\TENNIS\GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\vitória\multplayer\product\TENNIS\GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.919 seconds
+Refreshing native plugins compatible for Editor in 8.24 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.243 seconds
+Domain Reload Profiling: 4152ms
+	BeginReloadAssembly (1108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1612ms)
+		LoadAssemblies (1238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (918ms)
+			TypeCache.Refresh (873ms)
+				TypeCache.ScanAssembly (842ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (828ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 7.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (55.2 KB). Loaded Objects now: 3735.
+Memory consumption went from 129.1 MB to 129.0 MB.
+Total: 8.098300 ms (FindLiveObjects: 0.394900 ms CreateObjectMapping: 0.249300 ms MarkObjects: 7.240800 ms  DeleteObjects: 0.211700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/precompiled-assembly-types:WebGrease: c01ca65671ad45775dc32e59a07171ec -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin.Host.SystemWeb: a950c3ac146ee75828250faf0ffb4f8c -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.CodeDom.Providers.DotNetCompilerPlatform: 2fe34c0e34843e655197394e413d27b9 -> 
+  custom:scripting/monoscript/fileName/Test.cs: 8289d0398bd9a051035a87365428a0e7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ef84786015eb1a0c21b74ebb8f2ca557 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin.Security.Google: 086568b6e4ba13f4f85d90ea917033f1 -> 
+  custom:scripting/precompiled-assembly-types:Owin: 7378e220160ec99d10cabc639503557f -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin.Security: 7aa1ef6aa166df14749209f15230839c -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Antlr3.Runtime: b9b54f71f2335bf836f4ed4cd3f0daeb -> 
+  custom:scripting/precompiled-assembly-types:WebService: fc112c8be5085aa19092f9e99db755b3 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AI.DependencyCollector: 8696f0f043f15b02f4285d266200a32c -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin: a387defc53691409d6448f52385bc90f -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AI.WindowsServer: 9c027d446917734d7eba5a1483272c0e -> 
+  custom:scripting/precompiled-assembly-types:System.Web.Optimization: f2e7bb723ab24b05b30a7f8452646281 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin.Security.OAuth: efb4733b2e38820f60291068fb5c980f -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AspNet.Identity.Core: 5805ae0f47ec246ad68d6931ff0de2ae -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AspNet.Web.Optimization.WebForms: 075008ff3fbf4ce6fa7d4db751031b18 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Web.Infrastructure: 44c965943e3bc21d70bc49955ebd6399 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.ScriptManager.WebForms: da2a16f8f88cb7ad50f82ef415350415 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AspNet.Identity.EntityFramework: cdafe10c67e20ae8e3735bf46eec99fd -> 
+  custom:scripting/precompiled-assembly-types:AspNet.ScriptManager.bootstrap: da2a16f8f88cb7ad50f82ef415350415 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AspNet.FriendlyUrls: 074b93e9997387b41b224bc40146ea63 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.ApplicationInsights: af7ac03e5d3b7b76f9b281ea9b1936ff -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:EntityFramework.SqlServer: 088be718332fb887a7c874714d31f0f2 -> 
+  custom:scripting/precompiled-assembly-types:System.Web.Providers: f1970ed941fd674a81bc9fc2b70ab43b -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AspNet.Identity.Owin: 004fd528d918ca2c6ab2ac276e94133a -> 
+  custom:scripting/precompiled-assembly-types:TENNIS.VIEW: 9ad2e23b8891a717c6c3a899ffdfd544 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AI.Agent.Intercept: e63edaab50e8bd1af5f48d3a63661806 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/precompiled-assembly-types:System.Web.Services: e71759f062804c597811bfcc006a4e1f -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AI.ServerTelemetryChannel: 27c46350ba7f94aadb718b0b2218a7e3 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin.Security.Cookies: e9e4084c4a44b06836cf889da46355f1 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin.Security.MicrosoftAccount: 68cb7701a9534599d1188a055263d7fa -> 
+  custom:scripting/precompiled-assembly-types:EntityFramework: 6e22cff9a841ff1b16e334ae7d0b095f -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin.Security.Twitter: f027bd99a844c64d3ceceb973c662b5f -> 
+  custom:scripting/precompiled-assembly-types:AspNet.ScriptManager.jQuery: da2a16f8f88cb7ad50f82ef415350415 -> 
+  custom:scripting/precompiled-assembly-types:Newtonsoft.Json: e81cb22da381aa20f2fc0c97a9415456 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AI.PerfCounterCollector: d8ccf7a3c3f3a5381fe81b36322823b8 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.Owin.Security.Facebook: d126ce3d1f0087d242ea1ccc85d651b2 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.AI.Web: 70b68422b3a8ac026ec9b0276e0860ef -> 
+  custom:scripting/precompiled-assembly-types:TENNIS.DAO: 024e1c786bd1a46a41e3fbd409dd9e83 -> 
+  custom:scripting/precompiled-assembly-types:Microsoft.ScriptManager.MSAjax: da2a16f8f88cb7ad50f82ef415350415 -> 
