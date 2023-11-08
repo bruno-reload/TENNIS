@@ -1,0 +1,3963 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void IIdentityMessageServiceExtensions_Send_mEB2A8234B22BA8A3F82C9F74DA676E5E5CD3E6D0 (void);
+extern void U3CU3Ec__DisplayClass1__ctor_mF62F089A830ABE0503B19BF72DE2C73DD090B3F7 (void);
+extern void U3CU3Ec__DisplayClass1_U3CSendU3Eb__0_mF2433A1B4C979E9E25C6EA9DB3B5CAA884DE47E3 (void);
+extern void TaskExtensions_WithCurrentCulture_mDC0F64782795533A83CE50764F6DC69CBCE1DCF5 (void);
+extern void CultureAwaiter__ctor_m456CB9FBD4EFBB538FE0579CB62A951D138C8FDD (void);
+extern void CultureAwaiter_GetAwaiter_m35401611F5FBF81CBA9FA8EDCCD7C97970673831 (void);
+extern void CultureAwaiter_get_IsCompleted_mF0E69E945963A3DA488EAB4756D175EC015D730B (void);
+extern void CultureAwaiter_GetResult_m40E54285BE9824E8AB92DDD31ACEE9B912E05870 (void);
+extern void CultureAwaiter_UnsafeOnCompleted_mFBB09012412B76731CEFA19CE0B5632691E7E9F2 (void);
+extern void U3CU3Ec__DisplayClass4__ctor_m8229E58BF0B82BF7E43F2E57E87D2BD53D3B8A2B (void);
+extern void U3CU3Ec__DisplayClass4_U3CUnsafeOnCompletedU3Eb__3_m3C772AB8B924B47850B726BDC19CB67AC9B4DFA4 (void);
+extern void AsyncHelper_RunSync_mC96F0E147DF1BB19CF52CD7E496270E4F36BC6E8 (void);
+extern void AsyncHelper__cctor_mFCF81D14AFA3D279F29B4ABA638254EFB8B980E1 (void);
+extern void U3CU3Ec__DisplayClass4__ctor_m0AA3C7B03BBDA4FD2ED0F47F06BA0521A22DF430 (void);
+extern void U3CU3Ec__DisplayClass4_U3CRunSyncU3Eb__3_mB1034C10B744A2D9E495FC711A2A165F15BB7FFB (void);
+extern void IdentityMessage_set_Destination_mFF41EF3C06EC3825059385D9A0B3E4CE179D459A (void);
+extern void IdentityMessage_set_Subject_m82BA175B75A44E12097C1D1BEBC0A21897203C9D (void);
+extern void IdentityMessage_set_Body_mF5DF8813ACA5C0FE6469DCB9F8ADDDA4E87BF3F0 (void);
+extern void IdentityMessage__ctor_m6C8708789F828E6D90AB3F1624ECB7E578B0BDDB (void);
+extern void PasswordValidator_get_RequiredLength_m30E8EED1A6AFD8FA711B6200B004FBA979F10E5B (void);
+extern void PasswordValidator_set_RequiredLength_m1F3D5D1F8273FB5C484DB9257655BA20EBA4B83B (void);
+extern void PasswordValidator_get_RequireNonLetterOrDigit_m1DFC3CE6CB73FB00E0577F9C233D105D91B20DCD (void);
+extern void PasswordValidator_set_RequireNonLetterOrDigit_m85B3EF80C7104192535A107F53188CB5EA0B9585 (void);
+extern void PasswordValidator_get_RequireLowercase_m0995178C974FEF7B447C02A343837ADC53175A68 (void);
+extern void PasswordValidator_set_RequireLowercase_m86F61D80756EDC4883E7608AA0C19BF8539448DA (void);
+extern void PasswordValidator_get_RequireUppercase_mA84370796EAA0A6EEFE22879951F73DF276F2634 (void);
+extern void PasswordValidator_set_RequireUppercase_mE24E0A23FAACB3AA8827D45146379705017E99F1 (void);
+extern void PasswordValidator_get_RequireDigit_m83BC0685CCE91F81B24111FCF10CE0E2F3BCB294 (void);
+extern void PasswordValidator_set_RequireDigit_m27097CDC098849D6311BB72943B1E0F6242F79BC (void);
+extern void PasswordValidator_ValidateAsync_m7DEB4B084369F2C2AD67E8C8561F3E50EC9D931D (void);
+extern void PasswordValidator_IsDigit_m0318FEB93F8F279B6A6A8E93C51A0D47858066C8 (void);
+extern void PasswordValidator_IsLower_mF1DCEFF9744FE35D76A672F06D2F252A730BC935 (void);
+extern void PasswordValidator_IsUpper_m21AFD2426E0E710BE502982E003B687A7E4EEC52 (void);
+extern void PasswordValidator_IsLetterOrDigit_m7FDBFB7CD80EDD8ACEE48E78F9E715FA8B501A5D (void);
+extern void PasswordValidator__ctor_m6D6BA46412903A0C821743E1DD6E939FE27F1C88 (void);
+extern void PasswordValidator_U3CValidateAsyncU3Eb__0_m5331365509097C5451181FB7C2A8571FA3AF2BFC (void);
+extern void PasswordValidator_U3CValidateAsyncU3Eb__1_m7508D58562A513A32BA2CE686FA6C2F40B886C6C (void);
+extern void PasswordValidator_U3CValidateAsyncU3Eb__2_m718249C0C1798184A0523A27F4B8F52862C21C55 (void);
+extern void SecurityToken__ctor_m0E949924A0907C8F5C8EE85F0DF97E3E5655FABA (void);
+extern void SecurityToken_GetDataNoClone_m114B93E55F0DF6568EBFE5889D91804226D71FE9 (void);
+extern void Rfc6238AuthenticationService_ComputeTotp_mBDC17F13D66B76F9E4AB5A890C0C53522F56C297 (void);
+extern void Rfc6238AuthenticationService_ApplyModifier_m9A035F3013780ED6755B5EB49CFB174323FD0158 (void);
+extern void Rfc6238AuthenticationService_GetCurrentTimeStepNumber_mB023F2E0FFFF50BE43E976FC808F65AF9A648A50 (void);
+extern void Rfc6238AuthenticationService_GenerateCode_m801CC9D87DBEF00CB0853050A7B8A6E5BAEC28EE (void);
+extern void Rfc6238AuthenticationService_ValidateCode_m37BACB326DE2327238A23A0742CD3A29E44C165A (void);
+extern void Rfc6238AuthenticationService__cctor_m509355DCA580AC4A33CE96936CB39A4CD798E067 (void);
+extern void IdentityExtensions_GetUserId_mE2CF6CAB35844A077352912F799F72967F8714E6 (void);
+extern void IdentityExtensions_FindFirstValue_m1CB838557983384E13A841FC267998591D6AE9D9 (void);
+extern void Crypto_HashPassword_m3A09890AFB0A1AEEE2E4E2F12B996B713AA60B77 (void);
+extern void Crypto_VerifyHashedPassword_m0B67970BEECDF2AAD897D3A366AFC054621A2F99 (void);
+extern void Crypto_ByteArraysEqual_m751E32418D3F0090CBE4A2C9973AE66B3AFE24F4 (void);
+extern void PasswordHasher_HashPassword_m9EF2E2E3C298C78932E574ABE17432570AB3C4BF (void);
+extern void PasswordHasher_VerifyHashedPassword_m14EEBB51C63D1943A733385D08975F859B95AE72 (void);
+extern void PasswordHasher__ctor_m92B743FD6562D7A781946F186A7D93EBF388C4DA (void);
+extern void MinimumLengthValidator__ctor_m3F5D088BE3F4F9D8D3F3843D0E1E8FB84DE9ED64 (void);
+extern void MinimumLengthValidator_get_RequiredLength_m7811941B268115D3CCD5D15DC96E8C9E342468F2 (void);
+extern void MinimumLengthValidator_set_RequiredLength_m18418B5E448F435CC62AD35A74AC4655AF79DA2E (void);
+extern void MinimumLengthValidator_ValidateAsync_m9688BE5500D02A0BB1901267B84B375294E5B6AA (void);
+extern void Resources_get_ResourceManager_mCBC312673A79A73693AD14CFD38985DDFF9E74DF (void);
+extern void Resources_get_DefaultError_m1A1721D9154A5202E1D2C27E26C9F49175D00E3F (void);
+extern void Resources_get_DuplicateEmail_m2BCA6756103616B723DDFFB537EBF8EE5A170E98 (void);
+extern void Resources_get_DuplicateName_m8876D3F6FBC09BFE8C2F279CAB9BE757AEE39FA9 (void);
+extern void Resources_get_ExternalLoginExists_m2F92D5881DAA0BA286A796B223530804994D6A44 (void);
+extern void Resources_get_InvalidEmail_m6778180B3F61BB5C0A3987D37A1DF777F9998AF2 (void);
+extern void Resources_get_InvalidToken_mD5DF00F568E962D39014605E4A0F49D9044AF87E (void);
+extern void Resources_get_InvalidUserName_m7B88F08AEBAA973B8DF04D9E2D442E7D32F05687 (void);
+extern void Resources_get_NoTokenProvider_m55AA5B31BFC19A47BB1026C0D317BE87BDE2EC09 (void);
+extern void Resources_get_NoTwoFactorProvider_m095480C9B51616A539D1035C4144083F58CE9739 (void);
+extern void Resources_get_PasswordMismatch_m6DA18F6228869646F86B5874CD60C20CD04D6ECE (void);
+extern void Resources_get_PasswordRequireDigit_m7A60AC3D9DE4C0FE981F57AA64F9C8185A969714 (void);
+extern void Resources_get_PasswordRequireLower_m57BDC792756346062F86A6A0E4E607F4A345CDD6 (void);
+extern void Resources_get_PasswordRequireNonLetterOrDigit_mF4BBF3072C6A3C22BF382F21ABA3A32215C79AF5 (void);
+extern void Resources_get_PasswordRequireUpper_mA42FF27BA5269E368655D72D31E63B9063578EE5 (void);
+extern void Resources_get_PasswordTooShort_m49F6FA2B43247C17B224AB99ACEE4ED5C3B5C091 (void);
+extern void Resources_get_PropertyTooShort_mBB450219298318ADC199957C8226772127A96C44 (void);
+extern void Resources_get_StoreNotIUserClaimStore_m2BC284A499A746BE7F992CAF7ECF0BDFAB613E55 (void);
+extern void Resources_get_StoreNotIUserEmailStore_mE04AF39BF6111CCCBDA3385A7157D68D6FC8422E (void);
+extern void Resources_get_StoreNotIUserLockoutStore_m58559CCA74F5E45276E3795C8987A73CE7B470D0 (void);
+extern void Resources_get_StoreNotIUserLoginStore_mAEC2D353AFA3FB46792C7CF94EC7BE54B6DDC142 (void);
+extern void Resources_get_StoreNotIUserPasswordStore_mF0BF2D3584716422D75E43020A806070B6C675C1 (void);
+extern void Resources_get_StoreNotIUserPhoneNumberStore_mA001CFD58D95CAAFF7083909E0228493170FE909 (void);
+extern void Resources_get_StoreNotIUserRoleStore_m0B1AE94C0973F9B15BCE5A2991844024B1065724 (void);
+extern void Resources_get_StoreNotIUserSecurityStampStore_mDC3B9DC64A034FE851F2C833BCBB3605BDFFC214 (void);
+extern void Resources_get_StoreNotIUserTwoFactorStore_m4EB1AE32FC82C9E3D742ED98384818AFF67612D8 (void);
+extern void Resources_get_UserAlreadyHasPassword_m0FC4D8D81D8F252291CF9F6DA6FF073CD6DE1876 (void);
+extern void Resources_get_UserIdNotFound_m946599501B4DAFB2CF87D1B13DF01BAFA3B25F9D (void);
+extern void IdentityResult__ctor_mDE690906730EB70694CB7B59F6EC157428B49B69 (void);
+extern void IdentityResult__ctor_m6D9DA93563FD4A84EB830265ECE7E36EDEDE32BB (void);
+extern void IdentityResult__ctor_m1DB255C8AEE9D26857111CDFBB89D6E09B220D5B (void);
+extern void IdentityResult_get_Succeeded_m4ADF26AAABB473C2B20E6870B82BFAB2CE4695BA (void);
+extern void IdentityResult_set_Succeeded_mB5B4DCB125CCAB5020A2B81D36BBE583D502E2E5 (void);
+extern void IdentityResult_get_Errors_mB9EB5A0A0F5AF37340E796FC68BB44921A49FBE2 (void);
+extern void IdentityResult_set_Errors_m53EB23D377A665439F4EA2A662DD47C2F3B609B3 (void);
+extern void IdentityResult_get_Success_m732FF6AA7A8E7F6B4519A2A79EA3C33F98D019F5 (void);
+extern void IdentityResult_Failed_m37BD537DFBFA767DA12E36842656FFF429852396 (void);
+extern void IdentityResult__cctor_mE4D47D4FCB9FB43456F1016DE969BA199DD61A6F (void);
+extern void UserLoginInfo__ctor_m5CD2712C5306D68E5D3E1EC2A877A26FB437B37F (void);
+extern void UserLoginInfo_get_LoginProvider_m2C583632A31E0600EFBFEC732C222922F49895F7 (void);
+extern void UserLoginInfo_set_LoginProvider_mDB1B5E94C6D40834D59AECD3524DEAEA63948886 (void);
+extern void UserLoginInfo_get_ProviderKey_m48F780CC813C05854F5978A92D229F38C1595921 (void);
+extern void UserLoginInfo_set_ProviderKey_mE0FFB32E71EA569683D223C44FAD4B50C62EED4C (void);
+static Il2CppMethodPointer s_methodPointers[456] = 
+{
+	IIdentityMessageServiceExtensions_Send_mEB2A8234B22BA8A3F82C9F74DA676E5E5CD3E6D0,
+	U3CU3Ec__DisplayClass1__ctor_mF62F089A830ABE0503B19BF72DE2C73DD090B3F7,
+	U3CU3Ec__DisplayClass1_U3CSendU3Eb__0_mF2433A1B4C979E9E25C6EA9DB3B5CAA884DE47E3,
+	NULL,
+	TaskExtensions_WithCurrentCulture_mDC0F64782795533A83CE50764F6DC69CBCE1DCF5,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	CultureAwaiter__ctor_m456CB9FBD4EFBB538FE0579CB62A951D138C8FDD,
+	CultureAwaiter_GetAwaiter_m35401611F5FBF81CBA9FA8EDCCD7C97970673831,
+	CultureAwaiter_get_IsCompleted_mF0E69E945963A3DA488EAB4756D175EC015D730B,
+	CultureAwaiter_GetResult_m40E54285BE9824E8AB92DDD31ACEE9B912E05870,
+	CultureAwaiter_UnsafeOnCompleted_mFBB09012412B76731CEFA19CE0B5632691E7E9F2,
+	U3CU3Ec__DisplayClass4__ctor_m8229E58BF0B82BF7E43F2E57E87D2BD53D3B8A2B,
+	U3CU3Ec__DisplayClass4_U3CUnsafeOnCompletedU3Eb__3_m3C772AB8B924B47850B726BDC19CB67AC9B4DFA4,
+	NULL,
+	AsyncHelper_RunSync_mC96F0E147DF1BB19CF52CD7E496270E4F36BC6E8,
+	AsyncHelper__cctor_mFCF81D14AFA3D279F29B4ABA638254EFB8B980E1,
+	NULL,
+	NULL,
+	U3CU3Ec__DisplayClass4__ctor_m0AA3C7B03BBDA4FD2ED0F47F06BA0521A22DF430,
+	U3CU3Ec__DisplayClass4_U3CRunSyncU3Eb__3_mB1034C10B744A2D9E495FC711A2A165F15BB7FFB,
+	NULL,
+	IdentityMessage_set_Destination_mFF41EF3C06EC3825059385D9A0B3E4CE179D459A,
+	IdentityMessage_set_Subject_m82BA175B75A44E12097C1D1BEBC0A21897203C9D,
+	IdentityMessage_set_Body_mF5DF8813ACA5C0FE6469DCB9F8ADDDA4E87BF3F0,
+	IdentityMessage__ctor_m6C8708789F828E6D90AB3F1624ECB7E578B0BDDB,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	PasswordValidator_get_RequiredLength_m30E8EED1A6AFD8FA711B6200B004FBA979F10E5B,
+	PasswordValidator_set_RequiredLength_m1F3D5D1F8273FB5C484DB9257655BA20EBA4B83B,
+	PasswordValidator_get_RequireNonLetterOrDigit_m1DFC3CE6CB73FB00E0577F9C233D105D91B20DCD,
+	PasswordValidator_set_RequireNonLetterOrDigit_m85B3EF80C7104192535A107F53188CB5EA0B9585,
+	PasswordValidator_get_RequireLowercase_m0995178C974FEF7B447C02A343837ADC53175A68,
+	PasswordValidator_set_RequireLowercase_m86F61D80756EDC4883E7608AA0C19BF8539448DA,
+	PasswordValidator_get_RequireUppercase_mA84370796EAA0A6EEFE22879951F73DF276F2634,
+	PasswordValidator_set_RequireUppercase_mE24E0A23FAACB3AA8827D45146379705017E99F1,
+	PasswordValidator_get_RequireDigit_m83BC0685CCE91F81B24111FCF10CE0E2F3BCB294,
+	PasswordValidator_set_RequireDigit_m27097CDC098849D6311BB72943B1E0F6242F79BC,
+	PasswordValidator_ValidateAsync_m7DEB4B084369F2C2AD67E8C8561F3E50EC9D931D,
+	PasswordValidator_IsDigit_m0318FEB93F8F279B6A6A8E93C51A0D47858066C8,
+	PasswordValidator_IsLower_mF1DCEFF9744FE35D76A672F06D2F252A730BC935,
+	PasswordValidator_IsUpper_m21AFD2426E0E710BE502982E003B687A7E4EEC52,
+	PasswordValidator_IsLetterOrDigit_m7FDBFB7CD80EDD8ACEE48E78F9E715FA8B501A5D,
+	PasswordValidator__ctor_m6D6BA46412903A0C821743E1DD6E939FE27F1C88,
+	PasswordValidator_U3CValidateAsyncU3Eb__0_m5331365509097C5451181FB7C2A8571FA3AF2BFC,
+	PasswordValidator_U3CValidateAsyncU3Eb__1_m7508D58562A513A32BA2CE686FA6C2F40B886C6C,
+	PasswordValidator_U3CValidateAsyncU3Eb__2_m718249C0C1798184A0523A27F4B8F52862C21C55,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	SecurityToken__ctor_m0E949924A0907C8F5C8EE85F0DF97E3E5655FABA,
+	SecurityToken_GetDataNoClone_m114B93E55F0DF6568EBFE5889D91804226D71FE9,
+	Rfc6238AuthenticationService_ComputeTotp_mBDC17F13D66B76F9E4AB5A890C0C53522F56C297,
+	Rfc6238AuthenticationService_ApplyModifier_m9A035F3013780ED6755B5EB49CFB174323FD0158,
+	Rfc6238AuthenticationService_GetCurrentTimeStepNumber_mB023F2E0FFFF50BE43E976FC808F65AF9A648A50,
+	Rfc6238AuthenticationService_GenerateCode_m801CC9D87DBEF00CB0853050A7B8A6E5BAEC28EE,
+	Rfc6238AuthenticationService_ValidateCode_m37BACB326DE2327238A23A0742CD3A29E44C165A,
+	Rfc6238AuthenticationService__cctor_m509355DCA580AC4A33CE96936CB39A4CD798E067,
+	NULL,
+	IdentityExtensions_GetUserId_mE2CF6CAB35844A077352912F799F72967F8714E6,
+	IdentityExtensions_FindFirstValue_m1CB838557983384E13A841FC267998591D6AE9D9,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	Crypto_HashPassword_m3A09890AFB0A1AEEE2E4E2F12B996B713AA60B77,
+	Crypto_VerifyHashedPassword_m0B67970BEECDF2AAD897D3A366AFC054621A2F99,
+	Crypto_ByteArraysEqual_m751E32418D3F0090CBE4A2C9973AE66B3AFE24F4,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	PasswordHasher_HashPassword_m9EF2E2E3C298C78932E574ABE17432570AB3C4BF,
+	PasswordHasher_VerifyHashedPassword_m14EEBB51C63D1943A733385D08975F859B95AE72,
+	PasswordHasher__ctor_m92B743FD6562D7A781946F186A7D93EBF388C4DA,
+	MinimumLengthValidator__ctor_m3F5D088BE3F4F9D8D3F3843D0E1E8FB84DE9ED64,
+	MinimumLengthValidator_get_RequiredLength_m7811941B268115D3CCD5D15DC96E8C9E342468F2,
+	MinimumLengthValidator_set_RequiredLength_m18418B5E448F435CC62AD35A74AC4655AF79DA2E,
+	MinimumLengthValidator_ValidateAsync_m9688BE5500D02A0BB1901267B84B375294E5B6AA,
+	Resources_get_ResourceManager_mCBC312673A79A73693AD14CFD38985DDFF9E74DF,
+	Resources_get_DefaultError_m1A1721D9154A5202E1D2C27E26C9F49175D00E3F,
+	Resources_get_DuplicateEmail_m2BCA6756103616B723DDFFB537EBF8EE5A170E98,
+	Resources_get_DuplicateName_m8876D3F6FBC09BFE8C2F279CAB9BE757AEE39FA9,
+	Resources_get_ExternalLoginExists_m2F92D5881DAA0BA286A796B223530804994D6A44,
+	Resources_get_InvalidEmail_m6778180B3F61BB5C0A3987D37A1DF777F9998AF2,
+	Resources_get_InvalidToken_mD5DF00F568E962D39014605E4A0F49D9044AF87E,
+	Resources_get_InvalidUserName_m7B88F08AEBAA973B8DF04D9E2D442E7D32F05687,
+	Resources_get_NoTokenProvider_m55AA5B31BFC19A47BB1026C0D317BE87BDE2EC09,
+	Resources_get_NoTwoFactorProvider_m095480C9B51616A539D1035C4144083F58CE9739,
+	Resources_get_PasswordMismatch_m6DA18F6228869646F86B5874CD60C20CD04D6ECE,
+	Resources_get_PasswordRequireDigit_m7A60AC3D9DE4C0FE981F57AA64F9C8185A969714,
+	Resources_get_PasswordRequireLower_m57BDC792756346062F86A6A0E4E607F4A345CDD6,
+	Resources_get_PasswordRequireNonLetterOrDigit_mF4BBF3072C6A3C22BF382F21ABA3A32215C79AF5,
+	Resources_get_PasswordRequireUpper_mA42FF27BA5269E368655D72D31E63B9063578EE5,
+	Resources_get_PasswordTooShort_m49F6FA2B43247C17B224AB99ACEE4ED5C3B5C091,
+	Resources_get_PropertyTooShort_mBB450219298318ADC199957C8226772127A96C44,
+	Resources_get_StoreNotIUserClaimStore_m2BC284A499A746BE7F992CAF7ECF0BDFAB613E55,
+	Resources_get_StoreNotIUserEmailStore_mE04AF39BF6111CCCBDA3385A7157D68D6FC8422E,
+	Resources_get_StoreNotIUserLockoutStore_m58559CCA74F5E45276E3795C8987A73CE7B470D0,
+	Resources_get_StoreNotIUserLoginStore_mAEC2D353AFA3FB46792C7CF94EC7BE54B6DDC142,
+	Resources_get_StoreNotIUserPasswordStore_mF0BF2D3584716422D75E43020A806070B6C675C1,
+	Resources_get_StoreNotIUserPhoneNumberStore_mA001CFD58D95CAAFF7083909E0228493170FE909,
+	Resources_get_StoreNotIUserRoleStore_m0B1AE94C0973F9B15BCE5A2991844024B1065724,
+	Resources_get_StoreNotIUserSecurityStampStore_mDC3B9DC64A034FE851F2C833BCBB3605BDFFC214,
+	Resources_get_StoreNotIUserTwoFactorStore_m4EB1AE32FC82C9E3D742ED98384818AFF67612D8,
+	Resources_get_UserAlreadyHasPassword_m0FC4D8D81D8F252291CF9F6DA6FF073CD6DE1876,
+	Resources_get_UserIdNotFound_m946599501B4DAFB2CF87D1B13DF01BAFA3B25F9D,
+	IdentityResult__ctor_mDE690906730EB70694CB7B59F6EC157428B49B69,
+	IdentityResult__ctor_m6D9DA93563FD4A84EB830265ECE7E36EDEDE32BB,
+	IdentityResult__ctor_m1DB255C8AEE9D26857111CDFBB89D6E09B220D5B,
+	IdentityResult_get_Succeeded_m4ADF26AAABB473C2B20E6870B82BFAB2CE4695BA,
+	IdentityResult_set_Succeeded_mB5B4DCB125CCAB5020A2B81D36BBE583D502E2E5,
+	IdentityResult_get_Errors_mB9EB5A0A0F5AF37340E796FC68BB44921A49FBE2,
+	IdentityResult_set_Errors_m53EB23D377A665439F4EA2A662DD47C2F3B609B3,
+	IdentityResult_get_Success_m732FF6AA7A8E7F6B4519A2A79EA3C33F98D019F5,
+	IdentityResult_Failed_m37BD537DFBFA767DA12E36842656FFF429852396,
+	IdentityResult__cctor_mE4D47D4FCB9FB43456F1016DE969BA199DD61A6F,
+	UserLoginInfo__ctor_m5CD2712C5306D68E5D3E1EC2A877A26FB437B37F,
+	UserLoginInfo_get_LoginProvider_m2C583632A31E0600EFBFEC732C222922F49895F7,
+	UserLoginInfo_set_LoginProvider_mDB1B5E94C6D40834D59AECD3524DEAEA63948886,
+	UserLoginInfo_get_ProviderKey_m48F780CC813C05854F5978A92D229F38C1595921,
+	UserLoginInfo_set_ProviderKey_mE0FFB32E71EA569683D223C44FAD4B50C62EED4C,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
+extern void CultureAwaiter__ctor_m456CB9FBD4EFBB538FE0579CB62A951D138C8FDD_AdjustorThunk (void);
+extern void CultureAwaiter_GetAwaiter_m35401611F5FBF81CBA9FA8EDCCD7C97970673831_AdjustorThunk (void);
+extern void CultureAwaiter_get_IsCompleted_mF0E69E945963A3DA488EAB4756D175EC015D730B_AdjustorThunk (void);
+extern void CultureAwaiter_GetResult_m40E54285BE9824E8AB92DDD31ACEE9B912E05870_AdjustorThunk (void);
+extern void CultureAwaiter_UnsafeOnCompleted_mFBB09012412B76731CEFA19CE0B5632691E7E9F2_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[5] = 
+{
+	{ 0x0600000D, CultureAwaiter__ctor_m456CB9FBD4EFBB538FE0579CB62A951D138C8FDD_AdjustorThunk },
+	{ 0x0600000E, CultureAwaiter_GetAwaiter_m35401611F5FBF81CBA9FA8EDCCD7C97970673831_AdjustorThunk },
+	{ 0x0600000F, CultureAwaiter_get_IsCompleted_mF0E69E945963A3DA488EAB4756D175EC015D730B_AdjustorThunk },
+	{ 0x06000010, CultureAwaiter_GetResult_m40E54285BE9824E8AB92DDD31ACEE9B912E05870_AdjustorThunk },
+	{ 0x06000011, CultureAwaiter_UnsafeOnCompleted_mFBB09012412B76731CEFA19CE0B5632691E7E9F2_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[456] = 
+{
+	10569,
+	8014,
+	7878,
+	0,
+	11364,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6566,
+	8083,
+	7769,
+	8014,
+	6566,
+	8014,
+	8014,
+	0,
+	11341,
+	11562,
+	0,
+	0,
+	8014,
+	7878,
+	0,
+	6566,
+	6566,
+	6566,
+	8014,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	7838,
+	6530,
+	7769,
+	6457,
+	7769,
+	6457,
+	7769,
+	6457,
+	7769,
+	6457,
+	5851,
+	4947,
+	4947,
+	4947,
+	4947,
+	8014,
+	4947,
+	4947,
+	4947,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6566,
+	7878,
+	9552,
+	10349,
+	11556,
+	10240,
+	9415,
+	11562,
+	0,
+	11101,
+	10349,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	11101,
+	10088,
+	10088,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5851,
+	2812,
+	8014,
+	6530,
+	7838,
+	6530,
+	5851,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	6566,
+	6566,
+	6457,
+	7769,
+	6457,
+	7878,
+	6566,
+	11510,
+	11101,
+	11562,
+	3740,
+	7878,
+	6566,
+	7878,
+	6566,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[111] = 
+{
+	{ 0x02000005, { 3, 17 } },
+	{ 0x02000006, { 20, 1 } },
+	{ 0x0200000A, { 35, 4 } },
+	{ 0x0200001A, { 39, 13 } },
+	{ 0x0200001B, { 52, 12 } },
+	{ 0x0200001C, { 64, 12 } },
+	{ 0x0200001D, { 76, 17 } },
+	{ 0x0200001E, { 93, 11 } },
+	{ 0x0200001F, { 104, 9 } },
+	{ 0x02000020, { 113, 3 } },
+	{ 0x02000021, { 116, 16 } },
+	{ 0x02000022, { 132, 11 } },
+	{ 0x02000023, { 143, 9 } },
+	{ 0x02000024, { 152, 3 } },
+	{ 0x0200002A, { 280, 4 } },
+	{ 0x0200002B, { 284, 5 } },
+	{ 0x0200002C, { 289, 4 } },
+	{ 0x0200002D, { 293, 4 } },
+	{ 0x0200002E, { 297, 4 } },
+	{ 0x0200002F, { 301, 4 } },
+	{ 0x02000030, { 305, 4 } },
+	{ 0x02000031, { 309, 4 } },
+	{ 0x02000032, { 313, 4 } },
+	{ 0x02000033, { 317, 4 } },
+	{ 0x02000034, { 321, 4 } },
+	{ 0x02000035, { 325, 4 } },
+	{ 0x02000036, { 329, 4 } },
+	{ 0x02000037, { 333, 4 } },
+	{ 0x02000038, { 337, 4 } },
+	{ 0x02000039, { 341, 4 } },
+	{ 0x0200003A, { 345, 4 } },
+	{ 0x0200003B, { 349, 4 } },
+	{ 0x0200003C, { 353, 4 } },
+	{ 0x0200003D, { 357, 4 } },
+	{ 0x0200003E, { 361, 4 } },
+	{ 0x0200003F, { 365, 4 } },
+	{ 0x02000040, { 369, 4 } },
+	{ 0x02000041, { 373, 12 } },
+	{ 0x02000042, { 385, 23 } },
+	{ 0x0200004E, { 408, 162 } },
+	{ 0x0200004F, { 570, 19 } },
+	{ 0x02000050, { 589, 13 } },
+	{ 0x02000051, { 602, 10 } },
+	{ 0x02000052, { 612, 9 } },
+	{ 0x02000053, { 621, 20 } },
+	{ 0x02000054, { 641, 23 } },
+	{ 0x02000055, { 664, 23 } },
+	{ 0x02000056, { 687, 11 } },
+	{ 0x02000057, { 698, 8 } },
+	{ 0x02000058, { 706, 20 } },
+	{ 0x02000059, { 726, 23 } },
+	{ 0x0200005A, { 749, 11 } },
+	{ 0x0200005B, { 760, 23 } },
+	{ 0x0200005C, { 783, 23 } },
+	{ 0x0200005D, { 806, 20 } },
+	{ 0x0200005E, { 826, 20 } },
+	{ 0x0200005F, { 846, 20 } },
+	{ 0x02000060, { 866, 20 } },
+	{ 0x02000061, { 886, 24 } },
+	{ 0x02000062, { 910, 20 } },
+	{ 0x02000063, { 930, 20 } },
+	{ 0x02000064, { 950, 24 } },
+	{ 0x02000065, { 974, 26 } },
+	{ 0x02000066, { 1000, 20 } },
+	{ 0x02000067, { 1020, 6 } },
+	{ 0x02000068, { 1026, 7 } },
+	{ 0x02000069, { 1033, 7 } },
+	{ 0x0200006A, { 1040, 20 } },
+	{ 0x0200006B, { 1060, 29 } },
+	{ 0x0200006C, { 1089, 22 } },
+	{ 0x0200006D, { 1111, 22 } },
+	{ 0x0200006E, { 1133, 22 } },
+	{ 0x0200006F, { 1155, 20 } },
+	{ 0x02000070, { 1175, 23 } },
+	{ 0x02000071, { 1198, 9 } },
+	{ 0x02000072, { 1207, 9 } },
+	{ 0x02000073, { 1216, 22 } },
+	{ 0x02000074, { 1238, 27 } },
+	{ 0x02000075, { 1265, 26 } },
+	{ 0x02000076, { 1291, 20 } },
+	{ 0x02000077, { 1311, 4 } },
+	{ 0x02000078, { 1315, 14 } },
+	{ 0x02000079, { 1329, 8 } },
+	{ 0x0200007A, { 1337, 25 } },
+	{ 0x0200007B, { 1362, 27 } },
+	{ 0x0200007C, { 1389, 3 } },
+	{ 0x06000004, { 0, 3 } },
+	{ 0x06000014, { 21, 14 } },
+	{ 0x06000080, { 155, 5 } },
+	{ 0x06000081, { 160, 9 } },
+	{ 0x06000082, { 169, 8 } },
+	{ 0x06000083, { 177, 5 } },
+	{ 0x06000084, { 182, 5 } },
+	{ 0x06000085, { 187, 5 } },
+	{ 0x06000086, { 192, 5 } },
+	{ 0x06000087, { 197, 5 } },
+	{ 0x06000088, { 202, 5 } },
+	{ 0x06000089, { 207, 5 } },
+	{ 0x0600008A, { 212, 5 } },
+	{ 0x0600008B, { 217, 5 } },
+	{ 0x0600008C, { 222, 5 } },
+	{ 0x0600008D, { 227, 5 } },
+	{ 0x0600008E, { 232, 8 } },
+	{ 0x0600008F, { 240, 5 } },
+	{ 0x06000090, { 245, 5 } },
+	{ 0x06000091, { 250, 5 } },
+	{ 0x06000092, { 255, 5 } },
+	{ 0x06000093, { 260, 5 } },
+	{ 0x06000094, { 265, 5 } },
+	{ 0x06000095, { 270, 5 } },
+	{ 0x06000096, { 275, 5 } },
+};
+extern const uint32_t g_rgctx_Task_1_tE6A1FB9C40F667D2C536B2E9538635F1FBA2C665;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tFCF0EA9956721CB2F9E6B3E09CE3F750BD60BDA3;
+extern const uint32_t g_rgctx_CultureAwaiter_1__ctor_m7A1C2C7FADEEFA5BE9206A7B2B19914AF70AEA73;
+extern const uint32_t g_rgctx_Task_1_t0A816A219B93A9814D749BE521C958C9A009B805;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tA60B74637AF1E407C74F0036C388A35F5AAF0A89;
+extern const uint32_t g_rgctx_Task_1_GetAwaiter_mDB6D2FFD746E267ED4506595C6D0BEF6230873E6;
+extern const uint32_t g_rgctx_TaskAwaiter_1_tB971047022D3241E1DDCD56051D40B1044B0B5D4;
+extern const uint32_t g_rgctx_TaskAwaiter_1_GetResult_mF4DC1E4E8B7983EECB077A82BA47A574F3D35C1F;
+extern const uint32_t g_rgctx_TaskAwaiter_1_tB971047022D3241E1DDCD56051D40B1044B0B5D4;
+extern const uint32_t g_rgctx_T_t4FE0A9796515C36ED38E873BDB063A21EE8F1964;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_t83C3CBA38A20EA981F38C866D40497CFFC2DF001;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1__ctor_m5B81D6A4BDC08AF68DFEE06B60899DD923649693;
+extern const uint32_t g_rgctx_Task_1_ConfigureAwait_mEA1B4E815778AD63CD10112922B74B1082EEECEF;
+extern const uint32_t g_rgctx_ConfiguredTaskAwaitable_1_t6050BF4E63A513FD76446855A5A6211435270CCA;
+extern const uint32_t g_rgctx_ConfiguredTaskAwaitable_1_GetAwaiter_mC2B71DDDDEE931ADFF3FA9531B73940DFD1C0005;
+extern const uint32_t g_rgctx_ConfiguredTaskAwaitable_1_t6050BF4E63A513FD76446855A5A6211435270CCA;
+extern const uint32_t g_rgctx_ConfiguredTaskAwaiter_tCE34EB2B9B26D4C57D10DB3DF01A23B79905FEEB;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_U3CUnsafeOnCompletedU3Eb__0_mC636310BFD8880345E6E16C7BB4B96A1C37BAB9C;
+extern const uint32_t g_rgctx_ConfiguredTaskAwaiter_UnsafeOnCompleted_mDC250E280C1521B517F3EC3767A44D7F10EDD64B;
+extern const uint32_t g_rgctx_ConfiguredTaskAwaiter_tCE34EB2B9B26D4C57D10DB3DF01A23B79905FEEB;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_t1736C29E0CC2CC91A409A0449B6F312AA8D3759F;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_1_t7B8BC6141CAA5B62A8221CE1CC021274EEFACDF5;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_1__ctor_mB1C4B5A0C6A739C68B4922B547B570BA4476CC2D;
+extern const uint32_t g_rgctx_Func_1_t040DE3B3875962221C2177D9FC1FB00AB8DBE228;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_1_U3CRunSyncU3Eb__0_mA5AFF3AD6BA05B0994D6BBF4E280F71CEF2E34D1;
+extern const uint32_t g_rgctx_Func_1__ctor_mC9450A4588EC005680BFDD5533B7FA34786F491F;
+extern const uint32_t g_rgctx_TaskFactory_StartNew_TisTask_1_t0F26BE4B90F757100185011470502055D3B20255_mAB43B20772896E228B8FC7AB1047308807B11D0B;
+extern const uint32_t g_rgctx_Task_1_t5CF94700116F6FCE6434BC0B0813B9DABAB0CEAC;
+extern const uint32_t g_rgctx_TaskExtensions_Unwrap_TisTResult_tB550D4C7A38A241EB1FC7CCF226C17F745C59C6C_m8F24AF933E3148B3298A4E39956547F8F4C69583;
+extern const uint32_t g_rgctx_Task_1_t0F26BE4B90F757100185011470502055D3B20255;
+extern const uint32_t g_rgctx_Task_1_GetAwaiter_m13C3428CFF830DB58539C1653C3C124FCEA9BA3F;
+extern const uint32_t g_rgctx_TaskAwaiter_1_t417E3985EFE83BEA29CF4E22B320B5ABDD9877ED;
+extern const uint32_t g_rgctx_TaskAwaiter_1_GetResult_m3861EF1B3A94BD4F124C5FA758BAD1AF7BD65532;
+extern const uint32_t g_rgctx_TaskAwaiter_1_t417E3985EFE83BEA29CF4E22B320B5ABDD9877ED;
+extern const uint32_t g_rgctx_TResult_tB550D4C7A38A241EB1FC7CCF226C17F745C59C6C;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_1_t30CBB710FEB7EF3F0F4DC5F71BDDFFAF974228D4;
+extern const uint32_t g_rgctx_Func_1_tEB7F3AA2A1A505BF4CDAB3B56DBCE3AA8D607B68;
+extern const uint32_t g_rgctx_Func_1_Invoke_m060282D1BC0A9732F7A7AD7D0FA00900BECD4816;
+extern const uint32_t g_rgctx_Task_1_tE714E0BCE3A15CAD5F61DC316A67C17E5E42F403;
+extern const uint32_t g_rgctx_UserManager_2_t346CB90F6BCDD5DD413BCCAC4B4F9C9CACFEF2A2;
+extern const uint32_t g_rgctx_UserManager_2_get_SupportsUserSecurityStamp_mFEBFD5AC43A5DA7638A08E14689956DB47EEB0FA;
+extern const uint32_t g_rgctx_U3CGenerateAsyncU3Ed__0_tDE024F11BEA181DBBD05FA7A63A108B7C71B8B53;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_t80665082C02B22B8E7B47A72AAA6043F813E3B2D;
+extern const uint32_t g_rgctx_TUser_t245A3A92900E8FD6CD85692A4914D640B4B8E5D2;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGenerateAsyncU3Ed__0_tDE024F11BEA181DBBD05FA7A63A108B7C71B8B53_mD11BD9BCCD02FF9FF99400CCCED444F9C53CFCDD;
+extern const uint32_t g_rgctx_U3CGenerateAsyncU3Ed__0U26_tF20FF97E314E16E8C761A65A45DA7818A9D26966;
+extern const uint32_t g_rgctx_U3CValidateAsyncU3Ed__6_t1DA26F21C10A34F9AFDC4ACDECCF2C65F7473144;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CValidateAsyncU3Ed__6_t1DA26F21C10A34F9AFDC4ACDECCF2C65F7473144_mCF5CB49C8C161BFD82A97343D236869F2D7206C2;
+extern const uint32_t g_rgctx_U3CValidateAsyncU3Ed__6U26_t09797E64C2808326EF2D4523CDF1CA179C3D6F09;
+extern const uint32_t g_rgctx_IUser_1_tD81925B54334899A945A28EF069DF88B1E431D48;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t245A3A92900E8FD6CD85692A4914D640B4B8E5D2_IUser_1_get_Id_m593B21B1EA5B5C7E7BD5B1690552A5A417EF9E0D;
+extern const uint32_t g_rgctx_TKey_t875BA568B325AA5D8BAD4EA448C9247078477F4A;
+extern const uint32_t g_rgctx_U3CGenerateAsyncU3Ed__0_t63924319678EC20DE78C6AB168FAC9E4D201844C;
+extern const uint32_t g_rgctx_UserManager_2_t03FA784526908351D26C1917FCAB25FF3915FD42;
+extern const uint32_t g_rgctx_TUser_tC31F12049A0F72DC5BFC49D77ECACF366B8186AB;
+extern const uint32_t g_rgctx_IUser_1_tF96F90FEC78ECA71DCD2936833D44D8377417A4D;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_tC31F12049A0F72DC5BFC49D77ECACF366B8186AB_IUser_1_get_Id_m22313D18596AA9BF0A9DC2BBF06FDC5BC27C845F;
+extern const uint32_t g_rgctx_TKey_tEF148CD849B702042C233B96F4BD4C92233A0A54;
+extern const uint32_t g_rgctx_UserManager_2_CreateSecurityTokenAsync_mC85FB48DF42C687338740BBA9ED1E5C0573F2D43;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tB3930979420EDDC4306DBC9E21C2E86035BFE5A3_TisU3CGenerateAsyncU3Ed__0_t63924319678EC20DE78C6AB168FAC9E4D201844C_mCD0496173860C2D81EF196D801DCA49D1A2416BB;
+extern const uint32_t g_rgctx_U3CGenerateAsyncU3Ed__0U26_t61B59D15A983C808277E4E08CE2CE19AB85C488A;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_tA5BF74690F80DB0172C12AF01290B8956CE97F06;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_GetUserModifierAsync_mA44621DB6D11211DF99E56ACFF47BE53AF63E6C3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGenerateAsyncU3Ed__0_t63924319678EC20DE78C6AB168FAC9E4D201844C_mBAB163FDF878437610E9734F8DB4DCBA59D56EB2;
+extern const uint32_t g_rgctx_U3CValidateAsyncU3Ed__6_tA1C297CA6423BBE0EB06B58775AC6CF8A7A269F9;
+extern const uint32_t g_rgctx_UserManager_2_t9465A28470D87A44886E3851DE74908E0796E349;
+extern const uint32_t g_rgctx_TUser_tF45C44CCCE456F62B2042AC8F3826A7A4435A514;
+extern const uint32_t g_rgctx_IUser_1_t0B32D9F82D6761545D6BB808E1282F3021289204;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_tF45C44CCCE456F62B2042AC8F3826A7A4435A514_IUser_1_get_Id_mAB71C3DCF16C320DD0554743E2A8C4D3F85140E5;
+extern const uint32_t g_rgctx_TKey_t5A276587560C4501E27ECC46F8FF4FA013671DD7;
+extern const uint32_t g_rgctx_UserManager_2_CreateSecurityTokenAsync_m40E6B0997819CE526E2841F05566E14B7E6CFBF2;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tB3930979420EDDC4306DBC9E21C2E86035BFE5A3_TisU3CValidateAsyncU3Ed__6_tA1C297CA6423BBE0EB06B58775AC6CF8A7A269F9_m96CEF1471B92C8943BF8B83C040CCD75BDA1DC7E;
+extern const uint32_t g_rgctx_U3CValidateAsyncU3Ed__6U26_tA1927618C646CDAA9B29F4AE1582143345D8BA45;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_tDA0916D8A5EA09CC2735AE5DD060C400A90645EF;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_GetUserModifierAsync_m4CB9C70593CA025B2EA0C2F2AB2248A7C98F2A67;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CValidateAsyncU3Ed__6_tA1C297CA6423BBE0EB06B58775AC6CF8A7A269F9_mED8E1475CCF893A3D9C3187909E01FB311DAB468;
+extern const uint32_t g_rgctx_EmailTokenProvider_2_tE48FE52E4644A0E726B0C8D895AD0B701ABEF28F;
+extern const uint32_t g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__d_tD5BA7D59FE5D39FBE0B31ED8575ACCD6FDB270E2;
+extern const uint32_t g_rgctx_UserManager_2_t234B7DE84CCADC0492652D129F15255750301552;
+extern const uint32_t g_rgctx_TUser_t41FA30AF29472FD12BACE8760487DFB33F89C6A9;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsValidProviderForUserAsyncU3Ed__d_tD5BA7D59FE5D39FBE0B31ED8575ACCD6FDB270E2_m5808BA9ED8BB40FF0161B87B5439460D9A3C612B;
+extern const uint32_t g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__dU26_tCF7E8BFD5A8A0CB4122E5AFE0EA143487E21D2C2;
+extern const uint32_t g_rgctx_U3CGetUserModifierAsyncU3Ed__12_tBD40FF4C2E54B8A85E9E01BB1544E9B9CF454471;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetUserModifierAsyncU3Ed__12_tBD40FF4C2E54B8A85E9E01BB1544E9B9CF454471_mDB1C898C875137D239432BAB076BBE1B6A01218D;
+extern const uint32_t g_rgctx_U3CGetUserModifierAsyncU3Ed__12U26_t8498E005FE91047B49F3D1A469A90BE6237C7EFB;
+extern const uint32_t g_rgctx_IUser_1_t664DCA0B53B1A14A22DBFB3E54C174B368B1A943;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t41FA30AF29472FD12BACE8760487DFB33F89C6A9_IUser_1_get_Id_m92A37EE74766C58D9BF5235E9E222C67FF8C7676;
+extern const uint32_t g_rgctx_TKey_t320D44DBE9D2480D6D690A729CD84B8C61D91116;
+extern const uint32_t g_rgctx_EmailTokenProvider_2_get_Subject_m0DF5E0E4527DAC8ACB3267364E0DBE87395F1463;
+extern const uint32_t g_rgctx_EmailTokenProvider_2_get_BodyFormat_mA343B26FBF2C2B5315DACACBADF048291CB4C23D;
+extern const uint32_t g_rgctx_UserManager_2_SendEmailAsync_mAEB9954AE5906F38FF2CD29891A4CDEA2815D26F;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2__ctor_m6C6449E2F29625A5F6996CFF9DF85A7B60E825A8;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_t99CED79C04DA89A9D6AA1789E3635EA8EF5F6EC3;
+extern const uint32_t g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__d_tC926A0F80F96CE783FFB5820749132CA70C8C236;
+extern const uint32_t g_rgctx_UserManager_2_t934706CBED01E6AA1BCA6AA985A8B547C60692E4;
+extern const uint32_t g_rgctx_TUser_t24FADE3BC3EC98480AF5F5EA71279BB63132B392;
+extern const uint32_t g_rgctx_IUser_1_tAC14ED03AB0A6A6052BFDF4C7DB7F5EE532D64D5;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t24FADE3BC3EC98480AF5F5EA71279BB63132B392_IUser_1_get_Id_mC3653A8A0D0F085890353421E93FB992B48ACEF4;
+extern const uint32_t g_rgctx_TKey_t2417CAA1C006451DC988ADD2A43E4C4C0C1EBD7B;
+extern const uint32_t g_rgctx_UserManager_2_GetEmailAsync_m3CBD16BDD5E1505C59B432F782A01092690AA88C;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CIsValidProviderForUserAsyncU3Ed__d_tC926A0F80F96CE783FFB5820749132CA70C8C236_mB9C7CF4BB5D2B3871ACB0B5329E999239E638635;
+extern const uint32_t g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__dU26_t3528C69192268730B038871F88229BE573A78D45;
+extern const uint32_t g_rgctx_UserManager_2_IsEmailConfirmedAsync_m9D8B4F0A11CBE14AAFF797FC7EC9B68875F7C8CE;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsValidProviderForUserAsyncU3Ed__d_tC926A0F80F96CE783FFB5820749132CA70C8C236_m40CCA887A8A5C73D6C9358CCB41E6EA455AA311E;
+extern const uint32_t g_rgctx_U3CGetUserModifierAsyncU3Ed__12_tA33312524DDCA4B8F691447EE08CD1BD6AE05C53;
+extern const uint32_t g_rgctx_UserManager_2_t27F0C5C73300183A3BE931C4A043BDBAA6E0E1FF;
+extern const uint32_t g_rgctx_TUser_t4FF07DB855543677FF213EBC995801C06A568E28;
+extern const uint32_t g_rgctx_IUser_1_tDCADDE63512DF4C6B6095F346CEA005BC1FCAA14;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t4FF07DB855543677FF213EBC995801C06A568E28_IUser_1_get_Id_mB7C329D911D793299D85E07FE5A2B4B118B2ABF4;
+extern const uint32_t g_rgctx_TKey_tF0E084AB2E88A63254667E6469C7C592DDCEE3A3;
+extern const uint32_t g_rgctx_UserManager_2_GetEmailAsync_m5C08AF316A6AD15ACF5CBCE3009860AFDD2AF2F3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetUserModifierAsyncU3Ed__12_tA33312524DDCA4B8F691447EE08CD1BD6AE05C53_m502E02F7F15619C9D6FF9CD2E879906F5E663F36;
+extern const uint32_t g_rgctx_U3CGetUserModifierAsyncU3Ed__12U26_t210176FE1340A32B6ABC99CB627E24CD3E30A685;
+extern const uint32_t g_rgctx_EmailTokenProvider_2__ctor_mCA2A9AEC46C1DD8D1CD26A2C890FF5FBE83AE4FA;
+extern const uint32_t g_rgctx_EmailTokenProvider_2_tAC1C2E073D58A0955A06146F0CFD80F5D660D4B7;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_tDD3ADE358D22A034CCB7C9A86E07CF136E72845A;
+extern const uint32_t g_rgctx_PhoneNumberTokenProvider_2_t02325B70D8FAF07DCC65E2A85C02D080AE0B313E;
+extern const uint32_t g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__0_t2F1A0126F00C178C5B25822F401B8ABCA5777722;
+extern const uint32_t g_rgctx_UserManager_2_t22CFFF9D3C01FFC4F6AA813AF14B424D510FA88F;
+extern const uint32_t g_rgctx_TUser_tF0154BE91F25A2F588B1BFF20EF0BB7935AE4910;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsValidProviderForUserAsyncU3Ed__0_t2F1A0126F00C178C5B25822F401B8ABCA5777722_m3F2B5E49D48FD1F20FE12DDB97EE0CE0440BAF42;
+extern const uint32_t g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__0U26_t4F446E60F7FD4E5C339FA0354335C38DB79A48C1;
+extern const uint32_t g_rgctx_U3CGetUserModifierAsyncU3Ed__5_t786223CFDC58D9014F5DF09A47CE1882D2C8612F;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetUserModifierAsyncU3Ed__5_t786223CFDC58D9014F5DF09A47CE1882D2C8612F_mF5A4F99A77D35BC7B6941F19170AAA15B479A290;
+extern const uint32_t g_rgctx_U3CGetUserModifierAsyncU3Ed__5U26_t54A2A56335096A3B363D6F9E22CBD8EA30BDA8F5;
+extern const uint32_t g_rgctx_IUser_1_t6B9F46857425E0125E80A254B51A60D40C440AAC;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_tF0154BE91F25A2F588B1BFF20EF0BB7935AE4910_IUser_1_get_Id_mEC5CDBAF2FA2A6A563504DD07A3D185C02E32D8F;
+extern const uint32_t g_rgctx_TKey_t2F5A16FD0CF971FB34EE3484D9993EBF4B57ECD4;
+extern const uint32_t g_rgctx_PhoneNumberTokenProvider_2_get_MessageFormat_mB1F0EB5A2A332DE57970BC485A178981E5F7C90D;
+extern const uint32_t g_rgctx_UserManager_2_SendSmsAsync_m0FC224206A0CBFACC66C47F6F1CD74A49EB7FB6F;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2__ctor_mC01DDF6A307AEF239560B546F513389B2F296903;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_t22459E32CBEB997DD4EF40B5A1907BCDBA908A53;
+extern const uint32_t g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__0_tC60B0490BBD9A6D6E8581FACE660255C08790DD5;
+extern const uint32_t g_rgctx_UserManager_2_t90AC3EA4C035E25B94F9BF71E822A52FA13788D5;
+extern const uint32_t g_rgctx_TUser_t309C46B247F4A72255C7EED61CEAE3F4638574CD;
+extern const uint32_t g_rgctx_IUser_1_t067E1ABFE118A6101B8D51C6C211C4832AF8D043;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t309C46B247F4A72255C7EED61CEAE3F4638574CD_IUser_1_get_Id_m03C9D2D86841C6A1778474A1FDF90139CD47F637;
+extern const uint32_t g_rgctx_TKey_tBEBB3018CA954DC68A9DC8C52F5415D0ED278FFC;
+extern const uint32_t g_rgctx_UserManager_2_GetPhoneNumberAsync_m40DA687095A308A47DD579F29C20963A4FC998BD;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CIsValidProviderForUserAsyncU3Ed__0_tC60B0490BBD9A6D6E8581FACE660255C08790DD5_m6E65D948514FF88DEBA589A463424E3C773339A7;
+extern const uint32_t g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__0U26_t7A4EC3CBE7818945A29B22538B5573715328CD6B;
+extern const uint32_t g_rgctx_UserManager_2_IsPhoneNumberConfirmedAsync_m3F1345DEB43A761B21BE98A906ABD3F1D54F0054;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsValidProviderForUserAsyncU3Ed__0_tC60B0490BBD9A6D6E8581FACE660255C08790DD5_mBAF102550B28A14484AB4A6732B5F92BC8139593;
+extern const uint32_t g_rgctx_U3CGetUserModifierAsyncU3Ed__5_tA084A1220C87751088D0F56269948C47DFF44B26;
+extern const uint32_t g_rgctx_UserManager_2_t54096758EAFC7AFD98960BDFB74FD1A91DF9F376;
+extern const uint32_t g_rgctx_TUser_t191F276BE9E8609AF86EEA94BEB486058A223185;
+extern const uint32_t g_rgctx_IUser_1_t187000CD1EF358982AEBC8D0A0BDCE7D10ADFC02;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t191F276BE9E8609AF86EEA94BEB486058A223185_IUser_1_get_Id_m51F2493A11355896BFA393764F90FCEC4B66BFCD;
+extern const uint32_t g_rgctx_TKey_t13E07AB1248531245379DF7F36962BD61AC785AB;
+extern const uint32_t g_rgctx_UserManager_2_GetPhoneNumberAsync_m858928CC2C8F24C1B497975E64159DC6F2509943;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetUserModifierAsyncU3Ed__5_tA084A1220C87751088D0F56269948C47DFF44B26_m9B821499CAE7C5F4AD1AC9D79C201E576B599EC8;
+extern const uint32_t g_rgctx_U3CGetUserModifierAsyncU3Ed__5U26_t8F751AEB35C09E09E03C05DF72826D6F494001D7;
+extern const uint32_t g_rgctx_PhoneNumberTokenProvider_2__ctor_mDA02243B021B02CEAC07CCD77B03D874D11733C6;
+extern const uint32_t g_rgctx_PhoneNumberTokenProvider_2_t5B86EFC3CAE227537D953E37007FFC07AB46D3A0;
+extern const uint32_t g_rgctx_TotpSecurityStampBasedTokenProvider_2_t74B3E32C61C68FD4BF8C685C5534D559E2313DD0;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_2_t159BCB13A3D7D89CDD193E98197E6FCEA331AC71;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_2__ctor_m2A23DEAA359C347A4C052ED0756C86EDFA64E9AE;
+extern const uint32_t g_rgctx_UserManager_2_tD64EEB5D6ABB52B11C671C2A5CED85FCF9E91F0F;
+extern const uint32_t g_rgctx_TUser_tFA03C3C7BB5375B77E7CC6343D41B03FBEB20914;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_2_U3CCreateIdentityU3Eb__0_mAC42B44AD8AC8D8635AF1E3F95E3956C554CBB5D;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_2_t0D01AB6DB2D0B53192660E6A9D6A24F004FA47F6;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_2__ctor_m898F70D38DB6C3CFD70F2D259B01176881432310;
+extern const uint32_t g_rgctx_UserManager_2_t2E25DAD836F341096C4B60C1565E492C77A07E23;
+extern const uint32_t g_rgctx_TKey_t98789686CEFB3BD1D251FA48936F1ED22C0BF5EC;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_2_U3CFindByIdU3Eb__3_m9611335C93F5E0EBB8FF2D340E087811E60BCACF;
+extern const uint32_t g_rgctx_Func_1_t63101401875C9E03A27BF8E8C18249E92A9D86E6;
+extern const uint32_t g_rgctx_Func_1__ctor_m06CDAEB0541A745A20CD8E7340D4C219038E1D78;
+extern const uint32_t g_rgctx_AsyncHelper_RunSync_TisTUser_t9EC4CA03DD78BE8413B8D147BF723D8214E033D6_m51AEF3070CE4E36ACA8BDA3B7BBDD968839DD935;
+extern const uint32_t g_rgctx_TUser_t9EC4CA03DD78BE8413B8D147BF723D8214E033D6;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClassa_2_t1C0677680534AEF873FCAC1AD144709B1B5BEFA6;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClassa_2__ctor_m3FBA62E9CED6337E14FA963AB6772340E5A9F8FE;
+extern const uint32_t g_rgctx_UserManager_2_tA40821671269C9C8D180CC12903A2FDECF8A65BC;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClassa_2_U3CFindByNameU3Eb__9_m848FBF0D23BE5544B114E92A0BBC4C017733A8D7;
+extern const uint32_t g_rgctx_Func_1_tE145825D8C28A0AAA6DB93821D1A57414DAD004E;
+extern const uint32_t g_rgctx_Func_1__ctor_m99B312DAE53C4EB900FC358D73821254D8D776F5;
+extern const uint32_t g_rgctx_AsyncHelper_RunSync_TisTUser_t99A02FA37845A8074AFA6820CC53EEF7FEE20EA5_m1B00D2F94ACC186BC9EA65566AF5A84BB531ACBA;
+extern const uint32_t g_rgctx_TUser_t99A02FA37845A8074AFA6820CC53EEF7FEE20EA5;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass10_2_t57E35D845F5176F540B32EE1B7963D2A8E5C0AFC;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass10_2__ctor_m626C7E9AD348A3A7BF4747088C92EF5013ABE213;
+extern const uint32_t g_rgctx_UserManager_2_t1EDB7A9AFF5CF4AAD88CD736520428728258B584;
+extern const uint32_t g_rgctx_TUser_t131945CBDFAA2EF35425737B3F33843B72BEF483;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass10_2_U3CCreateU3Eb__f_m7AFD9ED7BC136B9C4CFA62E585091E2F1B7CA2EE;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass13_2_t86578085A264F312214B5B6DBB788FDDC6788B67;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass13_2__ctor_mA2AD50169290DF522BEC3DFD999533012E59108B;
+extern const uint32_t g_rgctx_UserManager_2_tA8AAEBE02A487D234F93892EDDB75BB3825F968A;
+extern const uint32_t g_rgctx_TUser_t1178194B8C766072A7A0D1E9327DE47AC6021586;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass13_2_U3CCreateU3Eb__12_m0D40DCBAC28E8FC037C6375E8A1FE84C50D3A54C;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1c_2_t3B0D9D43B25B8EF3A6FB367D298DFDB1835E57AA;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1c_2__ctor_m668F3FE2661D1C999088C1FD77D91E25A52FD1F0;
+extern const uint32_t g_rgctx_UserManager_2_t4A5821636CC00B72D7EB2ABD85F04E85A27D6177;
+extern const uint32_t g_rgctx_TKey_tAE4C6A4C4881EA992DABA590E4F3FF1B41F7C8ED;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1c_2_U3CHasPasswordU3Eb__1b_mBF61DD320A14930B24325615B5C11BD179BCEAB8;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1f_2_t83950C7BA49B2557D10939D05D32B3BAC3F31D1A;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1f_2__ctor_mBC59D06866C8A1D9DDA03C0F29D2AC967371CF30;
+extern const uint32_t g_rgctx_UserManager_2_t54F48585088AB714DB40B0FB0C3D27E114E7D787;
+extern const uint32_t g_rgctx_TKey_tCE8A1C76265DC8370534E335DEEB7973368516BA;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1f_2_U3CAddPasswordU3Eb__1e_m06063AFA6459DD61C9CCA898652F04CC453D5D82;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass22_2_t72AEF4C370EFCEA048DDBA45B154313B6D9CC902;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass22_2__ctor_m781D686F858FF914058491A1F32E1B779BDC30F2;
+extern const uint32_t g_rgctx_UserManager_2_tA248231E85AB61953B33716FC738A7062F48A024;
+extern const uint32_t g_rgctx_TKey_tBE6875319BF4709D8559607D62B4DACAD54FF3DB;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass22_2_U3CChangePasswordU3Eb__21_m172909A077DAAAE96B9C15A74167C909520877D0;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass25_2_t71A88AC82518882AF7A6BDDD6FFA05D1221FA9EE;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass25_2__ctor_mE0B479501B0B37C55ADACF302272898B5B3B7B44;
+extern const uint32_t g_rgctx_UserManager_2_tF50ACD314ABF69C487E5ECCB44AC454B426ADE9A;
+extern const uint32_t g_rgctx_TKey_t6D36389AFB45FD58A40009C5B9F3D032D4F6DE98;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass25_2_U3CResetPasswordU3Eb__24_m780EB31E2917D1C01229C40C5BF1B38C18EF22A7;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass31_2_t8C35C69AAEEC6E2189CE737BF86A497FFFF0321C;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass31_2__ctor_m12F433EF97C3868A87AEF4ECE21AE470507E0A56;
+extern const uint32_t g_rgctx_UserManager_2_tEACA7ECCEFCA972CE479BB9F22B84A1E235CC85D;
+extern const uint32_t g_rgctx_TKey_tDAAD44D7364B7CBE709D15F80F5D2D1C8FC396C2;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass31_2_U3CConfirmEmailU3Eb__30_m3A449A0A7FB9B813A41FB679CE864E35347D8965;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass34_2_t484119958EAE089407A35F958A1952250A992B36;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass34_2__ctor_mF92B8EE747D3B543C176BF20EA4F54C918BBE9E0;
+extern const uint32_t g_rgctx_UserManager_2_tA62861E7F04ACC15A036ED0BC292CC207A11EFF3;
+extern const uint32_t g_rgctx_TKey_t72B0D69690E2F2CEC4E0BEFA6748754AFB189795;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass34_2_U3CIsEmailConfirmedU3Eb__33_mEFEF34754296686BC1C75BFDB0DD61FE4AE8A986;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_2_t0ED2F069A31E4A746950B06D9CDAB00FDBE20D0B;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_2__ctor_m6666C504BF00A805B50A5FE9F076C90671EAE2E9;
+extern const uint32_t g_rgctx_UserManager_2_t2EFE68C71D0F146EB008B40CA23D9B7C99141E4E;
+extern const uint32_t g_rgctx_TKey_t7146FE0ABF1BA293146EEDEE7BA6DFDD0BA61319;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_2_U3CAddLoginU3Eb__3f_m1884219054CAD1C5F0385EA1760AA274BF2A8C14;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass43_2_tC43FC68BF886DEAF4EFBC768D8BD88A074678764;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass43_2__ctor_m965D4675928A843430B08058A1BEC16FED6F241D;
+extern const uint32_t g_rgctx_UserManager_2_t11A17654644DDAF0AEF4AA8245850F457AB3FB9D;
+extern const uint32_t g_rgctx_TKey_t782E14A46D359B7A4660326AEAE0F26D6427E57C;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass43_2_U3CRemoveLoginU3Eb__42_m9425EBB73D3B9543E4189FC34550AA0ABE499863;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass46_2_tCA547B108AC68A871DDF97588A1EB12D4DCB0B84;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass46_2__ctor_m12C86875141343A45AA117C454363196470648E1;
+extern const uint32_t g_rgctx_UserManager_2_t53D56B5974A4493DCEA5C53EC0A77CCB6BE4DAAE;
+extern const uint32_t g_rgctx_TKey_t7784DD6794FF832CB40822D125724366A1370780;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass46_2_U3CGetLoginsU3Eb__45_m48E8E6C405F804E435ACFB6FCCF8DD88165C6A72;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass49_2_t5B3268AAEA9F4AD1986E5344F085C18065580DAB;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass49_2__ctor_mC71B6789AB41F9356001A6BA8A91FED7D82FE7C1;
+extern const uint32_t g_rgctx_UserManager_2_tF9762B7BE4AEA201EBD3053B7EEAD31B4B666667;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass49_2_U3CFindU3Eb__48_m77F473A10094E009A4AE2B97F50769F546ACDB64;
+extern const uint32_t g_rgctx_Func_1_t4B15AB44ACB4C5118CCD5EBEE5DCB21CBB22C8B0;
+extern const uint32_t g_rgctx_Func_1__ctor_m3EAD64D9078CBF6B8E8225E4ECC3CE37DB836986;
+extern const uint32_t g_rgctx_AsyncHelper_RunSync_TisTUser_t5C29B59DFEFD3081C2F202388A1FBDB3E5A7EF2B_m927461E8F14FC98F1759CE29CE061B265F6C4BEC;
+extern const uint32_t g_rgctx_TUser_t5C29B59DFEFD3081C2F202388A1FBDB3E5A7EF2B;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass6d_2_tA763C9829AF024E74DA64DFD6A01EC43E55A0292;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass6d_2__ctor_mC9F8FEB2B0A514B8C2DD2969501D0F17BF831F55;
+extern const uint32_t g_rgctx_UserManager_2_t60F1292BBC0F9E807774E063CB6DB8A441B47A20;
+extern const uint32_t g_rgctx_TKey_t8AC40FC496AA3602EA836418C41BB7CF99219A20;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass6d_2_U3CGetPhoneNumberU3Eb__6c_m8BB4D17EE4F3F566CF398DE372450E051BAF9013;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass70_2_t34A69E98EFB120CF282E152A4B95E89BB22639C9;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass70_2__ctor_m4F1258EC4F1B350AA62DF79B7087EE24B9B99E60;
+extern const uint32_t g_rgctx_UserManager_2_t3449608A21DFCD3DD4DF71B4102633F21D4C3FBA;
+extern const uint32_t g_rgctx_TKey_tA466DD486084883F418173207E8820A29579905C;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass70_2_U3CSetPhoneNumberU3Eb__6f_mD0AEDFF07FDF32FEE764F7B0AF5225CD7AD81009;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass73_2_t2E2ADC7E67B412B0E8F9E0F01FA16B84E15DF78E;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass73_2__ctor_m4CB9042F52A80406DF6BF0135CF7A2A19E76EA70;
+extern const uint32_t g_rgctx_UserManager_2_t73C3F327BEAD17C536E1D6938CD8FE0A9921359D;
+extern const uint32_t g_rgctx_TKey_t8C734E61EABC1EBCB9788D2ABBBAA3E049E5F31C;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass73_2_U3CChangePhoneNumberU3Eb__72_m81897F921BC51F8053C3AC387DB441155F2500EE;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass76_2_t83F8AB4184EFDF7298A43282980946DD4289E8F1;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass76_2__ctor_m74B3520976D8E254B408ECC78985AD0AA30065D0;
+extern const uint32_t g_rgctx_UserManager_2_tEA2699A2517C94F3EEBFBA5630B01BB7225463CD;
+extern const uint32_t g_rgctx_TKey_t7D03051EDB46EACF620BBBDDD2DC9C49038C5733;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass76_2_U3CGenerateChangePhoneNumberTokenU3Eb__75_m8F7E77D52B3AC030C1261C1F8A85AD5E575EA173;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass7f_2_t1CD08AC43F86882D826D95AB9588A05A1EDCF694;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass7f_2__ctor_m0087937D37CCEF4413EDF36114AE07459BB0186D;
+extern const uint32_t g_rgctx_UserManager_2_t1D2DB9744F55C479E0BA63B5722B231131588D11;
+extern const uint32_t g_rgctx_TKey_tB6887D79FD7D0066E7F2D83F27A0FB79F5BB34C8;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass7f_2_U3CGenerateTwoFactorTokenU3Eb__7e_m2132B46528761643CCD9C7E471634C20465219CA;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass85_2_tAE5C45195D060578263F295A28BFCEFF89F4F659;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass85_2__ctor_mD412046A870778AAD559FB4304E29044EF145F7F;
+extern const uint32_t g_rgctx_UserManager_2_t0A5356555C802C8AA4D218FDECDF6AA4738DF2DD;
+extern const uint32_t g_rgctx_TKey_t08E5A6D796914AE8692F3828FD4A1C18A2B559CE;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass85_2_U3CGetValidTwoFactorProvidersU3Eb__84_mFF9F9037CFE5E971BA720E712A5DA1D600B87942;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass91_2_tEE539AA9C23CDCA3C3DB691362E2D4F677B7DEFC;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass91_2__ctor_m4667F9AB6B149C45EA146772AA9B7D545539662D;
+extern const uint32_t g_rgctx_UserManager_2_tCC47CAA7B31EC06BF36C9A5439E0A95AFF8F49E4;
+extern const uint32_t g_rgctx_TKey_tBDF7CFCF837018C413AAB25991523DD850D2969D;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass91_2_U3CGetTwoFactorEnabledU3Eb__90_m0031BC85241D89C87D6E6D74678C0B145CCF9736;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass94_2_t59F503430484AA90E4890D74F3ECED43EF3DAF02;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass94_2__ctor_mD3D4441F1168B2AC871BE4D5202E82F7E0717584;
+extern const uint32_t g_rgctx_UserManager_2_tD2F796F119395D3CF8DDE071AA770CFC731D449E;
+extern const uint32_t g_rgctx_TKey_t33BE05D705EF6C4391F00EE9C9A233E53C7AC852;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass94_2_U3CSetTwoFactorEnabledU3Eb__93_m5E8FFE5A833AF9CF1BC9373C46762CAFF1BBE523;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1_2_t1BCBB33C9CA7C0D370BC9765D0B789CB593BA705;
+extern const uint32_t g_rgctx_UserManager_2_t9419CA72287D09B22ADECBAD9E1F4D8B14969D2B;
+extern const uint32_t g_rgctx_TUser_t61AB849FE728AA93486EF5C94F5DFA6BDC79A2AC;
+extern const uint32_t g_rgctx_UserManager_2_CreateIdentityAsync_mD79C5F8E025F1C2D28BE2CDCB597206B82D2ED8D;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass4_2_t8B3DEB823540EA50C4F9C6BB8CC4039D080B5236;
+extern const uint32_t g_rgctx_UserManager_2_tC1B8DEC14D8FB0B4D74E499CA89F0BC7378B1866;
+extern const uint32_t g_rgctx_TKey_t23FDEE17BDD0BB9B649DAF9D195B9BEC7513565C;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mBBD6A46B2C4E6D9B9159D1FE7B0935B3B9FB6E4A;
+extern const uint32_t g_rgctx_Task_1_t4516AE757388B3D0603B129A4AC5A61DDCF259C0;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClassa_2_tAC2C88796BF13360D46AB25E7AE88BC7D53D539F;
+extern const uint32_t g_rgctx_UserManager_2_tEC5F2E41F3B5F290ABC1A4D392F2D9BE64097708;
+extern const uint32_t g_rgctx_UserManager_2_FindByNameAsync_mD4B938B9845E78372E9CE84FDACCE616D57EADB4;
+extern const uint32_t g_rgctx_Task_1_tF362C29502B61713F4F01CFB6738B1366870BCBC;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass10_2_tE685402EB3DE98FB1175E4CA21C2498216A4F5CB;
+extern const uint32_t g_rgctx_UserManager_2_tA5F753B58EDEE8EA640A327B16B6DE91B7F122A3;
+extern const uint32_t g_rgctx_TUser_t2CD78A1F7B640E0A2BC0D4A85FF9ACFFA2EBC7DF;
+extern const uint32_t g_rgctx_UserManager_2_CreateAsync_m582CC61C046E50F9AE3EEAB296373AD4F22D96E3;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass13_2_t68A0C4720394A1D0BDAD90AE5607C4F0AF2152AB;
+extern const uint32_t g_rgctx_UserManager_2_tB75094E32490A21C31C39B8B337B6F8105A6B81A;
+extern const uint32_t g_rgctx_TUser_t823FF9FEE5BF06A059213D8FA726393091CE9D02;
+extern const uint32_t g_rgctx_UserManager_2_CreateAsync_m30B693FF8C93F6796FA8AF92457CFD27E9AA8B8F;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1c_2_t5022E1F61DB5259EEFA9DAA86165B3638DE86831;
+extern const uint32_t g_rgctx_UserManager_2_t59EDF29BCA87FB59C619B4CE033CADE70C43C1F5;
+extern const uint32_t g_rgctx_TKey_t8540B6F719FA31B33822B4ED4633CC4DD39B01FA;
+extern const uint32_t g_rgctx_UserManager_2_HasPasswordAsync_m0B54412FEB4795AAB978F42BF5D48B350ED6A005;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass1f_2_t77D8CD7BA69A09AF6470D2828D762D3EDC472EEB;
+extern const uint32_t g_rgctx_UserManager_2_t93B90D095F2008234788B43A7D03E1341A007493;
+extern const uint32_t g_rgctx_TKey_t842F07AD649DC8A43E7C908A20397AD0D72A9255;
+extern const uint32_t g_rgctx_UserManager_2_AddPasswordAsync_mB554BDA5D44BABA63E7E017578382CFE3C527A84;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass22_2_t709F459CAA733A22107E4CC9C9B9A9646003E821;
+extern const uint32_t g_rgctx_UserManager_2_tC315DAFD836B72FCEBCAC4B7DDF6230103392A31;
+extern const uint32_t g_rgctx_TKey_t3FEF67C5EE645969416EB0B4743A669DF60B579C;
+extern const uint32_t g_rgctx_UserManager_2_ChangePasswordAsync_m6D203D2956E716E6649BFCB02DD195962E847D7E;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass25_2_t0D78737E44A65BF139F50E5AB7104D99A9F43EEB;
+extern const uint32_t g_rgctx_UserManager_2_t0EA28F9781034E1C9EA7C8C30BC5268562FC59A5;
+extern const uint32_t g_rgctx_TKey_tDEFF6E0CD2D0CC9DF04FB995AD1D84F636EE98D0;
+extern const uint32_t g_rgctx_UserManager_2_ResetPasswordAsync_mDE7F966196816FE244B2365A99AE671A128217A7;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass31_2_t3FEB34DE2B54D56B420699AF520E3A6E5CED202F;
+extern const uint32_t g_rgctx_UserManager_2_t2058DB16B443FF26B3913F5379D2EE1E014C19C3;
+extern const uint32_t g_rgctx_TKey_tE9C03BDC1FA38D99499CFDFE3DC58A22B4E268BD;
+extern const uint32_t g_rgctx_UserManager_2_ConfirmEmailAsync_mE305277A0D0B6BEC52732C7B5BACB5E0998A1BF0;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass34_2_t8915F6297E196B07F6975C0F1D09826027891B3F;
+extern const uint32_t g_rgctx_UserManager_2_tE36FB71D7C865468D406973BEFD8E62D01DC8B06;
+extern const uint32_t g_rgctx_TKey_t19D1D1A483F84C1D18B048AABD772280BE2BC66E;
+extern const uint32_t g_rgctx_UserManager_2_IsEmailConfirmedAsync_mDB24C95C3047F22C1FB9919910FCB47AD9A7D58F;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_2_t064008C5B50AD85DA5FAB9DFB4C14BC64CA9DC26;
+extern const uint32_t g_rgctx_UserManager_2_tBF33A94477626D6E277D8C612B65DE005DD80794;
+extern const uint32_t g_rgctx_TKey_t4623EFE2F510EDCB2DB3A854487A5148D070BD58;
+extern const uint32_t g_rgctx_UserManager_2_AddLoginAsync_mC2A643B1609B8667270DB6176AF152C8AC973A2D;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass43_2_t5F2D2169D6019334EFE181F75D578683016537DB;
+extern const uint32_t g_rgctx_UserManager_2_tC9A290523EC2368052DF0D72383156A725CA5CB2;
+extern const uint32_t g_rgctx_TKey_tE16D64A181A6761922B00CF97973994B9AC976D1;
+extern const uint32_t g_rgctx_UserManager_2_RemoveLoginAsync_m188A6C6FF8952CEA1BFD6EEC0577CB186BC4B1CA;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass46_2_t8ACFF4A025B6703A9A7475F17AE52FF564305A87;
+extern const uint32_t g_rgctx_UserManager_2_t8614A2BDEA87652C04947CEAC8A5C2DF900A4089;
+extern const uint32_t g_rgctx_TKey_t5F1ED59DD5EF79B46A98B12CAEA3F1946643FA3F;
+extern const uint32_t g_rgctx_UserManager_2_GetLoginsAsync_mB59FA1E720CC711D8DFA6CBCD079DA0614B335AB;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass49_2_t0B3CBF94B28704D4AE6E18DBDD58737BB01C6840;
+extern const uint32_t g_rgctx_UserManager_2_tFCDE011E3A3D6A8501049741FC32AF7F180513BF;
+extern const uint32_t g_rgctx_UserManager_2_FindAsync_mF3490197D1D152C040399D2327191CF447207D28;
+extern const uint32_t g_rgctx_Task_1_tB0E99C28420E6C5B48D3F9B87F7E41098EA46A14;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass6d_2_t9D6CD599749D4F54C3FA0A7323DF500E11E4437B;
+extern const uint32_t g_rgctx_UserManager_2_t8087CFC11203AC27AD3382ABBDD7B48FCF7677CC;
+extern const uint32_t g_rgctx_TKey_t8B5A1ABD769FB1E0B76DC0C4AFB8989B55430AB6;
+extern const uint32_t g_rgctx_UserManager_2_GetPhoneNumberAsync_m349E70A70A1B6AE09FC83FA882F3BFA8B86B752C;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass70_2_tCE0DF538ABEE66CA2D2A6493577B10A356181E51;
+extern const uint32_t g_rgctx_UserManager_2_tAE92296AC6BB9783905FF1ACA2F357613B7100D5;
+extern const uint32_t g_rgctx_TKey_tB53F060ADF6D93F0683B2A0143663DC3A3EAC29E;
+extern const uint32_t g_rgctx_UserManager_2_SetPhoneNumberAsync_m20ACE3AA811D4B81D74EC0E2DA539D3A34ECE54E;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass73_2_t19DF877F44B2AAC575D4DC8C3F3EB734ADD6E687;
+extern const uint32_t g_rgctx_UserManager_2_tE0FBC248801A2E2A654F2E8F624B719F20834EDF;
+extern const uint32_t g_rgctx_TKey_t2A971253BF10137DF3659BEC09836F937819DC3C;
+extern const uint32_t g_rgctx_UserManager_2_ChangePhoneNumberAsync_m2A6D9418A3D8BC59A90779A040F04FAA874B24BC;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass76_2_t49717BA4E9ABFB7A5B1F8A75F0A16B530AE28FC2;
+extern const uint32_t g_rgctx_UserManager_2_t36957F2A63055DB54969475A3582A4B6EA28F3F4;
+extern const uint32_t g_rgctx_TKey_tFE7495C177047C3EE5F20B86FEECB5D84A51CE7C;
+extern const uint32_t g_rgctx_UserManager_2_GenerateChangePhoneNumberTokenAsync_m4311285C85303E407F80A5A8F5961A496961FD1D;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass7f_2_t7056819B7668F4EC37CC5ED606AFD85A774ADA30;
+extern const uint32_t g_rgctx_UserManager_2_t784CBFF513BE18FBCC1894006160B536421CA275;
+extern const uint32_t g_rgctx_TKey_tBF2525A717FB8DEEE41DEEC603DE9C0FE58BEECB;
+extern const uint32_t g_rgctx_UserManager_2_GenerateTwoFactorTokenAsync_m217A6A62E39515E854F77D15EA57704410DE4BF3;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass85_2_tC0A3EB3E53612C23334B39A583E0CD494B2DA7EC;
+extern const uint32_t g_rgctx_UserManager_2_t011045F466BB06020A61FE2CA819DB163806D575;
+extern const uint32_t g_rgctx_TKey_tDA82EAA1A900F719E6BE76F062E061C0D5A53AC2;
+extern const uint32_t g_rgctx_UserManager_2_GetValidTwoFactorProvidersAsync_m42A901A498529C7FACBE4C09BDBB4F2F8E08F192;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass91_2_tEAF29713ADBE5D67AB41063636DBA41715D928E2;
+extern const uint32_t g_rgctx_UserManager_2_t270898E988B0BED762EF8261F8FA1544DE71ADE6;
+extern const uint32_t g_rgctx_TKey_tB5C90C33C877908435E9C9CBFA629AA97B2CCFAC;
+extern const uint32_t g_rgctx_UserManager_2_GetTwoFactorEnabledAsync_mF2E15F99D67A1A47A3D3D1BD758DA1387E737CB3;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass94_2_tF8CCB07D6371A532483FC1979BD50C3CE313F6E0;
+extern const uint32_t g_rgctx_UserManager_2_t81FABF403BFF8A76BEDF975C37FACBE4FC019E0B;
+extern const uint32_t g_rgctx_TKey_tDA151346354A606FDE2B7F0092FF1925C86E8047;
+extern const uint32_t g_rgctx_UserManager_2_SetTwoFactorEnabledAsync_mBCADB8373F21973BC308A556524D71AE0CD7AE6E;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_set_RoleClaimType_m57C780378E378256E26F1921B1E2F38A270B56DA;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_set_UserIdClaimType_m2E11EDBC03AD12A0F6B1337183A38FE3D8129604;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_set_UserNameClaimType_mB4C2E5E07117E66242932F0306D5E9589AFD7D17;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_set_SecurityStampClaimType_m8D587AB5C145A27A741DB6995C0A86970A968FAE;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_tD3027E2DE80FAF9841AE1AD9A9E7B2FE02E6F8ED;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__0_t82EAD80AA27762A968236DE646C0F4CCF5EC8728;
+extern const uint32_t g_rgctx_UserManager_2_tE8751A62E235FE9BDCD5125337B2854C656D89A1;
+extern const uint32_t g_rgctx_TUser_tA1E769DD8A7D6F45FF8BCF2E0E1430BFBB99C550;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCreateAsyncU3Ed__0_t82EAD80AA27762A968236DE646C0F4CCF5EC8728_mA6362397548E26794ACF497E4B85785869CE33CE;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__0U26_tBB2638BB035207E4EF90B9E094A3DCAB1CB9A748;
+extern const uint32_t g_rgctx_TKey_tA519EC162F4383A62CEE0BC5FD793B0F480E0DFC;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TKey_tA519EC162F4383A62CEE0BC5FD793B0F480E0DFC_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__0_t2B727DC054F72A7D58BA2A5F6E92B820FE856DB9;
+extern const uint32_t g_rgctx_UserManager_2_t65432A99C34DF5D7D8ECDC6AF97A0B7A3A59C5D4;
+extern const uint32_t g_rgctx_TUser_t23D61DB3D1C08E051F5584D177EB8D4F6D301D9C;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_tAF137C0E9EB2D21D68A976F706BD02E7A9C52799;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_get_UserNameClaimType_m501E5F7D573104BF1009464712B942EA079F6D08;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_get_RoleClaimType_m86B4E9BA531DA8BA2AE10B3048C128EEC83622C0;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_get_UserIdClaimType_mF6B68BCAB5B1EE43FFA0C1D7F6B4BF1927BBCDFF;
+extern const uint32_t g_rgctx_IUser_1_tE44E495803A134982F0FA6ED33088EF69FD80231;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t23D61DB3D1C08E051F5584D177EB8D4F6D301D9C_IUser_1_get_Id_m9CE082DEA79406FE547826F9022DC32C8D2A1F3A;
+extern const uint32_t g_rgctx_TKey_tEBAB13F129739EAE4CE9601D3DC92CEF4D19716B;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_ConvertIdToString_mB95BA58CC071531F313E3BAB524FA2390E97876A;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t23D61DB3D1C08E051F5584D177EB8D4F6D301D9C_IUser_1_get_UserName_mF7A38D424896284AF116C482C9F0C84C6AFA5D04;
+extern const uint32_t g_rgctx_UserManager_2_get_SupportsUserSecurityStamp_m40B20DD4102474F137A160EE88FB95C16E9DF68B;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_get_SecurityStampClaimType_m0C7F485F38C8D4E6F7656EE9C2193989312E46D1;
+extern const uint32_t g_rgctx_UserManager_2_GetSecurityStampAsync_m31E195B65AAF4E7036EF818B4798EF1A98C39238;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CCreateAsyncU3Ed__0_t2B727DC054F72A7D58BA2A5F6E92B820FE856DB9_mCF9C86E1FE66B4F4F23C4F27AAABA8DF6BC00CAA;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__0U26_t2738051A57190768434532260B36526AF30BE747;
+extern const uint32_t g_rgctx_UserManager_2_get_SupportsUserRole_m13E19B2C35809CE5ED81E62B934EB4E32D0FAAE5;
+extern const uint32_t g_rgctx_UserManager_2_GetRolesAsync_mC1E303A0E7F8E339E0A04D72371691A20E3CB3F5;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t42FE41D0C79E239C0D2063397A65C09B8DE16694_TisU3CCreateAsyncU3Ed__0_t2B727DC054F72A7D58BA2A5F6E92B820FE856DB9_m4B67BCB037C37739021711A2054DC5516F4CF46E;
+extern const uint32_t g_rgctx_UserManager_2_get_SupportsUserClaim_mF2D3284047494D0D41C5B7B6D3137AAD352FCC08;
+extern const uint32_t g_rgctx_UserManager_2_GetClaimsAsync_mC8B9A96C707F4E05DE23B3197C926880D8E487C4;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t0851084BA604E554488ADC5C8A607A4D7F81DC29_TisU3CCreateAsyncU3Ed__0_t2B727DC054F72A7D58BA2A5F6E92B820FE856DB9_m124F317CA574B07702B58680713B414E799EEBB4;
+extern const uint32_t g_rgctx_Dictionary_2_t76E541B9BD889992F1FA3E2AA1A203DC794C4691;
+extern const uint32_t g_rgctx_Dictionary_2__ctor_m2B5C1602805FC7D3437FB9D874E0F8DDD8DA4825;
+extern const uint32_t g_rgctx_UserManager_2_tAC9E96BD5CB8357424E4B939E0E4BD195C0B990C;
+extern const uint32_t g_rgctx_IUserStore_2_t5E6053E3B2BAFA5E6A5EF5C8C26DF73103FE3BC0;
+extern const uint32_t g_rgctx_UserManager_2_set_Store_m2B38988B2A906572004D11CCC3F551C308981B30;
+extern const uint32_t g_rgctx_UserValidator_2_tD8326036F0245D0070537DDF47854F2AF75BC94A;
+extern const uint32_t g_rgctx_UserValidator_2__ctor_m629D8EDF003FDB50931FF63E6F4A4680980FFD06;
+extern const uint32_t g_rgctx_UserManager_2_set_UserValidator_m803F064BBC57C45EE850E8A78305FD9709E5E583;
+extern const uint32_t g_rgctx_IIdentityValidator_1_t8C9177480ECB7647554BBD1CEC6C493373EA147D;
+extern const uint32_t g_rgctx_UserManager_2_set_PasswordValidator_mFFCEB7B14FF6CB3E68F0BB634F31AE476659D7E3;
+extern const uint32_t g_rgctx_UserManager_2_set_PasswordHasher_m3973D56F1937AFBDD4A1BEA1730B4777FCC30163;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2_tA6214D51CDA273EC90EAE7BE461BCC999E32F2B4;
+extern const uint32_t g_rgctx_ClaimsIdentityFactory_2__ctor_mC0A3492780BD3A1713C53F6390EC8D3743193390;
+extern const uint32_t g_rgctx_UserManager_2_set_ClaimsIdentityFactory_mF88A2A1345F397DE7D6DDC2883F7C5BCF786E244;
+extern const uint32_t g_rgctx_IClaimsIdentityFactory_2_t73FE3B31A0388DB842703863D6E589A5A61B2651;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m92E201C74E5EEA8F476601E8586683D55B30509F;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_t473B08C2C7C571C41C2CF579D95987AEE61A7512;
+extern const uint32_t g_rgctx_UserManager_2_get_Store_m53354C2A7563906CC24B12A854E18048DC71F4E3;
+extern const uint32_t g_rgctx_IUserSecurityStampStore_2_t32B13BFBBFAA1D1C13AE4BC4DCF8511AE3991AA3;
+extern const uint32_t g_rgctx_IUserRoleStore_2_tC7C6463AE387DC67172F56463D3A174C228ED3A6;
+extern const uint32_t g_rgctx_IUserClaimStore_2_tC023D8614ACD465144C066CEBF8B36EAD4852323;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_tF2928EAC3AB20620584B85D59B1D997C08E6C636;
+extern const uint32_t g_rgctx_IDictionary_2_tA5825FEDDFAC85AE5480F6F7EEA2380845F040BF;
+extern const uint32_t g_rgctx_UserManager_2_Dispose_m719171246992558425EB0A13CB5516F822C457D0;
+extern const uint32_t g_rgctx_TUser_tF9491896EFEC586C1663C96F376F48804423F58D;
+extern const uint32_t g_rgctx_UserManager_2_get_ClaimsIdentityFactory_m7A6C600D7ECDC0006B810864306F6017958F14C3;
+extern const uint32_t g_rgctx_IClaimsIdentityFactory_2_CreateAsync_m4A9358405FEBF6A8AE8654F12E9780B24B6151CE;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__0_t9E6DF2821AF00ED81CC46BEBCD0CDA5E84740A10;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCreateAsyncU3Ed__0_t9E6DF2821AF00ED81CC46BEBCD0CDA5E84740A10_m5C0AD1CFC67A0EAA091C8D483B6D3677B0E48C3F;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__0U26_t44A15B17FC2D2E0D827734099B1C5D856E96B069;
+extern const uint32_t g_rgctx_U3CUpdateAsyncU3Ed__5_t5CD59BC7F5B327A8CE85EBCA9552051FE419D646;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CUpdateAsyncU3Ed__5_t5CD59BC7F5B327A8CE85EBCA9552051FE419D646_mF69AF5528591DD295A2D05FF76A4BC09C9CEA459;
+extern const uint32_t g_rgctx_U3CUpdateAsyncU3Ed__5U26_t9E2EB9905D6A1A9E6876C49A32F083981B6DF14D;
+extern const uint32_t g_rgctx_TKey_t76F709A6463848BC5F376B0D0C5AB897E1DB561C;
+extern const uint32_t g_rgctx_IUserStore_2_FindByIdAsync_mFC0F7BECE9BB097EC589EB89580162D0EBA55B1E;
+extern const uint32_t g_rgctx_Task_1_tE3646BE840810F237F7FA8972A6CBEB39E0523E2;
+extern const uint32_t g_rgctx_IUserStore_2_FindByNameAsync_mCFDCE3F6E247775536819D83CDA1635719C0D6ED;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_t1EB97A36D04CBECF324D9D5BCBB7D4926ACFAFFB;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__d_tC4CC40C21DF252E5CD33057A6211359BB02D396C;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCreateAsyncU3Ed__d_tC4CC40C21DF252E5CD33057A6211359BB02D396C_m2BA0D831563C3E9610771C5A1843737185D32A7C;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__dU26_t586E0DF7E3105F9A2B1D77D4379431E3DD891F8F;
+extern const uint32_t g_rgctx_U3CCheckPasswordAsyncU3Ed__17_tBFC1D8AE5058EA0D20D63BBCB22BD027070B32DE;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCheckPasswordAsyncU3Ed__17_tBFC1D8AE5058EA0D20D63BBCB22BD027070B32DE_m28DAA2A332E1C445ECA19FCCC35CA5577D36818F;
+extern const uint32_t g_rgctx_U3CCheckPasswordAsyncU3Ed__17U26_t46BF4B26C650AE85455DD6464AC9EB666EFC972C;
+extern const uint32_t g_rgctx_U3CHasPasswordAsyncU3Ed__1b_tE5645A7121B22BDF009FB46CF3BD6283BD13B5A3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CHasPasswordAsyncU3Ed__1b_tE5645A7121B22BDF009FB46CF3BD6283BD13B5A3_m7DB34BC938BA08753BBBA09E92DFC52B57D81657;
+extern const uint32_t g_rgctx_U3CHasPasswordAsyncU3Ed__1bU26_t97FF7EECE1E3E1F8CB5736DF1F5FA486D3D54F70;
+extern const uint32_t g_rgctx_U3CAddPasswordAsyncU3Ed__21_t114CAE8575427136D76F5EC3F75248B483753DAB;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CAddPasswordAsyncU3Ed__21_t114CAE8575427136D76F5EC3F75248B483753DAB_m4431C72E37B29E0B51CBB656B92E08640E00E07A;
+extern const uint32_t g_rgctx_U3CAddPasswordAsyncU3Ed__21U26_t6403D02992322966870B8C45794B2859C73F0C4A;
+extern const uint32_t g_rgctx_U3CChangePasswordAsyncU3Ed__2a_t56CA1221EEB730ED7542AC326998DC561F01A0BA;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CChangePasswordAsyncU3Ed__2a_t56CA1221EEB730ED7542AC326998DC561F01A0BA_m9D70D1155A7AEE6920AA909420A92F4DE328DDFD;
+extern const uint32_t g_rgctx_U3CChangePasswordAsyncU3Ed__2aU26_tEFC9235FA93FC712E95728965B9F08BBCC6D57F5;
+extern const uint32_t g_rgctx_U3CUpdatePasswordU3Ed__39_t52951D710B1107329E08001522AD1C1DD7EC7A2F;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CUpdatePasswordU3Ed__39_t52951D710B1107329E08001522AD1C1DD7EC7A2F_m60054EDA4210F15CDB52CAEB15F9606FCE04D9C8;
+extern const uint32_t g_rgctx_U3CUpdatePasswordU3Ed__39U26_t2334951F585948D6979AB5A0268C3D71B9F311E6;
+extern const uint32_t g_rgctx_U3CVerifyPasswordAsyncU3Ed__3e_tFD3FC3D0A5D39C8CA90EA43AB15CC45C3FA45516;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CVerifyPasswordAsyncU3Ed__3e_tFD3FC3D0A5D39C8CA90EA43AB15CC45C3FA45516_m4E0A97D606AD20D6B04B79527CE85D075AD87BA2;
+extern const uint32_t g_rgctx_U3CVerifyPasswordAsyncU3Ed__3eU26_t14DC5B841D580192FF5F33895AED2ED48B1CCA19;
+extern const uint32_t g_rgctx_U3CGetSecurityStampAsyncU3Ed__42_t36B4365AF3276BBFC61B67A978526B66657502CD;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetSecurityStampAsyncU3Ed__42_t36B4365AF3276BBFC61B67A978526B66657502CD_m32F7668C5C4DABA5E681284809EA19FCC5145914;
+extern const uint32_t g_rgctx_U3CGetSecurityStampAsyncU3Ed__42U26_t9ECC0E615A5E6138B29BE90732C5987358222576;
+extern const uint32_t g_rgctx_U3CResetPasswordAsyncU3Ed__4f_tD6AA19D302DB3CDD8A6C247A0ED810996A3705A6;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CResetPasswordAsyncU3Ed__4f_tD6AA19D302DB3CDD8A6C247A0ED810996A3705A6_m88C88A865B378A0CD31DF9210CE1ED702FE0FBC3;
+extern const uint32_t g_rgctx_U3CResetPasswordAsyncU3Ed__4fU26_tC744D40EF8BC5B79E82A7181FBD4A1F07F559013;
+extern const uint32_t g_rgctx_U3CUpdateSecurityStampInternalU3Ed__57_t51DB89E61B22B4CD9C77ABED87FD23EFE5F85C15;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CUpdateSecurityStampInternalU3Ed__57_t51DB89E61B22B4CD9C77ABED87FD23EFE5F85C15_m9E44800657171D43218D94467E4BBD7CF5384947;
+extern const uint32_t g_rgctx_U3CUpdateSecurityStampInternalU3Ed__57U26_t1BB412B6B5745D47FDF069B617786CC0DDE23450;
+extern const uint32_t g_rgctx_IUserLoginStore_2_t1B52B4DE8040B3A86353FB2663E435622F31C222;
+extern const uint32_t g_rgctx_UserManager_2_GetLoginStore_mAB90BBE61B21B5935BDFA78626B319CF2A04C9C8;
+extern const uint32_t g_rgctx_IUserLoginStore_2_FindAsync_m64E4C2A893B8D909BB93529854D4C4B2135C891C;
+extern const uint32_t g_rgctx_U3CRemoveLoginAsyncU3Ed__5a_tAD8F1AD0671909513743AFE4EBC78946F80F34E5;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CRemoveLoginAsyncU3Ed__5a_tAD8F1AD0671909513743AFE4EBC78946F80F34E5_m25F2FC1D9C298A56DF7DEF35C233BE842A61A7B0;
+extern const uint32_t g_rgctx_U3CRemoveLoginAsyncU3Ed__5aU26_tCBAA8C89F8EF678A8515550A7964ED5CB8A499C8;
+extern const uint32_t g_rgctx_U3CAddLoginAsyncU3Ed__61_t2E3B8BE2AE9ADE1707FED57E7879C37260240139;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CAddLoginAsyncU3Ed__61_t2E3B8BE2AE9ADE1707FED57E7879C37260240139_mEFB3EF482A6CFEAF814976E0D27AFA3FFCC7AE91;
+extern const uint32_t g_rgctx_U3CAddLoginAsyncU3Ed__61U26_tA1C5F8C4DC87321C2D4694E4FFCDF4AAA9B2F4FF;
+extern const uint32_t g_rgctx_U3CGetLoginsAsyncU3Ed__69_t27548A57011324CC9A7C2793CCE4F8430C5F9599;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetLoginsAsyncU3Ed__69_t27548A57011324CC9A7C2793CCE4F8430C5F9599_mEBCD71FCD0487909A3531BBCC66C18B9513E7E6B;
+extern const uint32_t g_rgctx_U3CGetLoginsAsyncU3Ed__69U26_t4CEAFBA075212DE88B2931E153A43061603CFD40;
+extern const uint32_t g_rgctx_U3CGetClaimsAsyncU3Ed__7d_tBB96EB386F8BE737BA06260052254A588773E2B2;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetClaimsAsyncU3Ed__7d_tBB96EB386F8BE737BA06260052254A588773E2B2_mC244449116C7F515E77AA8D0C0672A844A4FCBAC;
+extern const uint32_t g_rgctx_U3CGetClaimsAsyncU3Ed__7dU26_t83797E26E70288E434A5CB76D2B58D0E3C89AA83;
+extern const uint32_t g_rgctx_U3CGetRolesAsyncU3Ed__ac_t42B48FE722BAE388F6A2047FBB27CF6AF428F3C3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetRolesAsyncU3Ed__ac_t42B48FE722BAE388F6A2047FBB27CF6AF428F3C3_mAC4F9094DA9259DCF8AA20DEBA0BB5F635164059;
+extern const uint32_t g_rgctx_U3CGetRolesAsyncU3Ed__acU26_t372E9C3691A34C5D69C496FE7DCFFE18B6E61B0C;
+extern const uint32_t g_rgctx_IUserEmailStore_2_tE18CC9634B2916D34393DAC8C4EF949F3BB4303D;
+extern const uint32_t g_rgctx_U3CGetEmailAsyncU3Ed__b8_t827634AAB749E0352408374D779210918E40A2A7;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetEmailAsyncU3Ed__b8_t827634AAB749E0352408374D779210918E40A2A7_m00644EFB010558A87577A160FB14BDA39E1E0F1F;
+extern const uint32_t g_rgctx_U3CGetEmailAsyncU3Ed__b8U26_tDAAB76906934517309B07F9788BEEF59BBA6408D;
+extern const uint32_t g_rgctx_UserManager_2_GetEmailStore_m1E71F07E60901E55CCDB13A2C30F2778F37E53D2;
+extern const uint32_t g_rgctx_IUserEmailStore_2_FindByEmailAsync_m8416AC05A2801E2E5A3BFCB6166B15162945BCAD;
+extern const uint32_t g_rgctx_U3CConfirmEmailAsyncU3Ed__c5_tDDD379F6D6E3825C6A70AFFF18062D0717EEE261;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CConfirmEmailAsyncU3Ed__c5_tDDD379F6D6E3825C6A70AFFF18062D0717EEE261_m9CFC3E69F569CFE245E21ACA60BDB0BCE8ED9073;
+extern const uint32_t g_rgctx_U3CConfirmEmailAsyncU3Ed__c5U26_t04EE6E2C2CECAE576AEB2D96832D7A7C3C9189E9;
+extern const uint32_t g_rgctx_U3CIsEmailConfirmedAsyncU3Ed__cd_tAC1C8A69BC1776A41072B897D0C7FB5E3B00C97D;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsEmailConfirmedAsyncU3Ed__cd_tAC1C8A69BC1776A41072B897D0C7FB5E3B00C97D_m5534A712ADCA0A1305E573B5E3AB6DFF976722E5;
+extern const uint32_t g_rgctx_U3CIsEmailConfirmedAsyncU3Ed__cdU26_t5EFBBBF4BA32873CB8A85AB278CD416974C07DC9;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_tCCEBDD424A42D4CDCC42A8D15894F8685CB92C72;
+extern const uint32_t g_rgctx_U3CGetPhoneNumberAsyncU3Ed__d3_t4BED3D39974D0C8521A7B3D2E901D7FA3DDF3A82;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetPhoneNumberAsyncU3Ed__d3_t4BED3D39974D0C8521A7B3D2E901D7FA3DDF3A82_m1100850B33BBEEAC51F9859E7D5AA61116EFAFB9;
+extern const uint32_t g_rgctx_U3CGetPhoneNumberAsyncU3Ed__d3U26_t17C3B625E615B644AE4307913438DF599431104B;
+extern const uint32_t g_rgctx_U3CSetPhoneNumberAsyncU3Ed__d9_tBAE5D1E06E629403082955E4DB74F5D2D61E28E4;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CSetPhoneNumberAsyncU3Ed__d9_tBAE5D1E06E629403082955E4DB74F5D2D61E28E4_mAAE72089CA4C1E744308D7289BE8CD61F9E1E5C7;
+extern const uint32_t g_rgctx_U3CSetPhoneNumberAsyncU3Ed__d9U26_t3594ED65E0819FD5EC391238B3951AA451AC09F7;
+extern const uint32_t g_rgctx_U3CChangePhoneNumberAsyncU3Ed__e0_t9ADDB999FF57C668333189A6B842CE202D68BCAA;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CChangePhoneNumberAsyncU3Ed__e0_t9ADDB999FF57C668333189A6B842CE202D68BCAA_m21D71F62104F4DED99BD133795206E79044BA4B4;
+extern const uint32_t g_rgctx_U3CChangePhoneNumberAsyncU3Ed__e0U26_t5DE73F697410E407C8A3E64B83AE942228CD70EE;
+extern const uint32_t g_rgctx_U3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tD65976892CC2D3777374BFE7FABC773E7A3DB78D;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tD65976892CC2D3777374BFE7FABC773E7A3DB78D_m8AFE4F7DD1D597C074CB0FDAAFD11DD1B53871C9;
+extern const uint32_t g_rgctx_U3CIsPhoneNumberConfirmedAsyncU3Ed__e8U26_tF43D62C9154FA58970AE124637F9628B2639FF0C;
+extern const uint32_t g_rgctx_U3CCreateSecurityTokenAsyncU3Ed__ee_t9E08DA338BD118F0D19F0ECBB5998AAFA4ED3961;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCreateSecurityTokenAsyncU3Ed__ee_t9E08DA338BD118F0D19F0ECBB5998AAFA4ED3961_mE7FFBA43802A83DFE7EB7094D1BA8DA03B429CAE;
+extern const uint32_t g_rgctx_U3CCreateSecurityTokenAsyncU3Ed__eeU26_tFA3DFF898218646B0C3AB023DCA0223F352388E6;
+extern const uint32_t g_rgctx_U3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1_t2CBCBC7227FBFB247D83CDFDDD88FC786E7326A4;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1_t2CBCBC7227FBFB247D83CDFDDD88FC786E7326A4_mC1E2E060DB9BB2E7D24A17E7E138F758E6564EA8;
+extern const uint32_t g_rgctx_U3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1U26_t797634D5BAB663185E811278625CF43F00F18A87;
+extern const uint32_t g_rgctx_U3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4_t8C768D7359C433AEBAB3940FB7D102260D6B99A5;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4_t8C768D7359C433AEBAB3940FB7D102260D6B99A5_m2BFF93737292545176C952D4F6C9EFE64C413C2D;
+extern const uint32_t g_rgctx_U3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4U26_tF238238313F2A7708FAA343B4279F8CFAA516E37;
+extern const uint32_t g_rgctx_U3CVerifyUserTokenAsyncU3Ed__f9_t5276FA43311894A88996DC7146930F1757705D3C;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CVerifyUserTokenAsyncU3Ed__f9_t5276FA43311894A88996DC7146930F1757705D3C_m8CB7F97131DA88D2CDEF205C77AC9D26CAED5378;
+extern const uint32_t g_rgctx_U3CVerifyUserTokenAsyncU3Ed__f9U26_t8ECFEC3F26899529A2ED80BC0371C2175BDC8F18;
+extern const uint32_t g_rgctx_UserManager_2_get_TwoFactorProviders_m0E3A3B8D2385DF8C822E411CE595560E23B63D5B;
+extern const uint32_t g_rgctx_IDictionary_2_set_Item_mB23F06349944CDDE02B6303A614A8F02ADE33A4B;
+extern const uint32_t g_rgctx_U3CGetValidTwoFactorProvidersAsyncU3Ed__103_tE0864D76B2439AACFEDD12E9391F762E47AABC80;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetValidTwoFactorProvidersAsyncU3Ed__103_tE0864D76B2439AACFEDD12E9391F762E47AABC80_mAF4B683A761B1BDCD09A469AD634B4C211A78FBA;
+extern const uint32_t g_rgctx_U3CGetValidTwoFactorProvidersAsyncU3Ed__103U26_t27FF8C75F583E005938FC17912CDF03AC356D551;
+extern const uint32_t g_rgctx_U3CVerifyTwoFactorTokenAsyncU3Ed__10b_t72B1B18CC603BE0F19D0B1707A3C8175D5B9E166;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CVerifyTwoFactorTokenAsyncU3Ed__10b_t72B1B18CC603BE0F19D0B1707A3C8175D5B9E166_m46939AB5D30AC8AD4863FBD05C46AA451334751E;
+extern const uint32_t g_rgctx_U3CVerifyTwoFactorTokenAsyncU3Ed__10bU26_t551E306972AB558CB325507BF55E8A42A2C4EA12;
+extern const uint32_t g_rgctx_U3CGenerateTwoFactorTokenAsyncU3Ed__111_t79EBCEA54D6973EF3AE3F37A01208F038EE1677E;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGenerateTwoFactorTokenAsyncU3Ed__111_t79EBCEA54D6973EF3AE3F37A01208F038EE1677E_m6BB4A8FC65CF1CCF6F2EBA658A6B843F6F722D24;
+extern const uint32_t g_rgctx_U3CGenerateTwoFactorTokenAsyncU3Ed__111U26_t07C8531685D7EBDB76F70FC1E95D10AC793E51A5;
+extern const uint32_t g_rgctx_U3CNotifyTwoFactorTokenAsyncU3Ed__116_tB898B9F00FAC5BC0BD3186040174500DCD6A294E;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CNotifyTwoFactorTokenAsyncU3Ed__116_tB898B9F00FAC5BC0BD3186040174500DCD6A294E_mD190215FEA8D496A995B28980E205F492D780354;
+extern const uint32_t g_rgctx_U3CNotifyTwoFactorTokenAsyncU3Ed__116U26_tCE1BA20E01DADB5D5EB2CD3DFC7F5E6A383B27BA;
+extern const uint32_t g_rgctx_IUserTwoFactorStore_2_tDEC76C413004677BFB017DF8BBC5C0DE426AD6AB;
+extern const uint32_t g_rgctx_U3CGetTwoFactorEnabledAsyncU3Ed__11b_t9AB921022F6BC41B99022580B04D896044E2292A;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetTwoFactorEnabledAsyncU3Ed__11b_t9AB921022F6BC41B99022580B04D896044E2292A_m6124C0CDF7E0D5F60775CAF9BFB4D954B142B85B;
+extern const uint32_t g_rgctx_U3CGetTwoFactorEnabledAsyncU3Ed__11bU26_t9E6E8A31267E3CFC8684B8A346C425F16EAB5005;
+extern const uint32_t g_rgctx_U3CSetTwoFactorEnabledAsyncU3Ed__121_t5B62FE184FA00DB4BA124AA1C3B89117E9537C6C;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CSetTwoFactorEnabledAsyncU3Ed__121_t5B62FE184FA00DB4BA124AA1C3B89117E9537C6C_m49C28C80FB6EB5EA7E1B24B0368FE6CFEEEF21D7;
+extern const uint32_t g_rgctx_U3CSetTwoFactorEnabledAsyncU3Ed__121U26_t13B6A754E7B1AA685F3366556611A4DCE13420F3;
+extern const uint32_t g_rgctx_U3CSendEmailAsyncU3Ed__129_tD2BC518F7226AC72042F4E2355461B715E29BAD2;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CSendEmailAsyncU3Ed__129_tD2BC518F7226AC72042F4E2355461B715E29BAD2_m34B4BBE45748FF50B4FEFBEAEEFCF76C93C9D0CF;
+extern const uint32_t g_rgctx_U3CSendEmailAsyncU3Ed__129U26_tFD5356DE06BEFD339D66193360946F135E6420F5;
+extern const uint32_t g_rgctx_U3CSendSmsAsyncU3Ed__12f_t31DC27857B2CE83B30E8814286CB9A3BDD177D45;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CSendSmsAsyncU3Ed__12f_t31DC27857B2CE83B30E8814286CB9A3BDD177D45_m818862DE3F78EF08E4062349C5A76654544F7F82;
+extern const uint32_t g_rgctx_U3CSendSmsAsyncU3Ed__12fU26_t0D9FB915B1CFF8D8C616BE54512A0C7C9298D8F3;
+extern const uint32_t g_rgctx_U3CIsLockedOutAsyncU3Ed__134_tA327196E75CF2A049A8ACBA7D7D5A520BE4AB633;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsLockedOutAsyncU3Ed__134_tA327196E75CF2A049A8ACBA7D7D5A520BE4AB633_mBD091F1F51C7AFA0C5AAA740A696DD3CB5F0E9FA;
+extern const uint32_t g_rgctx_U3CIsLockedOutAsyncU3Ed__134U26_tA60A0A72B13A95A12E7A655CE2DB11F2C4E07CC0;
+extern const uint32_t g_rgctx_U3CAccessFailedAsyncU3Ed__157_t1D3498B8CBFF4681201B9121689F137AA9E13C61;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CAccessFailedAsyncU3Ed__157_t1D3498B8CBFF4681201B9121689F137AA9E13C61_m5ECBA5BBB0859F277EFEF8DD206BAB12F274517A;
+extern const uint32_t g_rgctx_U3CAccessFailedAsyncU3Ed__157U26_t2C3B0F651628CCD41DEAB0DFA8F2DF375BA1CA89;
+extern const uint32_t g_rgctx_U3CResetAccessFailedCountAsyncU3Ed__160_tBF4C4E7DDB09DF93966B876FA03015F5AE80A2C4;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CResetAccessFailedCountAsyncU3Ed__160_tBF4C4E7DDB09DF93966B876FA03015F5AE80A2C4_m7AC17EE7B2AED0E8955D4F63739D729E52CF5246;
+extern const uint32_t g_rgctx_U3CResetAccessFailedCountAsyncU3Ed__160U26_tA09CE6067114FC37265DE681F4E0DE8F5A5D9F56;
+extern const uint32_t g_rgctx_U3CGetAccessFailedCountAsyncU3Ed__168_t853883278C3E0D53BE70AE67AA746DC1D8188BA3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetAccessFailedCountAsyncU3Ed__168_t853883278C3E0D53BE70AE67AA746DC1D8188BA3_m6CFF7BEFF6C6B075FA76BB1A414D48DC7A498365;
+extern const uint32_t g_rgctx_U3CGetAccessFailedCountAsyncU3Ed__168U26_t2763490A575862FBBB5A29BA0FF0F7EF938C586A;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__0_tD4C00EEBFBE062E70C40DB295929C435143C5E4F;
+extern const uint32_t g_rgctx_UserManager_2_t1029400E7E28C93088A533EF31D5F99658F82CF7;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m54F9EF4F8C02798ADCA910FB20096AB5BBBD77F3;
+extern const uint32_t g_rgctx_TUser_t0BCB3C923AF984B3739AA7BA59BC54E007555978;
+extern const uint32_t g_rgctx_UserManager_2_UpdateSecurityStampInternal_mA804188627B319DCBAB033E2D21BE92E74E164BC;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CCreateAsyncU3Ed__0_tD4C00EEBFBE062E70C40DB295929C435143C5E4F_mB9FEF0EEA452B053914FC888C33481B08E3EE0B0;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__0U26_t6FDB9AAAD432FDFEBFCB76E9668B13C4D27E216F;
+extern const uint32_t g_rgctx_UserManager_2_get_UserValidator_mFF880993BC44A3C78B136F2CCB43937BF1D41C03;
+extern const uint32_t g_rgctx_IIdentityValidator_1_t99DB570A2D1BD6400F2A41CB45968EBFED726DFE;
+extern const uint32_t g_rgctx_IIdentityValidator_1_ValidateAsync_mF39437948A3C06E58F92DA274520238B9E2481C1;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CCreateAsyncU3Ed__0_tD4C00EEBFBE062E70C40DB295929C435143C5E4F_m62A7E8E45BF1597EF3EA9CE587A7E2C7E39A3E82;
+extern const uint32_t g_rgctx_UserManager_2_get_UserLockoutEnabledByDefault_mAB7BAF88323E40244A9C0B75BAB99FA96CC32FEC;
+extern const uint32_t g_rgctx_UserManager_2_get_SupportsUserLockout_m215BF9605CF3C5CB6EA115179717C67DB53CE6EA;
+extern const uint32_t g_rgctx_UserManager_2_GetUserLockoutStore_m0A3DDCB50115A5D8677095EAEAF6D071459B5B95;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_t8DF7319C836BA18C58347B7E8EDDE9D0867D1FD0;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_SetLockoutEnabledAsync_m3841CF94BB440BA4D3F5F9D6AE43DCD9FF3D73FD;
+extern const uint32_t g_rgctx_UserManager_2_get_Store_mC2DF39DA64EAF51C9712D2F58E8CBD7E87FA912C;
+extern const uint32_t g_rgctx_IUserStore_2_t4521FE5FFBF3A93D4E7E7976C53E4B12B88FD76D;
+extern const uint32_t g_rgctx_IUserStore_2_CreateAsync_m1623AFA0944F150B69AF2AB6E109C154674DCC0C;
+extern const uint32_t g_rgctx_U3CUpdateAsyncU3Ed__5_t6412FA2352006DA8FF30417CE3D15A618473E983;
+extern const uint32_t g_rgctx_UserManager_2_tDBAF1BCD6660193F06167DAA676512C778278B4B;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mF2D4839C01DD1ADC2281761B8186FB61213AF1E0;
+extern const uint32_t g_rgctx_TUser_t4C599DCDAF5EEC2E72AFBD7CB2EA6F99D71B0675;
+extern const uint32_t g_rgctx_UserManager_2_get_UserValidator_mA20B129C2225DF584D6E83E4E18283146EAB8574;
+extern const uint32_t g_rgctx_IIdentityValidator_1_tFF9CCCF24171F43B5B402AC6D6F99F3B2B360E1F;
+extern const uint32_t g_rgctx_IIdentityValidator_1_ValidateAsync_mCCCB63A98D027B8093FD952085C77EBA3B586916;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CUpdateAsyncU3Ed__5_t6412FA2352006DA8FF30417CE3D15A618473E983_m957140A159CD2D0250994151CC5F7AD3C71BF4AB;
+extern const uint32_t g_rgctx_U3CUpdateAsyncU3Ed__5U26_t6079E744CE042866726869AE249669682FDE67C3;
+extern const uint32_t g_rgctx_UserManager_2_get_Store_m521786C757BE535C8BE000629FEE748E99852D34;
+extern const uint32_t g_rgctx_IUserStore_2_tF9CF79F130D85EF5A54E663A01F86358C48480D5;
+extern const uint32_t g_rgctx_IUserStore_2_UpdateAsync_mE7D2E1FB2739B42CBF6FE690C744AA9E858C7AD9;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CUpdateAsyncU3Ed__5_t6412FA2352006DA8FF30417CE3D15A618473E983_mDFE75BB5AA6051372F60887760B4DEC5FFF11D36;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__d_t9A798C6BE926FB4033118DD6BC1CD0EB98705C64;
+extern const uint32_t g_rgctx_UserManager_2_tA3C2AD6E6B49BA71EFC3C99201DB5B956BB31E56;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mA6B9DE225D4020CAB2F5F81992C4FD65FDEC07C2;
+extern const uint32_t g_rgctx_UserManager_2_GetPasswordStore_mF204AD3CCC35B9D05EF73B28918248D4A1B7E427;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_t6BB0C64C8E0459F130E34EE65E9120E1535CA23C;
+extern const uint32_t g_rgctx_TUser_tA0E7905FE8535F5A07F51D7FBAE3C65CCA059033;
+extern const uint32_t g_rgctx_UserManager_2_UpdatePassword_mCA7933612466107599541B60E66948680E96FE38;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CCreateAsyncU3Ed__d_t9A798C6BE926FB4033118DD6BC1CD0EB98705C64_m02C26636ED1ED444588B2BCBF4C8D11C4B5076B5;
+extern const uint32_t g_rgctx_U3CCreateAsyncU3Ed__dU26_t6339BE85E71D808F33144160FF3CDF738C9CF2DF;
+extern const uint32_t g_rgctx_UserManager_2_CreateAsync_m7325D621788E0DBCB6765E87017F7CC90527BAEC;
+extern const uint32_t g_rgctx_U3CCheckPasswordAsyncU3Ed__17_t9759072D6E0A5390009F85FD426DE6618D022FA6;
+extern const uint32_t g_rgctx_UserManager_2_t503F65FF2050B1EC34CED43A42E39118383CC370;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mB509C49123CA07A96535F94CEED77D60AD018D06;
+extern const uint32_t g_rgctx_UserManager_2_GetPasswordStore_m13C3B82ADBF24A988E286F9BBFAD37B477E87A16;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_tAFB7F794BAE78E565C5028A46B02787A2D0F9793;
+extern const uint32_t g_rgctx_TUser_tAAA8A1D7E60099A1A48DB06CA1CD66F8D403487D;
+extern const uint32_t g_rgctx_UserManager_2_VerifyPasswordAsync_mDC2CB1641F7B9D41FF598241C74D95C8CB6CC813;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CCheckPasswordAsyncU3Ed__17_t9759072D6E0A5390009F85FD426DE6618D022FA6_m4E9AB7515B1E03D653F8EE85D377CF6AEFC22F2F;
+extern const uint32_t g_rgctx_U3CCheckPasswordAsyncU3Ed__17U26_t2206094CEC148147963ACC50E70EBD441C6BBED3;
+extern const uint32_t g_rgctx_U3CHasPasswordAsyncU3Ed__1b_t1EA1F6E8147B46022F0369FBF6FB5FE03C2E738B;
+extern const uint32_t g_rgctx_UserManager_2_t5CA5DBE19992361DDF51FF5A2A75FCA75D9D3F2B;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mF7B352820688AD29177AC1F4B9D3293FCF8A69B8;
+extern const uint32_t g_rgctx_UserManager_2_GetPasswordStore_m8866855A82D6F365B8345F4CD44205AD1D2540E3;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_t28F3A1CFF5B9CE663CC92B0E09DED73D635BCFE6;
+extern const uint32_t g_rgctx_TKey_tB6848E3BC4114325046735837A05D4B413D1EC9A;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m2F58F189077E31C403A7DAB18B1B274C36C0970E;
+extern const uint32_t g_rgctx_Task_1_t0648FE320463E7AC4F0F426B5487D6B4B8B8107E;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tDAA752C4A7F454ABC9DC29A8F579603954F77C7D_mC2D3765A432B7CBD283A873C5FA049E359491910;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t0F81DC557C45DECB73E1AAEF7279CE265C54529E;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m9F6D3FB6F56503C9CF6880DCD36A00E2766F9466;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t0F81DC557C45DECB73E1AAEF7279CE265C54529E;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mAB935FB20BD97A18A80F43C2847DF64FBCA36040;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t0F81DC557C45DECB73E1AAEF7279CE265C54529E_TisU3CHasPasswordAsyncU3Ed__1b_t1EA1F6E8147B46022F0369FBF6FB5FE03C2E738B_mE26CD570FA02E3FB8F2BF4EB0A376AF5EFB3C564;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tE91615107E1329657FEB2B629F5C8A9F8B54670C;
+extern const uint32_t g_rgctx_U3CHasPasswordAsyncU3Ed__1bU26_t3372C5BFE8237E2CAD1714AF1D4D92216676BAC5;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m59D2A4F2E97F5C879C2ECE07FD6023F50C7772AD;
+extern const uint32_t g_rgctx_TUser_tDAA752C4A7F454ABC9DC29A8F579603954F77C7D;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_HasPasswordAsync_mB5697F70B72BD46A1BEA9B91464AACC96CD8B61F;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CHasPasswordAsyncU3Ed__1b_t1EA1F6E8147B46022F0369FBF6FB5FE03C2E738B_m5601FB12FBEBDFA299F67EC510A67CF032DC0FF2;
+extern const uint32_t g_rgctx_U3CAddPasswordAsyncU3Ed__21_t3D5CDF932743A1B0E97F7797B8134B516292ABE1;
+extern const uint32_t g_rgctx_UserManager_2_t5359FED1D2F4D34DEA537F48792EF0CE3BDF5151;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m6587046F45BDB20EB59C288FA889D991CE5E92B1;
+extern const uint32_t g_rgctx_UserManager_2_GetPasswordStore_mFA51C86E668D12D561CEF737AFFA0208D73F38E4;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_t417E9632CF212D1326EC582A72F106A29F6093D1;
+extern const uint32_t g_rgctx_TKey_t6CA4E43B3478B5971DB0EA2E88E1A1F282B006D0;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m01A85896882D648D9695A128C0EA326E902FBD7A;
+extern const uint32_t g_rgctx_Task_1_tBFF01AADFE1FD2DABD70307B5CCC6EC16B30BBED;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t0060F59CCB91F40D397BAA2518E8E5F4C8ADEF58_m74A158969357B45CCCB63592821CB1C15AFB6809;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tE5026DC088179A4E71DA2580D4D522C92B47B35C;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m2D796E1136456D519917254437BF60628CCC5443;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tE5026DC088179A4E71DA2580D4D522C92B47B35C;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mAE2B9F8DC4CF1A690603B794FECAB8280622472B;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tE5026DC088179A4E71DA2580D4D522C92B47B35C_TisU3CAddPasswordAsyncU3Ed__21_t3D5CDF932743A1B0E97F7797B8134B516292ABE1_mE691EA1A021E0E50FCC0C773DF2A39AC0F5C0F73;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tFCBFFD9300A4AE84AAF51A88E8B9A985C1A1FB89;
+extern const uint32_t g_rgctx_U3CAddPasswordAsyncU3Ed__21U26_t3C0CFE67B3E9138A524AEA35C971E376E350348C;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m8246F2CD82C3B67AC3861F5CA5B66F32F43A5F50;
+extern const uint32_t g_rgctx_TUser_t0060F59CCB91F40D397BAA2518E8E5F4C8ADEF58;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_GetPasswordHashAsync_m4140209C4E4C580783EB34A03AB29526A74BBC77;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CAddPasswordAsyncU3Ed__21_t3D5CDF932743A1B0E97F7797B8134B516292ABE1_m9FA8CC1E986CB9869A9787333D9F6F0604450DDC;
+extern const uint32_t g_rgctx_UserManager_2_UpdatePassword_m7A69B37510136181C4F5DBAE4B2938DC1CA16457;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CAddPasswordAsyncU3Ed__21_t3D5CDF932743A1B0E97F7797B8134B516292ABE1_m4B1A40DE63234D319ABC1A7733286EF98C13A9C9;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_mB2168AF50AA096351D3D5F71DC3249F2051533C5;
+extern const uint32_t g_rgctx_U3CChangePasswordAsyncU3Ed__2a_tD0FC8EE6D6D27BF8F220C2E2C3371A56C8E110B9;
+extern const uint32_t g_rgctx_UserManager_2_tFD5E3021C274AAD1239997D0853F1FBD072AF357;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mC62261ED96EC8A46D3FD5DAF9B7284FE34F28A14;
+extern const uint32_t g_rgctx_UserManager_2_GetPasswordStore_m8576679B296605B0A73040768AE09BD5816D91BC;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_t53372E5CBA2E8B36963E4576EEC716544C1E07EA;
+extern const uint32_t g_rgctx_TKey_t00224060623A74AC4C54E96ECA6E230F8F6EAA50;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mE8D922F96D2AD452BF0B3AA7E6F4DAEEBF853F7D;
+extern const uint32_t g_rgctx_Task_1_tAE3FCB182CA7DCA5D4AF9AF5247EFD886C8B356E;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tEDBA0BB0CD4FDE42101ACF3F5DDB6160B05AC69F_m964E6865B2F233FCFCC9A7435EACF39CE1D37CE3;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tC3F624D653EBFA5CB471FACDECC2E671DFC49E43;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m42872B7FE4F0A98C7612E4B86B5E64CBB62312AA;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tC3F624D653EBFA5CB471FACDECC2E671DFC49E43;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m6A25B7FECC634F6B8B4775DB31AC81FD39A036E1;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tC3F624D653EBFA5CB471FACDECC2E671DFC49E43_TisU3CChangePasswordAsyncU3Ed__2a_tD0FC8EE6D6D27BF8F220C2E2C3371A56C8E110B9_m1A8E9C04799426063BB583800E18E54B6A9766B5;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t254870075ECFEFDB527FEAE87E666839B53C8634;
+extern const uint32_t g_rgctx_U3CChangePasswordAsyncU3Ed__2aU26_tED6853B6ED82206565EE1A64CDBB7B24EB7004D2;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m7BB3966FC7545BC3E334F6EA4DF7712274B1CFED;
+extern const uint32_t g_rgctx_TUser_tEDBA0BB0CD4FDE42101ACF3F5DDB6160B05AC69F;
+extern const uint32_t g_rgctx_UserManager_2_VerifyPasswordAsync_m763B03D8C2788DFA7C67F10B1B079D8A69CC77C9;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CChangePasswordAsyncU3Ed__2a_tD0FC8EE6D6D27BF8F220C2E2C3371A56C8E110B9_mB583F174DBDE2969CA55E5D85DDFBF4F8CED73A7;
+extern const uint32_t g_rgctx_UserManager_2_UpdatePassword_m59C932657AD446E5C8DA1CA24EDD949430ED8D38;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CChangePasswordAsyncU3Ed__2a_tD0FC8EE6D6D27BF8F220C2E2C3371A56C8E110B9_mA92E03054739D45C26E64E09981DEBD1415C1C79;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_m9898BDC050BFFBB7541F3AD17E6FEE2EEC78A47F;
+extern const uint32_t g_rgctx_U3CUpdatePasswordU3Ed__39_tDC57A3FE92F4FA5A1D70E29E58F527E085BDD7B0;
+extern const uint32_t g_rgctx_UserManager_2_t294DEAF5FB61272C15ACDC81AC9483C03116B0F9;
+extern const uint32_t g_rgctx_UserManager_2_get_PasswordValidator_m2220FF7A0AC15C29D68CB07C56E3D7F170D362BC;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CUpdatePasswordU3Ed__39_tDC57A3FE92F4FA5A1D70E29E58F527E085BDD7B0_m2199391684F2880F9797D82AFD6EED973F0589DB;
+extern const uint32_t g_rgctx_U3CUpdatePasswordU3Ed__39U26_t547C1D815DB47192821B141F5AF3E560EA45049B;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_t76F5E649A91F9E851DB3584D9FC28161F5DC6FC6;
+extern const uint32_t g_rgctx_TUser_t9BF5AA023C42C3E737409F285BEBA0AF8A76D78C;
+extern const uint32_t g_rgctx_UserManager_2_get_PasswordHasher_mFE89D26F0BB03016EB9B57B68E1BFE2BDCF5363C;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_SetPasswordHashAsync_m74DF480907A8A955B5ACAB08570BA3DAEF65E34F;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CUpdatePasswordU3Ed__39_tDC57A3FE92F4FA5A1D70E29E58F527E085BDD7B0_m234E492D7472AB25DA0EE479C608D1418BAC5929;
+extern const uint32_t g_rgctx_UserManager_2_UpdateSecurityStampInternal_m8CF383AA0F480B85E839182DF0893CD896D20E8D;
+extern const uint32_t g_rgctx_U3CVerifyPasswordAsyncU3Ed__3e_t1C9C71AB667298BF95A5D69EC07C2CD186FA51B4;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_tD404F935B4F1798412200E37C028774809EC8B2C;
+extern const uint32_t g_rgctx_TUser_t57CFEB9D4C877E5FAB8F8E03B1C47234EC1C446A;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_GetPasswordHashAsync_m990FD7B4BB41C61485099589C81290F475ACD8C3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CVerifyPasswordAsyncU3Ed__3e_t1C9C71AB667298BF95A5D69EC07C2CD186FA51B4_m4AB9E41C99F289CF911CA0A12D3E97821C947D7D;
+extern const uint32_t g_rgctx_U3CVerifyPasswordAsyncU3Ed__3eU26_tEC3E36583A88EC5E87714463D24065409EFF8D29;
+extern const uint32_t g_rgctx_UserManager_2_t96101FAF33C79FFC29B4774A3F82E35F01175C74;
+extern const uint32_t g_rgctx_UserManager_2_get_PasswordHasher_m9E97F08667DCA741756B909A82BCC431935B5E6C;
+extern const uint32_t g_rgctx_U3CGetSecurityStampAsyncU3Ed__42_t6A7E1585BF2ABF467CD90C71CF1F82F0A377B970;
+extern const uint32_t g_rgctx_UserManager_2_tC5CCC749ADAE138A88418170FA83BDF5C4FE66DF;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m09E8546809AEA2A10BD1546EFC6D86ED0A9BD96C;
+extern const uint32_t g_rgctx_UserManager_2_GetSecurityStore_mD5DAD01CB7E592D78049A987C27B67710562952B;
+extern const uint32_t g_rgctx_IUserSecurityStampStore_2_tA72991B7111E012BE88B4ECCE0B74B8EFC6E45E0;
+extern const uint32_t g_rgctx_TKey_tBBDFB7616DBAEBC0FA31FCADA891F85F0A96E809;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mF4D35F6F77F3C504BCA2646C34A220235AEC882A;
+extern const uint32_t g_rgctx_Task_1_t01DF9CF5E64EBDDF88A6A66194B24F567AFB9570;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tC4A6B01991685D44A675A76F000B56844124EBBE_m7FF1C817A523B60FDC2761141146497B3CB7FF66;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t951688A068A39D145C93F16964105F085EF42CC5;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m1D333D2BE942B065D1116C38ED1AD3203BF3954C;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t951688A068A39D145C93F16964105F085EF42CC5;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m177BB06391A868163ED8BB46EF5E8554675AF012;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t951688A068A39D145C93F16964105F085EF42CC5_TisU3CGetSecurityStampAsyncU3Ed__42_t6A7E1585BF2ABF467CD90C71CF1F82F0A377B970_m6FD94926A5380DB5FD0EEFA0A35D0E2DF5723F5B;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t50ABCE73D2451E9A2AFEA5082065A3C23DC6D525;
+extern const uint32_t g_rgctx_U3CGetSecurityStampAsyncU3Ed__42U26_t5492D3675775C3E6B907C7C3C50C9ECD34204B18;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mE827E6C2DCE0EBC603DE6026F86DA6DEBA68C5C0;
+extern const uint32_t g_rgctx_TUser_tC4A6B01991685D44A675A76F000B56844124EBBE;
+extern const uint32_t g_rgctx_IUserSecurityStampStore_2_GetSecurityStampAsync_m93A62A55888C28804FE9A4A812BE022BB8C551C8;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetSecurityStampAsyncU3Ed__42_t6A7E1585BF2ABF467CD90C71CF1F82F0A377B970_mEC5EFF8EEE6E114DC86804D353AA7258964B0F57;
+extern const uint32_t g_rgctx_U3CResetPasswordAsyncU3Ed__4f_t174D5655EAAF6EC7F56FF9D4B06CA0EF556B54BE;
+extern const uint32_t g_rgctx_UserManager_2_t5F72926EEC8F0D7E045A51DFCEDB5A26F51634F3;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mCCB808A92B5944765B31CEBF69DAAA9ED06486AE;
+extern const uint32_t g_rgctx_TKey_t4F35AD5C242F12132EA90DAE23ADECC8ABFDFB67;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m331E8E6DB8A206B286E98F41B90BCE3283F3457B;
+extern const uint32_t g_rgctx_Task_1_tD1DBDE9E5601D37984D6DAC103C17780541759B9;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t72AB7DE134775849CEA6018C50EE305D64150430_m3CF74FE55B7FFD9BF5BB3E6EB69ADF8984FD1A17;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t34E53B08F401039B63B62F100D53FB6B1A52AB35;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_mC66604133C4257C27D46F0AADB92E69FECDB68AA;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t34E53B08F401039B63B62F100D53FB6B1A52AB35;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m8549F7F388C4DCB817F3F04274375DE64717F8CA;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t34E53B08F401039B63B62F100D53FB6B1A52AB35_TisU3CResetPasswordAsyncU3Ed__4f_t174D5655EAAF6EC7F56FF9D4B06CA0EF556B54BE_mA7B6338A482848227D699B687E73D53241DEC55E;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tE9208665EB0AE1D3AE2C212B76A97469769052EF;
+extern const uint32_t g_rgctx_U3CResetPasswordAsyncU3Ed__4fU26_t4F9CB8504513560505E39724C887E8DA22F7F1A4;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m2E0660EF166791BFC126FE6E47856312E6940432;
+extern const uint32_t g_rgctx_TUser_t72AB7DE134775849CEA6018C50EE305D64150430;
+extern const uint32_t g_rgctx_UserManager_2_VerifyUserTokenAsync_m56FF36D823A687AFAE23B194F2FE687B3B743406;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CResetPasswordAsyncU3Ed__4f_t174D5655EAAF6EC7F56FF9D4B06CA0EF556B54BE_m047EF8E4FDB17DAC08C3BBED740F9BB5DE2C5AC3;
+extern const uint32_t g_rgctx_UserManager_2_GetPasswordStore_mB5BCF15069C5557CC5E1D3F80747D38CB68FC972;
+extern const uint32_t g_rgctx_IUserPasswordStore_2_tBDA2A3CBE1CA6B73D803F8A21BB0599A7EA8A7A2;
+extern const uint32_t g_rgctx_UserManager_2_UpdatePassword_mB2B2796F47D74056DAFEB0BC13EBF5ADC55A6DC1;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CResetPasswordAsyncU3Ed__4f_t174D5655EAAF6EC7F56FF9D4B06CA0EF556B54BE_m8E9B5DC20263440AAE810ABA7CA1082029A9C6AB;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_mE8D02676140C41F9E984DC2F03EE2804EAC3E7A3;
+extern const uint32_t g_rgctx_U3CUpdateSecurityStampInternalU3Ed__57_tED8FC0CB7F9656BEA5FE91BA90B7FC3439DF993E;
+extern const uint32_t g_rgctx_UserManager_2_t5F35DC12DDCF9ECBAEDC32CEFA88A0E92385BAD9;
+extern const uint32_t g_rgctx_UserManager_2_get_SupportsUserSecurityStamp_m0B2729E62C7ED8917EC8E608D1E2268101C786EE;
+extern const uint32_t g_rgctx_UserManager_2_GetSecurityStore_mB1AC2C747DDAFB47F6282AF9012585EE7B53CAEF;
+extern const uint32_t g_rgctx_IUserSecurityStampStore_2_t73EC8B4DBC43F01B1349114F2998B14BCB4B5A2F;
+extern const uint32_t g_rgctx_TUser_tB978315B98D08D2934E12C871D51995D09D59761;
+extern const uint32_t g_rgctx_UserManager_2_NewSecurityStamp_m87260EFAC15691CC4087ECEDA98F6BE952F489E5;
+extern const uint32_t g_rgctx_UserManager_2_t5F35DC12DDCF9ECBAEDC32CEFA88A0E92385BAD9;
+extern const uint32_t g_rgctx_IUserSecurityStampStore_2_SetSecurityStampAsync_mEBDCC00751E4C95E5F0B65D5B0A58A871AE8E847;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CUpdateSecurityStampInternalU3Ed__57_tED8FC0CB7F9656BEA5FE91BA90B7FC3439DF993E_m589F8963EA79C315049BB37D891050A04CA46B4F;
+extern const uint32_t g_rgctx_U3CUpdateSecurityStampInternalU3Ed__57U26_tDD0C2414E28AE2EF9F61CB68735AB8435B536538;
+extern const uint32_t g_rgctx_U3CRemoveLoginAsyncU3Ed__5a_tC973CF31AA505EBDEC678EC264D4FC0419C3E95A;
+extern const uint32_t g_rgctx_UserManager_2_tACDD591B9D008A5FF61203D9CDB0B943276FD53D;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m1CA24CBEE98441D1095B2017380E15BEA2A12785;
+extern const uint32_t g_rgctx_UserManager_2_GetLoginStore_m7901BE599AD22526CFF17DDBE1CB11C82B0BD159;
+extern const uint32_t g_rgctx_IUserLoginStore_2_t1ED11D0EFAC98EBB4D3525C7483821E03608C714;
+extern const uint32_t g_rgctx_TKey_tFC1D69D925F092AEDF56B985DF5190FEF5DA7F1D;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m7E2FCEC9B1A9209C0095441ECA37262DD8A9B48F;
+extern const uint32_t g_rgctx_Task_1_tA690E730C47CBADD71C0AC4269B37AE12E6CC992;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t92A6E4628917499D995C87D60CD8F04863BB8F34_mE1E3117E4A9FACF7A96784D48B0D20501A1CD598;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t4030BF59A9C8145FA9F5BC74B37A39387AE4FB4B;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_mF0C90B3FFBD3F78C47FB611B5E1A9BB6905E4A64;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t4030BF59A9C8145FA9F5BC74B37A39387AE4FB4B;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m0F5EE4ECF3032929A8AB06F53AB9D1231F077130;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t4030BF59A9C8145FA9F5BC74B37A39387AE4FB4B_TisU3CRemoveLoginAsyncU3Ed__5a_tC973CF31AA505EBDEC678EC264D4FC0419C3E95A_m0C6D04723E955757452E7CC6971711016ED757DC;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tEA1F9A7A8960B8A12BD0AE0C90A210D4A32C1953;
+extern const uint32_t g_rgctx_U3CRemoveLoginAsyncU3Ed__5aU26_t2B0B5FAD17CC516FDEAFDFC643D91A7F98313B2B;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m3354BDC983E28A3F549BAE183079FABA09CEF400;
+extern const uint32_t g_rgctx_TUser_t92A6E4628917499D995C87D60CD8F04863BB8F34;
+extern const uint32_t g_rgctx_IUserLoginStore_2_RemoveLoginAsync_m909D53AF9674E580FB1CF51B61FEFEFE57BF0AF3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CRemoveLoginAsyncU3Ed__5a_tC973CF31AA505EBDEC678EC264D4FC0419C3E95A_mB02F29CAF426A5B4832B655FD91D72A61564A53D;
+extern const uint32_t g_rgctx_UserManager_2_UpdateSecurityStampInternal_m880D7A5FD7073506DD4A34C5CB2AD36BD884B5D3;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_mDF846AB4945CCF8ECF3C32F90C440BF140AE9240;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CRemoveLoginAsyncU3Ed__5a_tC973CF31AA505EBDEC678EC264D4FC0419C3E95A_mE14C0DFD9BF81419F721F8493DDAA379DC8B4ADB;
+extern const uint32_t g_rgctx_U3CAddLoginAsyncU3Ed__61_t1CEE4A11CBB9CEDB89F60D572C2A978A3A7C5B67;
+extern const uint32_t g_rgctx_UserManager_2_tB8C9E2F3C10968EC757043718435FD20618B9E66;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m4B23258A503E6E0541A5E02D5E474925122EE583;
+extern const uint32_t g_rgctx_UserManager_2_GetLoginStore_m14E44AC8E5BEA64E3F007A15118A2E83913831A1;
+extern const uint32_t g_rgctx_IUserLoginStore_2_tBB211B5672DF5030BB4C1AE8A9B12DE868D3047A;
+extern const uint32_t g_rgctx_TKey_t09AC2B74B07061379D21BCF7B423CC460DA66223;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mCC3046399D19FA4BE5D0DE5923F43366B2AB7EAC;
+extern const uint32_t g_rgctx_Task_1_t75283F0F57EE3534C7F731EBB9373E19B48F082B;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t0AFF77B9271F6957879114ACC39EBA7BC8396949_mE87B2E12038B4BA1C4ADF22715C1412F43C705F3;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tECF1AE81FEDDDB733F3D3679AEAC6EE6EC444054;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_mD29F1C738331DFA801099ECBC8456A14CA607916;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tECF1AE81FEDDDB733F3D3679AEAC6EE6EC444054;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mA0C6CD9B38BF5217B4B299596977FF6E702AE6AF;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tECF1AE81FEDDDB733F3D3679AEAC6EE6EC444054_TisU3CAddLoginAsyncU3Ed__61_t1CEE4A11CBB9CEDB89F60D572C2A978A3A7C5B67_mE5E7EC138F3F64954A7BAC2CECF5042390E1819E;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t4CE885E72CCC0BC3450441F94801F161C50674DE;
+extern const uint32_t g_rgctx_U3CAddLoginAsyncU3Ed__61U26_tCCDA530E9C4B5BE92722E5F0C36EF6DF7E15916B;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m67F38945595CB0D7B008EADAC3A48A5B73510D35;
+extern const uint32_t g_rgctx_TUser_t0AFF77B9271F6957879114ACC39EBA7BC8396949;
+extern const uint32_t g_rgctx_UserManager_2_FindAsync_m7C1D51A8CC87D025AF400CA4BAD89A14A2A80B1D;
+extern const uint32_t g_rgctx_IUserLoginStore_2_AddLoginAsync_m5559AE682CE5A59D7AE5C407AD845C86F264047B;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CAddLoginAsyncU3Ed__61_t1CEE4A11CBB9CEDB89F60D572C2A978A3A7C5B67_mCEC5F5091C1D9AC19B24FE08DDAA28640EDB58E3;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_mDB09F056C4B9D80918A33E28326093913D683DB0;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CAddLoginAsyncU3Ed__61_t1CEE4A11CBB9CEDB89F60D572C2A978A3A7C5B67_mE94F107B1073A61D4B6BC57BF21918D0E2851BFD;
+extern const uint32_t g_rgctx_U3CGetLoginsAsyncU3Ed__69_tBD6813C96B944636E592AC06D9AF88C04A424711;
+extern const uint32_t g_rgctx_UserManager_2_t84D548D3880F2646307A48F6C2DE741AAEBA873D;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mEAC4BD4E4A6F57D0B11BAD569E663FCB40C791AD;
+extern const uint32_t g_rgctx_UserManager_2_GetLoginStore_m0023487DF77940DDC0C19E73446112B41075DF12;
+extern const uint32_t g_rgctx_IUserLoginStore_2_t2553D9BFD53FB95F17C4E07ADB140D7FE98DD6D3;
+extern const uint32_t g_rgctx_TKey_t34EDA708208764225BD05014D73C789CEF743D4A;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m0D5DE3B13C6F9AE04D8D9B48502477809FEFEF62;
+extern const uint32_t g_rgctx_Task_1_t67311EC9C05552F8358EA6A9C1167E6FF261C699;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tF142EC38F1D08D7BB4D6953AC0371299745B9372_m551208082A1A67C6354490BEF6206F05EBF1E3C9;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t7F6B769147F947AFB5B46545A9EDC70687E498D6;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m083407524F48D42583503F82F463D08C337AB100;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t7F6B769147F947AFB5B46545A9EDC70687E498D6;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mAF13F2AEBED7C6662F4477BDC57B8879CCAC3D0B;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t7F6B769147F947AFB5B46545A9EDC70687E498D6_TisU3CGetLoginsAsyncU3Ed__69_tBD6813C96B944636E592AC06D9AF88C04A424711_m44625F1857D0CFEA174C6150046776E92C7BA402;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tC97C209E96F498BBA501C2B1390979326670A084;
+extern const uint32_t g_rgctx_U3CGetLoginsAsyncU3Ed__69U26_t0B06954E105A0782B6763C77E463E8126915DAAE;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m8B4B8E654E4C3567931F056441005196ACDC3B1E;
+extern const uint32_t g_rgctx_TUser_tF142EC38F1D08D7BB4D6953AC0371299745B9372;
+extern const uint32_t g_rgctx_IUserLoginStore_2_GetLoginsAsync_m03511D6DB9A0C305C948600C0A04BD9D98B1FF4D;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tE413B37E9E9DE418356FE341D78C2AE5C92C7EEA_TisU3CGetLoginsAsyncU3Ed__69_tBD6813C96B944636E592AC06D9AF88C04A424711_m549D7FAA19FD86E89A160ADBD4EBFE0218629416;
+extern const uint32_t g_rgctx_U3CGetClaimsAsyncU3Ed__7d_tB852851A80F3F891943FCF526ECC127CC3FB5D4E;
+extern const uint32_t g_rgctx_UserManager_2_tB1574F8A14E2FE53988848C844C0BB9C6E559D12;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mD11207ED0C39B03A42029FDEB0AA6150B63698BA;
+extern const uint32_t g_rgctx_UserManager_2_GetClaimStore_mD58A37F84EBDEAD669DF2D17E9D366246C09B8B9;
+extern const uint32_t g_rgctx_IUserClaimStore_2_t5430567CCDCEE384C363FF58BC2FC30B62A884A7;
+extern const uint32_t g_rgctx_TKey_t20DEA8F4FC9706A55100034AD3F7729773178441;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m25696039106571F923FD001FFD1451D2C25D0FF8;
+extern const uint32_t g_rgctx_Task_1_tE36C78F83F83971416E2CD4BEB72A35586BF48E9;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t8E62CF084AFB03AEE2266A0BB7EE71C596105E3C_m77FCEB7C437A577B5A5FA40E7582FAAB78D69ED5;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tC6BB5FD76C859BF5A82AEFBD1873C66510A4D01D;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m60A84CCAEA2E92855F0DC8E62F98842376D7072E;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tC6BB5FD76C859BF5A82AEFBD1873C66510A4D01D;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mBB097C8EF2C3CE71221F4471D1AA2718A4E94C9A;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tC6BB5FD76C859BF5A82AEFBD1873C66510A4D01D_TisU3CGetClaimsAsyncU3Ed__7d_tB852851A80F3F891943FCF526ECC127CC3FB5D4E_m33E555EDB192CE4CA3486A7AF325A16B14475CEC;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tC4E7DB79561ABCC2B7F26E9CBC70FCEC1F2AFDD9;
+extern const uint32_t g_rgctx_U3CGetClaimsAsyncU3Ed__7dU26_t091859BA0BC3F5B236C2CF31710F0DDC31305078;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m957EB6A68C72967407551DE3D5C54E97FA1BEE24;
+extern const uint32_t g_rgctx_TUser_t8E62CF084AFB03AEE2266A0BB7EE71C596105E3C;
+extern const uint32_t g_rgctx_IUserClaimStore_2_GetClaimsAsync_m2EEB54CA477AF3599109C72BBB06D2E8AAA861A9;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t0851084BA604E554488ADC5C8A607A4D7F81DC29_TisU3CGetClaimsAsyncU3Ed__7d_tB852851A80F3F891943FCF526ECC127CC3FB5D4E_m1A3A26F26E42217E4DA855028534E8209856DA36;
+extern const uint32_t g_rgctx_U3CGetRolesAsyncU3Ed__ac_t0D70A104E55EF0588D8BB96B48587653D7CE8B9C;
+extern const uint32_t g_rgctx_UserManager_2_t13A943794D1BD78325B0A06FCB77366C0ECCCD95;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m1A55130073F9AA4523B9275A21CDEF72646A291E;
+extern const uint32_t g_rgctx_UserManager_2_GetUserRoleStore_mDF2FD1B3C705A582E21E4090A00F7B441855AAB3;
+extern const uint32_t g_rgctx_IUserRoleStore_2_t8928176AF741F64939115A6FA115D6B65F0FC6A6;
+extern const uint32_t g_rgctx_TKey_t2F376DEADE74899565B27F899BAF8B27E7708B69;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mD54C8341F77B6C2DA247AC71C34C3ECBB76773D3;
+extern const uint32_t g_rgctx_Task_1_tAECC7BF38FED185448DEB5D0690BBF9412BB951A;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tB149626E82407A57AA67D217C5AD5462941A1ED0_m93E1960BF00079E863C97497D18B53E00EA415D3;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tDD04F9BF8F31010CAB7E4C1268ACCE61A62CAC29;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_mF3F33A582BD8D2C335735ACA25DE3675D70C462C;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tDD04F9BF8F31010CAB7E4C1268ACCE61A62CAC29;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m4C2846985D1B13013E7C08988635257D107C0357;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tDD04F9BF8F31010CAB7E4C1268ACCE61A62CAC29_TisU3CGetRolesAsyncU3Ed__ac_t0D70A104E55EF0588D8BB96B48587653D7CE8B9C_mC5AE10EC8BBE46D76553F814BE3FDF4D04879297;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t0A37DD938125056F5DAAA67CC65D72870BA9A3BA;
+extern const uint32_t g_rgctx_U3CGetRolesAsyncU3Ed__acU26_tB797EF93D9C2C7EC26CD38FF6EA7268F12D3B7AF;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m9A1C33CFCBC16463EB2CDBBD6E4D64FFE21989EA;
+extern const uint32_t g_rgctx_TUser_tB149626E82407A57AA67D217C5AD5462941A1ED0;
+extern const uint32_t g_rgctx_IUserRoleStore_2_GetRolesAsync_m9D42BCA8A69CBADD53863B1DE873D081A4183707;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t42FE41D0C79E239C0D2063397A65C09B8DE16694_TisU3CGetRolesAsyncU3Ed__ac_t0D70A104E55EF0588D8BB96B48587653D7CE8B9C_m6389545C595E5F3FC0B7E6DEA9558D6805F999CC;
+extern const uint32_t g_rgctx_U3CGetEmailAsyncU3Ed__b8_t492E0A028DE80B9947C4E7CAFD84557D87A23A16;
+extern const uint32_t g_rgctx_UserManager_2_t57C40262940AD87148ED124A27408DB7EA9E9270;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m5C54BB77872AB30663F54C00FFA99E60EE94348C;
+extern const uint32_t g_rgctx_UserManager_2_GetEmailStore_m3D6D2EEAD5E7092F876BC78D4A38FEC91BE4B1D9;
+extern const uint32_t g_rgctx_IUserEmailStore_2_t0FC21A6D7C5F8CC81740D7988C8AC555D0F50F95;
+extern const uint32_t g_rgctx_TKey_tE8D352C1824CBB73D04DE45B52E2B854BC7196B5;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m01B6226DECC46D488847DCAB2A569101D3B61B6B;
+extern const uint32_t g_rgctx_Task_1_t2D9D9DAB78A0BEB2B35B44569FAFD6E34644A070;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t6046A85655CAABAF9AA26B5165FC24196902EB2D_m49E53BF58D5937AD83C6C2689F9B6B4F76272A93;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t07918DA44CF28A51628A9F7AA1145CF0DDF21719;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m3FD9D522806754F73E67E1D173D1023892A1F643;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t07918DA44CF28A51628A9F7AA1145CF0DDF21719;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mFAFBE5324062EC7656F17489D7B86B2162F8DE0B;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t07918DA44CF28A51628A9F7AA1145CF0DDF21719_TisU3CGetEmailAsyncU3Ed__b8_t492E0A028DE80B9947C4E7CAFD84557D87A23A16_m0956555BD106862C48CE07F7E1FF6EC85FA760D6;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tA43B3B26BCD7E5CDA3C81CB5E191CB76353D127B;
+extern const uint32_t g_rgctx_U3CGetEmailAsyncU3Ed__b8U26_tEBCAAC3C35DCC7DE9425BB58C4B6F2D3297D0A74;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mDCE5204A98912C4C3731650AFBE59132F10FD3E8;
+extern const uint32_t g_rgctx_TUser_t6046A85655CAABAF9AA26B5165FC24196902EB2D;
+extern const uint32_t g_rgctx_IUserEmailStore_2_GetEmailAsync_m7960564192BEB3F0D59C6DE5F4859FE3FD4640AC;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetEmailAsyncU3Ed__b8_t492E0A028DE80B9947C4E7CAFD84557D87A23A16_mCCE51E3CB4A58BFDE9F0A4B99A178937AD28671F;
+extern const uint32_t g_rgctx_U3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909;
+extern const uint32_t g_rgctx_UserManager_2_tA57E7FB8E2780972E0C7D0E843AE83C37D5A51CB;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m43DF571E795B53CE6F01416F822B77A5A03974A2;
+extern const uint32_t g_rgctx_UserManager_2_GetEmailStore_mBB87E80FB004C40D4DB11092FF51BF8CA4CB6B92;
+extern const uint32_t g_rgctx_IUserEmailStore_2_t93B1EBE8E181DE763F76BCF4DA65680124A87CA3;
+extern const uint32_t g_rgctx_TKey_t67BB7CB97564D02630408D40FD7AAF230A58D2C4;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mDC5EDB470ED5610C269E9666760DFEC0E6496562;
+extern const uint32_t g_rgctx_Task_1_t94223AC0C249C8BE83C2962B0B90EBB4AC404E52;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t431E4AF4C9E062DB9D058EA5C42D30CAB25880F0_mDF9D7DA3483E7D23FD8A127AEB738917CCA944C5;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tC9CBF69E859AFBED0DBEA453565F82D0166E1DDB;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m5305ADE685150F5F8618EE8205185508D652E340;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tC9CBF69E859AFBED0DBEA453565F82D0166E1DDB;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m666074DF24BED11537736FF3EE23E8B853F8C4AF;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tC9CBF69E859AFBED0DBEA453565F82D0166E1DDB_TisU3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909_m8DCD4D22133DF02E1D64CE8830E71CB7D056867D;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t3A1BC3E13BA0D753EFA7F3F8CBCDD44E2DBF87D7;
+extern const uint32_t g_rgctx_U3CConfirmEmailAsyncU3Ed__c5U26_tA408F82E8222FFDDDD2AD6B395A520201A8CE696;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m9A575AAC164D7FDDEC3C98BA118DA9439019F5B4;
+extern const uint32_t g_rgctx_TUser_t431E4AF4C9E062DB9D058EA5C42D30CAB25880F0;
+extern const uint32_t g_rgctx_UserManager_2_VerifyUserTokenAsync_m0579B1B1506982992CE2D43A036F9C4FAB08D59F;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909_m76710064FEDD60BC8BCBA93ECA8B2379A8709B5E;
+extern const uint32_t g_rgctx_IUserEmailStore_2_SetEmailConfirmedAsync_m4C364EB7FFEA0998BA07B09C382CCB01E6411E4F;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909_m247C7B8D88D1DB6A4BCA56AAD0ECEFC02679EB16;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_mCB0C7F9221DFE72544EE1C381095C655B82C5E7A;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909_mB256469E5C535FCB71935F2D711A50E5C01BA857;
+extern const uint32_t g_rgctx_U3CIsEmailConfirmedAsyncU3Ed__cd_t676F29CB1C4F742543F5BC53576E67FE007B3E4A;
+extern const uint32_t g_rgctx_UserManager_2_tE04EAFAB67396F1F78B470C5CF0B9270D2764FBD;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mE2D7F4D1667CFD73F67DFB066519BCFDE1245E01;
+extern const uint32_t g_rgctx_UserManager_2_GetEmailStore_mAE10F2578F8D0E7369AAE2AAE2AF256FCF59A16F;
+extern const uint32_t g_rgctx_IUserEmailStore_2_t63682FD8499A10394DC223B4205CB0A9C7353032;
+extern const uint32_t g_rgctx_TKey_t0491F5A9CE4304D68AA97B05A060C3DD1B14A40F;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m47C992A2F6E6CB8A741863DD2FAD09E3BC2CBB83;
+extern const uint32_t g_rgctx_Task_1_t334E1767786E93D61717E545AEF7E68D60E614D9;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t0FBF38074E37046CB8EA4DACE7FED07B13436490_m9C24422A682432F3FC03098C19CA34E64D9DE2D7;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t84140BBE198ABA0C4600016C25B5A7281A55C8C6;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m8E32FA4771AF5D42AD908146ACBEEB1D03DBF3EB;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t84140BBE198ABA0C4600016C25B5A7281A55C8C6;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m4EF33C250B917219D72860C8020755262CB64010;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t84140BBE198ABA0C4600016C25B5A7281A55C8C6_TisU3CIsEmailConfirmedAsyncU3Ed__cd_t676F29CB1C4F742543F5BC53576E67FE007B3E4A_mE5B9EDBAF57A8BF71A6A3855F89548E3DF7A7181;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tE8DE7B722A5A9C80B513DD4BA9608D99F4D376A3;
+extern const uint32_t g_rgctx_U3CIsEmailConfirmedAsyncU3Ed__cdU26_t495F26DB132809D51BCD2DBDDF4B08B54688FF41;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mD62BB7F0A9FC3AAF6385DA3E07569F013A91EECF;
+extern const uint32_t g_rgctx_TUser_t0FBF38074E37046CB8EA4DACE7FED07B13436490;
+extern const uint32_t g_rgctx_IUserEmailStore_2_GetEmailConfirmedAsync_mB0FFCD448A7C6CCAE140B6AD74F69C65FA7451CE;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsEmailConfirmedAsyncU3Ed__cd_t676F29CB1C4F742543F5BC53576E67FE007B3E4A_m0C9DEA5B4AF73BAEFD86F063F0E16F2FFFC67269;
+extern const uint32_t g_rgctx_U3CGetPhoneNumberAsyncU3Ed__d3_tB20C92466018255D7D749BCF55395B2CA3678796;
+extern const uint32_t g_rgctx_UserManager_2_t2B61B6AF483839BBCD8B6EBB464FFE7F6A7A377B;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m8408E949D08CAFEAF21833906AA750553EC65537;
+extern const uint32_t g_rgctx_UserManager_2_GetPhoneNumberStore_mD89C26D341394C4162AA2ADD44D8CC97679DEF73;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_tA44147C4308E48B005EA066C4CFB84D0AD801BA4;
+extern const uint32_t g_rgctx_TKey_tEDE526404E658EA6D8033EEEB55B569FB7454959;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mF44489C7606E85B37571E9108DA86B4787D426C4;
+extern const uint32_t g_rgctx_Task_1_t61C3FCF6499840A36D21AB259A0AD92DAEE5932F;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t459EB23F6FE2734B6B53E8675060DECACD5B7340_m724B35E56429858BA5F676EF05FAF5D31788A565;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t24F9D9C1B37C456C673E13743B4D071F4F7DB67F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_mA9B7243F2E3B5B42D8BC75264AB7F238A92097D3;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t24F9D9C1B37C456C673E13743B4D071F4F7DB67F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m392B05B7DAD57A9621FD0311350118E5FF3C18E8;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t24F9D9C1B37C456C673E13743B4D071F4F7DB67F_TisU3CGetPhoneNumberAsyncU3Ed__d3_tB20C92466018255D7D749BCF55395B2CA3678796_m62930016D65C866EA6A0FF6AED26CD9F6FC58E2A;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tE8D11DD48BA193FB5D815AEC850E3862799B6BAB;
+extern const uint32_t g_rgctx_U3CGetPhoneNumberAsyncU3Ed__d3U26_t7D9FD48FAA199F17104FEF0F94B4413A14D3A566;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m1AECFC98CF06C89650FCF644A80767C9B4C5C1FD;
+extern const uint32_t g_rgctx_TUser_t459EB23F6FE2734B6B53E8675060DECACD5B7340;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_GetPhoneNumberAsync_mE28AF5DB5840559350B349235CB030AE546C57B3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetPhoneNumberAsyncU3Ed__d3_tB20C92466018255D7D749BCF55395B2CA3678796_m5F33ADF2DD85B960DECE55794088A83BEF7236EE;
+extern const uint32_t g_rgctx_U3CSetPhoneNumberAsyncU3Ed__d9_tB2B714ABEFEF2A93324A578BBDBBAB1E6640566F;
+extern const uint32_t g_rgctx_UserManager_2_t481C4241455536E7DDBFC60807ABA53DC32910C2;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mCB4027B1EF16200156EF890C121AF38DC8A6175F;
+extern const uint32_t g_rgctx_UserManager_2_GetPhoneNumberStore_m3CDC4D0AF87E295FE467FF2258AB2CC7C0452A79;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_tA1EF0BAD338D9C3ABBC155529AB0267389632412;
+extern const uint32_t g_rgctx_TKey_t5AFB12D1D89E59F6D30C0D15434DD2C861ABF97D;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m5A2E247643A5FF6E9DAF090B36A69A345ADDC369;
+extern const uint32_t g_rgctx_Task_1_t10A90E03505105CC02EC004F2B05CF3E077DD528;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tB0127BC3E8178918020ABB85EA7ED025CB1A5AB6_m91648EBC2DC0FDCC85E1167346F3BEE15578B2D8;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t7C2D7BC60CE7B61087C39B85FF2998482A9C3CC4;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m9980E592530D688DD856889FBDE2D48948FEA136;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t7C2D7BC60CE7B61087C39B85FF2998482A9C3CC4;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m8D04DB1580ADD8F129B0FB150F9425E6DCB55C8B;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t7C2D7BC60CE7B61087C39B85FF2998482A9C3CC4_TisU3CSetPhoneNumberAsyncU3Ed__d9_tB2B714ABEFEF2A93324A578BBDBBAB1E6640566F_m6BF919719A14FEC4DB7CF3970187F07467C0CE2D;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tAF9BC96F250F2C765E93D8C20179B9E326120CF8;
+extern const uint32_t g_rgctx_U3CSetPhoneNumberAsyncU3Ed__d9U26_tC8C3878628056D2728EB5102C347A4FC64834DC4;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mECD7A6B7F24764C00A93C926F41E0733BD7EA735;
+extern const uint32_t g_rgctx_TUser_tB0127BC3E8178918020ABB85EA7ED025CB1A5AB6;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_SetPhoneNumberAsync_mCB105ADE8ABE017FF1EE49F2C965C33135C97D44;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CSetPhoneNumberAsyncU3Ed__d9_tB2B714ABEFEF2A93324A578BBDBBAB1E6640566F_m6CEB73396DCB2CA81C77A046A2C2E52E65E22A1A;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_SetPhoneNumberConfirmedAsync_m2406F0DF77381C8F74275EF5EFF50F72DE78BE87;
+extern const uint32_t g_rgctx_UserManager_2_UpdateSecurityStampInternal_m4C0D3D35FD6CAA15BD92500AC35E5B2CBE05993F;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_m8784E1C37D628EFB8B22E9ADABF6E556B1BE0F9A;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CSetPhoneNumberAsyncU3Ed__d9_tB2B714ABEFEF2A93324A578BBDBBAB1E6640566F_m64EF602EAB7C91B725999CB9AAD0F9D3C2503A01;
+extern const uint32_t g_rgctx_U3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347;
+extern const uint32_t g_rgctx_UserManager_2_t29EF63D86C62B24F70689B974CF24F0D63BF4ACA;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mED46C9D9CF77C11AB07B519A286B23D2E317540F;
+extern const uint32_t g_rgctx_UserManager_2_GetPhoneNumberStore_m61C5221D07C33C2EFD6AA85AF94938752C82D5ED;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_t4F3DC8CBD65D6310CE9446D59E4E4679D9C5446C;
+extern const uint32_t g_rgctx_TKey_t386F6A1C1C1C7237EF2BDE47A8537481EA8B0AFC;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m42B2871A16912B729ACCCFEA20549D4EFA933B64;
+extern const uint32_t g_rgctx_Task_1_t715D0F2B6E2C83BB05CCD16CEC81046A393B27DD;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tBFAD3FED29EB154EFA263E9E94729636819F2CF5_m45086D4F3C2E760A3BEC4368C750FD66533C13F1;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t0D2D01C8965D69B8FA733E2BFB6AA2C974F1465A;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_mBCF01938108624C4613AFFA1E58ED24182234184;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t0D2D01C8965D69B8FA733E2BFB6AA2C974F1465A;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mEAAC82B79E1542FE43BF358FF65252A8505D6DFE;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t0D2D01C8965D69B8FA733E2BFB6AA2C974F1465A_TisU3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347_mE382F938182E43AEDEA78E4E2445DC92353F3432;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t9EF7FB6DDF447005930B22588A87C386CA86DAAB;
+extern const uint32_t g_rgctx_U3CChangePhoneNumberAsyncU3Ed__e0U26_t62E57F22CA8104F2CB4F0735392961FE98BDB758;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mE3DFB5FD6C4C99FD311598FCF3098F3AC8E19CF3;
+extern const uint32_t g_rgctx_TUser_tBFAD3FED29EB154EFA263E9E94729636819F2CF5;
+extern const uint32_t g_rgctx_UserManager_2_VerifyChangePhoneNumberTokenAsync_m60F88B8A45688A7D44F0216F1EA5CDCDE34F08E3;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347_m37E98CF0D1907106D971CC25FD20692AE32B5E2D;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_SetPhoneNumberAsync_mDD9410C03A8D388F8AC6024E971BEE18E86B2154;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347_m555D265A8F5D99EE77B1313880A18049E20F74E6;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_SetPhoneNumberConfirmedAsync_m50543CF4E80158EAEAB71C58B495071444521F03;
+extern const uint32_t g_rgctx_UserManager_2_UpdateSecurityStampInternal_mBA82E407FB1A106A1C0E6A2F720539E6BCE5CCC4;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_m6F70D0919A70EABBA1A0AD14DC862CC7CBBFB995;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347_m3882DD298E7C3ADFC20EC9CBC4406F1DF16C2A93;
+extern const uint32_t g_rgctx_U3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tAD880E1CC32A5B1D56A24426B135F870AB3F107E;
+extern const uint32_t g_rgctx_UserManager_2_t90B0F3C9D8F97661291106B448A571FF0127EF88;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mC01A9E7354CD16967E8F838E9C629A369A928EDC;
+extern const uint32_t g_rgctx_UserManager_2_GetPhoneNumberStore_m4546CAF42F5C50DC8F3DB4084FDB9002A5B5083C;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_tED722A99625C8AF40E00CE0038870C1FEB56E5DC;
+extern const uint32_t g_rgctx_TKey_t2A999B0B847B4FD71C6E860013CD0A2633157D62;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mD3E41C0587F21B83E20A15F43F9CA9E7E97918FD;
+extern const uint32_t g_rgctx_Task_1_tA3E27D72B2F1EC0DE20BA26F55976182C96D5A3F;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tC72665CF773911506A0D3882227ECA6977DDB7F8_mAD39A40B3273EB41EC2332FC238F26D0F3DAB412;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tCE7005ABC8FFB03A74F8BC0AE1C1DB93A67668EA;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m18AD4D3DA25C3C89023692BF0846C99CD97380E9;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tCE7005ABC8FFB03A74F8BC0AE1C1DB93A67668EA;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m8C97BEC97BD7610F4C4D7F73416BCBF290E26AB0;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tCE7005ABC8FFB03A74F8BC0AE1C1DB93A67668EA_TisU3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tAD880E1CC32A5B1D56A24426B135F870AB3F107E_m0B4762A9B05DCBBE8FDB1A2705AC847D5BD0C839;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t84DECF8CF8EC054B03FD79C3E9DEDEA0DD617FE0;
+extern const uint32_t g_rgctx_U3CIsPhoneNumberConfirmedAsyncU3Ed__e8U26_t9D766E30668394E6CBE0FC71F3493EBB780C6EA9;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mFED3307292F772088D12C9EAE3A9991FE67D9DA2;
+extern const uint32_t g_rgctx_TUser_tC72665CF773911506A0D3882227ECA6977DDB7F8;
+extern const uint32_t g_rgctx_IUserPhoneNumberStore_2_GetPhoneNumberConfirmedAsync_mD23CDC2B410C5FF79891969D4AFDE796401999FE;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tAD880E1CC32A5B1D56A24426B135F870AB3F107E_mC793CDF974E4C3788DE30E73161D7C3023A3E3DD;
+extern const uint32_t g_rgctx_U3CCreateSecurityTokenAsyncU3Ed__ee_tEF3806F1F626D3D9C72781D962C3DC02E14DDB6D;
+extern const uint32_t g_rgctx_UserManager_2_t78AD4FA1BF80FFDD09F057F41AA86FE407ADA2C5;
+extern const uint32_t g_rgctx_TKey_t4B55F635B00F208D56E36986581675C761705746;
+extern const uint32_t g_rgctx_UserManager_2_GetSecurityStampAsync_mE8FC12160C15A6BEE5905581E3E0AB67AD5D9449;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CCreateSecurityTokenAsyncU3Ed__ee_tEF3806F1F626D3D9C72781D962C3DC02E14DDB6D_mC10CD6A0217DF786717AF3412712B09C0C9522BF;
+extern const uint32_t g_rgctx_U3CCreateSecurityTokenAsyncU3Ed__eeU26_t5CE94F97DEC4AA87455585FACFDD3D2A4C0CA0FF;
+extern const uint32_t g_rgctx_U3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1_t2881B6B2CC88C15002425A49660DF92D31214A8C;
+extern const uint32_t g_rgctx_UserManager_2_t84EFDF4D3B0B3E5430477801199946C4CBD9043D;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mE73FBD217940766A71C7761BC958971CE45819BB;
+extern const uint32_t g_rgctx_TKey_t389F7344F53D583F4EAD0D30614D9FF52292EA4C;
+extern const uint32_t g_rgctx_UserManager_2_CreateSecurityTokenAsync_m5804FE75F1EF4D173BD94D1278003FA25E2EBAE5;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tB3930979420EDDC4306DBC9E21C2E86035BFE5A3_TisU3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1_t2881B6B2CC88C15002425A49660DF92D31214A8C_m31DC60530871FAA1E1AF7F256E5F331024D500EC;
+extern const uint32_t g_rgctx_U3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1U26_t1E9D0F55309136D4FE3E1C3FFF356D3393BA2343;
+extern const uint32_t g_rgctx_U3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4_t952C3754C22B735A81FAD2D3785B724C9071E0FA;
+extern const uint32_t g_rgctx_UserManager_2_t275DD90E4F4FCE820406B14B3F6B99F1B39B034B;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m48B1771C9B74A29D452DAE2DA3535611B94BD88B;
+extern const uint32_t g_rgctx_TKey_t853348087300949353E542982AF9B7841141AAF2;
+extern const uint32_t g_rgctx_UserManager_2_CreateSecurityTokenAsync_m76D746B0DC985A499413FC1AFA63031B9D34CC36;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tB3930979420EDDC4306DBC9E21C2E86035BFE5A3_TisU3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4_t952C3754C22B735A81FAD2D3785B724C9071E0FA_m9B529E448B474DCD95D0ADEFBFCC1DA18D7E4120;
+extern const uint32_t g_rgctx_U3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4U26_t5EDF401AC815E12015978FD1D1CC69E28DE00FE5;
+extern const uint32_t g_rgctx_U3CVerifyUserTokenAsyncU3Ed__f9_tC338FAF625A667966A608A4AC36F6069B65CFABF;
+extern const uint32_t g_rgctx_UserManager_2_tFD9C17F2CDB8CE758205E9DF5B61076EAC011248;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m0AA74E722119DF5F2FF7E7A3FBAC146A65EB822D;
+extern const uint32_t g_rgctx_UserManager_2_get_UserTokenProvider_m672CB98E0D1FF6CF7F9E2C89365EB00181B6CA81;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_t4E6AA0085F39640868409E132B783F5939D9DDBD;
+extern const uint32_t g_rgctx_TKey_t41A154D2720D1C71BF93529E8536B32A76BBCB3D;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m0F2D27A3B7A73D63EB83FB70FAB443B75FD2ECE5;
+extern const uint32_t g_rgctx_Task_1_t23BC15E6C33B76240FB16121ADB518DDE2E2F6AE;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t99617AEFBAD504719B370EF88B18BCDFAE21222E_m4B230E3EFF7690890AE22C510A113C7443AB72BE;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t28D6302E914A5FC9C2CEB96E89E24A452797E039;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m723B0DC1A8069E695E0436085F91EFB5F5E49CB4;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t28D6302E914A5FC9C2CEB96E89E24A452797E039;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mAA4D4EDF3B6F065228D828BBF3958B8440C78C94;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t28D6302E914A5FC9C2CEB96E89E24A452797E039_TisU3CVerifyUserTokenAsyncU3Ed__f9_tC338FAF625A667966A608A4AC36F6069B65CFABF_m4A934A6C0B2D0C2657D69DED1148EB819A171C07;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t16154815D27D563C2DD7831601872B16FDD77A25;
+extern const uint32_t g_rgctx_U3CVerifyUserTokenAsyncU3Ed__f9U26_t4F30FDBF94257A00A979F10E31236609C475C8E7;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mACFD585871EE2983D0C03B7F021C28C7B5C5C3A2;
+extern const uint32_t g_rgctx_TUser_t99617AEFBAD504719B370EF88B18BCDFAE21222E;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_ValidateAsync_m314457A0575D4FDA75A73F2BC82E3D2729D6C63E;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CVerifyUserTokenAsyncU3Ed__f9_tC338FAF625A667966A608A4AC36F6069B65CFABF_mF2437AFE99D029A1B9CF7CE616D787782E0A06A1;
+extern const uint32_t g_rgctx_U3CGetValidTwoFactorProvidersAsyncU3Ed__103_tDC74FFBEEF23B3AE81731B5328741204864CE274;
+extern const uint32_t g_rgctx_UserManager_2_tA684313C108C4AC3EE2BA850C1628E6D74E7CC03;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m02462589F555F0162EE8DCE731396712B24B0B31;
+extern const uint32_t g_rgctx_TKey_t09E2019B6B2BCA342463C17DDBAA2E94DA93C6FF;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m50F88E1BEBB8C4889C9382FF0512D3BAED15A448;
+extern const uint32_t g_rgctx_Task_1_t3F52F92534C4C8F2BBB20BC3BB6E69B465524C92;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t8CBDF89F9A0CC2B8F859127450B7CBACEAAB5788_mB8C0140AB1402B829D7F5C124720EF44FAC99C8C;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tEB4BF6B94FFB4D4ABFFDC78A9710BA5288AE7E78;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m1E3E96543D91AAEF06008227727ABCAF3119FD20;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tEB4BF6B94FFB4D4ABFFDC78A9710BA5288AE7E78;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mB814D28EB4DEE923917CB27E31BEDE21A0E2902F;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tEB4BF6B94FFB4D4ABFFDC78A9710BA5288AE7E78_TisU3CGetValidTwoFactorProvidersAsyncU3Ed__103_tDC74FFBEEF23B3AE81731B5328741204864CE274_mAEA0FD3900DFB7EC2E26B5A7886DB9B361A427FE;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t0BDDB0D81B3E9D564E533A59CA25C340944EC3C7;
+extern const uint32_t g_rgctx_U3CGetValidTwoFactorProvidersAsyncU3Ed__103U26_t1AD085E779A16CA4AADA1F9E22DF6725F43F91E9;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m91FE7619D066C142B987FC8AA92BB0D877511FE5;
+extern const uint32_t g_rgctx_TUser_t8CBDF89F9A0CC2B8F859127450B7CBACEAAB5788;
+extern const uint32_t g_rgctx_UserManager_2_get_TwoFactorProviders_m6F3C411C05A02E26E19328ED04FCFA0F73B84AF2;
+extern const uint32_t g_rgctx_IDictionary_2_t2E6D5243A43144A390451C9FB486DC79AB7D500F;
+extern const uint32_t g_rgctx_IEnumerable_1_t1B2D9B0459F517814B19979828E5D399BBD3F194;
+extern const uint32_t g_rgctx_IEnumerable_1_GetEnumerator_mBD453C6D7C63D71077B87A5CEF677D9E04D85DE9;
+extern const uint32_t g_rgctx_IEnumerator_1_t3BEAC11CAFA4001B7EF4E276E4A3D3E606A9A3E8;
+extern const uint32_t g_rgctx_IEnumerator_1_get_Current_m410CBA5DF69A44003EEA06F5AEAAE74D35A89535;
+extern const uint32_t g_rgctx_KeyValuePair_2_tBCFA59F08678CE544AE5A003285F47A11E7C8E05;
+extern const uint32_t g_rgctx_KeyValuePair_2_get_Value_m702C84C21343201A984998D31591075C71335F1E;
+extern const uint32_t g_rgctx_KeyValuePair_2_tBCFA59F08678CE544AE5A003285F47A11E7C8E05;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_t8ABCD612D6826830781F7FF0651CE568A334A102;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_IsValidProviderForUserAsync_m9C27E46A2B2223D00FA5EE194F9E15206A081279;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CGetValidTwoFactorProvidersAsyncU3Ed__103_tDC74FFBEEF23B3AE81731B5328741204864CE274_mC9228075E5FF3FE97EE6E54A66902F1CBE88EDB4;
+extern const uint32_t g_rgctx_KeyValuePair_2_get_Key_m62CBB7382792A5F1E5C3D37EE16EA87F08A256BA;
+extern const uint32_t g_rgctx_U3CVerifyTwoFactorTokenAsyncU3Ed__10b_tF9C3E7DB469835476CA143CE33BBC28EE152825B;
+extern const uint32_t g_rgctx_UserManager_2_t6E4549A655846BD6FD51883B99D53D054A24D0EF;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m1B5B4B59CC2FA5F1BC0C5CE17D41D74B39B35258;
+extern const uint32_t g_rgctx_TKey_t27649037D03D52B341FCADF345CF1D01F6BBB275;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m97E32E809FA7930F4D8FA3793564C32D9BACB423;
+extern const uint32_t g_rgctx_Task_1_t1180BF5E1D85BCB6E1948F71724CAEFF0F3196C2;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t5A40DE134FF04166E2E338CCD11ACE97BCA6EB13_m067A89D1485380E3C1CFD1EF6C355FDF12A4F0BE;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tFC0ABFE3C0FC5C0E580FA68A305D303A55802E28;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m034B90B9792F1F0E5F1E0A132D15AB73D381DF44;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tFC0ABFE3C0FC5C0E580FA68A305D303A55802E28;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mC0B2C20FDDD547086DFBF568AEDE71A1EBF79B50;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tFC0ABFE3C0FC5C0E580FA68A305D303A55802E28_TisU3CVerifyTwoFactorTokenAsyncU3Ed__10b_tF9C3E7DB469835476CA143CE33BBC28EE152825B_m51EB5FD4C847B2A237210C64D8577D6121E3BED4;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tE54DBC78646E9D50B21ED9449B5E61763C4F7B73;
+extern const uint32_t g_rgctx_U3CVerifyTwoFactorTokenAsyncU3Ed__10bU26_tBB52BE171B99FF90503CD4E007B1BDDA28B61FC7;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m20B93A8AE791BD703C40032A25EF9C4626347397;
+extern const uint32_t g_rgctx_TUser_t5A40DE134FF04166E2E338CCD11ACE97BCA6EB13;
+extern const uint32_t g_rgctx_Dictionary_2_tD9263A5CC4344C68F438BDE7E4F9DB9F18D1598A;
+extern const uint32_t g_rgctx_Dictionary_2_ContainsKey_mDCAFCC782A2296F1B312AC22D54BB04F4F2F602C;
+extern const uint32_t g_rgctx_Dictionary_2_get_Item_mD2D84FD169498BF11C169FAF88FD3810446098BF;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_tABC0CAFCAF701E093A0340E42BBB4F4AC150CA6F;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_ValidateAsync_m579939DDC8B5D7F564F37AFA0EF045D18E44B310;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CVerifyTwoFactorTokenAsyncU3Ed__10b_tF9C3E7DB469835476CA143CE33BBC28EE152825B_m36E4FC3661D1334ECA70EF1708F200183FFA9BA0;
+extern const uint32_t g_rgctx_U3CGenerateTwoFactorTokenAsyncU3Ed__111_t527BCA0F41644D008CCB898F0BABBB15066FAFF7;
+extern const uint32_t g_rgctx_UserManager_2_tDA7FD9FAAD0B1C25F7A9AB16604D32A172750E86;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m02BCF75353578EB01DDF7FBFE4F6DFB85B930C6E;
+extern const uint32_t g_rgctx_TKey_tDE6D8CCF98C0D2DAA24D783E6974616FA1689157;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m87AC0A5D808140F5D865022DC14DC9BEBC19A168;
+extern const uint32_t g_rgctx_Task_1_tD9070C35177499A7132AC8C8F4304D0C09EC9675;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tC0F09466E4432A2DD9D2455BF6F3AB01E9EC8F55_mAA82786C29A5149506AA6EA0DD5E34BDF6D5C64F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tA52110A8C2BEC47C0D5955815001DB5A92B0D059;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m8F7ED4BC0AE438ED7C6EE33676744FC402450AD6;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tA52110A8C2BEC47C0D5955815001DB5A92B0D059;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m9385E2CF3B69E2B362982F12DB814C8D6E98EE1D;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tA52110A8C2BEC47C0D5955815001DB5A92B0D059_TisU3CGenerateTwoFactorTokenAsyncU3Ed__111_t527BCA0F41644D008CCB898F0BABBB15066FAFF7_m6C05976F62DEB34BC511441EB22721DD1C7CF891;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t0DA1C9F44011FC76C025AA0112DDBA674422BE92;
+extern const uint32_t g_rgctx_U3CGenerateTwoFactorTokenAsyncU3Ed__111U26_tAB44C156D59C489A7BC23EED619C77379F267A1F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mB0BF1ABBB00222118002D00CD024B7AA4C732C2B;
+extern const uint32_t g_rgctx_TUser_tC0F09466E4432A2DD9D2455BF6F3AB01E9EC8F55;
+extern const uint32_t g_rgctx_Dictionary_2_t707F12EA21E5BA5ADE1E97D8D573EBEE62463F6B;
+extern const uint32_t g_rgctx_Dictionary_2_ContainsKey_m87716620399F38D99C7FFD8DC1F5E5878ED64A23;
+extern const uint32_t g_rgctx_Dictionary_2_get_Item_mC02FEEEC3C9BAEBD7EB0A351FC538D462CAB4BA7;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_t0DC6DC9FA905244287230DCB6FEB313FFBBA6C7A;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_GenerateAsync_mB57402923F3EDBB89BEABFFC60D731622681E785;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGenerateTwoFactorTokenAsyncU3Ed__111_t527BCA0F41644D008CCB898F0BABBB15066FAFF7_m46F4522FF7AD9283E53CB87FC95C7F484E3A46D3;
+extern const uint32_t g_rgctx_U3CNotifyTwoFactorTokenAsyncU3Ed__116_t776BF0F08E86EEB8E927B65D1E02B3B140E42109;
+extern const uint32_t g_rgctx_UserManager_2_t8C0DB00B533C3C08ACA75A7BAD1C00A7268DCB54;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mAAE53AAE1BDE718777EC0495D1C897085ACFC82B;
+extern const uint32_t g_rgctx_TKey_t12D94C1634C6DD3A3A1BAAEAD51A3C48881119DE;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mB4D6E95A7BA582F6D259EE57973F7FDD570356CF;
+extern const uint32_t g_rgctx_Task_1_t956FA3B947F33DF2D8152592609C73997088D33D;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t0EC089CE9032766145EB0D9356B39536ECDDBC08_m8819C1201AD067F72FAC50CC3A7D7CB31D6BF66E;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tDECFEC5039812DF7F86D77EC1F020B85C863D45F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m8803E2BFA1BA567ABC0F673ACA240964572E54ED;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tDECFEC5039812DF7F86D77EC1F020B85C863D45F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m3551A4C9FE56545C88D2A468778F981130A84D6C;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tDECFEC5039812DF7F86D77EC1F020B85C863D45F_TisU3CNotifyTwoFactorTokenAsyncU3Ed__116_t776BF0F08E86EEB8E927B65D1E02B3B140E42109_m62551C796E9FAD92B8AC9C9695689A05A09A9E95;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tAC191EEC5839979AD86FB9F0108DF116840BA0F3;
+extern const uint32_t g_rgctx_U3CNotifyTwoFactorTokenAsyncU3Ed__116U26_t6AB3A56B6C448BEE5BC11EC6FEA285C297561527;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m4479157A1A721CB3D5F85F1C04C1C869DB335C00;
+extern const uint32_t g_rgctx_TUser_t0EC089CE9032766145EB0D9356B39536ECDDBC08;
+extern const uint32_t g_rgctx_Dictionary_2_tE7041CF5025CB0043A2CB84F8BD3EC61F9D4375E;
+extern const uint32_t g_rgctx_Dictionary_2_ContainsKey_m7F289D119CC12CCB31E8CBFFB23A6ABAF7D8EC49;
+extern const uint32_t g_rgctx_Dictionary_2_get_Item_mC0C1E2BA3BEBCA0287DA1E312110E2F8FC8707C5;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_t7825F50DD9C798544AC9AC5BA8669B48351568AC;
+extern const uint32_t g_rgctx_IUserTokenProvider_2_NotifyAsync_m16BFC7612D25F2F918DB638F7FCEEB72A8BD7B00;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CNotifyTwoFactorTokenAsyncU3Ed__116_t776BF0F08E86EEB8E927B65D1E02B3B140E42109_mEF8301590FBDC3DC87A4C2BD5FEE6EC7CDD19E3C;
+extern const uint32_t g_rgctx_U3CGetTwoFactorEnabledAsyncU3Ed__11b_t8B91DB03E10E1FD2124D8F95EE3D724C874530A4;
+extern const uint32_t g_rgctx_UserManager_2_t4905BDA27D2209D3BC7D9DFF89FB18773A2BABBD;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m571F591C8945470ED35A44363B1E195F40716BD9;
+extern const uint32_t g_rgctx_UserManager_2_GetUserTwoFactorStore_mBD6D4770E4F38259CB761F8BE68E909C019A7CC4;
+extern const uint32_t g_rgctx_IUserTwoFactorStore_2_t8B4E10824CB1D11F1ABB13CD02CD241C5BA03637;
+extern const uint32_t g_rgctx_TKey_tCB8F317AD2DC97C61F30257FDD1345CF98167E8D;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mCD7EC799AA79EAE6D94BCF3AE5A1104071DD4D7A;
+extern const uint32_t g_rgctx_Task_1_t95E81BB8B0177E7181034FAA983C2799886071FD;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t4556A8573239F552BC6E165F0F554EA5CA0838FE_mB62E271C102FA4A3AC4E36F922B6030A75E17D25;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t9D8FFFF84C871DF5F33E7B7CE53574FCD59E4A81;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m7166CF28FB08FA99B2A359328ED3BA9252BBFD7F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t9D8FFFF84C871DF5F33E7B7CE53574FCD59E4A81;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m4F1C89B1B31AE074A9D4535B0F9116538247B1F6;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t9D8FFFF84C871DF5F33E7B7CE53574FCD59E4A81_TisU3CGetTwoFactorEnabledAsyncU3Ed__11b_t8B91DB03E10E1FD2124D8F95EE3D724C874530A4_m0BA28EFA5A009455B05A358AC0947D0A946E1C25;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t2E30ABE580F3680539B9F5FB0E6CEC38D96A3C94;
+extern const uint32_t g_rgctx_U3CGetTwoFactorEnabledAsyncU3Ed__11bU26_tAA6CA71631FC4EC97AA006D5DA2496A8BEB06271;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m3FD8CE7ACC73EFBC81C097F4CFB267E171E462F1;
+extern const uint32_t g_rgctx_TUser_t4556A8573239F552BC6E165F0F554EA5CA0838FE;
+extern const uint32_t g_rgctx_IUserTwoFactorStore_2_GetTwoFactorEnabledAsync_m92EE3FAA9741F1518724613327493E568A74F21B;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CGetTwoFactorEnabledAsyncU3Ed__11b_t8B91DB03E10E1FD2124D8F95EE3D724C874530A4_m1AD72DD9FCE2FF3D3D307ACC201C4BCCF7B724CD;
+extern const uint32_t g_rgctx_U3CSetTwoFactorEnabledAsyncU3Ed__121_tCED4C97B08B9A8061A009563C5F8692329CF9DFD;
+extern const uint32_t g_rgctx_UserManager_2_t88FB4D731FA2CCD5094338FABFA54607863854C5;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m7DF82CB5C6697F2C353AA522CC942FA0E2367D2B;
+extern const uint32_t g_rgctx_UserManager_2_GetUserTwoFactorStore_mB0A874B563314751308F6AA3C4AFE85BD556D693;
+extern const uint32_t g_rgctx_IUserTwoFactorStore_2_tF264682FAAD60A39D19A5D7E47D679A095985A0A;
+extern const uint32_t g_rgctx_TKey_tE53940E3CADDA06F5F0A9A9A46F137A91438F222;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mE2BFA8732B6FD0C20AA31C88E5190335EAA8A390;
+extern const uint32_t g_rgctx_Task_1_t6C0A08311DABB223180BA36C3B6CD548187E8498;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t19B38FA8D0D694D741DD7B7F3E6758A1D087C4D1_m1CC109931F1098D6144D87C01665E0BCCD05AB6D;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t58930EF26E7C139A188C8D42E7AAFE3AC13E91A6;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_mADF9742E5448E58CF30A2A8E073055FD6633AED0;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t58930EF26E7C139A188C8D42E7AAFE3AC13E91A6;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m5A64A7BC4837B34491D622AC6B54578A4386FB4A;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t58930EF26E7C139A188C8D42E7AAFE3AC13E91A6_TisU3CSetTwoFactorEnabledAsyncU3Ed__121_tCED4C97B08B9A8061A009563C5F8692329CF9DFD_m4D0B18DCC89C7B3BD755775E2285C2574ED60C55;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t9EA33B90066CD496A29135D8E210AB5B0CB7114B;
+extern const uint32_t g_rgctx_U3CSetTwoFactorEnabledAsyncU3Ed__121U26_tAF6A40DB752E9232FD068E5874BC914A7E04AD2B;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m16AC33FD4A3E4469997E6CE3F0D075D770509E27;
+extern const uint32_t g_rgctx_TUser_t19B38FA8D0D694D741DD7B7F3E6758A1D087C4D1;
+extern const uint32_t g_rgctx_IUserTwoFactorStore_2_SetTwoFactorEnabledAsync_mB022CF41131A4D25D24F152C242D432BA65FA28B;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CSetTwoFactorEnabledAsyncU3Ed__121_tCED4C97B08B9A8061A009563C5F8692329CF9DFD_mE7524837A218E157B68392C6A265961CB909321A;
+extern const uint32_t g_rgctx_UserManager_2_UpdateSecurityStampInternal_mD348159E76C09733E52EAB0DE2153CA0BE4DBED3;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_mADFD910CBEB3FE3D618C2D5E4F61C709E5084758;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CSetTwoFactorEnabledAsyncU3Ed__121_tCED4C97B08B9A8061A009563C5F8692329CF9DFD_m334A67047C463F16382FEB0193C19D0F6C78E3AA;
+extern const uint32_t g_rgctx_U3CSendEmailAsyncU3Ed__129_t437162B3489898B49889402FBC56E409BCDF89AA;
+extern const uint32_t g_rgctx_UserManager_2_tBCE5216D768A99558455547615F0FCCBE5D30F58;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mE7DD976F56E6B99ED82F9329686DF3721F2DF22D;
+extern const uint32_t g_rgctx_UserManager_2_get_EmailService_m60F9B84C2CD983FF77A57858955D82DA9982CE2C;
+extern const uint32_t g_rgctx_TKey_tA1DE2D02598D076BAD1A0DE0936AE8853C31D8E6;
+extern const uint32_t g_rgctx_UserManager_2_GetEmailAsync_mB2CD3F48F715E8CC50CB902D2E4E873F14312FE4;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CSendEmailAsyncU3Ed__129_t437162B3489898B49889402FBC56E409BCDF89AA_mFF88C0F812CD768D79AC256797430956CBB57A30;
+extern const uint32_t g_rgctx_U3CSendEmailAsyncU3Ed__129U26_t5FB35CF8B9C7040B3F9B8EAA2B6331C705B63931;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CSendEmailAsyncU3Ed__129_t437162B3489898B49889402FBC56E409BCDF89AA_mF257C1FAD5A73B1C13FB0033E8B4F0AB836AE8A2;
+extern const uint32_t g_rgctx_U3CSendSmsAsyncU3Ed__12f_tDF5101234E9A961922930BDA3ABB56D2403A414F;
+extern const uint32_t g_rgctx_UserManager_2_tD90AA2C3A5EEB94E024B8C3A26FE42B12429F06A;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_mD37091C26828E1C8FAD7821C3CB43C97ED729575;
+extern const uint32_t g_rgctx_UserManager_2_get_SmsService_mAA483899ED2333C6328C9EF911D5AF4A610D3820;
+extern const uint32_t g_rgctx_TKey_t5E209227FD3F6BF67218716333B58C53ADAC6ED0;
+extern const uint32_t g_rgctx_UserManager_2_GetPhoneNumberAsync_m4FA90715BA1B661D7C5C765F968FAC3CFFEB32C6;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CSendSmsAsyncU3Ed__12f_tDF5101234E9A961922930BDA3ABB56D2403A414F_m79346A5A891E3EEF34FEEE1A9D2BC6C36FFA2C34;
+extern const uint32_t g_rgctx_U3CSendSmsAsyncU3Ed__12fU26_tC8D44A0AA4C27B0C74E41719CB906C209357E172;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CSendSmsAsyncU3Ed__12f_tDF5101234E9A961922930BDA3ABB56D2403A414F_m7056A4ED857DF78CF0A4E6B17718682D9C835A6F;
+extern const uint32_t g_rgctx_U3CIsLockedOutAsyncU3Ed__134_t17660598170B15403DAF7B75A7CACCCEA40CE671;
+extern const uint32_t g_rgctx_UserManager_2_tC3570A130C5BF4EEC805A9D5AEC28D49A651581C;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m7EB628742B231D24F00EE4FC68659C023D83E0D1;
+extern const uint32_t g_rgctx_UserManager_2_GetUserLockoutStore_m70739EBA76D681DDD6545A1A4180B48B626710A9;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_tD8B503EEF810CD5AF29AC8D8B268741431EBF446;
+extern const uint32_t g_rgctx_TKey_t079F41501DEDCC2A4EA3FACBF169B3E05BC11A91;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m42A71D2E95376C6E88817DB97D3B7FC722B2A7B8;
+extern const uint32_t g_rgctx_Task_1_tD4310FE13300654500203628C97E3E946CDC3BC6;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tB697BCDD04AA55F6FA95A07150BE1D89981C0512_m0693606FC9D4466A192D4288C6D0F2974877A9A5;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tBE54473A0B426509C37B82A695338F90B43BC8F9;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m098F7B046DBB8F8805D96C68B3D6E9301F4A434C;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tBE54473A0B426509C37B82A695338F90B43BC8F9;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mFC7758621F40C9D06F50947146938F6008C0189D;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tBE54473A0B426509C37B82A695338F90B43BC8F9_TisU3CIsLockedOutAsyncU3Ed__134_t17660598170B15403DAF7B75A7CACCCEA40CE671_m91D837E7B7F6AC506FED2BA99A51CF3FC79B89B6;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t1D54EC958EB87ADF7249FA897F74096059EA061E;
+extern const uint32_t g_rgctx_U3CIsLockedOutAsyncU3Ed__134U26_tF3B0007F0C7ACC2BF1E8FE033ECB000356AB11AF;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mDC7513909F7CA12D7FD1454ED08563B302199E08;
+extern const uint32_t g_rgctx_TUser_tB697BCDD04AA55F6FA95A07150BE1D89981C0512;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_GetLockoutEnabledAsync_mCE39FD05FB5CE137178E5B42FC402051B0FC4E1E;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsLockedOutAsyncU3Ed__134_t17660598170B15403DAF7B75A7CACCCEA40CE671_m9866B885751162B46D118E9B745ABEF610AF5E2E;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_GetLockoutEndDateAsync_m135C2CAB9210CA9E69E88412FEB58773E0D893A6;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8F86938EEBD9C3ABF9874464D97CAFD6AEA2A51B_TisU3CIsLockedOutAsyncU3Ed__134_t17660598170B15403DAF7B75A7CACCCEA40CE671_mD73ACC15D6683F9C632BD89BECAC60FEE33E7ABB;
+extern const uint32_t g_rgctx_U3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300;
+extern const uint32_t g_rgctx_UserManager_2_t6EFA6D8D2C0FBFBA5E59A8F5437B6EB37ACA8A80;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m855B4CEDCF03F2150649E39ADE401CEA8EC5C060;
+extern const uint32_t g_rgctx_UserManager_2_GetUserLockoutStore_mBB31C59E1C63C58081AACF56C85D43F2AF8C24F9;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_t4782764F8436236ACF13BD2C52BD5B1E18E3D9DB;
+extern const uint32_t g_rgctx_TKey_t03F9F6E8D4750D00DA7F3E1EC79667D23CA5D268;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mB261CB964262BFA9FD7AF92FDFBE7451B482924F;
+extern const uint32_t g_rgctx_Task_1_t66BED82242FB3515DC20AA2A4A0C3694C91DB87F;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tE1624EFEDEAF0E9B7FDF4CADDA195DEAECC04D4F_m911C050C12DE050A42AE24B613DABD9B4115A587;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tD62496F08E1098E4E8500253A100DA12542DC90F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m36D0F5B8C61B6B8449404C92A98A48C4A30F3B09;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tD62496F08E1098E4E8500253A100DA12542DC90F;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m6030D58E3D78D5BF453B6099782F501A634BE12F;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD62496F08E1098E4E8500253A100DA12542DC90F_TisU3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300_mEDEC5F48C14B65A050C99B394BB7287A070B36CB;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tE0B14B470E86EA948602D513776C2CEE28FE5FC5;
+extern const uint32_t g_rgctx_U3CAccessFailedAsyncU3Ed__157U26_tB0EF1603D770B48CC322B273E55E287A17002FA0;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m63284CC9207ADA21DA0112F1104347FEA83385CC;
+extern const uint32_t g_rgctx_TUser_tE1624EFEDEAF0E9B7FDF4CADDA195DEAECC04D4F;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_IncrementAccessFailedCountAsync_mFEBB2FFF6CEE420FE23C94978426F45B9615403E;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t38F88F850C4A4153D2D9C36B24EBAE24FA4E2A65_TisU3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300_m71470063B963185A994AF058547B08CEB635C0E3;
+extern const uint32_t g_rgctx_UserManager_2_get_MaxFailedAccessAttemptsBeforeLockout_m4369F759FD2567D473A33529617F2E1038665E6D;
+extern const uint32_t g_rgctx_UserManager_2_get_DefaultAccountLockoutTimeSpan_mC66A77393416774AFAF4BDD22114D3C24494545D;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_SetLockoutEndDateAsync_m4821117FF7806B63A99F2D51339970BFCA75B23A;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300_m1D5BAC3CA3E758C284C57A9A2EB05391176E9417;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_ResetAccessFailedCountAsync_m546A011E59F241B2AF4521A3D85B8BC2B45C520A;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_mAADC37296AA98AAD1F583D5D335FE3AFF2CE222C;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300_mDCF24E7A0D38C004B9BE85A5217D85914081FB5C;
+extern const uint32_t g_rgctx_U3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941;
+extern const uint32_t g_rgctx_UserManager_2_t59A78EC8D33CE3D38827B292D9C07120A3E44728;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m9E6BD151D06705D6CB64BD23BA8FEC90964B386D;
+extern const uint32_t g_rgctx_UserManager_2_GetUserLockoutStore_mF212DB63A3928AB4D04E6064EEF1B751A8194447;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_t661B048BEC67181F417B89067146231875C0B4D4;
+extern const uint32_t g_rgctx_TKey_tEEC5338EE6C67FE4DACEC16365D230369F08DAED;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_mCA618D1596145F4EF1C22151E224FD6C785B09E0;
+extern const uint32_t g_rgctx_Task_1_tD388C37A6C632FB9C8E9FF13260BDF6DC6E9591A;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t23AD9C33C95869350B57D371779A45D0DA4FC2E9_m9A26E1F328BEA03CFCB9A1BDB94EA8080183FA5D;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t27B193057E27F470565F09FB84DB2BFB84428D56;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m1ACBF516C0DF76887062FDF0A8C84E43E6397729;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t27B193057E27F470565F09FB84DB2BFB84428D56;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mC6904CF4BB05AC11E2B73C9B165D772D19F8416D;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t27B193057E27F470565F09FB84DB2BFB84428D56_TisU3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941_m8A5A97676AE6192931458C32B2297FC662ED7BC1;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t97B24A7E9486E0DE38321CAAB99207393B65209A;
+extern const uint32_t g_rgctx_U3CResetAccessFailedCountAsyncU3Ed__160U26_t6D68F36CB4C2A05209763F98FF3CAD26FE8D8AC2;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_mA0D641AD946F5065DED5704E838DDF5E04D238AD;
+extern const uint32_t g_rgctx_TUser_t23AD9C33C95869350B57D371779A45D0DA4FC2E9;
+extern const uint32_t g_rgctx_IUser_1_tBE509A4098727B98881EFBAA9764D2E3EC9F2625;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t23AD9C33C95869350B57D371779A45D0DA4FC2E9_IUser_1_get_Id_m7491AB06D6072AE92CBFEBBAC47D8108479F2150;
+extern const uint32_t g_rgctx_UserManager_2_GetAccessFailedCountAsync_m05065693F23F5E904678A9CCD13E565ECB158658;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t38F88F850C4A4153D2D9C36B24EBAE24FA4E2A65_TisU3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941_m2FB2CFBD79298A044D8A7E9FDA59A8B2B432821F;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_ResetAccessFailedCountAsync_m6B59D27C6F82E3DF4CDDC6632E79705CE5467770;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941_m89502E8EC4B1ED6D39C81ACAFEB0423B1505B799;
+extern const uint32_t g_rgctx_UserManager_2_UpdateAsync_m00D1ED04A0BBC4EEBF0EB055C0B8918FF514C1FF;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941_mC9A414CF65ED2CD263EBA1DC226A9EB152B2970E;
+extern const uint32_t g_rgctx_U3CGetAccessFailedCountAsyncU3Ed__168_tCAA6142C51CF28D6EDD18632D929CA257F9B5962;
+extern const uint32_t g_rgctx_UserManager_2_t572623DDB234E9A7181661A72BA21DAE4C43065D;
+extern const uint32_t g_rgctx_UserManager_2_ThrowIfDisposed_m60D7EC414C930DD26D9DC3C9512FAF2DD8AAF38A;
+extern const uint32_t g_rgctx_UserManager_2_GetUserLockoutStore_mD85A8B4C871D16BB7C6F9E7BD8DB383ACE75816C;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_t77A5BC8395AEE26C304C298B15E425B5241930A6;
+extern const uint32_t g_rgctx_TKey_t556E83F0422D6FC39B626619528A90F36F0D827A;
+extern const uint32_t g_rgctx_UserManager_2_FindByIdAsync_m65B3E796FD1AAB0F82741152FFACB6B15F77FF9F;
+extern const uint32_t g_rgctx_Task_1_tCCC5B56FE4FC9F62B98EE4AF437C64A4FF5B6915;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t83C9EA6378E09369C0C66E70CA71D0F494EB74D3_mA33E476118494D71F188E7DC184E94F511502233;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tF50D4A05C185A249A9AC3D80137568F3E534A896;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m4BB5BEA97BE8C6A7EB3B2CF5881B5FDCF353ADB3;
+extern const uint32_t g_rgctx_CultureAwaiter_1_tF50D4A05C185A249A9AC3D80137568F3E534A896;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m57CC4E798393260E06A7DD93FB58D8463EC109C8;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tF50D4A05C185A249A9AC3D80137568F3E534A896_TisU3CGetAccessFailedCountAsyncU3Ed__168_tCAA6142C51CF28D6EDD18632D929CA257F9B5962_m51C49E91A3878D364EBA670AB3781BAEDAA2319E;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tB0833172D13CCF64A9B32C21320C0999CE483B72;
+extern const uint32_t g_rgctx_U3CGetAccessFailedCountAsyncU3Ed__168U26_t8E9F4BFCA6BA9877B0E71C5D96721ABC2C9075CA;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m2FD93B0B3E6693F6305D24B4AAE7159BABB4E9CE;
+extern const uint32_t g_rgctx_TUser_t83C9EA6378E09369C0C66E70CA71D0F494EB74D3;
+extern const uint32_t g_rgctx_IUserLockoutStore_2_GetAccessFailedCountAsync_m34389D39C4813A8E0E55838AFFC1D4F66638CCA9;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t38F88F850C4A4153D2D9C36B24EBAE24FA4E2A65_TisU3CGetAccessFailedCountAsyncU3Ed__168_tCAA6142C51CF28D6EDD18632D929CA257F9B5962_mC3F24570D3FD9FED7A27CEF093F06E5235065A30;
+extern const uint32_t g_rgctx_IUserStore_1_t0DAE50055C275E08D6C97BEA2FC8580BC7279609;
+extern const uint32_t g_rgctx_UserManager_2__ctor_mAF52B1C330037095FC4A7871E91526A3809AE110;
+extern const uint32_t g_rgctx_UserManager_2_t823B67841E15F10A0405AC826368A54A81D5B29E;
+extern const uint32_t g_rgctx_IUserStore_2_tA7392FC4B9ED0B653EC9B89332C26351360A6D03;
+extern const uint32_t g_rgctx_UserManager_2_t9D138CABA6E6E151712A4F34FE52D05AF32A4BAE;
+extern const uint32_t g_rgctx_UserValidator_2_set_AllowOnlyAlphanumericUserNames_m060B98A7EC96A501D16CF9FB8EDA9B638B644EA6;
+extern const uint32_t g_rgctx_UserValidator_2_set_Manager_m87FC82D3DF930D313F3D7684B4749D5B320B948B;
+extern const uint32_t g_rgctx_UserValidator_2_t06720B89C5C791553F8BB6C947D5FF168A2DC76E;
+extern const uint32_t g_rgctx_U3CValidateAsyncU3Ed__0_tD3B0185509773CF632A3103DE9B06BEF977F4796;
+extern const uint32_t g_rgctx_TUser_tC071D20C4288B126640128C40548B853D4221F26;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CValidateAsyncU3Ed__0_tD3B0185509773CF632A3103DE9B06BEF977F4796_m8B663641AE61B29C840F378021748291E61B4597;
+extern const uint32_t g_rgctx_U3CValidateAsyncU3Ed__0U26_t5E0173151E68F1DB97FC4049FB683A24BC46EBA1;
+extern const uint32_t g_rgctx_U3CValidateUserNameU3Ed__4_t19F49360671975D0E889568DE5C588D73F729251;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CValidateUserNameU3Ed__4_t19F49360671975D0E889568DE5C588D73F729251_m9E5A44550D45B4611D7162975C0B5879B0183282;
+extern const uint32_t g_rgctx_U3CValidateUserNameU3Ed__4U26_t84764D252625C67C949F0EAFF800EF4221E610D9;
+extern const uint32_t g_rgctx_U3CValidateEmailAsyncU3Ed__8_t50948C636FF5DD5939BC36D98DBD1DC73D15EA54;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CValidateEmailAsyncU3Ed__8_t50948C636FF5DD5939BC36D98DBD1DC73D15EA54_m691097A926E9BF964D3ACC5DEC12397391354DEE;
+extern const uint32_t g_rgctx_U3CValidateEmailAsyncU3Ed__8U26_tADE20C211C580D6553A64EBDE12ADEF16749135B;
+extern const uint32_t g_rgctx_U3CValidateAsyncU3Ed__0_t945CBFFE1ECE534AFCAA808036090AD9D74A1404;
+extern const uint32_t g_rgctx_TUser_t2329003737427B9DC0FCEAFA22C973A7754D1479;
+extern const uint32_t g_rgctx_UserValidator_2_t2DEAA4A7DBFBD030CEB2C54D0E3029E948D5930C;
+extern const uint32_t g_rgctx_UserValidator_2_ValidateUserName_m7CD0EC88EC54005DAC3862BB7129C496C9218016;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CValidateAsyncU3Ed__0_t945CBFFE1ECE534AFCAA808036090AD9D74A1404_m3C4EF98CD014028F82A09798C8DE4406E57A8B9C;
+extern const uint32_t g_rgctx_U3CValidateAsyncU3Ed__0U26_tF28F1130C3980DC82652595FE2AAD1A122CD7B42;
+extern const uint32_t g_rgctx_UserValidator_2_get_RequireUniqueEmail_mD772CB427DB8E370C9C66C1D3789BBDBD1D85568;
+extern const uint32_t g_rgctx_UserValidator_2_ValidateEmailAsync_m9F064AA78357CC9726913B1B7D786A77B3DB8295;
+extern const uint32_t g_rgctx_U3CValidateUserNameU3Ed__4_t972547DE3C2FF83BE1A1B02AC37D007868FB5D7F;
+extern const uint32_t g_rgctx_TUser_tDDF02757063E47263DD8EADE73CD7BD029E628A4;
+extern const uint32_t g_rgctx_IUser_1_tD08496652A84FD6804AA1E7098E9CA9C24D206F9;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_tDDF02757063E47263DD8EADE73CD7BD029E628A4_IUser_1_get_UserName_m9472E1BF3FF2EA28C8E477B40E2C3AFF89004624;
+extern const uint32_t g_rgctx_UserValidator_2_t47A10CC7CC03495FBCBDB2F1BE6C9F8C0FBC12C2;
+extern const uint32_t g_rgctx_UserValidator_2_get_AllowOnlyAlphanumericUserNames_m71A7627CA804E6CCA1D5E7FC755841DD8C79F745;
+extern const uint32_t g_rgctx_UserValidator_2_get_Manager_mF14370A91EDFAED0531AF37ED163604238D91D7A;
+extern const uint32_t g_rgctx_UserManager_2_t9709052A3DA4270EC14F06B935554123CF1F82F2;
+extern const uint32_t g_rgctx_UserManager_2_FindByNameAsync_m5C45DF89A67F81F39E0D11A30BA20D1003177ACB;
+extern const uint32_t g_rgctx_Task_1_tD89606F2DF675C425623C68BA1A38A7E33C55631;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tDDF02757063E47263DD8EADE73CD7BD029E628A4_m828426F964FA5AD25BF1B3C862320CBC064C8093;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t477BC55A7C61CE6D6C98141B53122E1C426B4B66;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m8FDBA7D0385B0E5D177457D54F849404F5EC7943;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t477BC55A7C61CE6D6C98141B53122E1C426B4B66;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_m57E8F1DB0595BFB9D4BE54EDAD3601F712603BC9;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t477BC55A7C61CE6D6C98141B53122E1C426B4B66_TisU3CValidateUserNameU3Ed__4_t972547DE3C2FF83BE1A1B02AC37D007868FB5D7F_mE7F71EFBFE805E4EE34BAE66AC4E97AD1B860113;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_tB13C42ABA2418FDF917AB27F6AE85AD28D4F4D40;
+extern const uint32_t g_rgctx_U3CValidateUserNameU3Ed__4U26_t4AE36BA985A59AD9BB53BDCD9CFF5B2C4EFA041A;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m4014223E56A43DFD02B1B17FE7F959D6077FD4B4;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_mE9BA969699233747BE82DDF6337D2A91F9048271;
+extern const uint32_t g_rgctx_EqualityComparer_1_tC7A43B5088F9234EB4E411F2291F468455B84105;
+extern const uint32_t g_rgctx_EqualityComparer_1_tC7A43B5088F9234EB4E411F2291F468455B84105;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_tDDF02757063E47263DD8EADE73CD7BD029E628A4_IUser_1_get_Id_mBF8CB19C269C75231F1950F8055AC282FF458C30;
+extern const uint32_t g_rgctx_TKey_t02A5BB6982D51460B4074DD558B9B65F08AE53F9;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_mEB465FBBE09DC345432DD8B3CDFE8D62C259B524;
+extern const uint32_t g_rgctx_U3CValidateEmailAsyncU3Ed__8_t3575F6D7E9C1AD1E298033C120724AFE053B0B73;
+extern const uint32_t g_rgctx_UserValidator_2_t8E23A49B51AEE8483A896170F3DA51765669E7AB;
+extern const uint32_t g_rgctx_UserValidator_2_get_Manager_m0A2EF9D282012BB0226A559B6C2AA8CD29CA35E2;
+extern const uint32_t g_rgctx_UserManager_2_t94B944DD10202811D201ADC2C03319AA8E60F776;
+extern const uint32_t g_rgctx_UserManager_2_GetEmailStore_mF8706DBC0639866A435DE344FF12F1A8A65447FC;
+extern const uint32_t g_rgctx_IUserEmailStore_2_tE17F4193670A52C8E6417E3BCEF55681A950D7A1;
+extern const uint32_t g_rgctx_TUser_t8A30D8B212ACEEFD1EDD3FD40BD12B770301BFF9;
+extern const uint32_t g_rgctx_IUserEmailStore_2_GetEmailAsync_m1FC592420AF56D9970640926FF0459410254C267;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CValidateEmailAsyncU3Ed__8_t3575F6D7E9C1AD1E298033C120724AFE053B0B73_m28154CA0DBDF509FEED9993CEAD9897E91C2DFD7;
+extern const uint32_t g_rgctx_U3CValidateEmailAsyncU3Ed__8U26_t1808A9FEB2AE69D42CDEF70DDE6BDAF9141C4872;
+extern const uint32_t g_rgctx_UserManager_2_FindByEmailAsync_m8C0133AF7B6510D6813CD5FDF13D0ABF5030F102;
+extern const uint32_t g_rgctx_Task_1_t802947F990DC473CD90CADF7772E01022FC1C66C;
+extern const uint32_t g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t8A30D8B212ACEEFD1EDD3FD40BD12B770301BFF9_m5587ABEF400909F72524CA8D1C8C109CAF1D5027;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t620F9E4DA5CB873792258415F8DB3F229783664A;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetAwaiter_m33648ACB0CDE593F4CC291A3A2631987465DDBCB;
+extern const uint32_t g_rgctx_CultureAwaiter_1_t620F9E4DA5CB873792258415F8DB3F229783664A;
+extern const uint32_t g_rgctx_CultureAwaiter_1_get_IsCompleted_mB8A0978F3D95719F93407005F6FE198E2ABB9F70;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t620F9E4DA5CB873792258415F8DB3F229783664A_TisU3CValidateEmailAsyncU3Ed__8_t3575F6D7E9C1AD1E298033C120724AFE053B0B73_m60770613A263F6561B064203BA6ED4B34C8F9ABD;
+extern const uint32_t g_rgctx_CultureAwaiter_1U26_t524F061D7507FCC9BFEB18AD65ECD733A3BA5A0C;
+extern const uint32_t g_rgctx_CultureAwaiter_1_GetResult_m2616850C442FF03B347FFA667E98B3540F6B43BF;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m93E9623971D2F6B805E6D2C735EA11DD75328233;
+extern const uint32_t g_rgctx_EqualityComparer_1_t6BBBF242603B3D3B68ADF23EDA72A312D411F5B6;
+extern const uint32_t g_rgctx_EqualityComparer_1_t6BBBF242603B3D3B68ADF23EDA72A312D411F5B6;
+extern const uint32_t g_rgctx_IUser_1_t9A0AF9F49E6BD0CA9B21207A5A43FDC5208C765C;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TUser_t8A30D8B212ACEEFD1EDD3FD40BD12B770301BFF9_IUser_1_get_Id_m33053649BC60ED3BFD7975A5CC245191C06E27F7;
+extern const uint32_t g_rgctx_TKey_t780B1C4419FEFBCB6902DE9685F33C152AA6A302;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m75F4F86381061924ACFE6270D17C1D6DD277614B;
+extern const uint32_t g_rgctx_UserManager_2_tC75B36284C7B1701D5B4795793B2762CB0B23319;
+extern const uint32_t g_rgctx_UserValidator_2__ctor_m8B5AE6BBA9C6368FCAD160FF3786393D78EF492E;
+extern const uint32_t g_rgctx_UserValidator_2_tF2B82C194C74F3607321F5FF44D67EE5F34A0E22;
+static const Il2CppRGCTXDefinition s_rgctxValues[1392] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tE6A1FB9C40F667D2C536B2E9538635F1FBA2C665 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tFCF0EA9956721CB2F9E6B3E09CE3F750BD60BDA3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1__ctor_m7A1C2C7FADEEFA5BE9206A7B2B19914AF70AEA73 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t0A816A219B93A9814D749BE521C958C9A009B805 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tA60B74637AF1E407C74F0036C388A35F5AAF0A89 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Task_1_GetAwaiter_mDB6D2FFD746E267ED4506595C6D0BEF6230873E6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TaskAwaiter_1_tB971047022D3241E1DDCD56051D40B1044B0B5D4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskAwaiter_1_GetResult_mF4DC1E4E8B7983EECB077A82BA47A574F3D35C1F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TaskAwaiter_1_tB971047022D3241E1DDCD56051D40B1044B0B5D4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t4FE0A9796515C36ED38E873BDB063A21EE8F1964 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_t83C3CBA38A20EA981F38C866D40497CFFC2DF001 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1__ctor_m5B81D6A4BDC08AF68DFEE06B60899DD923649693 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Task_1_ConfigureAwait_mEA1B4E815778AD63CD10112922B74B1082EEECEF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ConfiguredTaskAwaitable_1_t6050BF4E63A513FD76446855A5A6211435270CCA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ConfiguredTaskAwaitable_1_GetAwaiter_mC2B71DDDDEE931ADFF3FA9531B73940DFD1C0005 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ConfiguredTaskAwaitable_1_t6050BF4E63A513FD76446855A5A6211435270CCA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ConfiguredTaskAwaiter_tCE34EB2B9B26D4C57D10DB3DF01A23B79905FEEB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_U3CUnsafeOnCompletedU3Eb__0_mC636310BFD8880345E6E16C7BB4B96A1C37BAB9C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ConfiguredTaskAwaiter_UnsafeOnCompleted_mDC250E280C1521B517F3EC3767A44D7F10EDD64B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ConfiguredTaskAwaiter_tCE34EB2B9B26D4C57D10DB3DF01A23B79905FEEB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_t1736C29E0CC2CC91A409A0449B6F312AA8D3759F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_1_t7B8BC6141CAA5B62A8221CE1CC021274EEFACDF5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_1__ctor_mB1C4B5A0C6A739C68B4922B547B570BA4476CC2D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_1_t040DE3B3875962221C2177D9FC1FB00AB8DBE228 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_1_U3CRunSyncU3Eb__0_mA5AFF3AD6BA05B0994D6BBF4E280F71CEF2E34D1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_1__ctor_mC9450A4588EC005680BFDD5533B7FA34786F491F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskFactory_StartNew_TisTask_1_t0F26BE4B90F757100185011470502055D3B20255_mAB43B20772896E228B8FC7AB1047308807B11D0B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t5CF94700116F6FCE6434BC0B0813B9DABAB0CEAC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_Unwrap_TisTResult_tB550D4C7A38A241EB1FC7CCF226C17F745C59C6C_m8F24AF933E3148B3298A4E39956547F8F4C69583 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t0F26BE4B90F757100185011470502055D3B20255 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Task_1_GetAwaiter_m13C3428CFF830DB58539C1653C3C124FCEA9BA3F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TaskAwaiter_1_t417E3985EFE83BEA29CF4E22B320B5ABDD9877ED },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskAwaiter_1_GetResult_m3861EF1B3A94BD4F124C5FA758BAD1AF7BD65532 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TaskAwaiter_1_t417E3985EFE83BEA29CF4E22B320B5ABDD9877ED },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TResult_tB550D4C7A38A241EB1FC7CCF226C17F745C59C6C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_1_t30CBB710FEB7EF3F0F4DC5F71BDDFFAF974228D4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_1_tEB7F3AA2A1A505BF4CDAB3B56DBCE3AA8D607B68 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_1_Invoke_m060282D1BC0A9732F7A7AD7D0FA00900BECD4816 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tE714E0BCE3A15CAD5F61DC316A67C17E5E42F403 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t346CB90F6BCDD5DD413BCCAC4B4F9C9CACFEF2A2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_SupportsUserSecurityStamp_mFEBFD5AC43A5DA7638A08E14689956DB47EEB0FA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateAsyncU3Ed__0_tDE024F11BEA181DBBD05FA7A63A108B7C71B8B53 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_t80665082C02B22B8E7B47A72AAA6043F813E3B2D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t245A3A92900E8FD6CD85692A4914D640B4B8E5D2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGenerateAsyncU3Ed__0_tDE024F11BEA181DBBD05FA7A63A108B7C71B8B53_mD11BD9BCCD02FF9FF99400CCCED444F9C53CFCDD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateAsyncU3Ed__0U26_tF20FF97E314E16E8C761A65A45DA7818A9D26966 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateAsyncU3Ed__6_t1DA26F21C10A34F9AFDC4ACDECCF2C65F7473144 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CValidateAsyncU3Ed__6_t1DA26F21C10A34F9AFDC4ACDECCF2C65F7473144_mCF5CB49C8C161BFD82A97343D236869F2D7206C2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateAsyncU3Ed__6U26_t09797E64C2808326EF2D4523CDF1CA179C3D6F09 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_tD81925B54334899A945A28EF069DF88B1E431D48 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t245A3A92900E8FD6CD85692A4914D640B4B8E5D2_IUser_1_get_Id_m593B21B1EA5B5C7E7BD5B1690552A5A417EF9E0D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t875BA568B325AA5D8BAD4EA448C9247078477F4A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateAsyncU3Ed__0_t63924319678EC20DE78C6AB168FAC9E4D201844C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t03FA784526908351D26C1917FCAB25FF3915FD42 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tC31F12049A0F72DC5BFC49D77ECACF366B8186AB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_tF96F90FEC78ECA71DCD2936833D44D8377417A4D },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_tC31F12049A0F72DC5BFC49D77ECACF366B8186AB_IUser_1_get_Id_m22313D18596AA9BF0A9DC2BBF06FDC5BC27C845F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tEF148CD849B702042C233B96F4BD4C92233A0A54 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_CreateSecurityTokenAsync_mC85FB48DF42C687338740BBA9ED1E5C0573F2D43 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tB3930979420EDDC4306DBC9E21C2E86035BFE5A3_TisU3CGenerateAsyncU3Ed__0_t63924319678EC20DE78C6AB168FAC9E4D201844C_mCD0496173860C2D81EF196D801DCA49D1A2416BB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateAsyncU3Ed__0U26_t61B59D15A983C808277E4E08CE2CE19AB85C488A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_tA5BF74690F80DB0172C12AF01290B8956CE97F06 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_GetUserModifierAsync_mA44621DB6D11211DF99E56ACFF47BE53AF63E6C3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGenerateAsyncU3Ed__0_t63924319678EC20DE78C6AB168FAC9E4D201844C_mBAB163FDF878437610E9734F8DB4DCBA59D56EB2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateAsyncU3Ed__6_tA1C297CA6423BBE0EB06B58775AC6CF8A7A269F9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t9465A28470D87A44886E3851DE74908E0796E349 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tF45C44CCCE456F62B2042AC8F3826A7A4435A514 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_t0B32D9F82D6761545D6BB808E1282F3021289204 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_tF45C44CCCE456F62B2042AC8F3826A7A4435A514_IUser_1_get_Id_mAB71C3DCF16C320DD0554743E2A8C4D3F85140E5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t5A276587560C4501E27ECC46F8FF4FA013671DD7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_CreateSecurityTokenAsync_m40E6B0997819CE526E2841F05566E14B7E6CFBF2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tB3930979420EDDC4306DBC9E21C2E86035BFE5A3_TisU3CValidateAsyncU3Ed__6_tA1C297CA6423BBE0EB06B58775AC6CF8A7A269F9_m96CEF1471B92C8943BF8B83C040CCD75BDA1DC7E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateAsyncU3Ed__6U26_tA1927618C646CDAA9B29F4AE1582143345D8BA45 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_tDA0916D8A5EA09CC2735AE5DD060C400A90645EF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_GetUserModifierAsync_m4CB9C70593CA025B2EA0C2F2AB2248A7C98F2A67 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CValidateAsyncU3Ed__6_tA1C297CA6423BBE0EB06B58775AC6CF8A7A269F9_mED8E1475CCF893A3D9C3187909E01FB311DAB468 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EmailTokenProvider_2_tE48FE52E4644A0E726B0C8D895AD0B701ABEF28F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__d_tD5BA7D59FE5D39FBE0B31ED8575ACCD6FDB270E2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t234B7DE84CCADC0492652D129F15255750301552 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t41FA30AF29472FD12BACE8760487DFB33F89C6A9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsValidProviderForUserAsyncU3Ed__d_tD5BA7D59FE5D39FBE0B31ED8575ACCD6FDB270E2_m5808BA9ED8BB40FF0161B87B5439460D9A3C612B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__dU26_tCF7E8BFD5A8A0CB4122E5AFE0EA143487E21D2C2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetUserModifierAsyncU3Ed__12_tBD40FF4C2E54B8A85E9E01BB1544E9B9CF454471 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetUserModifierAsyncU3Ed__12_tBD40FF4C2E54B8A85E9E01BB1544E9B9CF454471_mDB1C898C875137D239432BAB076BBE1B6A01218D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetUserModifierAsyncU3Ed__12U26_t8498E005FE91047B49F3D1A469A90BE6237C7EFB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_t664DCA0B53B1A14A22DBFB3E54C174B368B1A943 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t41FA30AF29472FD12BACE8760487DFB33F89C6A9_IUser_1_get_Id_m92A37EE74766C58D9BF5235E9E222C67FF8C7676 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t320D44DBE9D2480D6D690A729CD84B8C61D91116 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EmailTokenProvider_2_get_Subject_m0DF5E0E4527DAC8ACB3267364E0DBE87395F1463 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EmailTokenProvider_2_get_BodyFormat_mA343B26FBF2C2B5315DACACBADF048291CB4C23D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_SendEmailAsync_mAEB9954AE5906F38FF2CD29891A4CDEA2815D26F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2__ctor_m6C6449E2F29625A5F6996CFF9DF85A7B60E825A8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_t99CED79C04DA89A9D6AA1789E3635EA8EF5F6EC3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__d_tC926A0F80F96CE783FFB5820749132CA70C8C236 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t934706CBED01E6AA1BCA6AA985A8B547C60692E4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t24FADE3BC3EC98480AF5F5EA71279BB63132B392 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_tAC14ED03AB0A6A6052BFDF4C7DB7F5EE532D64D5 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t24FADE3BC3EC98480AF5F5EA71279BB63132B392_IUser_1_get_Id_mC3653A8A0D0F085890353421E93FB992B48ACEF4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t2417CAA1C006451DC988ADD2A43E4C4C0C1EBD7B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetEmailAsync_m3CBD16BDD5E1505C59B432F782A01092690AA88C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CIsValidProviderForUserAsyncU3Ed__d_tC926A0F80F96CE783FFB5820749132CA70C8C236_mB9C7CF4BB5D2B3871ACB0B5329E999239E638635 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__dU26_t3528C69192268730B038871F88229BE573A78D45 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_IsEmailConfirmedAsync_m9D8B4F0A11CBE14AAFF797FC7EC9B68875F7C8CE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsValidProviderForUserAsyncU3Ed__d_tC926A0F80F96CE783FFB5820749132CA70C8C236_m40CCA887A8A5C73D6C9358CCB41E6EA455AA311E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetUserModifierAsyncU3Ed__12_tA33312524DDCA4B8F691447EE08CD1BD6AE05C53 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t27F0C5C73300183A3BE931C4A043BDBAA6E0E1FF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t4FF07DB855543677FF213EBC995801C06A568E28 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_tDCADDE63512DF4C6B6095F346CEA005BC1FCAA14 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t4FF07DB855543677FF213EBC995801C06A568E28_IUser_1_get_Id_mB7C329D911D793299D85E07FE5A2B4B118B2ABF4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tF0E084AB2E88A63254667E6469C7C592DDCEE3A3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetEmailAsync_m5C08AF316A6AD15ACF5CBCE3009860AFDD2AF2F3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetUserModifierAsyncU3Ed__12_tA33312524DDCA4B8F691447EE08CD1BD6AE05C53_m502E02F7F15619C9D6FF9CD2E879906F5E663F36 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetUserModifierAsyncU3Ed__12U26_t210176FE1340A32B6ABC99CB627E24CD3E30A685 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EmailTokenProvider_2__ctor_mCA2A9AEC46C1DD8D1CD26A2C890FF5FBE83AE4FA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EmailTokenProvider_2_tAC1C2E073D58A0955A06146F0CFD80F5D660D4B7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_tDD3ADE358D22A034CCB7C9A86E07CF136E72845A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_PhoneNumberTokenProvider_2_t02325B70D8FAF07DCC65E2A85C02D080AE0B313E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__0_t2F1A0126F00C178C5B25822F401B8ABCA5777722 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t22CFFF9D3C01FFC4F6AA813AF14B424D510FA88F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tF0154BE91F25A2F588B1BFF20EF0BB7935AE4910 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsValidProviderForUserAsyncU3Ed__0_t2F1A0126F00C178C5B25822F401B8ABCA5777722_m3F2B5E49D48FD1F20FE12DDB97EE0CE0440BAF42 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__0U26_t4F446E60F7FD4E5C339FA0354335C38DB79A48C1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetUserModifierAsyncU3Ed__5_t786223CFDC58D9014F5DF09A47CE1882D2C8612F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetUserModifierAsyncU3Ed__5_t786223CFDC58D9014F5DF09A47CE1882D2C8612F_mF5A4F99A77D35BC7B6941F19170AAA15B479A290 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetUserModifierAsyncU3Ed__5U26_t54A2A56335096A3B363D6F9E22CBD8EA30BDA8F5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_t6B9F46857425E0125E80A254B51A60D40C440AAC },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_tF0154BE91F25A2F588B1BFF20EF0BB7935AE4910_IUser_1_get_Id_mEC5CDBAF2FA2A6A563504DD07A3D185C02E32D8F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t2F5A16FD0CF971FB34EE3484D9993EBF4B57ECD4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_PhoneNumberTokenProvider_2_get_MessageFormat_mB1F0EB5A2A332DE57970BC485A178981E5F7C90D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_SendSmsAsync_m0FC224206A0CBFACC66C47F6F1CD74A49EB7FB6F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2__ctor_mC01DDF6A307AEF239560B546F513389B2F296903 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_t22459E32CBEB997DD4EF40B5A1907BCDBA908A53 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__0_tC60B0490BBD9A6D6E8581FACE660255C08790DD5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t90AC3EA4C035E25B94F9BF71E822A52FA13788D5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t309C46B247F4A72255C7EED61CEAE3F4638574CD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_t067E1ABFE118A6101B8D51C6C211C4832AF8D043 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t309C46B247F4A72255C7EED61CEAE3F4638574CD_IUser_1_get_Id_m03C9D2D86841C6A1778474A1FDF90139CD47F637 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tBEBB3018CA954DC68A9DC8C52F5415D0ED278FFC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPhoneNumberAsync_m40DA687095A308A47DD579F29C20963A4FC998BD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CIsValidProviderForUserAsyncU3Ed__0_tC60B0490BBD9A6D6E8581FACE660255C08790DD5_m6E65D948514FF88DEBA589A463424E3C773339A7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsValidProviderForUserAsyncU3Ed__0U26_t7A4EC3CBE7818945A29B22538B5573715328CD6B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_IsPhoneNumberConfirmedAsync_m3F1345DEB43A761B21BE98A906ABD3F1D54F0054 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsValidProviderForUserAsyncU3Ed__0_tC60B0490BBD9A6D6E8581FACE660255C08790DD5_mBAF102550B28A14484AB4A6732B5F92BC8139593 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetUserModifierAsyncU3Ed__5_tA084A1220C87751088D0F56269948C47DFF44B26 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t54096758EAFC7AFD98960BDFB74FD1A91DF9F376 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t191F276BE9E8609AF86EEA94BEB486058A223185 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_t187000CD1EF358982AEBC8D0A0BDCE7D10ADFC02 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t191F276BE9E8609AF86EEA94BEB486058A223185_IUser_1_get_Id_m51F2493A11355896BFA393764F90FCEC4B66BFCD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t13E07AB1248531245379DF7F36962BD61AC785AB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPhoneNumberAsync_m858928CC2C8F24C1B497975E64159DC6F2509943 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetUserModifierAsyncU3Ed__5_tA084A1220C87751088D0F56269948C47DFF44B26_m9B821499CAE7C5F4AD1AC9D79C201E576B599EC8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetUserModifierAsyncU3Ed__5U26_t8F751AEB35C09E09E03C05DF72826D6F494001D7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_PhoneNumberTokenProvider_2__ctor_mDA02243B021B02CEAC07CCD77B03D874D11733C6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_PhoneNumberTokenProvider_2_t5B86EFC3CAE227537D953E37007FFC07AB46D3A0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TotpSecurityStampBasedTokenProvider_2_t74B3E32C61C68FD4BF8C685C5534D559E2313DD0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_2_t159BCB13A3D7D89CDD193E98197E6FCEA331AC71 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_2__ctor_m2A23DEAA359C347A4C052ED0756C86EDFA64E9AE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tD64EEB5D6ABB52B11C671C2A5CED85FCF9E91F0F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tFA03C3C7BB5375B77E7CC6343D41B03FBEB20914 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_2_U3CCreateIdentityU3Eb__0_mAC42B44AD8AC8D8635AF1E3F95E3956C554CBB5D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass4_2_t0D01AB6DB2D0B53192660E6A9D6A24F004FA47F6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass4_2__ctor_m898F70D38DB6C3CFD70F2D259B01176881432310 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t2E25DAD836F341096C4B60C1565E492C77A07E23 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t98789686CEFB3BD1D251FA48936F1ED22C0BF5EC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass4_2_U3CFindByIdU3Eb__3_m9611335C93F5E0EBB8FF2D340E087811E60BCACF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_1_t63101401875C9E03A27BF8E8C18249E92A9D86E6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_1__ctor_m06CDAEB0541A745A20CD8E7340D4C219038E1D78 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncHelper_RunSync_TisTUser_t9EC4CA03DD78BE8413B8D147BF723D8214E033D6_m51AEF3070CE4E36ACA8BDA3B7BBDD968839DD935 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t9EC4CA03DD78BE8413B8D147BF723D8214E033D6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClassa_2_t1C0677680534AEF873FCAC1AD144709B1B5BEFA6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClassa_2__ctor_m3FBA62E9CED6337E14FA963AB6772340E5A9F8FE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tA40821671269C9C8D180CC12903A2FDECF8A65BC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClassa_2_U3CFindByNameU3Eb__9_m848FBF0D23BE5544B114E92A0BBC4C017733A8D7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_1_tE145825D8C28A0AAA6DB93821D1A57414DAD004E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_1__ctor_m99B312DAE53C4EB900FC358D73821254D8D776F5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncHelper_RunSync_TisTUser_t99A02FA37845A8074AFA6820CC53EEF7FEE20EA5_m1B00D2F94ACC186BC9EA65566AF5A84BB531ACBA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t99A02FA37845A8074AFA6820CC53EEF7FEE20EA5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass10_2_t57E35D845F5176F540B32EE1B7963D2A8E5C0AFC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass10_2__ctor_m626C7E9AD348A3A7BF4747088C92EF5013ABE213 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t1EDB7A9AFF5CF4AAD88CD736520428728258B584 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t131945CBDFAA2EF35425737B3F33843B72BEF483 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass10_2_U3CCreateU3Eb__f_m7AFD9ED7BC136B9C4CFA62E585091E2F1B7CA2EE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass13_2_t86578085A264F312214B5B6DBB788FDDC6788B67 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass13_2__ctor_mA2AD50169290DF522BEC3DFD999533012E59108B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tA8AAEBE02A487D234F93892EDDB75BB3825F968A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t1178194B8C766072A7A0D1E9327DE47AC6021586 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass13_2_U3CCreateU3Eb__12_m0D40DCBAC28E8FC037C6375E8A1FE84C50D3A54C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1c_2_t3B0D9D43B25B8EF3A6FB367D298DFDB1835E57AA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1c_2__ctor_m668F3FE2661D1C999088C1FD77D91E25A52FD1F0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t4A5821636CC00B72D7EB2ABD85F04E85A27D6177 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tAE4C6A4C4881EA992DABA590E4F3FF1B41F7C8ED },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1c_2_U3CHasPasswordU3Eb__1b_mBF61DD320A14930B24325615B5C11BD179BCEAB8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1f_2_t83950C7BA49B2557D10939D05D32B3BAC3F31D1A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1f_2__ctor_mBC59D06866C8A1D9DDA03C0F29D2AC967371CF30 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t54F48585088AB714DB40B0FB0C3D27E114E7D787 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tCE8A1C76265DC8370534E335DEEB7973368516BA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1f_2_U3CAddPasswordU3Eb__1e_m06063AFA6459DD61C9CCA898652F04CC453D5D82 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass22_2_t72AEF4C370EFCEA048DDBA45B154313B6D9CC902 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass22_2__ctor_m781D686F858FF914058491A1F32E1B779BDC30F2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tA248231E85AB61953B33716FC738A7062F48A024 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tBE6875319BF4709D8559607D62B4DACAD54FF3DB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass22_2_U3CChangePasswordU3Eb__21_m172909A077DAAAE96B9C15A74167C909520877D0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass25_2_t71A88AC82518882AF7A6BDDD6FFA05D1221FA9EE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass25_2__ctor_mE0B479501B0B37C55ADACF302272898B5B3B7B44 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tF50ACD314ABF69C487E5ECCB44AC454B426ADE9A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t6D36389AFB45FD58A40009C5B9F3D032D4F6DE98 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass25_2_U3CResetPasswordU3Eb__24_m780EB31E2917D1C01229C40C5BF1B38C18EF22A7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass31_2_t8C35C69AAEEC6E2189CE737BF86A497FFFF0321C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass31_2__ctor_m12F433EF97C3868A87AEF4ECE21AE470507E0A56 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tEACA7ECCEFCA972CE479BB9F22B84A1E235CC85D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tDAAD44D7364B7CBE709D15F80F5D2D1C8FC396C2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass31_2_U3CConfirmEmailU3Eb__30_m3A449A0A7FB9B813A41FB679CE864E35347D8965 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass34_2_t484119958EAE089407A35F958A1952250A992B36 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass34_2__ctor_mF92B8EE747D3B543C176BF20EA4F54C918BBE9E0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tA62861E7F04ACC15A036ED0BC292CC207A11EFF3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t72B0D69690E2F2CEC4E0BEFA6748754AFB189795 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass34_2_U3CIsEmailConfirmedU3Eb__33_mEFEF34754296686BC1C75BFDB0DD61FE4AE8A986 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_2_t0ED2F069A31E4A746950B06D9CDAB00FDBE20D0B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_2__ctor_m6666C504BF00A805B50A5FE9F076C90671EAE2E9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t2EFE68C71D0F146EB008B40CA23D9B7C99141E4E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t7146FE0ABF1BA293146EEDEE7BA6DFDD0BA61319 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_2_U3CAddLoginU3Eb__3f_m1884219054CAD1C5F0385EA1760AA274BF2A8C14 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass43_2_tC43FC68BF886DEAF4EFBC768D8BD88A074678764 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass43_2__ctor_m965D4675928A843430B08058A1BEC16FED6F241D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t11A17654644DDAF0AEF4AA8245850F457AB3FB9D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t782E14A46D359B7A4660326AEAE0F26D6427E57C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass43_2_U3CRemoveLoginU3Eb__42_m9425EBB73D3B9543E4189FC34550AA0ABE499863 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass46_2_tCA547B108AC68A871DDF97588A1EB12D4DCB0B84 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass46_2__ctor_m12C86875141343A45AA117C454363196470648E1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t53D56B5974A4493DCEA5C53EC0A77CCB6BE4DAAE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t7784DD6794FF832CB40822D125724366A1370780 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass46_2_U3CGetLoginsU3Eb__45_m48E8E6C405F804E435ACFB6FCCF8DD88165C6A72 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass49_2_t5B3268AAEA9F4AD1986E5344F085C18065580DAB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass49_2__ctor_mC71B6789AB41F9356001A6BA8A91FED7D82FE7C1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tF9762B7BE4AEA201EBD3053B7EEAD31B4B666667 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass49_2_U3CFindU3Eb__48_m77F473A10094E009A4AE2B97F50769F546ACDB64 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_1_t4B15AB44ACB4C5118CCD5EBEE5DCB21CBB22C8B0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_1__ctor_m3EAD64D9078CBF6B8E8225E4ECC3CE37DB836986 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncHelper_RunSync_TisTUser_t5C29B59DFEFD3081C2F202388A1FBDB3E5A7EF2B_m927461E8F14FC98F1759CE29CE061B265F6C4BEC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t5C29B59DFEFD3081C2F202388A1FBDB3E5A7EF2B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass6d_2_tA763C9829AF024E74DA64DFD6A01EC43E55A0292 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass6d_2__ctor_mC9F8FEB2B0A514B8C2DD2969501D0F17BF831F55 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t60F1292BBC0F9E807774E063CB6DB8A441B47A20 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t8AC40FC496AA3602EA836418C41BB7CF99219A20 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass6d_2_U3CGetPhoneNumberU3Eb__6c_m8BB4D17EE4F3F566CF398DE372450E051BAF9013 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass70_2_t34A69E98EFB120CF282E152A4B95E89BB22639C9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass70_2__ctor_m4F1258EC4F1B350AA62DF79B7087EE24B9B99E60 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t3449608A21DFCD3DD4DF71B4102633F21D4C3FBA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tA466DD486084883F418173207E8820A29579905C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass70_2_U3CSetPhoneNumberU3Eb__6f_mD0AEDFF07FDF32FEE764F7B0AF5225CD7AD81009 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass73_2_t2E2ADC7E67B412B0E8F9E0F01FA16B84E15DF78E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass73_2__ctor_m4CB9042F52A80406DF6BF0135CF7A2A19E76EA70 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t73C3F327BEAD17C536E1D6938CD8FE0A9921359D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t8C734E61EABC1EBCB9788D2ABBBAA3E049E5F31C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass73_2_U3CChangePhoneNumberU3Eb__72_m81897F921BC51F8053C3AC387DB441155F2500EE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass76_2_t83F8AB4184EFDF7298A43282980946DD4289E8F1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass76_2__ctor_m74B3520976D8E254B408ECC78985AD0AA30065D0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tEA2699A2517C94F3EEBFBA5630B01BB7225463CD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t7D03051EDB46EACF620BBBDDD2DC9C49038C5733 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass76_2_U3CGenerateChangePhoneNumberTokenU3Eb__75_m8F7E77D52B3AC030C1261C1F8A85AD5E575EA173 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass7f_2_t1CD08AC43F86882D826D95AB9588A05A1EDCF694 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass7f_2__ctor_m0087937D37CCEF4413EDF36114AE07459BB0186D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t1D2DB9744F55C479E0BA63B5722B231131588D11 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tB6887D79FD7D0066E7F2D83F27A0FB79F5BB34C8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass7f_2_U3CGenerateTwoFactorTokenU3Eb__7e_m2132B46528761643CCD9C7E471634C20465219CA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass85_2_tAE5C45195D060578263F295A28BFCEFF89F4F659 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass85_2__ctor_mD412046A870778AAD559FB4304E29044EF145F7F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t0A5356555C802C8AA4D218FDECDF6AA4738DF2DD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t08E5A6D796914AE8692F3828FD4A1C18A2B559CE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass85_2_U3CGetValidTwoFactorProvidersU3Eb__84_mFF9F9037CFE5E971BA720E712A5DA1D600B87942 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass91_2_tEE539AA9C23CDCA3C3DB691362E2D4F677B7DEFC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass91_2__ctor_m4667F9AB6B149C45EA146772AA9B7D545539662D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tCC47CAA7B31EC06BF36C9A5439E0A95AFF8F49E4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tBDF7CFCF837018C413AAB25991523DD850D2969D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass91_2_U3CGetTwoFactorEnabledU3Eb__90_m0031BC85241D89C87D6E6D74678C0B145CCF9736 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass94_2_t59F503430484AA90E4890D74F3ECED43EF3DAF02 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass94_2__ctor_mD3D4441F1168B2AC871BE4D5202E82F7E0717584 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tD2F796F119395D3CF8DDE071AA770CFC731D449E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t33BE05D705EF6C4391F00EE9C9A233E53C7AC852 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass94_2_U3CSetTwoFactorEnabledU3Eb__93_m5E8FFE5A833AF9CF1BC9373C46762CAFF1BBE523 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1_2_t1BCBB33C9CA7C0D370BC9765D0B789CB593BA705 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t9419CA72287D09B22ADECBAD9E1F4D8B14969D2B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t61AB849FE728AA93486EF5C94F5DFA6BDC79A2AC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_CreateIdentityAsync_mD79C5F8E025F1C2D28BE2CDCB597206B82D2ED8D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass4_2_t8B3DEB823540EA50C4F9C6BB8CC4039D080B5236 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tC1B8DEC14D8FB0B4D74E499CA89F0BC7378B1866 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t23FDEE17BDD0BB9B649DAF9D195B9BEC7513565C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mBBD6A46B2C4E6D9B9159D1FE7B0935B3B9FB6E4A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t4516AE757388B3D0603B129A4AC5A61DDCF259C0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClassa_2_tAC2C88796BF13360D46AB25E7AE88BC7D53D539F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tEC5F2E41F3B5F290ABC1A4D392F2D9BE64097708 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByNameAsync_mD4B938B9845E78372E9CE84FDACCE616D57EADB4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tF362C29502B61713F4F01CFB6738B1366870BCBC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass10_2_tE685402EB3DE98FB1175E4CA21C2498216A4F5CB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tA5F753B58EDEE8EA640A327B16B6DE91B7F122A3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t2CD78A1F7B640E0A2BC0D4A85FF9ACFFA2EBC7DF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_CreateAsync_m582CC61C046E50F9AE3EEAB296373AD4F22D96E3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass13_2_t68A0C4720394A1D0BDAD90AE5607C4F0AF2152AB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tB75094E32490A21C31C39B8B337B6F8105A6B81A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t823FF9FEE5BF06A059213D8FA726393091CE9D02 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_CreateAsync_m30B693FF8C93F6796FA8AF92457CFD27E9AA8B8F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1c_2_t5022E1F61DB5259EEFA9DAA86165B3638DE86831 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t59EDF29BCA87FB59C619B4CE033CADE70C43C1F5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t8540B6F719FA31B33822B4ED4633CC4DD39B01FA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_HasPasswordAsync_m0B54412FEB4795AAB978F42BF5D48B350ED6A005 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass1f_2_t77D8CD7BA69A09AF6470D2828D762D3EDC472EEB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t93B90D095F2008234788B43A7D03E1341A007493 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t842F07AD649DC8A43E7C908A20397AD0D72A9255 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_AddPasswordAsync_mB554BDA5D44BABA63E7E017578382CFE3C527A84 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass22_2_t709F459CAA733A22107E4CC9C9B9A9646003E821 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tC315DAFD836B72FCEBCAC4B7DDF6230103392A31 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t3FEF67C5EE645969416EB0B4743A669DF60B579C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ChangePasswordAsync_m6D203D2956E716E6649BFCB02DD195962E847D7E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass25_2_t0D78737E44A65BF139F50E5AB7104D99A9F43EEB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t0EA28F9781034E1C9EA7C8C30BC5268562FC59A5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tDEFF6E0CD2D0CC9DF04FB995AD1D84F636EE98D0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ResetPasswordAsync_mDE7F966196816FE244B2365A99AE671A128217A7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass31_2_t3FEB34DE2B54D56B420699AF520E3A6E5CED202F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t2058DB16B443FF26B3913F5379D2EE1E014C19C3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tE9C03BDC1FA38D99499CFDFE3DC58A22B4E268BD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ConfirmEmailAsync_mE305277A0D0B6BEC52732C7B5BACB5E0998A1BF0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass34_2_t8915F6297E196B07F6975C0F1D09826027891B3F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tE36FB71D7C865468D406973BEFD8E62D01DC8B06 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t19D1D1A483F84C1D18B048AABD772280BE2BC66E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_IsEmailConfirmedAsync_mDB24C95C3047F22C1FB9919910FCB47AD9A7D58F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_2_t064008C5B50AD85DA5FAB9DFB4C14BC64CA9DC26 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tBF33A94477626D6E277D8C612B65DE005DD80794 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t4623EFE2F510EDCB2DB3A854487A5148D070BD58 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_AddLoginAsync_mC2A643B1609B8667270DB6176AF152C8AC973A2D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass43_2_t5F2D2169D6019334EFE181F75D578683016537DB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tC9A290523EC2368052DF0D72383156A725CA5CB2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tE16D64A181A6761922B00CF97973994B9AC976D1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_RemoveLoginAsync_m188A6C6FF8952CEA1BFD6EEC0577CB186BC4B1CA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass46_2_t8ACFF4A025B6703A9A7475F17AE52FF564305A87 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t8614A2BDEA87652C04947CEAC8A5C2DF900A4089 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t5F1ED59DD5EF79B46A98B12CAEA3F1946643FA3F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetLoginsAsync_mB59FA1E720CC711D8DFA6CBCD079DA0614B335AB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass49_2_t0B3CBF94B28704D4AE6E18DBDD58737BB01C6840 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tFCDE011E3A3D6A8501049741FC32AF7F180513BF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindAsync_mF3490197D1D152C040399D2327191CF447207D28 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tB0E99C28420E6C5B48D3F9B87F7E41098EA46A14 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass6d_2_t9D6CD599749D4F54C3FA0A7323DF500E11E4437B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t8087CFC11203AC27AD3382ABBDD7B48FCF7677CC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t8B5A1ABD769FB1E0B76DC0C4AFB8989B55430AB6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPhoneNumberAsync_m349E70A70A1B6AE09FC83FA882F3BFA8B86B752C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass70_2_tCE0DF538ABEE66CA2D2A6493577B10A356181E51 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tAE92296AC6BB9783905FF1ACA2F357613B7100D5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tB53F060ADF6D93F0683B2A0143663DC3A3EAC29E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_SetPhoneNumberAsync_m20ACE3AA811D4B81D74EC0E2DA539D3A34ECE54E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass73_2_t19DF877F44B2AAC575D4DC8C3F3EB734ADD6E687 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tE0FBC248801A2E2A654F2E8F624B719F20834EDF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t2A971253BF10137DF3659BEC09836F937819DC3C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ChangePhoneNumberAsync_m2A6D9418A3D8BC59A90779A040F04FAA874B24BC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass76_2_t49717BA4E9ABFB7A5B1F8A75F0A16B530AE28FC2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t36957F2A63055DB54969475A3582A4B6EA28F3F4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tFE7495C177047C3EE5F20B86FEECB5D84A51CE7C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GenerateChangePhoneNumberTokenAsync_m4311285C85303E407F80A5A8F5961A496961FD1D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass7f_2_t7056819B7668F4EC37CC5ED606AFD85A774ADA30 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t784CBFF513BE18FBCC1894006160B536421CA275 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tBF2525A717FB8DEEE41DEEC603DE9C0FE58BEECB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GenerateTwoFactorTokenAsync_m217A6A62E39515E854F77D15EA57704410DE4BF3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass85_2_tC0A3EB3E53612C23334B39A583E0CD494B2DA7EC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t011045F466BB06020A61FE2CA819DB163806D575 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tDA82EAA1A900F719E6BE76F062E061C0D5A53AC2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetValidTwoFactorProvidersAsync_m42A901A498529C7FACBE4C09BDBB4F2F8E08F192 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass91_2_tEAF29713ADBE5D67AB41063636DBA41715D928E2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t270898E988B0BED762EF8261F8FA1544DE71ADE6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tB5C90C33C877908435E9C9CBFA629AA97B2CCFAC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetTwoFactorEnabledAsync_mF2E15F99D67A1A47A3D3D1BD758DA1387E737CB3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass94_2_tF8CCB07D6371A532483FC1979BD50C3CE313F6E0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t81FABF403BFF8A76BEDF975C37FACBE4FC019E0B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tDA151346354A606FDE2B7F0092FF1925C86E8047 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_SetTwoFactorEnabledAsync_mBCADB8373F21973BC308A556524D71AE0CD7AE6E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_set_RoleClaimType_m57C780378E378256E26F1921B1E2F38A270B56DA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_set_UserIdClaimType_m2E11EDBC03AD12A0F6B1337183A38FE3D8129604 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_set_UserNameClaimType_mB4C2E5E07117E66242932F0306D5E9589AFD7D17 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_set_SecurityStampClaimType_m8D587AB5C145A27A741DB6995C0A86970A968FAE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ClaimsIdentityFactory_2_tD3027E2DE80FAF9841AE1AD9A9E7B2FE02E6F8ED },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__0_t82EAD80AA27762A968236DE646C0F4CCF5EC8728 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tE8751A62E235FE9BDCD5125337B2854C656D89A1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tA1E769DD8A7D6F45FF8BCF2E0E1430BFBB99C550 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCreateAsyncU3Ed__0_t82EAD80AA27762A968236DE646C0F4CCF5EC8728_mA6362397548E26794ACF497E4B85785869CE33CE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__0U26_tBB2638BB035207E4EF90B9E094A3DCAB1CB9A748 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tA519EC162F4383A62CEE0BC5FD793B0F480E0DFC },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TKey_tA519EC162F4383A62CEE0BC5FD793B0F480E0DFC_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__0_t2B727DC054F72A7D58BA2A5F6E92B820FE856DB9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t65432A99C34DF5D7D8ECDC6AF97A0B7A3A59C5D4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t23D61DB3D1C08E051F5584D177EB8D4F6D301D9C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ClaimsIdentityFactory_2_tAF137C0E9EB2D21D68A976F706BD02E7A9C52799 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_get_UserNameClaimType_m501E5F7D573104BF1009464712B942EA079F6D08 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_get_RoleClaimType_m86B4E9BA531DA8BA2AE10B3048C128EEC83622C0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_get_UserIdClaimType_mF6B68BCAB5B1EE43FFA0C1D7F6B4BF1927BBCDFF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_tE44E495803A134982F0FA6ED33088EF69FD80231 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t23D61DB3D1C08E051F5584D177EB8D4F6D301D9C_IUser_1_get_Id_m9CE082DEA79406FE547826F9022DC32C8D2A1F3A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tEBAB13F129739EAE4CE9601D3DC92CEF4D19716B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_ConvertIdToString_mB95BA58CC071531F313E3BAB524FA2390E97876A },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t23D61DB3D1C08E051F5584D177EB8D4F6D301D9C_IUser_1_get_UserName_mF7A38D424896284AF116C482C9F0C84C6AFA5D04 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_SupportsUserSecurityStamp_m40B20DD4102474F137A160EE88FB95C16E9DF68B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2_get_SecurityStampClaimType_m0C7F485F38C8D4E6F7656EE9C2193989312E46D1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetSecurityStampAsync_m31E195B65AAF4E7036EF818B4798EF1A98C39238 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CCreateAsyncU3Ed__0_t2B727DC054F72A7D58BA2A5F6E92B820FE856DB9_mCF9C86E1FE66B4F4F23C4F27AAABA8DF6BC00CAA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__0U26_t2738051A57190768434532260B36526AF30BE747 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_SupportsUserRole_m13E19B2C35809CE5ED81E62B934EB4E32D0FAAE5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetRolesAsync_mC1E303A0E7F8E339E0A04D72371691A20E3CB3F5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t42FE41D0C79E239C0D2063397A65C09B8DE16694_TisU3CCreateAsyncU3Ed__0_t2B727DC054F72A7D58BA2A5F6E92B820FE856DB9_m4B67BCB037C37739021711A2054DC5516F4CF46E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_SupportsUserClaim_mF2D3284047494D0D41C5B7B6D3137AAD352FCC08 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetClaimsAsync_mC8B9A96C707F4E05DE23B3197C926880D8E487C4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t0851084BA604E554488ADC5C8A607A4D7F81DC29_TisU3CCreateAsyncU3Ed__0_t2B727DC054F72A7D58BA2A5F6E92B820FE856DB9_m124F317CA574B07702B58680713B414E799EEBB4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Dictionary_2_t76E541B9BD889992F1FA3E2AA1A203DC794C4691 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2__ctor_m2B5C1602805FC7D3437FB9D874E0F8DDD8DA4825 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tAC9E96BD5CB8357424E4B939E0E4BD195C0B990C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserStore_2_t5E6053E3B2BAFA5E6A5EF5C8C26DF73103FE3BC0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_set_Store_m2B38988B2A906572004D11CCC3F551C308981B30 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserValidator_2_tD8326036F0245D0070537DDF47854F2AF75BC94A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2__ctor_m629D8EDF003FDB50931FF63E6F4A4680980FFD06 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_set_UserValidator_m803F064BBC57C45EE850E8A78305FD9709E5E583 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IIdentityValidator_1_t8C9177480ECB7647554BBD1CEC6C493373EA147D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_set_PasswordValidator_mFFCEB7B14FF6CB3E68F0BB634F31AE476659D7E3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_set_PasswordHasher_m3973D56F1937AFBDD4A1BEA1730B4777FCC30163 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ClaimsIdentityFactory_2_tA6214D51CDA273EC90EAE7BE461BCC999E32F2B4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ClaimsIdentityFactory_2__ctor_mC0A3492780BD3A1713C53F6390EC8D3743193390 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_set_ClaimsIdentityFactory_mF88A2A1345F397DE7D6DDC2883F7C5BCF786E244 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IClaimsIdentityFactory_2_t73FE3B31A0388DB842703863D6E589A5A61B2651 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m92E201C74E5EEA8F476601E8586683D55B30509F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTokenProvider_2_t473B08C2C7C571C41C2CF579D95987AEE61A7512 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_Store_m53354C2A7563906CC24B12A854E18048DC71F4E3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserSecurityStampStore_2_t32B13BFBBFAA1D1C13AE4BC4DCF8511AE3991AA3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserRoleStore_2_tC7C6463AE387DC67172F56463D3A174C228ED3A6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserClaimStore_2_tC023D8614ACD465144C066CEBF8B36EAD4852323 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLockoutStore_2_tF2928EAC3AB20620584B85D59B1D997C08E6C636 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IDictionary_2_tA5825FEDDFAC85AE5480F6F7EEA2380845F040BF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_Dispose_m719171246992558425EB0A13CB5516F822C457D0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tF9491896EFEC586C1663C96F376F48804423F58D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_ClaimsIdentityFactory_m7A6C600D7ECDC0006B810864306F6017958F14C3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IClaimsIdentityFactory_2_CreateAsync_m4A9358405FEBF6A8AE8654F12E9780B24B6151CE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__0_t9E6DF2821AF00ED81CC46BEBCD0CDA5E84740A10 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCreateAsyncU3Ed__0_t9E6DF2821AF00ED81CC46BEBCD0CDA5E84740A10_m5C0AD1CFC67A0EAA091C8D483B6D3677B0E48C3F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__0U26_t44A15B17FC2D2E0D827734099B1C5D856E96B069 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdateAsyncU3Ed__5_t5CD59BC7F5B327A8CE85EBCA9552051FE419D646 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CUpdateAsyncU3Ed__5_t5CD59BC7F5B327A8CE85EBCA9552051FE419D646_mF69AF5528591DD295A2D05FF76A4BC09C9CEA459 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdateAsyncU3Ed__5U26_t9E2EB9905D6A1A9E6876C49A32F083981B6DF14D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t76F709A6463848BC5F376B0D0C5AB897E1DB561C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserStore_2_FindByIdAsync_mFC0F7BECE9BB097EC589EB89580162D0EBA55B1E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tE3646BE840810F237F7FA8972A6CBEB39E0523E2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserStore_2_FindByNameAsync_mCFDCE3F6E247775536819D83CDA1635719C0D6ED },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_t1EB97A36D04CBECF324D9D5BCBB7D4926ACFAFFB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__d_tC4CC40C21DF252E5CD33057A6211359BB02D396C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCreateAsyncU3Ed__d_tC4CC40C21DF252E5CD33057A6211359BB02D396C_m2BA0D831563C3E9610771C5A1843737185D32A7C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__dU26_t586E0DF7E3105F9A2B1D77D4379431E3DD891F8F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCheckPasswordAsyncU3Ed__17_tBFC1D8AE5058EA0D20D63BBCB22BD027070B32DE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCheckPasswordAsyncU3Ed__17_tBFC1D8AE5058EA0D20D63BBCB22BD027070B32DE_m28DAA2A332E1C445ECA19FCCC35CA5577D36818F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCheckPasswordAsyncU3Ed__17U26_t46BF4B26C650AE85455DD6464AC9EB666EFC972C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CHasPasswordAsyncU3Ed__1b_tE5645A7121B22BDF009FB46CF3BD6283BD13B5A3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CHasPasswordAsyncU3Ed__1b_tE5645A7121B22BDF009FB46CF3BD6283BD13B5A3_m7DB34BC938BA08753BBBA09E92DFC52B57D81657 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CHasPasswordAsyncU3Ed__1bU26_t97FF7EECE1E3E1F8CB5736DF1F5FA486D3D54F70 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAddPasswordAsyncU3Ed__21_t114CAE8575427136D76F5EC3F75248B483753DAB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CAddPasswordAsyncU3Ed__21_t114CAE8575427136D76F5EC3F75248B483753DAB_m4431C72E37B29E0B51CBB656B92E08640E00E07A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAddPasswordAsyncU3Ed__21U26_t6403D02992322966870B8C45794B2859C73F0C4A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CChangePasswordAsyncU3Ed__2a_t56CA1221EEB730ED7542AC326998DC561F01A0BA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CChangePasswordAsyncU3Ed__2a_t56CA1221EEB730ED7542AC326998DC561F01A0BA_m9D70D1155A7AEE6920AA909420A92F4DE328DDFD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CChangePasswordAsyncU3Ed__2aU26_tEFC9235FA93FC712E95728965B9F08BBCC6D57F5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdatePasswordU3Ed__39_t52951D710B1107329E08001522AD1C1DD7EC7A2F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CUpdatePasswordU3Ed__39_t52951D710B1107329E08001522AD1C1DD7EC7A2F_m60054EDA4210F15CDB52CAEB15F9606FCE04D9C8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdatePasswordU3Ed__39U26_t2334951F585948D6979AB5A0268C3D71B9F311E6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyPasswordAsyncU3Ed__3e_tFD3FC3D0A5D39C8CA90EA43AB15CC45C3FA45516 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CVerifyPasswordAsyncU3Ed__3e_tFD3FC3D0A5D39C8CA90EA43AB15CC45C3FA45516_m4E0A97D606AD20D6B04B79527CE85D075AD87BA2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyPasswordAsyncU3Ed__3eU26_t14DC5B841D580192FF5F33895AED2ED48B1CCA19 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetSecurityStampAsyncU3Ed__42_t36B4365AF3276BBFC61B67A978526B66657502CD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetSecurityStampAsyncU3Ed__42_t36B4365AF3276BBFC61B67A978526B66657502CD_m32F7668C5C4DABA5E681284809EA19FCC5145914 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetSecurityStampAsyncU3Ed__42U26_t9ECC0E615A5E6138B29BE90732C5987358222576 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CResetPasswordAsyncU3Ed__4f_tD6AA19D302DB3CDD8A6C247A0ED810996A3705A6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CResetPasswordAsyncU3Ed__4f_tD6AA19D302DB3CDD8A6C247A0ED810996A3705A6_m88C88A865B378A0CD31DF9210CE1ED702FE0FBC3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CResetPasswordAsyncU3Ed__4fU26_tC744D40EF8BC5B79E82A7181FBD4A1F07F559013 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdateSecurityStampInternalU3Ed__57_t51DB89E61B22B4CD9C77ABED87FD23EFE5F85C15 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CUpdateSecurityStampInternalU3Ed__57_t51DB89E61B22B4CD9C77ABED87FD23EFE5F85C15_m9E44800657171D43218D94467E4BBD7CF5384947 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdateSecurityStampInternalU3Ed__57U26_t1BB412B6B5745D47FDF069B617786CC0DDE23450 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLoginStore_2_t1B52B4DE8040B3A86353FB2663E435622F31C222 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetLoginStore_mAB90BBE61B21B5935BDFA78626B319CF2A04C9C8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLoginStore_2_FindAsync_m64E4C2A893B8D909BB93529854D4C4B2135C891C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CRemoveLoginAsyncU3Ed__5a_tAD8F1AD0671909513743AFE4EBC78946F80F34E5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CRemoveLoginAsyncU3Ed__5a_tAD8F1AD0671909513743AFE4EBC78946F80F34E5_m25F2FC1D9C298A56DF7DEF35C233BE842A61A7B0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CRemoveLoginAsyncU3Ed__5aU26_tCBAA8C89F8EF678A8515550A7964ED5CB8A499C8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAddLoginAsyncU3Ed__61_t2E3B8BE2AE9ADE1707FED57E7879C37260240139 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CAddLoginAsyncU3Ed__61_t2E3B8BE2AE9ADE1707FED57E7879C37260240139_mEFB3EF482A6CFEAF814976E0D27AFA3FFCC7AE91 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAddLoginAsyncU3Ed__61U26_tA1C5F8C4DC87321C2D4694E4FFCDF4AAA9B2F4FF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetLoginsAsyncU3Ed__69_t27548A57011324CC9A7C2793CCE4F8430C5F9599 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetLoginsAsyncU3Ed__69_t27548A57011324CC9A7C2793CCE4F8430C5F9599_mEBCD71FCD0487909A3531BBCC66C18B9513E7E6B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetLoginsAsyncU3Ed__69U26_t4CEAFBA075212DE88B2931E153A43061603CFD40 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetClaimsAsyncU3Ed__7d_tBB96EB386F8BE737BA06260052254A588773E2B2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetClaimsAsyncU3Ed__7d_tBB96EB386F8BE737BA06260052254A588773E2B2_mC244449116C7F515E77AA8D0C0672A844A4FCBAC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetClaimsAsyncU3Ed__7dU26_t83797E26E70288E434A5CB76D2B58D0E3C89AA83 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetRolesAsyncU3Ed__ac_t42B48FE722BAE388F6A2047FBB27CF6AF428F3C3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetRolesAsyncU3Ed__ac_t42B48FE722BAE388F6A2047FBB27CF6AF428F3C3_mAC4F9094DA9259DCF8AA20DEBA0BB5F635164059 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetRolesAsyncU3Ed__acU26_t372E9C3691A34C5D69C496FE7DCFFE18B6E61B0C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserEmailStore_2_tE18CC9634B2916D34393DAC8C4EF949F3BB4303D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetEmailAsyncU3Ed__b8_t827634AAB749E0352408374D779210918E40A2A7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetEmailAsyncU3Ed__b8_t827634AAB749E0352408374D779210918E40A2A7_m00644EFB010558A87577A160FB14BDA39E1E0F1F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetEmailAsyncU3Ed__b8U26_tDAAB76906934517309B07F9788BEEF59BBA6408D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetEmailStore_m1E71F07E60901E55CCDB13A2C30F2778F37E53D2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserEmailStore_2_FindByEmailAsync_m8416AC05A2801E2E5A3BFCB6166B15162945BCAD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CConfirmEmailAsyncU3Ed__c5_tDDD379F6D6E3825C6A70AFFF18062D0717EEE261 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CConfirmEmailAsyncU3Ed__c5_tDDD379F6D6E3825C6A70AFFF18062D0717EEE261_m9CFC3E69F569CFE245E21ACA60BDB0BCE8ED9073 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CConfirmEmailAsyncU3Ed__c5U26_t04EE6E2C2CECAE576AEB2D96832D7A7C3C9189E9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsEmailConfirmedAsyncU3Ed__cd_tAC1C8A69BC1776A41072B897D0C7FB5E3B00C97D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsEmailConfirmedAsyncU3Ed__cd_tAC1C8A69BC1776A41072B897D0C7FB5E3B00C97D_m5534A712ADCA0A1305E573B5E3AB6DFF976722E5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsEmailConfirmedAsyncU3Ed__cdU26_t5EFBBBF4BA32873CB8A85AB278CD416974C07DC9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPhoneNumberStore_2_tCCEBDD424A42D4CDCC42A8D15894F8685CB92C72 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetPhoneNumberAsyncU3Ed__d3_t4BED3D39974D0C8521A7B3D2E901D7FA3DDF3A82 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetPhoneNumberAsyncU3Ed__d3_t4BED3D39974D0C8521A7B3D2E901D7FA3DDF3A82_m1100850B33BBEEAC51F9859E7D5AA61116EFAFB9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetPhoneNumberAsyncU3Ed__d3U26_t17C3B625E615B644AE4307913438DF599431104B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSetPhoneNumberAsyncU3Ed__d9_tBAE5D1E06E629403082955E4DB74F5D2D61E28E4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CSetPhoneNumberAsyncU3Ed__d9_tBAE5D1E06E629403082955E4DB74F5D2D61E28E4_mAAE72089CA4C1E744308D7289BE8CD61F9E1E5C7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSetPhoneNumberAsyncU3Ed__d9U26_t3594ED65E0819FD5EC391238B3951AA451AC09F7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CChangePhoneNumberAsyncU3Ed__e0_t9ADDB999FF57C668333189A6B842CE202D68BCAA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CChangePhoneNumberAsyncU3Ed__e0_t9ADDB999FF57C668333189A6B842CE202D68BCAA_m21D71F62104F4DED99BD133795206E79044BA4B4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CChangePhoneNumberAsyncU3Ed__e0U26_t5DE73F697410E407C8A3E64B83AE942228CD70EE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tD65976892CC2D3777374BFE7FABC773E7A3DB78D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tD65976892CC2D3777374BFE7FABC773E7A3DB78D_m8AFE4F7DD1D597C074CB0FDAAFD11DD1B53871C9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsPhoneNumberConfirmedAsyncU3Ed__e8U26_tF43D62C9154FA58970AE124637F9628B2639FF0C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateSecurityTokenAsyncU3Ed__ee_t9E08DA338BD118F0D19F0ECBB5998AAFA4ED3961 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CCreateSecurityTokenAsyncU3Ed__ee_t9E08DA338BD118F0D19F0ECBB5998AAFA4ED3961_mE7FFBA43802A83DFE7EB7094D1BA8DA03B429CAE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateSecurityTokenAsyncU3Ed__eeU26_tFA3DFF898218646B0C3AB023DCA0223F352388E6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1_t2CBCBC7227FBFB247D83CDFDDD88FC786E7326A4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1_t2CBCBC7227FBFB247D83CDFDDD88FC786E7326A4_mC1E2E060DB9BB2E7D24A17E7E138F758E6564EA8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1U26_t797634D5BAB663185E811278625CF43F00F18A87 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4_t8C768D7359C433AEBAB3940FB7D102260D6B99A5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4_t8C768D7359C433AEBAB3940FB7D102260D6B99A5_m2BFF93737292545176C952D4F6C9EFE64C413C2D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4U26_tF238238313F2A7708FAA343B4279F8CFAA516E37 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyUserTokenAsyncU3Ed__f9_t5276FA43311894A88996DC7146930F1757705D3C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CVerifyUserTokenAsyncU3Ed__f9_t5276FA43311894A88996DC7146930F1757705D3C_m8CB7F97131DA88D2CDEF205C77AC9D26CAED5378 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyUserTokenAsyncU3Ed__f9U26_t8ECFEC3F26899529A2ED80BC0371C2175BDC8F18 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_TwoFactorProviders_m0E3A3B8D2385DF8C822E411CE595560E23B63D5B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IDictionary_2_set_Item_mB23F06349944CDDE02B6303A614A8F02ADE33A4B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetValidTwoFactorProvidersAsyncU3Ed__103_tE0864D76B2439AACFEDD12E9391F762E47AABC80 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetValidTwoFactorProvidersAsyncU3Ed__103_tE0864D76B2439AACFEDD12E9391F762E47AABC80_mAF4B683A761B1BDCD09A469AD634B4C211A78FBA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetValidTwoFactorProvidersAsyncU3Ed__103U26_t27FF8C75F583E005938FC17912CDF03AC356D551 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyTwoFactorTokenAsyncU3Ed__10b_t72B1B18CC603BE0F19D0B1707A3C8175D5B9E166 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CVerifyTwoFactorTokenAsyncU3Ed__10b_t72B1B18CC603BE0F19D0B1707A3C8175D5B9E166_m46939AB5D30AC8AD4863FBD05C46AA451334751E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyTwoFactorTokenAsyncU3Ed__10bU26_t551E306972AB558CB325507BF55E8A42A2C4EA12 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateTwoFactorTokenAsyncU3Ed__111_t79EBCEA54D6973EF3AE3F37A01208F038EE1677E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGenerateTwoFactorTokenAsyncU3Ed__111_t79EBCEA54D6973EF3AE3F37A01208F038EE1677E_m6BB4A8FC65CF1CCF6F2EBA658A6B843F6F722D24 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateTwoFactorTokenAsyncU3Ed__111U26_t07C8531685D7EBDB76F70FC1E95D10AC793E51A5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CNotifyTwoFactorTokenAsyncU3Ed__116_tB898B9F00FAC5BC0BD3186040174500DCD6A294E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CNotifyTwoFactorTokenAsyncU3Ed__116_tB898B9F00FAC5BC0BD3186040174500DCD6A294E_mD190215FEA8D496A995B28980E205F492D780354 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CNotifyTwoFactorTokenAsyncU3Ed__116U26_tCE1BA20E01DADB5D5EB2CD3DFC7F5E6A383B27BA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTwoFactorStore_2_tDEC76C413004677BFB017DF8BBC5C0DE426AD6AB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetTwoFactorEnabledAsyncU3Ed__11b_t9AB921022F6BC41B99022580B04D896044E2292A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetTwoFactorEnabledAsyncU3Ed__11b_t9AB921022F6BC41B99022580B04D896044E2292A_m6124C0CDF7E0D5F60775CAF9BFB4D954B142B85B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetTwoFactorEnabledAsyncU3Ed__11bU26_t9E6E8A31267E3CFC8684B8A346C425F16EAB5005 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSetTwoFactorEnabledAsyncU3Ed__121_t5B62FE184FA00DB4BA124AA1C3B89117E9537C6C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CSetTwoFactorEnabledAsyncU3Ed__121_t5B62FE184FA00DB4BA124AA1C3B89117E9537C6C_m49C28C80FB6EB5EA7E1B24B0368FE6CFEEEF21D7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSetTwoFactorEnabledAsyncU3Ed__121U26_t13B6A754E7B1AA685F3366556611A4DCE13420F3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSendEmailAsyncU3Ed__129_tD2BC518F7226AC72042F4E2355461B715E29BAD2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CSendEmailAsyncU3Ed__129_tD2BC518F7226AC72042F4E2355461B715E29BAD2_m34B4BBE45748FF50B4FEFBEAEEFCF76C93C9D0CF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSendEmailAsyncU3Ed__129U26_tFD5356DE06BEFD339D66193360946F135E6420F5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSendSmsAsyncU3Ed__12f_t31DC27857B2CE83B30E8814286CB9A3BDD177D45 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CSendSmsAsyncU3Ed__12f_t31DC27857B2CE83B30E8814286CB9A3BDD177D45_m818862DE3F78EF08E4062349C5A76654544F7F82 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSendSmsAsyncU3Ed__12fU26_t0D9FB915B1CFF8D8C616BE54512A0C7C9298D8F3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsLockedOutAsyncU3Ed__134_tA327196E75CF2A049A8ACBA7D7D5A520BE4AB633 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CIsLockedOutAsyncU3Ed__134_tA327196E75CF2A049A8ACBA7D7D5A520BE4AB633_mBD091F1F51C7AFA0C5AAA740A696DD3CB5F0E9FA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsLockedOutAsyncU3Ed__134U26_tA60A0A72B13A95A12E7A655CE2DB11F2C4E07CC0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAccessFailedAsyncU3Ed__157_t1D3498B8CBFF4681201B9121689F137AA9E13C61 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CAccessFailedAsyncU3Ed__157_t1D3498B8CBFF4681201B9121689F137AA9E13C61_m5ECBA5BBB0859F277EFEF8DD206BAB12F274517A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAccessFailedAsyncU3Ed__157U26_t2C3B0F651628CCD41DEAB0DFA8F2DF375BA1CA89 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CResetAccessFailedCountAsyncU3Ed__160_tBF4C4E7DDB09DF93966B876FA03015F5AE80A2C4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CResetAccessFailedCountAsyncU3Ed__160_tBF4C4E7DDB09DF93966B876FA03015F5AE80A2C4_m7AC17EE7B2AED0E8955D4F63739D729E52CF5246 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CResetAccessFailedCountAsyncU3Ed__160U26_tA09CE6067114FC37265DE681F4E0DE8F5A5D9F56 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetAccessFailedCountAsyncU3Ed__168_t853883278C3E0D53BE70AE67AA746DC1D8188BA3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CGetAccessFailedCountAsyncU3Ed__168_t853883278C3E0D53BE70AE67AA746DC1D8188BA3_m6CFF7BEFF6C6B075FA76BB1A414D48DC7A498365 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetAccessFailedCountAsyncU3Ed__168U26_t2763490A575862FBBB5A29BA0FF0F7EF938C586A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__0_tD4C00EEBFBE062E70C40DB295929C435143C5E4F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t1029400E7E28C93088A533EF31D5F99658F82CF7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m54F9EF4F8C02798ADCA910FB20096AB5BBBD77F3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t0BCB3C923AF984B3739AA7BA59BC54E007555978 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateSecurityStampInternal_mA804188627B319DCBAB033E2D21BE92E74E164BC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CCreateAsyncU3Ed__0_tD4C00EEBFBE062E70C40DB295929C435143C5E4F_mB9FEF0EEA452B053914FC888C33481B08E3EE0B0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__0U26_t6FDB9AAAD432FDFEBFCB76E9668B13C4D27E216F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_UserValidator_mFF880993BC44A3C78B136F2CCB43937BF1D41C03 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IIdentityValidator_1_t99DB570A2D1BD6400F2A41CB45968EBFED726DFE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IIdentityValidator_1_ValidateAsync_mF39437948A3C06E58F92DA274520238B9E2481C1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CCreateAsyncU3Ed__0_tD4C00EEBFBE062E70C40DB295929C435143C5E4F_m62A7E8E45BF1597EF3EA9CE587A7E2C7E39A3E82 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_UserLockoutEnabledByDefault_mAB7BAF88323E40244A9C0B75BAB99FA96CC32FEC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_SupportsUserLockout_m215BF9605CF3C5CB6EA115179717C67DB53CE6EA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetUserLockoutStore_m0A3DDCB50115A5D8677095EAEAF6D071459B5B95 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLockoutStore_2_t8DF7319C836BA18C58347B7E8EDDE9D0867D1FD0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLockoutStore_2_SetLockoutEnabledAsync_m3841CF94BB440BA4D3F5F9D6AE43DCD9FF3D73FD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_Store_mC2DF39DA64EAF51C9712D2F58E8CBD7E87FA912C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserStore_2_t4521FE5FFBF3A93D4E7E7976C53E4B12B88FD76D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserStore_2_CreateAsync_m1623AFA0944F150B69AF2AB6E109C154674DCC0C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdateAsyncU3Ed__5_t6412FA2352006DA8FF30417CE3D15A618473E983 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tDBAF1BCD6660193F06167DAA676512C778278B4B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mF2D4839C01DD1ADC2281761B8186FB61213AF1E0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t4C599DCDAF5EEC2E72AFBD7CB2EA6F99D71B0675 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_UserValidator_mA20B129C2225DF584D6E83E4E18283146EAB8574 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IIdentityValidator_1_tFF9CCCF24171F43B5B402AC6D6F99F3B2B360E1F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IIdentityValidator_1_ValidateAsync_mCCCB63A98D027B8093FD952085C77EBA3B586916 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CUpdateAsyncU3Ed__5_t6412FA2352006DA8FF30417CE3D15A618473E983_m957140A159CD2D0250994151CC5F7AD3C71BF4AB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdateAsyncU3Ed__5U26_t6079E744CE042866726869AE249669682FDE67C3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_Store_m521786C757BE535C8BE000629FEE748E99852D34 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserStore_2_tF9CF79F130D85EF5A54E663A01F86358C48480D5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserStore_2_UpdateAsync_mE7D2E1FB2739B42CBF6FE690C744AA9E858C7AD9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CUpdateAsyncU3Ed__5_t6412FA2352006DA8FF30417CE3D15A618473E983_mDFE75BB5AA6051372F60887760B4DEC5FFF11D36 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__d_t9A798C6BE926FB4033118DD6BC1CD0EB98705C64 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tA3C2AD6E6B49BA71EFC3C99201DB5B956BB31E56 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mA6B9DE225D4020CAB2F5F81992C4FD65FDEC07C2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPasswordStore_mF204AD3CCC35B9D05EF73B28918248D4A1B7E427 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_t6BB0C64C8E0459F130E34EE65E9120E1535CA23C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tA0E7905FE8535F5A07F51D7FBAE3C65CCA059033 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdatePassword_mCA7933612466107599541B60E66948680E96FE38 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CCreateAsyncU3Ed__d_t9A798C6BE926FB4033118DD6BC1CD0EB98705C64_m02C26636ED1ED444588B2BCBF4C8D11C4B5076B5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateAsyncU3Ed__dU26_t6339BE85E71D808F33144160FF3CDF738C9CF2DF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_CreateAsync_m7325D621788E0DBCB6765E87017F7CC90527BAEC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCheckPasswordAsyncU3Ed__17_t9759072D6E0A5390009F85FD426DE6618D022FA6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t503F65FF2050B1EC34CED43A42E39118383CC370 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mB509C49123CA07A96535F94CEED77D60AD018D06 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPasswordStore_m13C3B82ADBF24A988E286F9BBFAD37B477E87A16 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_tAFB7F794BAE78E565C5028A46B02787A2D0F9793 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tAAA8A1D7E60099A1A48DB06CA1CD66F8D403487D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_VerifyPasswordAsync_mDC2CB1641F7B9D41FF598241C74D95C8CB6CC813 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CCheckPasswordAsyncU3Ed__17_t9759072D6E0A5390009F85FD426DE6618D022FA6_m4E9AB7515B1E03D653F8EE85D377CF6AEFC22F2F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCheckPasswordAsyncU3Ed__17U26_t2206094CEC148147963ACC50E70EBD441C6BBED3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CHasPasswordAsyncU3Ed__1b_t1EA1F6E8147B46022F0369FBF6FB5FE03C2E738B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t5CA5DBE19992361DDF51FF5A2A75FCA75D9D3F2B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mF7B352820688AD29177AC1F4B9D3293FCF8A69B8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPasswordStore_m8866855A82D6F365B8345F4CD44205AD1D2540E3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_t28F3A1CFF5B9CE663CC92B0E09DED73D635BCFE6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tB6848E3BC4114325046735837A05D4B413D1EC9A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m2F58F189077E31C403A7DAB18B1B274C36C0970E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t0648FE320463E7AC4F0F426B5487D6B4B8B8107E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tDAA752C4A7F454ABC9DC29A8F579603954F77C7D_mC2D3765A432B7CBD283A873C5FA049E359491910 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t0F81DC557C45DECB73E1AAEF7279CE265C54529E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m9F6D3FB6F56503C9CF6880DCD36A00E2766F9466 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t0F81DC557C45DECB73E1AAEF7279CE265C54529E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mAB935FB20BD97A18A80F43C2847DF64FBCA36040 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t0F81DC557C45DECB73E1AAEF7279CE265C54529E_TisU3CHasPasswordAsyncU3Ed__1b_t1EA1F6E8147B46022F0369FBF6FB5FE03C2E738B_mE26CD570FA02E3FB8F2BF4EB0A376AF5EFB3C564 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tE91615107E1329657FEB2B629F5C8A9F8B54670C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CHasPasswordAsyncU3Ed__1bU26_t3372C5BFE8237E2CAD1714AF1D4D92216676BAC5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m59D2A4F2E97F5C879C2ECE07FD6023F50C7772AD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tDAA752C4A7F454ABC9DC29A8F579603954F77C7D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPasswordStore_2_HasPasswordAsync_mB5697F70B72BD46A1BEA9B91464AACC96CD8B61F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CHasPasswordAsyncU3Ed__1b_t1EA1F6E8147B46022F0369FBF6FB5FE03C2E738B_m5601FB12FBEBDFA299F67EC510A67CF032DC0FF2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAddPasswordAsyncU3Ed__21_t3D5CDF932743A1B0E97F7797B8134B516292ABE1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t5359FED1D2F4D34DEA537F48792EF0CE3BDF5151 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m6587046F45BDB20EB59C288FA889D991CE5E92B1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPasswordStore_mFA51C86E668D12D561CEF737AFFA0208D73F38E4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_t417E9632CF212D1326EC582A72F106A29F6093D1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t6CA4E43B3478B5971DB0EA2E88E1A1F282B006D0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m01A85896882D648D9695A128C0EA326E902FBD7A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tBFF01AADFE1FD2DABD70307B5CCC6EC16B30BBED },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t0060F59CCB91F40D397BAA2518E8E5F4C8ADEF58_m74A158969357B45CCCB63592821CB1C15AFB6809 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tE5026DC088179A4E71DA2580D4D522C92B47B35C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m2D796E1136456D519917254437BF60628CCC5443 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tE5026DC088179A4E71DA2580D4D522C92B47B35C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mAE2B9F8DC4CF1A690603B794FECAB8280622472B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tE5026DC088179A4E71DA2580D4D522C92B47B35C_TisU3CAddPasswordAsyncU3Ed__21_t3D5CDF932743A1B0E97F7797B8134B516292ABE1_mE691EA1A021E0E50FCC0C773DF2A39AC0F5C0F73 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tFCBFFD9300A4AE84AAF51A88E8B9A985C1A1FB89 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAddPasswordAsyncU3Ed__21U26_t3C0CFE67B3E9138A524AEA35C971E376E350348C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m8246F2CD82C3B67AC3861F5CA5B66F32F43A5F50 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t0060F59CCB91F40D397BAA2518E8E5F4C8ADEF58 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPasswordStore_2_GetPasswordHashAsync_m4140209C4E4C580783EB34A03AB29526A74BBC77 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CAddPasswordAsyncU3Ed__21_t3D5CDF932743A1B0E97F7797B8134B516292ABE1_m9FA8CC1E986CB9869A9787333D9F6F0604450DDC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdatePassword_m7A69B37510136181C4F5DBAE4B2938DC1CA16457 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CAddPasswordAsyncU3Ed__21_t3D5CDF932743A1B0E97F7797B8134B516292ABE1_m4B1A40DE63234D319ABC1A7733286EF98C13A9C9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_mB2168AF50AA096351D3D5F71DC3249F2051533C5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CChangePasswordAsyncU3Ed__2a_tD0FC8EE6D6D27BF8F220C2E2C3371A56C8E110B9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tFD5E3021C274AAD1239997D0853F1FBD072AF357 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mC62261ED96EC8A46D3FD5DAF9B7284FE34F28A14 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPasswordStore_m8576679B296605B0A73040768AE09BD5816D91BC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_t53372E5CBA2E8B36963E4576EEC716544C1E07EA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t00224060623A74AC4C54E96ECA6E230F8F6EAA50 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mE8D922F96D2AD452BF0B3AA7E6F4DAEEBF853F7D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tAE3FCB182CA7DCA5D4AF9AF5247EFD886C8B356E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tEDBA0BB0CD4FDE42101ACF3F5DDB6160B05AC69F_m964E6865B2F233FCFCC9A7435EACF39CE1D37CE3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tC3F624D653EBFA5CB471FACDECC2E671DFC49E43 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m42872B7FE4F0A98C7612E4B86B5E64CBB62312AA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tC3F624D653EBFA5CB471FACDECC2E671DFC49E43 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m6A25B7FECC634F6B8B4775DB31AC81FD39A036E1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tC3F624D653EBFA5CB471FACDECC2E671DFC49E43_TisU3CChangePasswordAsyncU3Ed__2a_tD0FC8EE6D6D27BF8F220C2E2C3371A56C8E110B9_m1A8E9C04799426063BB583800E18E54B6A9766B5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t254870075ECFEFDB527FEAE87E666839B53C8634 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CChangePasswordAsyncU3Ed__2aU26_tED6853B6ED82206565EE1A64CDBB7B24EB7004D2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m7BB3966FC7545BC3E334F6EA4DF7712274B1CFED },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tEDBA0BB0CD4FDE42101ACF3F5DDB6160B05AC69F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_VerifyPasswordAsync_m763B03D8C2788DFA7C67F10B1B079D8A69CC77C9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CChangePasswordAsyncU3Ed__2a_tD0FC8EE6D6D27BF8F220C2E2C3371A56C8E110B9_mB583F174DBDE2969CA55E5D85DDFBF4F8CED73A7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdatePassword_m59C932657AD446E5C8DA1CA24EDD949430ED8D38 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CChangePasswordAsyncU3Ed__2a_tD0FC8EE6D6D27BF8F220C2E2C3371A56C8E110B9_mA92E03054739D45C26E64E09981DEBD1415C1C79 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_m9898BDC050BFFBB7541F3AD17E6FEE2EEC78A47F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdatePasswordU3Ed__39_tDC57A3FE92F4FA5A1D70E29E58F527E085BDD7B0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t294DEAF5FB61272C15ACDC81AC9483C03116B0F9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_PasswordValidator_m2220FF7A0AC15C29D68CB07C56E3D7F170D362BC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CUpdatePasswordU3Ed__39_tDC57A3FE92F4FA5A1D70E29E58F527E085BDD7B0_m2199391684F2880F9797D82AFD6EED973F0589DB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdatePasswordU3Ed__39U26_t547C1D815DB47192821B141F5AF3E560EA45049B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_t76F5E649A91F9E851DB3584D9FC28161F5DC6FC6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t9BF5AA023C42C3E737409F285BEBA0AF8A76D78C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_PasswordHasher_mFE89D26F0BB03016EB9B57B68E1BFE2BDCF5363C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPasswordStore_2_SetPasswordHashAsync_m74DF480907A8A955B5ACAB08570BA3DAEF65E34F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CUpdatePasswordU3Ed__39_tDC57A3FE92F4FA5A1D70E29E58F527E085BDD7B0_m234E492D7472AB25DA0EE479C608D1418BAC5929 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateSecurityStampInternal_m8CF383AA0F480B85E839182DF0893CD896D20E8D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyPasswordAsyncU3Ed__3e_t1C9C71AB667298BF95A5D69EC07C2CD186FA51B4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_tD404F935B4F1798412200E37C028774809EC8B2C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t57CFEB9D4C877E5FAB8F8E03B1C47234EC1C446A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPasswordStore_2_GetPasswordHashAsync_m990FD7B4BB41C61485099589C81290F475ACD8C3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CVerifyPasswordAsyncU3Ed__3e_t1C9C71AB667298BF95A5D69EC07C2CD186FA51B4_m4AB9E41C99F289CF911CA0A12D3E97821C947D7D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyPasswordAsyncU3Ed__3eU26_tEC3E36583A88EC5E87714463D24065409EFF8D29 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t96101FAF33C79FFC29B4774A3F82E35F01175C74 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_PasswordHasher_m9E97F08667DCA741756B909A82BCC431935B5E6C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetSecurityStampAsyncU3Ed__42_t6A7E1585BF2ABF467CD90C71CF1F82F0A377B970 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tC5CCC749ADAE138A88418170FA83BDF5C4FE66DF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m09E8546809AEA2A10BD1546EFC6D86ED0A9BD96C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetSecurityStore_mD5DAD01CB7E592D78049A987C27B67710562952B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserSecurityStampStore_2_tA72991B7111E012BE88B4ECCE0B74B8EFC6E45E0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tBBDFB7616DBAEBC0FA31FCADA891F85F0A96E809 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mF4D35F6F77F3C504BCA2646C34A220235AEC882A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t01DF9CF5E64EBDDF88A6A66194B24F567AFB9570 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tC4A6B01991685D44A675A76F000B56844124EBBE_m7FF1C817A523B60FDC2761141146497B3CB7FF66 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t951688A068A39D145C93F16964105F085EF42CC5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m1D333D2BE942B065D1116C38ED1AD3203BF3954C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t951688A068A39D145C93F16964105F085EF42CC5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m177BB06391A868163ED8BB46EF5E8554675AF012 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t951688A068A39D145C93F16964105F085EF42CC5_TisU3CGetSecurityStampAsyncU3Ed__42_t6A7E1585BF2ABF467CD90C71CF1F82F0A377B970_m6FD94926A5380DB5FD0EEFA0A35D0E2DF5723F5B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t50ABCE73D2451E9A2AFEA5082065A3C23DC6D525 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetSecurityStampAsyncU3Ed__42U26_t5492D3675775C3E6B907C7C3C50C9ECD34204B18 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mE827E6C2DCE0EBC603DE6026F86DA6DEBA68C5C0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tC4A6B01991685D44A675A76F000B56844124EBBE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserSecurityStampStore_2_GetSecurityStampAsync_m93A62A55888C28804FE9A4A812BE022BB8C551C8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetSecurityStampAsyncU3Ed__42_t6A7E1585BF2ABF467CD90C71CF1F82F0A377B970_mEC5EFF8EEE6E114DC86804D353AA7258964B0F57 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CResetPasswordAsyncU3Ed__4f_t174D5655EAAF6EC7F56FF9D4B06CA0EF556B54BE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t5F72926EEC8F0D7E045A51DFCEDB5A26F51634F3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mCCB808A92B5944765B31CEBF69DAAA9ED06486AE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t4F35AD5C242F12132EA90DAE23ADECC8ABFDFB67 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m331E8E6DB8A206B286E98F41B90BCE3283F3457B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tD1DBDE9E5601D37984D6DAC103C17780541759B9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t72AB7DE134775849CEA6018C50EE305D64150430_m3CF74FE55B7FFD9BF5BB3E6EB69ADF8984FD1A17 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t34E53B08F401039B63B62F100D53FB6B1A52AB35 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_mC66604133C4257C27D46F0AADB92E69FECDB68AA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t34E53B08F401039B63B62F100D53FB6B1A52AB35 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m8549F7F388C4DCB817F3F04274375DE64717F8CA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t34E53B08F401039B63B62F100D53FB6B1A52AB35_TisU3CResetPasswordAsyncU3Ed__4f_t174D5655EAAF6EC7F56FF9D4B06CA0EF556B54BE_mA7B6338A482848227D699B687E73D53241DEC55E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tE9208665EB0AE1D3AE2C212B76A97469769052EF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CResetPasswordAsyncU3Ed__4fU26_t4F9CB8504513560505E39724C887E8DA22F7F1A4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m2E0660EF166791BFC126FE6E47856312E6940432 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t72AB7DE134775849CEA6018C50EE305D64150430 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_VerifyUserTokenAsync_m56FF36D823A687AFAE23B194F2FE687B3B743406 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CResetPasswordAsyncU3Ed__4f_t174D5655EAAF6EC7F56FF9D4B06CA0EF556B54BE_m047EF8E4FDB17DAC08C3BBED740F9BB5DE2C5AC3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPasswordStore_mB5BCF15069C5557CC5E1D3F80747D38CB68FC972 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPasswordStore_2_tBDA2A3CBE1CA6B73D803F8A21BB0599A7EA8A7A2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdatePassword_mB2B2796F47D74056DAFEB0BC13EBF5ADC55A6DC1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CResetPasswordAsyncU3Ed__4f_t174D5655EAAF6EC7F56FF9D4B06CA0EF556B54BE_m8E9B5DC20263440AAE810ABA7CA1082029A9C6AB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_mE8D02676140C41F9E984DC2F03EE2804EAC3E7A3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdateSecurityStampInternalU3Ed__57_tED8FC0CB7F9656BEA5FE91BA90B7FC3439DF993E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t5F35DC12DDCF9ECBAEDC32CEFA88A0E92385BAD9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_SupportsUserSecurityStamp_m0B2729E62C7ED8917EC8E608D1E2268101C786EE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetSecurityStore_mB1AC2C747DDAFB47F6282AF9012585EE7B53CAEF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserSecurityStampStore_2_t73EC8B4DBC43F01B1349114F2998B14BCB4B5A2F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tB978315B98D08D2934E12C871D51995D09D59761 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_NewSecurityStamp_m87260EFAC15691CC4087ECEDA98F6BE952F489E5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t5F35DC12DDCF9ECBAEDC32CEFA88A0E92385BAD9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserSecurityStampStore_2_SetSecurityStampAsync_mEBDCC00751E4C95E5F0B65D5B0A58A871AE8E847 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CUpdateSecurityStampInternalU3Ed__57_tED8FC0CB7F9656BEA5FE91BA90B7FC3439DF993E_m589F8963EA79C315049BB37D891050A04CA46B4F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CUpdateSecurityStampInternalU3Ed__57U26_tDD0C2414E28AE2EF9F61CB68735AB8435B536538 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CRemoveLoginAsyncU3Ed__5a_tC973CF31AA505EBDEC678EC264D4FC0419C3E95A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tACDD591B9D008A5FF61203D9CDB0B943276FD53D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m1CA24CBEE98441D1095B2017380E15BEA2A12785 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetLoginStore_m7901BE599AD22526CFF17DDBE1CB11C82B0BD159 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLoginStore_2_t1ED11D0EFAC98EBB4D3525C7483821E03608C714 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tFC1D69D925F092AEDF56B985DF5190FEF5DA7F1D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m7E2FCEC9B1A9209C0095441ECA37262DD8A9B48F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tA690E730C47CBADD71C0AC4269B37AE12E6CC992 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t92A6E4628917499D995C87D60CD8F04863BB8F34_mE1E3117E4A9FACF7A96784D48B0D20501A1CD598 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t4030BF59A9C8145FA9F5BC74B37A39387AE4FB4B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_mF0C90B3FFBD3F78C47FB611B5E1A9BB6905E4A64 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t4030BF59A9C8145FA9F5BC74B37A39387AE4FB4B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m0F5EE4ECF3032929A8AB06F53AB9D1231F077130 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t4030BF59A9C8145FA9F5BC74B37A39387AE4FB4B_TisU3CRemoveLoginAsyncU3Ed__5a_tC973CF31AA505EBDEC678EC264D4FC0419C3E95A_m0C6D04723E955757452E7CC6971711016ED757DC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tEA1F9A7A8960B8A12BD0AE0C90A210D4A32C1953 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CRemoveLoginAsyncU3Ed__5aU26_t2B0B5FAD17CC516FDEAFDFC643D91A7F98313B2B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m3354BDC983E28A3F549BAE183079FABA09CEF400 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t92A6E4628917499D995C87D60CD8F04863BB8F34 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLoginStore_2_RemoveLoginAsync_m909D53AF9674E580FB1CF51B61FEFEFE57BF0AF3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CRemoveLoginAsyncU3Ed__5a_tC973CF31AA505EBDEC678EC264D4FC0419C3E95A_mB02F29CAF426A5B4832B655FD91D72A61564A53D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateSecurityStampInternal_m880D7A5FD7073506DD4A34C5CB2AD36BD884B5D3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_mDF846AB4945CCF8ECF3C32F90C440BF140AE9240 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CRemoveLoginAsyncU3Ed__5a_tC973CF31AA505EBDEC678EC264D4FC0419C3E95A_mE14C0DFD9BF81419F721F8493DDAA379DC8B4ADB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAddLoginAsyncU3Ed__61_t1CEE4A11CBB9CEDB89F60D572C2A978A3A7C5B67 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tB8C9E2F3C10968EC757043718435FD20618B9E66 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m4B23258A503E6E0541A5E02D5E474925122EE583 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetLoginStore_m14E44AC8E5BEA64E3F007A15118A2E83913831A1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLoginStore_2_tBB211B5672DF5030BB4C1AE8A9B12DE868D3047A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t09AC2B74B07061379D21BCF7B423CC460DA66223 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mCC3046399D19FA4BE5D0DE5923F43366B2AB7EAC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t75283F0F57EE3534C7F731EBB9373E19B48F082B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t0AFF77B9271F6957879114ACC39EBA7BC8396949_mE87B2E12038B4BA1C4ADF22715C1412F43C705F3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tECF1AE81FEDDDB733F3D3679AEAC6EE6EC444054 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_mD29F1C738331DFA801099ECBC8456A14CA607916 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tECF1AE81FEDDDB733F3D3679AEAC6EE6EC444054 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mA0C6CD9B38BF5217B4B299596977FF6E702AE6AF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tECF1AE81FEDDDB733F3D3679AEAC6EE6EC444054_TisU3CAddLoginAsyncU3Ed__61_t1CEE4A11CBB9CEDB89F60D572C2A978A3A7C5B67_mE5E7EC138F3F64954A7BAC2CECF5042390E1819E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t4CE885E72CCC0BC3450441F94801F161C50674DE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAddLoginAsyncU3Ed__61U26_tCCDA530E9C4B5BE92722E5F0C36EF6DF7E15916B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m67F38945595CB0D7B008EADAC3A48A5B73510D35 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t0AFF77B9271F6957879114ACC39EBA7BC8396949 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindAsync_m7C1D51A8CC87D025AF400CA4BAD89A14A2A80B1D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLoginStore_2_AddLoginAsync_m5559AE682CE5A59D7AE5C407AD845C86F264047B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CAddLoginAsyncU3Ed__61_t1CEE4A11CBB9CEDB89F60D572C2A978A3A7C5B67_mCEC5F5091C1D9AC19B24FE08DDAA28640EDB58E3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_mDB09F056C4B9D80918A33E28326093913D683DB0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CAddLoginAsyncU3Ed__61_t1CEE4A11CBB9CEDB89F60D572C2A978A3A7C5B67_mE94F107B1073A61D4B6BC57BF21918D0E2851BFD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetLoginsAsyncU3Ed__69_tBD6813C96B944636E592AC06D9AF88C04A424711 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t84D548D3880F2646307A48F6C2DE741AAEBA873D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mEAC4BD4E4A6F57D0B11BAD569E663FCB40C791AD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetLoginStore_m0023487DF77940DDC0C19E73446112B41075DF12 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLoginStore_2_t2553D9BFD53FB95F17C4E07ADB140D7FE98DD6D3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t34EDA708208764225BD05014D73C789CEF743D4A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m0D5DE3B13C6F9AE04D8D9B48502477809FEFEF62 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t67311EC9C05552F8358EA6A9C1167E6FF261C699 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tF142EC38F1D08D7BB4D6953AC0371299745B9372_m551208082A1A67C6354490BEF6206F05EBF1E3C9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t7F6B769147F947AFB5B46545A9EDC70687E498D6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m083407524F48D42583503F82F463D08C337AB100 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t7F6B769147F947AFB5B46545A9EDC70687E498D6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mAF13F2AEBED7C6662F4477BDC57B8879CCAC3D0B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t7F6B769147F947AFB5B46545A9EDC70687E498D6_TisU3CGetLoginsAsyncU3Ed__69_tBD6813C96B944636E592AC06D9AF88C04A424711_m44625F1857D0CFEA174C6150046776E92C7BA402 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tC97C209E96F498BBA501C2B1390979326670A084 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetLoginsAsyncU3Ed__69U26_t0B06954E105A0782B6763C77E463E8126915DAAE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m8B4B8E654E4C3567931F056441005196ACDC3B1E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tF142EC38F1D08D7BB4D6953AC0371299745B9372 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLoginStore_2_GetLoginsAsync_m03511D6DB9A0C305C948600C0A04BD9D98B1FF4D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tE413B37E9E9DE418356FE341D78C2AE5C92C7EEA_TisU3CGetLoginsAsyncU3Ed__69_tBD6813C96B944636E592AC06D9AF88C04A424711_m549D7FAA19FD86E89A160ADBD4EBFE0218629416 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetClaimsAsyncU3Ed__7d_tB852851A80F3F891943FCF526ECC127CC3FB5D4E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tB1574F8A14E2FE53988848C844C0BB9C6E559D12 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mD11207ED0C39B03A42029FDEB0AA6150B63698BA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetClaimStore_mD58A37F84EBDEAD669DF2D17E9D366246C09B8B9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserClaimStore_2_t5430567CCDCEE384C363FF58BC2FC30B62A884A7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t20DEA8F4FC9706A55100034AD3F7729773178441 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m25696039106571F923FD001FFD1451D2C25D0FF8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tE36C78F83F83971416E2CD4BEB72A35586BF48E9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t8E62CF084AFB03AEE2266A0BB7EE71C596105E3C_m77FCEB7C437A577B5A5FA40E7582FAAB78D69ED5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tC6BB5FD76C859BF5A82AEFBD1873C66510A4D01D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m60A84CCAEA2E92855F0DC8E62F98842376D7072E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tC6BB5FD76C859BF5A82AEFBD1873C66510A4D01D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mBB097C8EF2C3CE71221F4471D1AA2718A4E94C9A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tC6BB5FD76C859BF5A82AEFBD1873C66510A4D01D_TisU3CGetClaimsAsyncU3Ed__7d_tB852851A80F3F891943FCF526ECC127CC3FB5D4E_m33E555EDB192CE4CA3486A7AF325A16B14475CEC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tC4E7DB79561ABCC2B7F26E9CBC70FCEC1F2AFDD9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetClaimsAsyncU3Ed__7dU26_t091859BA0BC3F5B236C2CF31710F0DDC31305078 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m957EB6A68C72967407551DE3D5C54E97FA1BEE24 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t8E62CF084AFB03AEE2266A0BB7EE71C596105E3C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserClaimStore_2_GetClaimsAsync_m2EEB54CA477AF3599109C72BBB06D2E8AAA861A9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t0851084BA604E554488ADC5C8A607A4D7F81DC29_TisU3CGetClaimsAsyncU3Ed__7d_tB852851A80F3F891943FCF526ECC127CC3FB5D4E_m1A3A26F26E42217E4DA855028534E8209856DA36 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetRolesAsyncU3Ed__ac_t0D70A104E55EF0588D8BB96B48587653D7CE8B9C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t13A943794D1BD78325B0A06FCB77366C0ECCCD95 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m1A55130073F9AA4523B9275A21CDEF72646A291E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetUserRoleStore_mDF2FD1B3C705A582E21E4090A00F7B441855AAB3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserRoleStore_2_t8928176AF741F64939115A6FA115D6B65F0FC6A6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t2F376DEADE74899565B27F899BAF8B27E7708B69 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mD54C8341F77B6C2DA247AC71C34C3ECBB76773D3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tAECC7BF38FED185448DEB5D0690BBF9412BB951A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tB149626E82407A57AA67D217C5AD5462941A1ED0_m93E1960BF00079E863C97497D18B53E00EA415D3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tDD04F9BF8F31010CAB7E4C1268ACCE61A62CAC29 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_mF3F33A582BD8D2C335735ACA25DE3675D70C462C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tDD04F9BF8F31010CAB7E4C1268ACCE61A62CAC29 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m4C2846985D1B13013E7C08988635257D107C0357 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tDD04F9BF8F31010CAB7E4C1268ACCE61A62CAC29_TisU3CGetRolesAsyncU3Ed__ac_t0D70A104E55EF0588D8BB96B48587653D7CE8B9C_mC5AE10EC8BBE46D76553F814BE3FDF4D04879297 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t0A37DD938125056F5DAAA67CC65D72870BA9A3BA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetRolesAsyncU3Ed__acU26_tB797EF93D9C2C7EC26CD38FF6EA7268F12D3B7AF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m9A1C33CFCBC16463EB2CDBBD6E4D64FFE21989EA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tB149626E82407A57AA67D217C5AD5462941A1ED0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserRoleStore_2_GetRolesAsync_m9D42BCA8A69CBADD53863B1DE873D081A4183707 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t42FE41D0C79E239C0D2063397A65C09B8DE16694_TisU3CGetRolesAsyncU3Ed__ac_t0D70A104E55EF0588D8BB96B48587653D7CE8B9C_m6389545C595E5F3FC0B7E6DEA9558D6805F999CC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetEmailAsyncU3Ed__b8_t492E0A028DE80B9947C4E7CAFD84557D87A23A16 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t57C40262940AD87148ED124A27408DB7EA9E9270 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m5C54BB77872AB30663F54C00FFA99E60EE94348C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetEmailStore_m3D6D2EEAD5E7092F876BC78D4A38FEC91BE4B1D9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserEmailStore_2_t0FC21A6D7C5F8CC81740D7988C8AC555D0F50F95 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tE8D352C1824CBB73D04DE45B52E2B854BC7196B5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m01B6226DECC46D488847DCAB2A569101D3B61B6B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t2D9D9DAB78A0BEB2B35B44569FAFD6E34644A070 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t6046A85655CAABAF9AA26B5165FC24196902EB2D_m49E53BF58D5937AD83C6C2689F9B6B4F76272A93 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t07918DA44CF28A51628A9F7AA1145CF0DDF21719 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m3FD9D522806754F73E67E1D173D1023892A1F643 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t07918DA44CF28A51628A9F7AA1145CF0DDF21719 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mFAFBE5324062EC7656F17489D7B86B2162F8DE0B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t07918DA44CF28A51628A9F7AA1145CF0DDF21719_TisU3CGetEmailAsyncU3Ed__b8_t492E0A028DE80B9947C4E7CAFD84557D87A23A16_m0956555BD106862C48CE07F7E1FF6EC85FA760D6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tA43B3B26BCD7E5CDA3C81CB5E191CB76353D127B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetEmailAsyncU3Ed__b8U26_tEBCAAC3C35DCC7DE9425BB58C4B6F2D3297D0A74 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mDCE5204A98912C4C3731650AFBE59132F10FD3E8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t6046A85655CAABAF9AA26B5165FC24196902EB2D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserEmailStore_2_GetEmailAsync_m7960564192BEB3F0D59C6DE5F4859FE3FD4640AC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetEmailAsyncU3Ed__b8_t492E0A028DE80B9947C4E7CAFD84557D87A23A16_mCCE51E3CB4A58BFDE9F0A4B99A178937AD28671F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tA57E7FB8E2780972E0C7D0E843AE83C37D5A51CB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m43DF571E795B53CE6F01416F822B77A5A03974A2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetEmailStore_mBB87E80FB004C40D4DB11092FF51BF8CA4CB6B92 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserEmailStore_2_t93B1EBE8E181DE763F76BCF4DA65680124A87CA3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t67BB7CB97564D02630408D40FD7AAF230A58D2C4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mDC5EDB470ED5610C269E9666760DFEC0E6496562 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t94223AC0C249C8BE83C2962B0B90EBB4AC404E52 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t431E4AF4C9E062DB9D058EA5C42D30CAB25880F0_mDF9D7DA3483E7D23FD8A127AEB738917CCA944C5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tC9CBF69E859AFBED0DBEA453565F82D0166E1DDB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m5305ADE685150F5F8618EE8205185508D652E340 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tC9CBF69E859AFBED0DBEA453565F82D0166E1DDB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m666074DF24BED11537736FF3EE23E8B853F8C4AF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tC9CBF69E859AFBED0DBEA453565F82D0166E1DDB_TisU3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909_m8DCD4D22133DF02E1D64CE8830E71CB7D056867D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t3A1BC3E13BA0D753EFA7F3F8CBCDD44E2DBF87D7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CConfirmEmailAsyncU3Ed__c5U26_tA408F82E8222FFDDDD2AD6B395A520201A8CE696 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m9A575AAC164D7FDDEC3C98BA118DA9439019F5B4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t431E4AF4C9E062DB9D058EA5C42D30CAB25880F0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_VerifyUserTokenAsync_m0579B1B1506982992CE2D43A036F9C4FAB08D59F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909_m76710064FEDD60BC8BCBA93ECA8B2379A8709B5E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserEmailStore_2_SetEmailConfirmedAsync_m4C364EB7FFEA0998BA07B09C382CCB01E6411E4F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909_m247C7B8D88D1DB6A4BCA56AAD0ECEFC02679EB16 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_mCB0C7F9221DFE72544EE1C381095C655B82C5E7A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CConfirmEmailAsyncU3Ed__c5_t2035D20D08B613ABAFAFA28F13E9F9E5A582B909_mB256469E5C535FCB71935F2D711A50E5C01BA857 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsEmailConfirmedAsyncU3Ed__cd_t676F29CB1C4F742543F5BC53576E67FE007B3E4A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tE04EAFAB67396F1F78B470C5CF0B9270D2764FBD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mE2D7F4D1667CFD73F67DFB066519BCFDE1245E01 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetEmailStore_mAE10F2578F8D0E7369AAE2AAE2AF256FCF59A16F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserEmailStore_2_t63682FD8499A10394DC223B4205CB0A9C7353032 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t0491F5A9CE4304D68AA97B05A060C3DD1B14A40F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m47C992A2F6E6CB8A741863DD2FAD09E3BC2CBB83 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t334E1767786E93D61717E545AEF7E68D60E614D9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t0FBF38074E37046CB8EA4DACE7FED07B13436490_m9C24422A682432F3FC03098C19CA34E64D9DE2D7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t84140BBE198ABA0C4600016C25B5A7281A55C8C6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m8E32FA4771AF5D42AD908146ACBEEB1D03DBF3EB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t84140BBE198ABA0C4600016C25B5A7281A55C8C6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m4EF33C250B917219D72860C8020755262CB64010 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t84140BBE198ABA0C4600016C25B5A7281A55C8C6_TisU3CIsEmailConfirmedAsyncU3Ed__cd_t676F29CB1C4F742543F5BC53576E67FE007B3E4A_mE5B9EDBAF57A8BF71A6A3855F89548E3DF7A7181 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tE8DE7B722A5A9C80B513DD4BA9608D99F4D376A3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsEmailConfirmedAsyncU3Ed__cdU26_t495F26DB132809D51BCD2DBDDF4B08B54688FF41 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mD62BB7F0A9FC3AAF6385DA3E07569F013A91EECF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t0FBF38074E37046CB8EA4DACE7FED07B13436490 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserEmailStore_2_GetEmailConfirmedAsync_mB0FFCD448A7C6CCAE140B6AD74F69C65FA7451CE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsEmailConfirmedAsyncU3Ed__cd_t676F29CB1C4F742543F5BC53576E67FE007B3E4A_m0C9DEA5B4AF73BAEFD86F063F0E16F2FFFC67269 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetPhoneNumberAsyncU3Ed__d3_tB20C92466018255D7D749BCF55395B2CA3678796 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t2B61B6AF483839BBCD8B6EBB464FFE7F6A7A377B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m8408E949D08CAFEAF21833906AA750553EC65537 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPhoneNumberStore_mD89C26D341394C4162AA2ADD44D8CC97679DEF73 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPhoneNumberStore_2_tA44147C4308E48B005EA066C4CFB84D0AD801BA4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tEDE526404E658EA6D8033EEEB55B569FB7454959 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mF44489C7606E85B37571E9108DA86B4787D426C4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t61C3FCF6499840A36D21AB259A0AD92DAEE5932F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t459EB23F6FE2734B6B53E8675060DECACD5B7340_m724B35E56429858BA5F676EF05FAF5D31788A565 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t24F9D9C1B37C456C673E13743B4D071F4F7DB67F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_mA9B7243F2E3B5B42D8BC75264AB7F238A92097D3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t24F9D9C1B37C456C673E13743B4D071F4F7DB67F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m392B05B7DAD57A9621FD0311350118E5FF3C18E8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t24F9D9C1B37C456C673E13743B4D071F4F7DB67F_TisU3CGetPhoneNumberAsyncU3Ed__d3_tB20C92466018255D7D749BCF55395B2CA3678796_m62930016D65C866EA6A0FF6AED26CD9F6FC58E2A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tE8D11DD48BA193FB5D815AEC850E3862799B6BAB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetPhoneNumberAsyncU3Ed__d3U26_t7D9FD48FAA199F17104FEF0F94B4413A14D3A566 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m1AECFC98CF06C89650FCF644A80767C9B4C5C1FD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t459EB23F6FE2734B6B53E8675060DECACD5B7340 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPhoneNumberStore_2_GetPhoneNumberAsync_mE28AF5DB5840559350B349235CB030AE546C57B3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGetPhoneNumberAsyncU3Ed__d3_tB20C92466018255D7D749BCF55395B2CA3678796_m5F33ADF2DD85B960DECE55794088A83BEF7236EE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSetPhoneNumberAsyncU3Ed__d9_tB2B714ABEFEF2A93324A578BBDBBAB1E6640566F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t481C4241455536E7DDBFC60807ABA53DC32910C2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mCB4027B1EF16200156EF890C121AF38DC8A6175F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPhoneNumberStore_m3CDC4D0AF87E295FE467FF2258AB2CC7C0452A79 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPhoneNumberStore_2_tA1EF0BAD338D9C3ABBC155529AB0267389632412 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t5AFB12D1D89E59F6D30C0D15434DD2C861ABF97D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m5A2E247643A5FF6E9DAF090B36A69A345ADDC369 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t10A90E03505105CC02EC004F2B05CF3E077DD528 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tB0127BC3E8178918020ABB85EA7ED025CB1A5AB6_m91648EBC2DC0FDCC85E1167346F3BEE15578B2D8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t7C2D7BC60CE7B61087C39B85FF2998482A9C3CC4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m9980E592530D688DD856889FBDE2D48948FEA136 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t7C2D7BC60CE7B61087C39B85FF2998482A9C3CC4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m8D04DB1580ADD8F129B0FB150F9425E6DCB55C8B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t7C2D7BC60CE7B61087C39B85FF2998482A9C3CC4_TisU3CSetPhoneNumberAsyncU3Ed__d9_tB2B714ABEFEF2A93324A578BBDBBAB1E6640566F_m6BF919719A14FEC4DB7CF3970187F07467C0CE2D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tAF9BC96F250F2C765E93D8C20179B9E326120CF8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSetPhoneNumberAsyncU3Ed__d9U26_tC8C3878628056D2728EB5102C347A4FC64834DC4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mECD7A6B7F24764C00A93C926F41E0733BD7EA735 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tB0127BC3E8178918020ABB85EA7ED025CB1A5AB6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPhoneNumberStore_2_SetPhoneNumberAsync_mCB105ADE8ABE017FF1EE49F2C965C33135C97D44 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CSetPhoneNumberAsyncU3Ed__d9_tB2B714ABEFEF2A93324A578BBDBBAB1E6640566F_m6CEB73396DCB2CA81C77A046A2C2E52E65E22A1A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPhoneNumberStore_2_SetPhoneNumberConfirmedAsync_m2406F0DF77381C8F74275EF5EFF50F72DE78BE87 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateSecurityStampInternal_m4C0D3D35FD6CAA15BD92500AC35E5B2CBE05993F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_m8784E1C37D628EFB8B22E9ADABF6E556B1BE0F9A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CSetPhoneNumberAsyncU3Ed__d9_tB2B714ABEFEF2A93324A578BBDBBAB1E6640566F_m64EF602EAB7C91B725999CB9AAD0F9D3C2503A01 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t29EF63D86C62B24F70689B974CF24F0D63BF4ACA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mED46C9D9CF77C11AB07B519A286B23D2E317540F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPhoneNumberStore_m61C5221D07C33C2EFD6AA85AF94938752C82D5ED },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPhoneNumberStore_2_t4F3DC8CBD65D6310CE9446D59E4E4679D9C5446C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t386F6A1C1C1C7237EF2BDE47A8537481EA8B0AFC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m42B2871A16912B729ACCCFEA20549D4EFA933B64 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t715D0F2B6E2C83BB05CCD16CEC81046A393B27DD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tBFAD3FED29EB154EFA263E9E94729636819F2CF5_m45086D4F3C2E760A3BEC4368C750FD66533C13F1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t0D2D01C8965D69B8FA733E2BFB6AA2C974F1465A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_mBCF01938108624C4613AFFA1E58ED24182234184 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t0D2D01C8965D69B8FA733E2BFB6AA2C974F1465A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mEAAC82B79E1542FE43BF358FF65252A8505D6DFE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t0D2D01C8965D69B8FA733E2BFB6AA2C974F1465A_TisU3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347_mE382F938182E43AEDEA78E4E2445DC92353F3432 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t9EF7FB6DDF447005930B22588A87C386CA86DAAB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CChangePhoneNumberAsyncU3Ed__e0U26_t62E57F22CA8104F2CB4F0735392961FE98BDB758 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mE3DFB5FD6C4C99FD311598FCF3098F3AC8E19CF3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tBFAD3FED29EB154EFA263E9E94729636819F2CF5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_VerifyChangePhoneNumberTokenAsync_m60F88B8A45688A7D44F0216F1EA5CDCDE34F08E3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347_m37E98CF0D1907106D971CC25FD20692AE32B5E2D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPhoneNumberStore_2_SetPhoneNumberAsync_mDD9410C03A8D388F8AC6024E971BEE18E86B2154 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347_m555D265A8F5D99EE77B1313880A18049E20F74E6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPhoneNumberStore_2_SetPhoneNumberConfirmedAsync_m50543CF4E80158EAEAB71C58B495071444521F03 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateSecurityStampInternal_mBA82E407FB1A106A1C0E6A2F720539E6BCE5CCC4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_m6F70D0919A70EABBA1A0AD14DC862CC7CBBFB995 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CChangePhoneNumberAsyncU3Ed__e0_t6A98479241E9A4934A976A5A0EA2394C6D978347_m3882DD298E7C3ADFC20EC9CBC4406F1DF16C2A93 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tAD880E1CC32A5B1D56A24426B135F870AB3F107E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t90B0F3C9D8F97661291106B448A571FF0127EF88 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mC01A9E7354CD16967E8F838E9C629A369A928EDC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPhoneNumberStore_m4546CAF42F5C50DC8F3DB4084FDB9002A5B5083C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserPhoneNumberStore_2_tED722A99625C8AF40E00CE0038870C1FEB56E5DC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t2A999B0B847B4FD71C6E860013CD0A2633157D62 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mD3E41C0587F21B83E20A15F43F9CA9E7E97918FD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tA3E27D72B2F1EC0DE20BA26F55976182C96D5A3F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tC72665CF773911506A0D3882227ECA6977DDB7F8_mAD39A40B3273EB41EC2332FC238F26D0F3DAB412 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tCE7005ABC8FFB03A74F8BC0AE1C1DB93A67668EA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m18AD4D3DA25C3C89023692BF0846C99CD97380E9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tCE7005ABC8FFB03A74F8BC0AE1C1DB93A67668EA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m8C97BEC97BD7610F4C4D7F73416BCBF290E26AB0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tCE7005ABC8FFB03A74F8BC0AE1C1DB93A67668EA_TisU3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tAD880E1CC32A5B1D56A24426B135F870AB3F107E_m0B4762A9B05DCBBE8FDB1A2705AC847D5BD0C839 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t84DECF8CF8EC054B03FD79C3E9DEDEA0DD617FE0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsPhoneNumberConfirmedAsyncU3Ed__e8U26_t9D766E30668394E6CBE0FC71F3493EBB780C6EA9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mFED3307292F772088D12C9EAE3A9991FE67D9DA2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tC72665CF773911506A0D3882227ECA6977DDB7F8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserPhoneNumberStore_2_GetPhoneNumberConfirmedAsync_mD23CDC2B410C5FF79891969D4AFDE796401999FE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsPhoneNumberConfirmedAsyncU3Ed__e8_tAD880E1CC32A5B1D56A24426B135F870AB3F107E_mC793CDF974E4C3788DE30E73161D7C3023A3E3DD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateSecurityTokenAsyncU3Ed__ee_tEF3806F1F626D3D9C72781D962C3DC02E14DDB6D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t78AD4FA1BF80FFDD09F057F41AA86FE407ADA2C5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t4B55F635B00F208D56E36986581675C761705746 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetSecurityStampAsync_mE8FC12160C15A6BEE5905581E3E0AB67AD5D9449 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CCreateSecurityTokenAsyncU3Ed__ee_tEF3806F1F626D3D9C72781D962C3DC02E14DDB6D_mC10CD6A0217DF786717AF3412712B09C0C9522BF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CCreateSecurityTokenAsyncU3Ed__eeU26_t5CE94F97DEC4AA87455585FACFDD3D2A4C0CA0FF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1_t2881B6B2CC88C15002425A49660DF92D31214A8C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t84EFDF4D3B0B3E5430477801199946C4CBD9043D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mE73FBD217940766A71C7761BC958971CE45819BB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t389F7344F53D583F4EAD0D30614D9FF52292EA4C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_CreateSecurityTokenAsync_m5804FE75F1EF4D173BD94D1278003FA25E2EBAE5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tB3930979420EDDC4306DBC9E21C2E86035BFE5A3_TisU3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1_t2881B6B2CC88C15002425A49660DF92D31214A8C_m31DC60530871FAA1E1AF7F256E5F331024D500EC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateChangePhoneNumberTokenAsyncU3Ed__f1U26_t1E9D0F55309136D4FE3E1C3FFF356D3393BA2343 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4_t952C3754C22B735A81FAD2D3785B724C9071E0FA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t275DD90E4F4FCE820406B14B3F6B99F1B39B034B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m48B1771C9B74A29D452DAE2DA3535611B94BD88B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t853348087300949353E542982AF9B7841141AAF2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_CreateSecurityTokenAsync_m76D746B0DC985A499413FC1AFA63031B9D34CC36 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tB3930979420EDDC4306DBC9E21C2E86035BFE5A3_TisU3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4_t952C3754C22B735A81FAD2D3785B724C9071E0FA_m9B529E448B474DCD95D0ADEFBFCC1DA18D7E4120 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyChangePhoneNumberTokenAsyncU3Ed__f4U26_t5EDF401AC815E12015978FD1D1CC69E28DE00FE5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyUserTokenAsyncU3Ed__f9_tC338FAF625A667966A608A4AC36F6069B65CFABF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tFD9C17F2CDB8CE758205E9DF5B61076EAC011248 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m0AA74E722119DF5F2FF7E7A3FBAC146A65EB822D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_UserTokenProvider_m672CB98E0D1FF6CF7F9E2C89365EB00181B6CA81 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTokenProvider_2_t4E6AA0085F39640868409E132B783F5939D9DDBD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t41A154D2720D1C71BF93529E8536B32A76BBCB3D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m0F2D27A3B7A73D63EB83FB70FAB443B75FD2ECE5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t23BC15E6C33B76240FB16121ADB518DDE2E2F6AE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t99617AEFBAD504719B370EF88B18BCDFAE21222E_m4B230E3EFF7690890AE22C510A113C7443AB72BE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t28D6302E914A5FC9C2CEB96E89E24A452797E039 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m723B0DC1A8069E695E0436085F91EFB5F5E49CB4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t28D6302E914A5FC9C2CEB96E89E24A452797E039 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mAA4D4EDF3B6F065228D828BBF3958B8440C78C94 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t28D6302E914A5FC9C2CEB96E89E24A452797E039_TisU3CVerifyUserTokenAsyncU3Ed__f9_tC338FAF625A667966A608A4AC36F6069B65CFABF_m4A934A6C0B2D0C2657D69DED1148EB819A171C07 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t16154815D27D563C2DD7831601872B16FDD77A25 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyUserTokenAsyncU3Ed__f9U26_t4F30FDBF94257A00A979F10E31236609C475C8E7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mACFD585871EE2983D0C03B7F021C28C7B5C5C3A2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t99617AEFBAD504719B370EF88B18BCDFAE21222E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserTokenProvider_2_ValidateAsync_m314457A0575D4FDA75A73F2BC82E3D2729D6C63E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CVerifyUserTokenAsyncU3Ed__f9_tC338FAF625A667966A608A4AC36F6069B65CFABF_mF2437AFE99D029A1B9CF7CE616D787782E0A06A1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetValidTwoFactorProvidersAsyncU3Ed__103_tDC74FFBEEF23B3AE81731B5328741204864CE274 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tA684313C108C4AC3EE2BA850C1628E6D74E7CC03 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m02462589F555F0162EE8DCE731396712B24B0B31 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t09E2019B6B2BCA342463C17DDBAA2E94DA93C6FF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m50F88E1BEBB8C4889C9382FF0512D3BAED15A448 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t3F52F92534C4C8F2BBB20BC3BB6E69B465524C92 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t8CBDF89F9A0CC2B8F859127450B7CBACEAAB5788_mB8C0140AB1402B829D7F5C124720EF44FAC99C8C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tEB4BF6B94FFB4D4ABFFDC78A9710BA5288AE7E78 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m1E3E96543D91AAEF06008227727ABCAF3119FD20 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tEB4BF6B94FFB4D4ABFFDC78A9710BA5288AE7E78 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mB814D28EB4DEE923917CB27E31BEDE21A0E2902F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tEB4BF6B94FFB4D4ABFFDC78A9710BA5288AE7E78_TisU3CGetValidTwoFactorProvidersAsyncU3Ed__103_tDC74FFBEEF23B3AE81731B5328741204864CE274_mAEA0FD3900DFB7EC2E26B5A7886DB9B361A427FE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t0BDDB0D81B3E9D564E533A59CA25C340944EC3C7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetValidTwoFactorProvidersAsyncU3Ed__103U26_t1AD085E779A16CA4AADA1F9E22DF6725F43F91E9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m91FE7619D066C142B987FC8AA92BB0D877511FE5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t8CBDF89F9A0CC2B8F859127450B7CBACEAAB5788 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_TwoFactorProviders_m6F3C411C05A02E26E19328ED04FCFA0F73B84AF2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IDictionary_2_t2E6D5243A43144A390451C9FB486DC79AB7D500F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerable_1_t1B2D9B0459F517814B19979828E5D399BBD3F194 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerable_1_GetEnumerator_mBD453C6D7C63D71077B87A5CEF677D9E04D85DE9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerator_1_t3BEAC11CAFA4001B7EF4E276E4A3D3E606A9A3E8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEnumerator_1_get_Current_m410CBA5DF69A44003EEA06F5AEAAE74D35A89535 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_KeyValuePair_2_tBCFA59F08678CE544AE5A003285F47A11E7C8E05 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_KeyValuePair_2_get_Value_m702C84C21343201A984998D31591075C71335F1E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_KeyValuePair_2_tBCFA59F08678CE544AE5A003285F47A11E7C8E05 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTokenProvider_2_t8ABCD612D6826830781F7FF0651CE568A334A102 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserTokenProvider_2_IsValidProviderForUserAsync_m9C27E46A2B2223D00FA5EE194F9E15206A081279 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CGetValidTwoFactorProvidersAsyncU3Ed__103_tDC74FFBEEF23B3AE81731B5328741204864CE274_mC9228075E5FF3FE97EE6E54A66902F1CBE88EDB4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_KeyValuePair_2_get_Key_m62CBB7382792A5F1E5C3D37EE16EA87F08A256BA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyTwoFactorTokenAsyncU3Ed__10b_tF9C3E7DB469835476CA143CE33BBC28EE152825B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t6E4549A655846BD6FD51883B99D53D054A24D0EF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m1B5B4B59CC2FA5F1BC0C5CE17D41D74B39B35258 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t27649037D03D52B341FCADF345CF1D01F6BBB275 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m97E32E809FA7930F4D8FA3793564C32D9BACB423 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t1180BF5E1D85BCB6E1948F71724CAEFF0F3196C2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t5A40DE134FF04166E2E338CCD11ACE97BCA6EB13_m067A89D1485380E3C1CFD1EF6C355FDF12A4F0BE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tFC0ABFE3C0FC5C0E580FA68A305D303A55802E28 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m034B90B9792F1F0E5F1E0A132D15AB73D381DF44 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tFC0ABFE3C0FC5C0E580FA68A305D303A55802E28 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mC0B2C20FDDD547086DFBF568AEDE71A1EBF79B50 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tFC0ABFE3C0FC5C0E580FA68A305D303A55802E28_TisU3CVerifyTwoFactorTokenAsyncU3Ed__10b_tF9C3E7DB469835476CA143CE33BBC28EE152825B_m51EB5FD4C847B2A237210C64D8577D6121E3BED4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tE54DBC78646E9D50B21ED9449B5E61763C4F7B73 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CVerifyTwoFactorTokenAsyncU3Ed__10bU26_tBB52BE171B99FF90503CD4E007B1BDDA28B61FC7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m20B93A8AE791BD703C40032A25EF9C4626347397 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t5A40DE134FF04166E2E338CCD11ACE97BCA6EB13 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Dictionary_2_tD9263A5CC4344C68F438BDE7E4F9DB9F18D1598A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_ContainsKey_mDCAFCC782A2296F1B312AC22D54BB04F4F2F602C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_get_Item_mD2D84FD169498BF11C169FAF88FD3810446098BF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTokenProvider_2_tABC0CAFCAF701E093A0340E42BBB4F4AC150CA6F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserTokenProvider_2_ValidateAsync_m579939DDC8B5D7F564F37AFA0EF045D18E44B310 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CVerifyTwoFactorTokenAsyncU3Ed__10b_tF9C3E7DB469835476CA143CE33BBC28EE152825B_m36E4FC3661D1334ECA70EF1708F200183FFA9BA0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateTwoFactorTokenAsyncU3Ed__111_t527BCA0F41644D008CCB898F0BABBB15066FAFF7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tDA7FD9FAAD0B1C25F7A9AB16604D32A172750E86 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m02BCF75353578EB01DDF7FBFE4F6DFB85B930C6E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tDE6D8CCF98C0D2DAA24D783E6974616FA1689157 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m87AC0A5D808140F5D865022DC14DC9BEBC19A168 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tD9070C35177499A7132AC8C8F4304D0C09EC9675 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tC0F09466E4432A2DD9D2455BF6F3AB01E9EC8F55_mAA82786C29A5149506AA6EA0DD5E34BDF6D5C64F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tA52110A8C2BEC47C0D5955815001DB5A92B0D059 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m8F7ED4BC0AE438ED7C6EE33676744FC402450AD6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tA52110A8C2BEC47C0D5955815001DB5A92B0D059 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m9385E2CF3B69E2B362982F12DB814C8D6E98EE1D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tA52110A8C2BEC47C0D5955815001DB5A92B0D059_TisU3CGenerateTwoFactorTokenAsyncU3Ed__111_t527BCA0F41644D008CCB898F0BABBB15066FAFF7_m6C05976F62DEB34BC511441EB22721DD1C7CF891 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t0DA1C9F44011FC76C025AA0112DDBA674422BE92 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGenerateTwoFactorTokenAsyncU3Ed__111U26_tAB44C156D59C489A7BC23EED619C77379F267A1F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mB0BF1ABBB00222118002D00CD024B7AA4C732C2B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tC0F09466E4432A2DD9D2455BF6F3AB01E9EC8F55 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Dictionary_2_t707F12EA21E5BA5ADE1E97D8D573EBEE62463F6B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_ContainsKey_m87716620399F38D99C7FFD8DC1F5E5878ED64A23 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_get_Item_mC02FEEEC3C9BAEBD7EB0A351FC538D462CAB4BA7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTokenProvider_2_t0DC6DC9FA905244287230DCB6FEB313FFBBA6C7A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserTokenProvider_2_GenerateAsync_mB57402923F3EDBB89BEABFFC60D731622681E785 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CGenerateTwoFactorTokenAsyncU3Ed__111_t527BCA0F41644D008CCB898F0BABBB15066FAFF7_m46F4522FF7AD9283E53CB87FC95C7F484E3A46D3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CNotifyTwoFactorTokenAsyncU3Ed__116_t776BF0F08E86EEB8E927B65D1E02B3B140E42109 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t8C0DB00B533C3C08ACA75A7BAD1C00A7268DCB54 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mAAE53AAE1BDE718777EC0495D1C897085ACFC82B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t12D94C1634C6DD3A3A1BAAEAD51A3C48881119DE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mB4D6E95A7BA582F6D259EE57973F7FDD570356CF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t956FA3B947F33DF2D8152592609C73997088D33D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t0EC089CE9032766145EB0D9356B39536ECDDBC08_m8819C1201AD067F72FAC50CC3A7D7CB31D6BF66E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tDECFEC5039812DF7F86D77EC1F020B85C863D45F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m8803E2BFA1BA567ABC0F673ACA240964572E54ED },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tDECFEC5039812DF7F86D77EC1F020B85C863D45F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m3551A4C9FE56545C88D2A468778F981130A84D6C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tDECFEC5039812DF7F86D77EC1F020B85C863D45F_TisU3CNotifyTwoFactorTokenAsyncU3Ed__116_t776BF0F08E86EEB8E927B65D1E02B3B140E42109_m62551C796E9FAD92B8AC9C9695689A05A09A9E95 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tAC191EEC5839979AD86FB9F0108DF116840BA0F3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CNotifyTwoFactorTokenAsyncU3Ed__116U26_t6AB3A56B6C448BEE5BC11EC6FEA285C297561527 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m4479157A1A721CB3D5F85F1C04C1C869DB335C00 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t0EC089CE9032766145EB0D9356B39536ECDDBC08 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Dictionary_2_tE7041CF5025CB0043A2CB84F8BD3EC61F9D4375E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_ContainsKey_m7F289D119CC12CCB31E8CBFFB23A6ABAF7D8EC49 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_get_Item_mC0C1E2BA3BEBCA0287DA1E312110E2F8FC8707C5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTokenProvider_2_t7825F50DD9C798544AC9AC5BA8669B48351568AC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserTokenProvider_2_NotifyAsync_m16BFC7612D25F2F918DB638F7FCEEB72A8BD7B00 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CNotifyTwoFactorTokenAsyncU3Ed__116_t776BF0F08E86EEB8E927B65D1E02B3B140E42109_mEF8301590FBDC3DC87A4C2BD5FEE6EC7CDD19E3C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetTwoFactorEnabledAsyncU3Ed__11b_t8B91DB03E10E1FD2124D8F95EE3D724C874530A4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t4905BDA27D2209D3BC7D9DFF89FB18773A2BABBD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m571F591C8945470ED35A44363B1E195F40716BD9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetUserTwoFactorStore_mBD6D4770E4F38259CB761F8BE68E909C019A7CC4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTwoFactorStore_2_t8B4E10824CB1D11F1ABB13CD02CD241C5BA03637 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tCB8F317AD2DC97C61F30257FDD1345CF98167E8D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mCD7EC799AA79EAE6D94BCF3AE5A1104071DD4D7A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t95E81BB8B0177E7181034FAA983C2799886071FD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t4556A8573239F552BC6E165F0F554EA5CA0838FE_mB62E271C102FA4A3AC4E36F922B6030A75E17D25 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t9D8FFFF84C871DF5F33E7B7CE53574FCD59E4A81 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m7166CF28FB08FA99B2A359328ED3BA9252BBFD7F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t9D8FFFF84C871DF5F33E7B7CE53574FCD59E4A81 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m4F1C89B1B31AE074A9D4535B0F9116538247B1F6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t9D8FFFF84C871DF5F33E7B7CE53574FCD59E4A81_TisU3CGetTwoFactorEnabledAsyncU3Ed__11b_t8B91DB03E10E1FD2124D8F95EE3D724C874530A4_m0BA28EFA5A009455B05A358AC0947D0A946E1C25 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t2E30ABE580F3680539B9F5FB0E6CEC38D96A3C94 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetTwoFactorEnabledAsyncU3Ed__11bU26_tAA6CA71631FC4EC97AA006D5DA2496A8BEB06271 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m3FD8CE7ACC73EFBC81C097F4CFB267E171E462F1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t4556A8573239F552BC6E165F0F554EA5CA0838FE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserTwoFactorStore_2_GetTwoFactorEnabledAsync_m92EE3FAA9741F1518724613327493E568A74F21B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CGetTwoFactorEnabledAsyncU3Ed__11b_t8B91DB03E10E1FD2124D8F95EE3D724C874530A4_m1AD72DD9FCE2FF3D3D307ACC201C4BCCF7B724CD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSetTwoFactorEnabledAsyncU3Ed__121_tCED4C97B08B9A8061A009563C5F8692329CF9DFD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t88FB4D731FA2CCD5094338FABFA54607863854C5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m7DF82CB5C6697F2C353AA522CC942FA0E2367D2B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetUserTwoFactorStore_mB0A874B563314751308F6AA3C4AFE85BD556D693 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserTwoFactorStore_2_tF264682FAAD60A39D19A5D7E47D679A095985A0A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tE53940E3CADDA06F5F0A9A9A46F137A91438F222 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mE2BFA8732B6FD0C20AA31C88E5190335EAA8A390 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t6C0A08311DABB223180BA36C3B6CD548187E8498 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t19B38FA8D0D694D741DD7B7F3E6758A1D087C4D1_m1CC109931F1098D6144D87C01665E0BCCD05AB6D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t58930EF26E7C139A188C8D42E7AAFE3AC13E91A6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_mADF9742E5448E58CF30A2A8E073055FD6633AED0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t58930EF26E7C139A188C8D42E7AAFE3AC13E91A6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m5A64A7BC4837B34491D622AC6B54578A4386FB4A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t58930EF26E7C139A188C8D42E7AAFE3AC13E91A6_TisU3CSetTwoFactorEnabledAsyncU3Ed__121_tCED4C97B08B9A8061A009563C5F8692329CF9DFD_m4D0B18DCC89C7B3BD755775E2285C2574ED60C55 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t9EA33B90066CD496A29135D8E210AB5B0CB7114B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSetTwoFactorEnabledAsyncU3Ed__121U26_tAF6A40DB752E9232FD068E5874BC914A7E04AD2B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m16AC33FD4A3E4469997E6CE3F0D075D770509E27 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t19B38FA8D0D694D741DD7B7F3E6758A1D087C4D1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserTwoFactorStore_2_SetTwoFactorEnabledAsync_mB022CF41131A4D25D24F152C242D432BA65FA28B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CSetTwoFactorEnabledAsyncU3Ed__121_tCED4C97B08B9A8061A009563C5F8692329CF9DFD_mE7524837A218E157B68392C6A265961CB909321A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateSecurityStampInternal_mD348159E76C09733E52EAB0DE2153CA0BE4DBED3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_mADFD910CBEB3FE3D618C2D5E4F61C709E5084758 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CSetTwoFactorEnabledAsyncU3Ed__121_tCED4C97B08B9A8061A009563C5F8692329CF9DFD_m334A67047C463F16382FEB0193C19D0F6C78E3AA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSendEmailAsyncU3Ed__129_t437162B3489898B49889402FBC56E409BCDF89AA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tBCE5216D768A99558455547615F0FCCBE5D30F58 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mE7DD976F56E6B99ED82F9329686DF3721F2DF22D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_EmailService_m60F9B84C2CD983FF77A57858955D82DA9982CE2C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tA1DE2D02598D076BAD1A0DE0936AE8853C31D8E6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetEmailAsync_mB2CD3F48F715E8CC50CB902D2E4E873F14312FE4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CSendEmailAsyncU3Ed__129_t437162B3489898B49889402FBC56E409BCDF89AA_mFF88C0F812CD768D79AC256797430956CBB57A30 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSendEmailAsyncU3Ed__129U26_t5FB35CF8B9C7040B3F9B8EAA2B6331C705B63931 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CSendEmailAsyncU3Ed__129_t437162B3489898B49889402FBC56E409BCDF89AA_mF257C1FAD5A73B1C13FB0033E8B4F0AB836AE8A2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSendSmsAsyncU3Ed__12f_tDF5101234E9A961922930BDA3ABB56D2403A414F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tD90AA2C3A5EEB94E024B8C3A26FE42B12429F06A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_mD37091C26828E1C8FAD7821C3CB43C97ED729575 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_SmsService_mAA483899ED2333C6328C9EF911D5AF4A610D3820 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t5E209227FD3F6BF67218716333B58C53ADAC6ED0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetPhoneNumberAsync_m4FA90715BA1B661D7C5C765F968FAC3CFFEB32C6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CSendSmsAsyncU3Ed__12f_tDF5101234E9A961922930BDA3ABB56D2403A414F_m79346A5A891E3EEF34FEEE1A9D2BC6C36FFA2C34 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CSendSmsAsyncU3Ed__12fU26_tC8D44A0AA4C27B0C74E41719CB906C209357E172 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CSendSmsAsyncU3Ed__12f_tDF5101234E9A961922930BDA3ABB56D2403A414F_m7056A4ED857DF78CF0A4E6B17718682D9C835A6F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsLockedOutAsyncU3Ed__134_t17660598170B15403DAF7B75A7CACCCEA40CE671 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tC3570A130C5BF4EEC805A9D5AEC28D49A651581C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m7EB628742B231D24F00EE4FC68659C023D83E0D1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetUserLockoutStore_m70739EBA76D681DDD6545A1A4180B48B626710A9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLockoutStore_2_tD8B503EEF810CD5AF29AC8D8B268741431EBF446 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t079F41501DEDCC2A4EA3FACBF169B3E05BC11A91 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m42A71D2E95376C6E88817DB97D3B7FC722B2A7B8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tD4310FE13300654500203628C97E3E946CDC3BC6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tB697BCDD04AA55F6FA95A07150BE1D89981C0512_m0693606FC9D4466A192D4288C6D0F2974877A9A5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tBE54473A0B426509C37B82A695338F90B43BC8F9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m098F7B046DBB8F8805D96C68B3D6E9301F4A434C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tBE54473A0B426509C37B82A695338F90B43BC8F9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mFC7758621F40C9D06F50947146938F6008C0189D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tBE54473A0B426509C37B82A695338F90B43BC8F9_TisU3CIsLockedOutAsyncU3Ed__134_t17660598170B15403DAF7B75A7CACCCEA40CE671_m91D837E7B7F6AC506FED2BA99A51CF3FC79B89B6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t1D54EC958EB87ADF7249FA897F74096059EA061E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CIsLockedOutAsyncU3Ed__134U26_tF3B0007F0C7ACC2BF1E8FE033ECB000356AB11AF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mDC7513909F7CA12D7FD1454ED08563B302199E08 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tB697BCDD04AA55F6FA95A07150BE1D89981C0512 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLockoutStore_2_GetLockoutEnabledAsync_mCE39FD05FB5CE137178E5B42FC402051B0FC4E1E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t10A268FE3E934435AD7B055E44D9BC46071B43A4_TisU3CIsLockedOutAsyncU3Ed__134_t17660598170B15403DAF7B75A7CACCCEA40CE671_m9866B885751162B46D118E9B745ABEF610AF5E2E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLockoutStore_2_GetLockoutEndDateAsync_m135C2CAB9210CA9E69E88412FEB58773E0D893A6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8F86938EEBD9C3ABF9874464D97CAFD6AEA2A51B_TisU3CIsLockedOutAsyncU3Ed__134_t17660598170B15403DAF7B75A7CACCCEA40CE671_mD73ACC15D6683F9C632BD89BECAC60FEE33E7ABB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t6EFA6D8D2C0FBFBA5E59A8F5437B6EB37ACA8A80 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m855B4CEDCF03F2150649E39ADE401CEA8EC5C060 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetUserLockoutStore_mBB31C59E1C63C58081AACF56C85D43F2AF8C24F9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLockoutStore_2_t4782764F8436236ACF13BD2C52BD5B1E18E3D9DB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t03F9F6E8D4750D00DA7F3E1EC79667D23CA5D268 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mB261CB964262BFA9FD7AF92FDFBE7451B482924F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t66BED82242FB3515DC20AA2A4A0C3694C91DB87F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tE1624EFEDEAF0E9B7FDF4CADDA195DEAECC04D4F_m911C050C12DE050A42AE24B613DABD9B4115A587 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tD62496F08E1098E4E8500253A100DA12542DC90F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m36D0F5B8C61B6B8449404C92A98A48C4A30F3B09 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tD62496F08E1098E4E8500253A100DA12542DC90F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m6030D58E3D78D5BF453B6099782F501A634BE12F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD62496F08E1098E4E8500253A100DA12542DC90F_TisU3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300_mEDEC5F48C14B65A050C99B394BB7287A070B36CB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tE0B14B470E86EA948602D513776C2CEE28FE5FC5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CAccessFailedAsyncU3Ed__157U26_tB0EF1603D770B48CC322B273E55E287A17002FA0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m63284CC9207ADA21DA0112F1104347FEA83385CC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tE1624EFEDEAF0E9B7FDF4CADDA195DEAECC04D4F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLockoutStore_2_IncrementAccessFailedCountAsync_mFEBB2FFF6CEE420FE23C94978426F45B9615403E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t38F88F850C4A4153D2D9C36B24EBAE24FA4E2A65_TisU3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300_m71470063B963185A994AF058547B08CEB635C0E3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_MaxFailedAccessAttemptsBeforeLockout_m4369F759FD2567D473A33529617F2E1038665E6D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_get_DefaultAccountLockoutTimeSpan_mC66A77393416774AFAF4BDD22114D3C24494545D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLockoutStore_2_SetLockoutEndDateAsync_m4821117FF7806B63A99F2D51339970BFCA75B23A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300_m1D5BAC3CA3E758C284C57A9A2EB05391176E9417 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLockoutStore_2_ResetAccessFailedCountAsync_m546A011E59F241B2AF4521A3D85B8BC2B45C520A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_mAADC37296AA98AAD1F583D5D335FE3AFF2CE222C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CAccessFailedAsyncU3Ed__157_t2B6AAB458DB802B421B0BCC69B0BDC1065A37300_mDCF24E7A0D38C004B9BE85A5217D85914081FB5C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t59A78EC8D33CE3D38827B292D9C07120A3E44728 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m9E6BD151D06705D6CB64BD23BA8FEC90964B386D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetUserLockoutStore_mF212DB63A3928AB4D04E6064EEF1B751A8194447 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLockoutStore_2_t661B048BEC67181F417B89067146231875C0B4D4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_tEEC5338EE6C67FE4DACEC16365D230369F08DAED },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_mCA618D1596145F4EF1C22151E224FD6C785B09E0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tD388C37A6C632FB9C8E9FF13260BDF6DC6E9591A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t23AD9C33C95869350B57D371779A45D0DA4FC2E9_m9A26E1F328BEA03CFCB9A1BDB94EA8080183FA5D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t27B193057E27F470565F09FB84DB2BFB84428D56 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m1ACBF516C0DF76887062FDF0A8C84E43E6397729 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t27B193057E27F470565F09FB84DB2BFB84428D56 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mC6904CF4BB05AC11E2B73C9B165D772D19F8416D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t27B193057E27F470565F09FB84DB2BFB84428D56_TisU3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941_m8A5A97676AE6192931458C32B2297FC662ED7BC1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t97B24A7E9486E0DE38321CAAB99207393B65209A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CResetAccessFailedCountAsyncU3Ed__160U26_t6D68F36CB4C2A05209763F98FF3CAD26FE8D8AC2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_mA0D641AD946F5065DED5704E838DDF5E04D238AD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t23AD9C33C95869350B57D371779A45D0DA4FC2E9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_tBE509A4098727B98881EFBAA9764D2E3EC9F2625 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t23AD9C33C95869350B57D371779A45D0DA4FC2E9_IUser_1_get_Id_m7491AB06D6072AE92CBFEBBAC47D8108479F2150 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetAccessFailedCountAsync_m05065693F23F5E904678A9CCD13E565ECB158658 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t38F88F850C4A4153D2D9C36B24EBAE24FA4E2A65_TisU3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941_m2FB2CFBD79298A044D8A7E9FDA59A8B2B432821F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLockoutStore_2_ResetAccessFailedCountAsync_m6B59D27C6F82E3DF4CDDC6632E79705CE5467770 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941_m89502E8EC4B1ED6D39C81ACAFEB0423B1505B799 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_UpdateAsync_m00D1ED04A0BBC4EEBF0EB055C0B8918FF514C1FF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t8D6307AEC2202033D57F15BE4D09B162BF36F9A7_TisU3CResetAccessFailedCountAsyncU3Ed__160_t49691291BCA81049EEEAEAADA0E582172C140941_mC9A414CF65ED2CD263EBA1DC226A9EB152B2970E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetAccessFailedCountAsyncU3Ed__168_tCAA6142C51CF28D6EDD18632D929CA257F9B5962 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t572623DDB234E9A7181661A72BA21DAE4C43065D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_ThrowIfDisposed_m60D7EC414C930DD26D9DC3C9512FAF2DD8AAF38A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetUserLockoutStore_mD85A8B4C871D16BB7C6F9E7BD8DB383ACE75816C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserLockoutStore_2_t77A5BC8395AEE26C304C298B15E425B5241930A6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t556E83F0422D6FC39B626619528A90F36F0D827A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByIdAsync_m65B3E796FD1AAB0F82741152FFACB6B15F77FF9F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tCCC5B56FE4FC9F62B98EE4AF437C64A4FF5B6915 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t83C9EA6378E09369C0C66E70CA71D0F494EB74D3_mA33E476118494D71F188E7DC184E94F511502233 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tF50D4A05C185A249A9AC3D80137568F3E534A896 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m4BB5BEA97BE8C6A7EB3B2CF5881B5FDCF353ADB3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_tF50D4A05C185A249A9AC3D80137568F3E534A896 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m57CC4E798393260E06A7DD93FB58D8463EC109C8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tF50D4A05C185A249A9AC3D80137568F3E534A896_TisU3CGetAccessFailedCountAsyncU3Ed__168_tCAA6142C51CF28D6EDD18632D929CA257F9B5962_m51C49E91A3878D364EBA670AB3781BAEDAA2319E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tB0833172D13CCF64A9B32C21320C0999CE483B72 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CGetAccessFailedCountAsyncU3Ed__168U26_t8E9F4BFCA6BA9877B0E71C5D96721ABC2C9075CA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m2FD93B0B3E6693F6305D24B4AAE7159BABB4E9CE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t83C9EA6378E09369C0C66E70CA71D0F494EB74D3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserLockoutStore_2_GetAccessFailedCountAsync_m34389D39C4813A8E0E55838AFFC1D4F66638CCA9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t38F88F850C4A4153D2D9C36B24EBAE24FA4E2A65_TisU3CGetAccessFailedCountAsyncU3Ed__168_tCAA6142C51CF28D6EDD18632D929CA257F9B5962_mC3F24570D3FD9FED7A27CEF093F06E5235065A30 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserStore_1_t0DAE50055C275E08D6C97BEA2FC8580BC7279609 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2__ctor_mAF52B1C330037095FC4A7871E91526A3809AE110 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t823B67841E15F10A0405AC826368A54A81D5B29E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserStore_2_tA7392FC4B9ED0B653EC9B89332C26351360A6D03 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t9D138CABA6E6E151712A4F34FE52D05AF32A4BAE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2_set_AllowOnlyAlphanumericUserNames_m060B98A7EC96A501D16CF9FB8EDA9B638B644EA6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2_set_Manager_m87FC82D3DF930D313F3D7684B4749D5B320B948B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserValidator_2_t06720B89C5C791553F8BB6C947D5FF168A2DC76E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateAsyncU3Ed__0_tD3B0185509773CF632A3103DE9B06BEF977F4796 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tC071D20C4288B126640128C40548B853D4221F26 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_Start_TisU3CValidateAsyncU3Ed__0_tD3B0185509773CF632A3103DE9B06BEF977F4796_m8B663641AE61B29C840F378021748291E61B4597 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateAsyncU3Ed__0U26_t5E0173151E68F1DB97FC4049FB683A24BC46EBA1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateUserNameU3Ed__4_t19F49360671975D0E889568DE5C588D73F729251 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CValidateUserNameU3Ed__4_t19F49360671975D0E889568DE5C588D73F729251_m9E5A44550D45B4611D7162975C0B5879B0183282 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateUserNameU3Ed__4U26_t84764D252625C67C949F0EAFF800EF4221E610D9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateEmailAsyncU3Ed__8_t50948C636FF5DD5939BC36D98DBD1DC73D15EA54 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CValidateEmailAsyncU3Ed__8_t50948C636FF5DD5939BC36D98DBD1DC73D15EA54_m691097A926E9BF964D3ACC5DEC12397391354DEE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateEmailAsyncU3Ed__8U26_tADE20C211C580D6553A64EBDE12ADEF16749135B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateAsyncU3Ed__0_t945CBFFE1ECE534AFCAA808036090AD9D74A1404 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t2329003737427B9DC0FCEAFA22C973A7754D1479 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserValidator_2_t2DEAA4A7DBFBD030CEB2C54D0E3029E948D5930C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2_ValidateUserName_m7CD0EC88EC54005DAC3862BB7129C496C9218016 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisCultureAwaiter_t35DA698307633FC483FFEDCF1D0C0909DB316BA8_TisU3CValidateAsyncU3Ed__0_t945CBFFE1ECE534AFCAA808036090AD9D74A1404_m3C4EF98CD014028F82A09798C8DE4406E57A8B9C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateAsyncU3Ed__0U26_tF28F1130C3980DC82652595FE2AAD1A122CD7B42 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2_get_RequireUniqueEmail_mD772CB427DB8E370C9C66C1D3789BBDBD1D85568 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2_ValidateEmailAsync_m9F064AA78357CC9726913B1B7D786A77B3DB8295 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateUserNameU3Ed__4_t972547DE3C2FF83BE1A1B02AC37D007868FB5D7F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_tDDF02757063E47263DD8EADE73CD7BD029E628A4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_tD08496652A84FD6804AA1E7098E9CA9C24D206F9 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_tDDF02757063E47263DD8EADE73CD7BD029E628A4_IUser_1_get_UserName_m9472E1BF3FF2EA28C8E477B40E2C3AFF89004624 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserValidator_2_t47A10CC7CC03495FBCBDB2F1BE6C9F8C0FBC12C2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2_get_AllowOnlyAlphanumericUserNames_m71A7627CA804E6CCA1D5E7FC755841DD8C79F745 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2_get_Manager_mF14370A91EDFAED0531AF37ED163604238D91D7A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t9709052A3DA4270EC14F06B935554123CF1F82F2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByNameAsync_m5C45DF89A67F81F39E0D11A30BA20D1003177ACB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_tD89606F2DF675C425623C68BA1A38A7E33C55631 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_tDDF02757063E47263DD8EADE73CD7BD029E628A4_m828426F964FA5AD25BF1B3C862320CBC064C8093 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t477BC55A7C61CE6D6C98141B53122E1C426B4B66 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m8FDBA7D0385B0E5D177457D54F849404F5EC7943 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t477BC55A7C61CE6D6C98141B53122E1C426B4B66 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_m57E8F1DB0595BFB9D4BE54EDAD3601F712603BC9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t477BC55A7C61CE6D6C98141B53122E1C426B4B66_TisU3CValidateUserNameU3Ed__4_t972547DE3C2FF83BE1A1B02AC37D007868FB5D7F_mE7F71EFBFE805E4EE34BAE66AC4E97AD1B860113 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_tB13C42ABA2418FDF917AB27F6AE85AD28D4F4D40 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateUserNameU3Ed__4U26_t4AE36BA985A59AD9BB53BDCD9CFF5B2C4EFA041A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m4014223E56A43DFD02B1B17FE7F959D6077FD4B4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_mE9BA969699233747BE82DDF6337D2A91F9048271 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tC7A43B5088F9234EB4E411F2291F468455B84105 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tC7A43B5088F9234EB4E411F2291F468455B84105 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_tDDF02757063E47263DD8EADE73CD7BD029E628A4_IUser_1_get_Id_mBF8CB19C269C75231F1950F8055AC282FF458C30 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t02A5BB6982D51460B4074DD558B9B65F08AE53F9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_mEB465FBBE09DC345432DD8B3CDFE8D62C259B524 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateEmailAsyncU3Ed__8_t3575F6D7E9C1AD1E298033C120724AFE053B0B73 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserValidator_2_t8E23A49B51AEE8483A896170F3DA51765669E7AB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2_get_Manager_m0A2EF9D282012BB0226A559B6C2AA8CD29CA35E2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_t94B944DD10202811D201ADC2C03319AA8E60F776 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_GetEmailStore_mF8706DBC0639866A435DE344FF12F1A8A65447FC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUserEmailStore_2_tE17F4193670A52C8E6417E3BCEF55681A950D7A1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TUser_t8A30D8B212ACEEFD1EDD3FD40BD12B770301BFF9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IUserEmailStore_2_GetEmailAsync_m1FC592420AF56D9970640926FF0459410254C267 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_tD4F6047DB960F6BBC110082000B604DD36DAF20A_TisU3CValidateEmailAsyncU3Ed__8_t3575F6D7E9C1AD1E298033C120724AFE053B0B73_m28154CA0DBDF509FEED9993CEAD9897E91C2DFD7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CValidateEmailAsyncU3Ed__8U26_t1808A9FEB2AE69D42CDEF70DDE6BDAF9141C4872 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserManager_2_FindByEmailAsync_m8C0133AF7B6510D6813CD5FDF13D0ABF5030F102 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Task_1_t802947F990DC473CD90CADF7772E01022FC1C66C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskExtensions_WithCurrentCulture_TisTUser_t8A30D8B212ACEEFD1EDD3FD40BD12B770301BFF9_m5587ABEF400909F72524CA8D1C8C109CAF1D5027 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t620F9E4DA5CB873792258415F8DB3F229783664A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetAwaiter_m33648ACB0CDE593F4CC291A3A2631987465DDBCB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1_t620F9E4DA5CB873792258415F8DB3F229783664A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_get_IsCompleted_mB8A0978F3D95719F93407005F6FE198E2ABB9F70 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisCultureAwaiter_1_t620F9E4DA5CB873792258415F8DB3F229783664A_TisU3CValidateEmailAsyncU3Ed__8_t3575F6D7E9C1AD1E298033C120724AFE053B0B73_m60770613A263F6561B064203BA6ED4B34C8F9ABD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_CultureAwaiter_1U26_t524F061D7507FCC9BFEB18AD65ECD733A3BA5A0C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_CultureAwaiter_1_GetResult_m2616850C442FF03B347FFA667E98B3540F6B43BF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m93E9623971D2F6B805E6D2C735EA11DD75328233 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t6BBBF242603B3D3B68ADF23EDA72A312D411F5B6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t6BBBF242603B3D3B68ADF23EDA72A312D411F5B6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IUser_1_t9A0AF9F49E6BD0CA9B21207A5A43FDC5208C765C },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TUser_t8A30D8B212ACEEFD1EDD3FD40BD12B770301BFF9_IUser_1_get_Id_m33053649BC60ED3BFD7975A5CC245191C06E27F7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t780B1C4419FEFBCB6902DE9685F33C152AA6A302 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m75F4F86381061924ACFE6270D17C1D6DD277614B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserManager_2_tC75B36284C7B1701D5B4795793B2762CB0B23319 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UserValidator_2__ctor_m8B5AE6BBA9C6368FCAD160FF3786393D78EF492E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UserValidator_2_tF2B82C194C74F3607321F5FF44D67EE5F34A0E22 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_AspNet_Identity_Core_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_AspNet_Identity_Core_CodeGenModule = 
+{
+	"Microsoft.AspNet.Identity.Core.dll",
+	456,
+	s_methodPointers,
+	5,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	111,
+	s_rgctxIndices,
+	1392,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

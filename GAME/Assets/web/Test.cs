@@ -1,3 +1,4 @@
+using Tennis.DAO.controller;
 using Tennis.DAO.model;
 using UnityEngine;
 using WebService;
@@ -17,9 +18,9 @@ public class Test : MonoBehaviour
 
         //ctrlP.insert(p);
 
-        PlayerWS pws = new PlayerWS();
+        //PlayerWS pws = new PlayerWS();
 
-        Debug.Log(pws.GetPlayer("foi").Name);
+        //Debug.Log(pws.GetPlayer("foi").Name);
 
     }
 }

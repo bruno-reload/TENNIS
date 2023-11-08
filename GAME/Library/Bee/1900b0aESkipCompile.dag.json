@@ -1,0 +1,482 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "Extracting script serialization layouts",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Antlr3.Runtime.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\AspNet.ScriptManager.bootstrap.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\AspNet.ScriptManager.jQuery.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\EntityFramework.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\EntityFramework.SqlServer.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.Agent.Intercept.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.DependencyCollector.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.PerfCounterCollector.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.ServerTelemetryChannel.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.Web.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.WindowsServer.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.ApplicationInsights.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.FriendlyUrls.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.Identity.Core.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.Identity.EntityFramework.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.Identity.Owin.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.Web.Optimization.WebForms.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Host.SystemWeb.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.Cookies.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.Facebook.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.Google.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.MicrosoftAccount.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.OAuth.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.Twitter.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.ScriptManager.MSAjax.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.ScriptManager.WebForms.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Web.Infrastructure.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Newtonsoft.Json.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Owin.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\System.Web.Optimization.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\System.Web.Providers.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\TENNIS.DAO.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\WebGrease.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N.CJK\\I18N.CJK.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N.West\\I18N.West.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N\\I18N.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\web_service_dll\\System.Web.Services.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\web_service_dll\\WebService.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\\nunit.framework.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N.CJK\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N.West\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\web_service_dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.16f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.16f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.16f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\\Facades\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/dao_dll/Antlr3.Runtime.dll",
+        "Assets/dao_dll/AspNet.ScriptManager.bootstrap.dll",
+        "Assets/dao_dll/AspNet.ScriptManager.jQuery.dll",
+        "Assets/dao_dll/EntityFramework.dll",
+        "Assets/dao_dll/EntityFramework.SqlServer.dll",
+        "Assets/dao_dll/Microsoft.AI.Agent.Intercept.dll",
+        "Assets/dao_dll/Microsoft.AI.DependencyCollector.dll",
+        "Assets/dao_dll/Microsoft.AI.PerfCounterCollector.dll",
+        "Assets/dao_dll/Microsoft.AI.ServerTelemetryChannel.dll",
+        "Assets/dao_dll/Microsoft.AI.Web.dll",
+        "Assets/dao_dll/Microsoft.AI.WindowsServer.dll",
+        "Assets/dao_dll/Microsoft.ApplicationInsights.dll",
+        "Assets/dao_dll/Microsoft.AspNet.FriendlyUrls.dll",
+        "Assets/dao_dll/Microsoft.AspNet.Identity.Core.dll",
+        "Assets/dao_dll/Microsoft.AspNet.Identity.EntityFramework.dll",
+        "Assets/dao_dll/Microsoft.AspNet.Identity.Owin.dll",
+        "Assets/dao_dll/Microsoft.AspNet.Web.Optimization.WebForms.dll",
+        "Assets/dao_dll/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+        "Assets/dao_dll/Microsoft.Owin.dll",
+        "Assets/dao_dll/Microsoft.Owin.Host.SystemWeb.dll",
+        "Assets/dao_dll/Microsoft.Owin.Security.Cookies.dll",
+        "Assets/dao_dll/Microsoft.Owin.Security.dll",
+        "Assets/dao_dll/Microsoft.Owin.Security.Facebook.dll",
+        "Assets/dao_dll/Microsoft.Owin.Security.Google.dll",
+        "Assets/dao_dll/Microsoft.Owin.Security.MicrosoftAccount.dll",
+        "Assets/dao_dll/Microsoft.Owin.Security.OAuth.dll",
+        "Assets/dao_dll/Microsoft.Owin.Security.Twitter.dll",
+        "Assets/dao_dll/Microsoft.ScriptManager.MSAjax.dll",
+        "Assets/dao_dll/Microsoft.ScriptManager.WebForms.dll",
+        "Assets/dao_dll/Microsoft.Web.Infrastructure.dll",
+        "Assets/dao_dll/Newtonsoft.Json.dll",
+        "Assets/dao_dll/Owin.dll",
+        "Assets/dao_dll/System.Web.Optimization.dll",
+        "Assets/dao_dll/System.Web.Providers.dll",
+        "Assets/dao_dll/TENNIS.DAO.dll",
+        "Assets/dao_dll/WebGrease.dll",
+        "Assets/sql_dll/I18N.CJK/I18N.CJK.dll",
+        "Assets/sql_dll/I18N.West/I18N.West.dll",
+        "Assets/sql_dll/I18N/I18N.dll",
+        "Assets/web_service_dll/System.Web.Services.dll",
+        "Assets/web_service_dll/WebService.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline/UnityEditor.iOS.Extensions.Xcode.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/dao_dll/Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Assets/dao_dll/AspNet.ScriptManager.bootstrap.dll"
+    },
+    {
+      "File": "Assets/dao_dll/AspNet.ScriptManager.jQuery.dll"
+    },
+    {
+      "File": "Assets/dao_dll/EntityFramework.dll"
+    },
+    {
+      "File": "Assets/dao_dll/EntityFramework.SqlServer.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AI.Agent.Intercept.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AI.DependencyCollector.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AI.PerfCounterCollector.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AI.ServerTelemetryChannel.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AI.Web.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AI.WindowsServer.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.ApplicationInsights.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AspNet.FriendlyUrls.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AspNet.Identity.Core.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AspNet.Identity.EntityFramework.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AspNet.Identity.Owin.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.AspNet.Web.Optimization.WebForms.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.Host.SystemWeb.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.Security.Cookies.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.Security.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.Security.Facebook.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.Security.Google.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.Security.MicrosoftAccount.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.Security.OAuth.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Owin.Security.Twitter.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.ScriptManager.MSAjax.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.ScriptManager.WebForms.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Microsoft.Web.Infrastructure.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Assets/dao_dll/Owin.dll"
+    },
+    {
+      "File": "Assets/dao_dll/System.Web.Optimization.dll"
+    },
+    {
+      "File": "Assets/dao_dll/System.Web.Providers.dll"
+    },
+    {
+      "File": "Assets/dao_dll/TENNIS.DAO.dll"
+    },
+    {
+      "File": "Assets/dao_dll/WebGrease.dll"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/sql_dll/I18N.CJK/I18N.CJK.dll"
+    },
+    {
+      "File": "Assets/sql_dll/I18N.West/I18N.West.dll"
+    },
+    {
+      "File": "Assets/sql_dll/I18N/I18N.dll"
+    },
+    {
+      "File": "Assets/web_service_dll/System.Web.Services.dll"
+    },
+    {
+      "File": "Assets/web_service_dll/WebService.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1900b0aESkipCompile.dag.json",
+  "PayloadsFile": "D:/vitória/multplayer/product/TENNIS/GAME/Library/Bee/1900b0aESkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}

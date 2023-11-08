@@ -1,9 +1,12 @@
-﻿namespace Tennis.DAO.model
+﻿using System;
+
+namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Player
     {
-        public string Nicknane { get; set; }
-        public string Name { get; set; }
-        public string Password { get; set; }
+        public string Nicknane;
+        public string Name;
+        public string Password;
     }
 }

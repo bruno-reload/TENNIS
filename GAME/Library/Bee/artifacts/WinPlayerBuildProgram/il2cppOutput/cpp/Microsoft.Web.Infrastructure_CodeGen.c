@@ -1,0 +1,102 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void U3CModuleU3E__cctor_m23B94F8E8EFC35E94B261F8A952C0F43D7E0A8AB (void);
+extern void CommonAssemblies__cctor_mA218F6D7C1E673D22D69522D0896D4F43BDB1A64 (void);
+extern void ModuleInitializer_Initialize_mE7C65AB54CEB737B4086072B65045A44F8FDD28C (void);
+extern void CriticalInitializer_Initialize_m48F27C234210F4B5E0939CEB5ECF6DDD845F1924 (void);
+extern void CriticalInitializer_CheckKillBit_mB1E92BE9181368F85597D974093ED2759D9A7C37 (void);
+extern void KillBitHelper__ctor_mB4399A304FA66FE12B989FB391D62B5940440FD4 (void);
+extern void KillBitHelper__ctor_mB23062012E2857BF0CE349468D017A8DD62F8348 (void);
+extern void KillBitHelper_Dispose_m449431E17A5C30B1400C2613C699EEB5DBE1AE46 (void);
+extern void KillBitHelper_GetKillBittedVersions_mBE773BDA0F49DCFD7218E22D7A144AA071AACB1A (void);
+extern void KillBitHelper_GetThisAssemblyFileVersion_mDA963C50C617AF2F6C00821858959E47C509DF83 (void);
+extern void KillBitHelper_IsThisAssemblyKillBitted_mAB186570844FAA5C3086444EA792FDCE872371A4 (void);
+extern void KillBitHelper_KillBitMatchesThisAssemblyVersion_mE6087B479C1A18BF2ABBB619764CE5D207521930 (void);
+extern void KillBitHelper_ThrowIfKillBitIsSet_m367C6AA553905E62F125D220D68624830EBD6092 (void);
+extern void KillBitHelper__cctor_m4BBBA103A7221B09B5FCA4C767B1E90C3E00736B (void);
+extern void RegistryKeyWrapper__ctor_m1036929771631C55C62EB440B7B70337402D9492 (void);
+extern void RegistryKeyWrapper_Dispose_mEFF0D1505938A2A70658308C1C6CFA843DD7EC03 (void);
+extern void RegistryKeyWrapper_GetSubKeyNames_m67546B3EFA4A26E076110F7F51CA6130561ED03E (void);
+extern void RegistryKeyWrapper_GetValue_m0D33C699A73A59027EAADD451CABD34F01498CF0 (void);
+extern void RegistryKeyWrapper_OpenSubKey_m06D16F1B19661E87C6724FAE0E238C1EF2D3ABFE (void);
+extern void RegistryKeyWrapper_ToString_m52B22E9218B591C8985D005F8C6E59F9CA3BED88 (void);
+static Il2CppMethodPointer s_methodPointers[23] = 
+{
+	U3CModuleU3E__cctor_m23B94F8E8EFC35E94B261F8A952C0F43D7E0A8AB,
+	CommonAssemblies__cctor_mA218F6D7C1E673D22D69522D0896D4F43BDB1A64,
+	ModuleInitializer_Initialize_mE7C65AB54CEB737B4086072B65045A44F8FDD28C,
+	CriticalInitializer_Initialize_m48F27C234210F4B5E0939CEB5ECF6DDD845F1924,
+	CriticalInitializer_CheckKillBit_mB1E92BE9181368F85597D974093ED2759D9A7C37,
+	KillBitHelper__ctor_mB4399A304FA66FE12B989FB391D62B5940440FD4,
+	KillBitHelper__ctor_mB23062012E2857BF0CE349468D017A8DD62F8348,
+	KillBitHelper_Dispose_m449431E17A5C30B1400C2613C699EEB5DBE1AE46,
+	KillBitHelper_GetKillBittedVersions_mBE773BDA0F49DCFD7218E22D7A144AA071AACB1A,
+	KillBitHelper_GetThisAssemblyFileVersion_mDA963C50C617AF2F6C00821858959E47C509DF83,
+	KillBitHelper_IsThisAssemblyKillBitted_mAB186570844FAA5C3086444EA792FDCE872371A4,
+	KillBitHelper_KillBitMatchesThisAssemblyVersion_mE6087B479C1A18BF2ABBB619764CE5D207521930,
+	KillBitHelper_ThrowIfKillBitIsSet_m367C6AA553905E62F125D220D68624830EBD6092,
+	KillBitHelper__cctor_m4BBBA103A7221B09B5FCA4C767B1E90C3E00736B,
+	NULL,
+	NULL,
+	NULL,
+	RegistryKeyWrapper__ctor_m1036929771631C55C62EB440B7B70337402D9492,
+	RegistryKeyWrapper_Dispose_mEFF0D1505938A2A70658308C1C6CFA843DD7EC03,
+	RegistryKeyWrapper_GetSubKeyNames_m67546B3EFA4A26E076110F7F51CA6130561ED03E,
+	RegistryKeyWrapper_GetValue_m0D33C699A73A59027EAADD451CABD34F01498CF0,
+	RegistryKeyWrapper_OpenSubKey_m06D16F1B19661E87C6724FAE0E238C1EF2D3ABFE,
+	RegistryKeyWrapper_ToString_m52B22E9218B591C8985D005F8C6E59F9CA3BED88,
+};
+static const int32_t s_InvokerIndices[23] = 
+{
+	11562,
+	11562,
+	11562,
+	11562,
+	11562,
+	8014,
+	6566,
+	8014,
+	7878,
+	11510,
+	7769,
+	10836,
+	8014,
+	11562,
+	0,
+	0,
+	0,
+	6566,
+	8014,
+	7878,
+	5851,
+	5851,
+	7878,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_Web_Infrastructure_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_Web_Infrastructure_CodeGenModule = 
+{
+	"Microsoft.Web.Infrastructure.dll",
+	23,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	U3CModuleU3E__cctor_m23B94F8E8EFC35E94B261F8A952C0F43D7E0A8AB,
+	NULL,
+	NULL,
+	NULL,
+};

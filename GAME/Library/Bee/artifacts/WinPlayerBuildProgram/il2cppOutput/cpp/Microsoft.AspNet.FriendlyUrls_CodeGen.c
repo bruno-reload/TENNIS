@@ -1,0 +1,270 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void BuildManagerWrapper__ctor_mA472849F00314AEB7A38F55A7F2AC7B7654E5383 (void);
+extern void CacheWrapper__ctor_mF339ABE710D93C499761CE3EF441731BF8D0B597 (void);
+extern void HostingEnvironmentWrapper_get_VirtualPathProvider_mCD2AD626E8E16028C80CF579022D449895567843 (void);
+extern void HostingEnvironmentWrapper_RegisterObject_m85142847CF1674B048483CCE5C55C7212BCFE4B9 (void);
+extern void HostingEnvironmentWrapper_UnregisterObject_m49F15094FF387122EFE618B2C4EB2D619963CA0A (void);
+extern void HostingEnvironmentWrapper__ctor_mF525427AD14A84A682FC5D44F0C4D7EAEB0C3DEF (void);
+extern void VirtualPathUtilityWrapper_ToAppRelative_m8F405C8BE843AD147E00E1DE7AA7D1C0E36836B4 (void);
+extern void VirtualPathUtilityWrapper__ctor_mF7794E53B0CBDD12997B5AD5170A0F74C0E20750 (void);
+extern void WebConfigurationManagerWrapper_GetWebApplicationSection_mD39BC3C0030B0942C3F8365F313AF65C74257C2E (void);
+extern void WebConfigurationManagerWrapper__ctor_m6A8E0C75E2551DDC413495265CF08C3D59464B40 (void);
+extern void UrlAuthorizationModuleWrapper__ctor_m39CB5A9D1A43A4C5260181BB2D146F6B20FA53B9 (void);
+extern void ContentPathResolver__ctor_m9BD40CC44582CCBD3248EF80173F2F511301BBC0 (void);
+extern void ContentPathResolver__cctor_mCD3F01EF5C6CF7E0CFDE69B702FBFD3FE10071FB (void);
+extern void DynamicFileCache__ctor_mEF7D3D6540335E6F0A8A912DA5219A148A90A1D2 (void);
+extern void FallbackFileCache__ctor_mD38B5557B58B86B23994BE734152BCE78E514801 (void);
+extern void StaticFileCache__ctor_m0FFA5FE3F18F48E6B85F84BC024DC01C18066F7B (void);
+extern void U3CU3Ec__DisplayClass2__ctor_m3BDA725AFF9B504C13BAEBEEC315368304759815 (void);
+extern void U3CU3Ec__DisplayClass2_U3C_ctorU3Eb__0_m7C612BF98A810F91ABF09C2F13EC1156EBFCD610 (void);
+extern void StaticFileCacheRunner__ctor_m8E748D8E9095F43209782A90F5AADED293236CD7 (void);
+extern void StaticFileCacheRunner_GetAllFilenamesInApplication_mEA7EC46E7B6E9BE48619BB1AB3723A7EF5999254 (void);
+extern void StaticFileCacheRunner_RecurseIntoDirectory_m8FCAAB38542576244CBF08B044561026304EE087 (void);
+extern void Dependencies_get_AuthorizationModule_m81F32C78B9340C9CAFA01F4A0271F5A97B8E883E (void);
+extern void Dependencies_get_BuildManager_m140AC1DFE6AAC8CC55C7D77FDEA94F277C53A880 (void);
+extern void Dependencies_get_Cache_mA8C38B35CB33671C595772E80C7D5710C9793FAD (void);
+extern void Dependencies_get_HostingEnvironment_mEC2220FE5FD621790D07209C3DD202E899233BD9 (void);
+extern void Dependencies_get_VirtualPathProvider_mBE0BCD674930999B7E417050C49F292C4A60ABA2 (void);
+extern void Dependencies_get_VirtualPathUtility_m9FC9168E51F38B953EDE26CC41891D574AB0F43B (void);
+extern void Dependencies_get_WebConfigurationManager_m329A5B2F2054E1420A07D44DA730DCE0F94D7065 (void);
+extern void Dependencies_CreateDefaultAuthorizationModule_m98834E73D6C594903B071C4A29D6F4BAD4F12D4F (void);
+extern void Dependencies_CreateDefaultBuildManager_m3459DFA1756936AF9B72236A4C26F53A1D30D776 (void);
+extern void Dependencies_CreateDefaultCache_mDFB8E607D80BE54BDCC56B4AC7F79F2AC0375124 (void);
+extern void Dependencies_CreateDefaultContentPathResolver_mE1528BC7DBAF8CE08668831F4BBF1EB1BDB142F2 (void);
+extern void Dependencies_CreateDefaultDynamicFileCache_mF1D64F4D00222198FA1B304A3283EB0C5997716F (void);
+extern void Dependencies_CreateDefaultFallbackFileCache_mF34800EF2018FE2B0B43E815D796F649C6AD8C8E (void);
+extern void Dependencies_CreateDefaultHostingEnvironment_m02273FE783EE01A934A0CD601DC1FAE920A2E5AF (void);
+extern void Dependencies_CreateDefaultStaticFileCache_m158D3E1CE3CFAC935F0AD8E7E838F90C6FF527D8 (void);
+extern void Dependencies_CreateDefaultVirtualPathProvider_m15C1F7D1CFCE1BBEDB12E59DDE7003347BA4A23A (void);
+extern void Dependencies_CreateDefaultVirtualPathUtility_m07D65BE368F7B7D5F299B2BE4667003AC50EE245 (void);
+extern void Dependencies_CreateDefaultWebConfigurationManager_mCCEE58FA35BCD7BA88DBA3AE78C87E34EF3207B4 (void);
+extern void Dependencies_FileCache_m3CC8922B2853C095CAA2582FE083327C0F39C1CB (void);
+extern void Dependencies__cctor_m829BCD4C41214261C8F74464AEA8B346BBE49BDA (void);
+extern void FriendlyUrlRoute__ctor_mFE8E5D55701D036C7CB0AA26C266040127AA2797 (void);
+extern void FriendlyUrlRoute_set_Settings_m9F102412F749F1ACAF5071B4AC9FA7977E0142EC (void);
+extern void FriendlyUrlRoute_System_IServiceProvider_GetService_m27355C01F3850FA613DF1AFC866F9E70D67F79E7 (void);
+extern void FriendlyUrlRoute__cctor_m750700920AAAB75AA668D32F4B17DF3E86009CF4 (void);
+extern void FriendlyUrlSettings__ctor_mA6795E67B08A284A527D80319B8C957CD7512B18 (void);
+extern void FriendlyUrlSettings_get_SwitchViewRouteName_m7AC01DFF6CD171114071AA6FE549C579A65B44CC (void);
+extern void FriendlyUrlSettings_set_SwitchViewRouteName_m93C635FADE68E118C9C92309643F3CB6A0406B08 (void);
+extern void FriendlyUrlSettings_get_SwitchViewUrl_m47A976D8487605E88678D9CBB58EB4477D27FA56 (void);
+extern void FriendlyUrlSettings_set_SwitchViewUrl_mEF106CABC79089592220CC4253D4E8ADE1BA4651 (void);
+extern void FriendlyUrlSettings_set_AutoRedirectMode_mAE3D20F96F141CE393696A9491F4D5B50D778023 (void);
+extern void FriendlyUrlSettings_get_ResolverCachingMode_mCDABF6CFDB81AC30F287A89870A36426BFD7AA17 (void);
+extern void FriendlyUrlsViewSwitcherRoute__ctor_mE426E1707A6C2E52078B43E30F4DEAB94072393B (void);
+extern void Res_get_ResourceManager_m9D091B87A2B18C3FAA44F1DC8FDE7E095DAC6CBC (void);
+extern void Res_get_Common_ArgumentMustNotBeNullOrEmpty_m2A81724FAE71028F2D5B0EBA0F46F8BAC2213960 (void);
+extern void Res_get_Common_ExtensionMustContainLeadingPeriod_mDC0A629235F9E40FA99117611D8DC3DDEB16D4F3 (void);
+extern void Res_get_EmptyEnumerableArgument_m2021814905C98EEE98A7A9241D622EFA821EB258 (void);
+extern void FriendlyUrlResolver__ctor_m5D91AB1811049D63D9E89FB53817B5655BD565E9 (void);
+extern void WebFormsFriendlyUrlResolver__ctor_m15F09F8BFB087C291F120072B38BFE31A61A4A6F (void);
+extern void WebFormsFriendlyUrlResolver_IsMobileView_mCE706BF40BC999F682F0255993ACA7DB7F3E502C (void);
+extern void WebFormsFriendlyUrlResolver__cctor_mD773EE5481CF00AA8F7846DA06190A9C7CD723F2 (void);
+extern void RouteCollectionExtensions_EnableFriendlyUrls_mE4750F679792F559E15447C2A66A3D011DFA8C20 (void);
+extern void RouteCollectionExtensions_EnableFriendlyUrls_mD30A4C7C3B4051E78DAF31260FFA9C7C8D092CAB (void);
+extern void SwitchViewRouteHandler__ctor_m02BA234089F3EBB84995688735D2BDCC65F2309A (void);
+extern void UrlRewriterHelper__ctor_m3F2B4FB76F64CDEBA70DD3E15DC5D007E52F8CCC (void);
+static Il2CppMethodPointer s_methodPointers[74] = 
+{
+	BuildManagerWrapper__ctor_mA472849F00314AEB7A38F55A7F2AC7B7654E5383,
+	CacheWrapper__ctor_mF339ABE710D93C499761CE3EF441731BF8D0B597,
+	NULL,
+	NULL,
+	NULL,
+	HostingEnvironmentWrapper_get_VirtualPathProvider_mCD2AD626E8E16028C80CF579022D449895567843,
+	HostingEnvironmentWrapper_RegisterObject_m85142847CF1674B048483CCE5C55C7212BCFE4B9,
+	HostingEnvironmentWrapper_UnregisterObject_m49F15094FF387122EFE618B2C4EB2D619963CA0A,
+	HostingEnvironmentWrapper__ctor_mF525427AD14A84A682FC5D44F0C4D7EAEB0C3DEF,
+	NULL,
+	NULL,
+	VirtualPathUtilityWrapper_ToAppRelative_m8F405C8BE843AD147E00E1DE7AA7D1C0E36836B4,
+	VirtualPathUtilityWrapper__ctor_mF7794E53B0CBDD12997B5AD5170A0F74C0E20750,
+	WebConfigurationManagerWrapper_GetWebApplicationSection_mD39BC3C0030B0942C3F8365F313AF65C74257C2E,
+	WebConfigurationManagerWrapper__ctor_m6A8E0C75E2551DDC413495265CF08C3D59464B40,
+	UrlAuthorizationModuleWrapper__ctor_m39CB5A9D1A43A4C5260181BB2D146F6B20FA53B9,
+	ContentPathResolver__ctor_m9BD40CC44582CCBD3248EF80173F2F511301BBC0,
+	ContentPathResolver__cctor_mCD3F01EF5C6CF7E0CFDE69B702FBFD3FE10071FB,
+	DynamicFileCache__ctor_mEF7D3D6540335E6F0A8A912DA5219A148A90A1D2,
+	FallbackFileCache__ctor_mD38B5557B58B86B23994BE734152BCE78E514801,
+	StaticFileCache__ctor_m0FFA5FE3F18F48E6B85F84BC024DC01C18066F7B,
+	U3CU3Ec__DisplayClass2__ctor_m3BDA725AFF9B504C13BAEBEEC315368304759815,
+	U3CU3Ec__DisplayClass2_U3C_ctorU3Eb__0_m7C612BF98A810F91ABF09C2F13EC1156EBFCD610,
+	StaticFileCacheRunner__ctor_m8E748D8E9095F43209782A90F5AADED293236CD7,
+	StaticFileCacheRunner_GetAllFilenamesInApplication_mEA7EC46E7B6E9BE48619BB1AB3723A7EF5999254,
+	StaticFileCacheRunner_RecurseIntoDirectory_m8FCAAB38542576244CBF08B044561026304EE087,
+	Dependencies_get_AuthorizationModule_m81F32C78B9340C9CAFA01F4A0271F5A97B8E883E,
+	Dependencies_get_BuildManager_m140AC1DFE6AAC8CC55C7D77FDEA94F277C53A880,
+	Dependencies_get_Cache_mA8C38B35CB33671C595772E80C7D5710C9793FAD,
+	Dependencies_get_HostingEnvironment_mEC2220FE5FD621790D07209C3DD202E899233BD9,
+	Dependencies_get_VirtualPathProvider_mBE0BCD674930999B7E417050C49F292C4A60ABA2,
+	Dependencies_get_VirtualPathUtility_m9FC9168E51F38B953EDE26CC41891D574AB0F43B,
+	Dependencies_get_WebConfigurationManager_m329A5B2F2054E1420A07D44DA730DCE0F94D7065,
+	Dependencies_CreateDefaultAuthorizationModule_m98834E73D6C594903B071C4A29D6F4BAD4F12D4F,
+	Dependencies_CreateDefaultBuildManager_m3459DFA1756936AF9B72236A4C26F53A1D30D776,
+	Dependencies_CreateDefaultCache_mDFB8E607D80BE54BDCC56B4AC7F79F2AC0375124,
+	Dependencies_CreateDefaultContentPathResolver_mE1528BC7DBAF8CE08668831F4BBF1EB1BDB142F2,
+	Dependencies_CreateDefaultDynamicFileCache_mF1D64F4D00222198FA1B304A3283EB0C5997716F,
+	Dependencies_CreateDefaultFallbackFileCache_mF34800EF2018FE2B0B43E815D796F649C6AD8C8E,
+	Dependencies_CreateDefaultHostingEnvironment_m02273FE783EE01A934A0CD601DC1FAE920A2E5AF,
+	Dependencies_CreateDefaultStaticFileCache_m158D3E1CE3CFAC935F0AD8E7E838F90C6FF527D8,
+	Dependencies_CreateDefaultVirtualPathProvider_m15C1F7D1CFCE1BBEDB12E59DDE7003347BA4A23A,
+	Dependencies_CreateDefaultVirtualPathUtility_m07D65BE368F7B7D5F299B2BE4667003AC50EE245,
+	Dependencies_CreateDefaultWebConfigurationManager_mCCEE58FA35BCD7BA88DBA3AE78C87E34EF3207B4,
+	Dependencies_FileCache_m3CC8922B2853C095CAA2582FE083327C0F39C1CB,
+	Dependencies__cctor_m829BCD4C41214261C8F74464AEA8B346BBE49BDA,
+	FriendlyUrlRoute__ctor_mFE8E5D55701D036C7CB0AA26C266040127AA2797,
+	FriendlyUrlRoute_set_Settings_m9F102412F749F1ACAF5071B4AC9FA7977E0142EC,
+	FriendlyUrlRoute_System_IServiceProvider_GetService_m27355C01F3850FA613DF1AFC866F9E70D67F79E7,
+	FriendlyUrlRoute__cctor_m750700920AAAB75AA668D32F4B17DF3E86009CF4,
+	FriendlyUrlSettings__ctor_mA6795E67B08A284A527D80319B8C957CD7512B18,
+	FriendlyUrlSettings_get_SwitchViewRouteName_m7AC01DFF6CD171114071AA6FE549C579A65B44CC,
+	FriendlyUrlSettings_set_SwitchViewRouteName_m93C635FADE68E118C9C92309643F3CB6A0406B08,
+	FriendlyUrlSettings_get_SwitchViewUrl_m47A976D8487605E88678D9CBB58EB4477D27FA56,
+	FriendlyUrlSettings_set_SwitchViewUrl_mEF106CABC79089592220CC4253D4E8ADE1BA4651,
+	FriendlyUrlSettings_set_AutoRedirectMode_mAE3D20F96F141CE393696A9491F4D5B50D778023,
+	FriendlyUrlSettings_get_ResolverCachingMode_mCDABF6CFDB81AC30F287A89870A36426BFD7AA17,
+	FriendlyUrlsViewSwitcherRoute__ctor_mE426E1707A6C2E52078B43E30F4DEAB94072393B,
+	Res_get_ResourceManager_m9D091B87A2B18C3FAA44F1DC8FDE7E095DAC6CBC,
+	Res_get_Common_ArgumentMustNotBeNullOrEmpty_m2A81724FAE71028F2D5B0EBA0F46F8BAC2213960,
+	Res_get_Common_ExtensionMustContainLeadingPeriod_mDC0A629235F9E40FA99117611D8DC3DDEB16D4F3,
+	Res_get_EmptyEnumerableArgument_m2021814905C98EEE98A7A9241D622EFA821EB258,
+	FriendlyUrlResolver__ctor_m5D91AB1811049D63D9E89FB53817B5655BD565E9,
+	WebFormsFriendlyUrlResolver__ctor_m15F09F8BFB087C291F120072B38BFE31A61A4A6F,
+	WebFormsFriendlyUrlResolver_IsMobileView_mCE706BF40BC999F682F0255993ACA7DB7F3E502C,
+	WebFormsFriendlyUrlResolver__cctor_mD773EE5481CF00AA8F7846DA06190A9C7CD723F2,
+	RouteCollectionExtensions_EnableFriendlyUrls_mE4750F679792F559E15447C2A66A3D011DFA8C20,
+	RouteCollectionExtensions_EnableFriendlyUrls_mD30A4C7C3B4051E78DAF31260FFA9C7C8D092CAB,
+	SwitchViewRouteHandler__ctor_m02BA234089F3EBB84995688735D2BDCC65F2309A,
+	UrlRewriterHelper__ctor_m3F2B4FB76F64CDEBA70DD3E15DC5D007E52F8CCC,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
+static const int32_t s_InvokerIndices[74] = 
+{
+	8014,
+	8014,
+	0,
+	0,
+	0,
+	7878,
+	6566,
+	6566,
+	8014,
+	0,
+	0,
+	5851,
+	8014,
+	5851,
+	8014,
+	8014,
+	6566,
+	11562,
+	3740,
+	6566,
+	3740,
+	8014,
+	6566,
+	3740,
+	7878,
+	6566,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11510,
+	11097,
+	11562,
+	569,
+	6566,
+	5851,
+	11562,
+	8014,
+	7878,
+	6566,
+	7878,
+	6566,
+	6530,
+	7838,
+	2175,
+	11510,
+	11510,
+	11510,
+	11510,
+	6566,
+	3740,
+	10836,
+	11562,
+	10569,
+	9876,
+	8014,
+	8014,
+	0,
+	0,
+	0,
+	0,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x02000025, { 0, 7 } },
+};
+extern const uint32_t g_rgctx_U3CviewU3Ej__TPar_t484B6BBB85616D592C4C41FFBAD7C757929DCF5B;
+extern const uint32_t g_rgctx_U3CU3Ef__AnonymousType0_1_tCD12487260299D95E853B15948EF43455621731C;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m4C1DCF0E7003AA2560D5698B7C7BDEA1D52A6629;
+extern const uint32_t g_rgctx_EqualityComparer_1_t53D2417A7B951C9929FA2F7185B2FFABFFA58C5A;
+extern const uint32_t g_rgctx_EqualityComparer_1_t53D2417A7B951C9929FA2F7185B2FFABFFA58C5A;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_mF1BF0ED5EE21DDE57A954751290D9BA47C0C6BAF;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_mE3336AE100CB289FA1CE6DFC470DEB0AFF16DEE1;
+static const Il2CppRGCTXDefinition s_rgctxValues[7] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CviewU3Ej__TPar_t484B6BBB85616D592C4C41FFBAD7C757929DCF5B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ef__AnonymousType0_1_tCD12487260299D95E853B15948EF43455621731C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m4C1DCF0E7003AA2560D5698B7C7BDEA1D52A6629 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t53D2417A7B951C9929FA2F7185B2FFABFFA58C5A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t53D2417A7B951C9929FA2F7185B2FFABFFA58C5A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_mF1BF0ED5EE21DDE57A954751290D9BA47C0C6BAF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_mE3336AE100CB289FA1CE6DFC470DEB0AFF16DEE1 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_AspNet_FriendlyUrls_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_AspNet_FriendlyUrls_CodeGenModule = 
+{
+	"Microsoft.AspNet.FriendlyUrls.dll",
+	74,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	1,
+	s_rgctxIndices,
+	7,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

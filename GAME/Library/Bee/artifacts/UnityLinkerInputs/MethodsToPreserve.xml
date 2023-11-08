@@ -1,0 +1,8 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="PlayerLogin">
+			<method name="Connect"/>
+			<method name="Find"/>
+		</type>
+	</assembly>
+</linker>

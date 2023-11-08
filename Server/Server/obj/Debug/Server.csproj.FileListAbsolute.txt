@@ -1,0 +1,6 @@
+D:\vitória\multplayer\product\TENNIS\Server\Server\bin\Debug\Server.pdb
+D:\vitória\multplayer\product\TENNIS\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\vitória\multplayer\product\TENNIS\Server\Server\obj\Debug\Server.pdb
+D:\vitória\multplayer\product\TENNIS\Server\Server\bin\Debug\Server.exe.config
+D:\vitória\multplayer\product\TENNIS\Server\Server\bin\Debug\Server.exe
+D:\vitória\multplayer\product\TENNIS\Server\Server\obj\Debug\Server.exe
