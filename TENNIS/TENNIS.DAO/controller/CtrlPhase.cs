@@ -1,0 +1,93 @@
+﻿using System;
+using System.Data;
+using System.Data.SqlClient;
+using Tennis.DAO.controller;
+using Tennis.DAO.model;
+
+namespace Tennis.DAO.controller
+{
+    public class CtrlPahse: DAO
+    {
+        public void insert(Phase phase)
+        {
+            string sql = "INSERT INTO PHASE (PHASE_NAME , MIN_POINTS  , IDMATCH ) VALUES (@PHASE_NAME , @MIN_POINTS  , @IDMATCH );";
+
+            _command = new SqlCommand(sql, Connect());
+
+            _parameter = new SqlParameter("@PHASE_NAME", phase.Name);
+            _parameter.SqlDbType = SqlDbType.VarChar;
+            _command.Parameters.Add(_parameter);
+
+            _parameter = new SqlParameter("@MIN_POINTS ", phase.MinPoints);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+
+            _parameter = new SqlParameter("@IDMATCH", phase.Match.Id);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+
+            _command.ExecuteNonQuery();
+        }
+
+        public void change(Phase phase)
+        {
+            string sql = "UPDATE PHASE SET PHASE_NAME = @PHASE_NAME, MIN_POINTS = @MIN_POINTS, IDMATCH = @IDMATCH WHERE  ID  = @ID;";
+
+            _command = new SqlCommand(sql, Connect());
+
+            _parameter = new SqlParameter("@ID", phase.Id);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+
+            _parameter = new SqlParameter("@PHASE_NAME", phase.Name);
+            _parameter.SqlDbType = SqlDbType.VarChar;
+            _command.Parameters.Add(_parameter);
+
+            _parameter = new SqlParameter("@MIN_POINTS ", phase.MinPoints);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+
+            _parameter = new SqlParameter("@IDMATCH", phase.Match.Id);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+        }
+
+        public void delete(Phase phase)
+        {
+            string sql = "DELETE FROM PHASE WHERE  ID = @ID;";
+
+            _command = new SqlCommand(sql, Connect());
+
+            _parameter = new SqlParameter("@ID", phase.Id);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+
+            _command.ExecuteNonQuery();
+        }
+
+        public Phase getPhase(string id)
+        {
+            string sql = "SELECT PHASE_NAME, MIN_POINTS, IDMATCH FROM PHASE WHERE ID = @ID;";
+
+            _command = new SqlCommand(sql, Connect());
+
+            _parameter = new SqlParameter("@ID", id);
+            _parameter.SqlDbType = SqlDbType.VarChar;
+            _command.Parameters.Add(_parameter);
+
+            _reader = _command.ExecuteReader();
+
+
+            Phase p = new Phase();
+            if (_reader.Read())
+            {
+                p.Id = int.Parse(id);
+                p.Name = _reader.GetValue(_reader.GetOrdinal("PHASE_NAME")).ToString();
+                p.MinPoints = int.Parse(_reader.GetValue(_reader.GetOrdinal("MIN_POINTS")).ToString());
+                p.Match.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMATCH")).ToString());
+            }
+
+            return p;
+        }
+    }
+}

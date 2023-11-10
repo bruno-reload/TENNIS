@@ -17,7 +17,7 @@
         </p>
         <asp:Button ID="novo" runat="server" OnClick="novo_Click" Text="novo" />
         <asp:Button ID="cadastrar" runat="server" Text="cadastrar" OnClick="cadastrar_Click" />
-        <asp:Button ID="alterar" runat="server" Text="alterar" />
+        <asp:Button ID="alterar" runat="server" Text="alterar" OnClick="alterar_Click" />
         <asp:Button ID="excluir" runat="server" Text="excluir" OnClick="excluir_Click" />
     </form>
 </body>

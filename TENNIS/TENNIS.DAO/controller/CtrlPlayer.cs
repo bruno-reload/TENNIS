@@ -81,7 +81,6 @@ namespace Tennis.DAO.controller
                 p.Nicknane = _reader.GetValue(_reader.GetOrdinal("NICKNAME")).ToString();
                 p.Name = _reader.GetValue(_reader.GetOrdinal("PLAYER_NAME")).ToString();
                 p.Password = _reader.GetValue(_reader.GetOrdinal("PASSWORD")).ToString();
-
             }
 
             return p;

@@ -2,11 +2,13 @@
 
 namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Challeng
     {
-        public int Id { get; set; }
-        public bool Finished { get; set; }
-        public DateTime Duraction { get; set; }
-        public Marked Marked { get; set; }
+        public int Id;
+        public bool Finished;
+        public DateTime Duraction;
+        public Marked Marked;
+        public Phase Phase;
     }
 }

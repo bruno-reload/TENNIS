@@ -1,11 +1,12 @@
 ﻿namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Fill
     {
-        public int Id { get; set; }
-        public string Postion { get; set; }
-        public Player player { get; set; }
-        public Team Team { get; set; }
+        public int Id;
+        public string Postion;
+        public Player player;
+        public Team Team;
 
     }
 }

@@ -2,11 +2,11 @@
 
 namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Marked
     {
-        public int Id { get; set; }
-        public DateTime DateTime { get; set; }
-
-        public Local Local { get; set; }
+        public int Id;
+        public DateTime DateTime;
+        public Local Local;
     }
 }

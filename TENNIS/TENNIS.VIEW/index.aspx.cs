@@ -44,5 +44,17 @@ namespace TENNIS.VIEW
 
             ctrlP.delete(p);
         }
+
+        protected void alterar_Click(object sender, EventArgs e)
+        {
+            Player p = new Player();
+            p.Nicknane = nickname.Text;
+            p.Password = password.Text;
+            p.Name = name.Text;
+
+            CtrlPlayer ctrlP = new CtrlPlayer();
+
+            ctrlP.change(p);
+        }
     }
 }

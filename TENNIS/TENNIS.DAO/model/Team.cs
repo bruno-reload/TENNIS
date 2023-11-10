@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
+using System.Data;
 
 namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Team
     {
-        public string Name { get; set; }
-        public List<Find> Historic { get; set; }
+        public int Id;
+        public string Name;
+        public List<Find> Historic;
     }
 }

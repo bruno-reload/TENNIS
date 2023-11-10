@@ -1,10 +1,12 @@
 ﻿namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Find
     {
-        public int Id { get; set; }
-        public int Points { get; set; }
-        public bool Winner { get; set; }
-        public Challeng Challeng { get; set; }
+        public int Id;
+        public int Points;
+        public bool Winner;
+        public Challeng Challeng;
+        public Team team;
     }
 }

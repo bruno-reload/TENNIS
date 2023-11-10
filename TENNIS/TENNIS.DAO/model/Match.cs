@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Match
     {
         public int Id { get; set; }

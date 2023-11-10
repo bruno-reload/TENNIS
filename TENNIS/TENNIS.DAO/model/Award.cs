@@ -1,10 +1,11 @@
 ﻿namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Award
     {
-        public int Id { get; set; }
-        public string Position { get; set; }
-        public string Value { get; set; }
-
+        public int Id;
+        public string Position;
+        public string Value;
+        public Match Match;
     }
 }

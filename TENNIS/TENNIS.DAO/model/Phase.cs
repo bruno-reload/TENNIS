@@ -2,11 +2,13 @@
 
 namespace Tennis.DAO.model
 {
+    [System.Serializable]
     public class Phase
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public static int MinPoints { get; set; }
-        public List<Challeng> Challengs { get; set; }
+        public int Id;
+        public string Name;
+        public int MinPoints;
+        public Match Match;
+        public List<Challeng> Challengs;
     }
 }
