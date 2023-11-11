@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using Tennis.DAO.controller;
 using Tennis.DAO.model;
@@ -26,6 +27,10 @@ namespace Tennis.DAO.controller
 
             _command = new SqlCommand(sql, Connect());
             
+            _parameter = new SqlParameter("@ID", team.Id);
+            _parameter.SqlDbType = SqlDbType.VarChar;
+            _command.Parameters.Add(_parameter);
+
             _parameter = new SqlParameter("@TEAM_NAME", team.Name);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
@@ -64,9 +69,31 @@ namespace Tennis.DAO.controller
             {
                 t.Id = int.Parse(id);
                 t.Name = _reader.GetValue(_reader.GetOrdinal("TEAM_NAME")).ToString();
+                //o historico deve ser carregado através de querys e armazenado aqui todas as buscas que compartilharem da mesma team id
+
             }
 
             return t;
+        }
+
+        public List<Team> getTeamList()
+        {
+            string sql = "SELECT ID, TEAM_NAME FROM TEAM;";
+
+            _command = new SqlCommand(sql, Connect());
+
+            _reader = _command.ExecuteReader();
+
+            List<Team> list = new List<Team>();
+            while (_reader.Read())
+            {
+                Team t = new Team();
+                t.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                t.Name = _reader.GetValue(_reader.GetOrdinal("TEAM_NAME")).ToString();
+                list.Add(t);
+            }
+
+            return list;
         }
     }
 }

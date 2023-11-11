@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using Tennis.DAO.controller;
@@ -10,7 +11,7 @@ namespace Tennis.DAO.controller
     {
         public void insert(Marked marked)
         {
-            string sql = "INSERT INTO MARKED (DATE  , TIME  , IDLOCAL) VALUES (@DATE  , @TIME  , @IDLOCAL);";
+            string sql = "INSERT INTO MARKED (DATE, TIME, IDLOCAL) VALUES (@DATE, @TIME, @IDLOCAL);";
 
             _command = new SqlCommand(sql, Connect());
 
@@ -22,7 +23,7 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.Time;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDLOCAL", marked.Local.Id);
+            _parameter = new SqlParameter("@IDLOCAL", marked.Local);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
@@ -47,7 +48,7 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.Time;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDLOCAL", marked.Local.Id);
+            _parameter = new SqlParameter("@IDLOCAL", marked.Local);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
@@ -67,7 +68,7 @@ namespace Tennis.DAO.controller
             _command.ExecuteNonQuery();
         }
 
-        public Marked getPlayer(string id)
+        public Marked getMarked(string id)
         {
             string sql = "SELECT DATE, TIME, IDLOCAL FROM MARKED WHERE ID = @ID;";
 
@@ -85,11 +86,36 @@ namespace Tennis.DAO.controller
             {
                 var time = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("TIME")).ToString()).TimeOfDay;
                 var date = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DATE")).ToString()).Date;
+                m.Id = int.Parse(id);
                 m.DateTime = new DateTime(date.Year, date.Month, date.Day, time.Hours, time.Minutes, time.Milliseconds);
-                m.Local.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDLOCAL ")).ToString());
+                m.Local = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDLOCAL ")).ToString());
             }
 
             return m;
+        }
+        public List<Marked> getMarkedList()
+        {
+            string sql = "SELECT DATE, TIME, IDLOCAL FROM MARKED;";
+
+            _command = new SqlCommand(sql, Connect());
+            
+
+            _reader = _command.ExecuteReader();
+
+            List<Marked> list = new List<Marked>();
+
+            while (_reader.Read())
+            {
+                Marked m = new Marked();
+                var time = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("TIME")).ToString()).TimeOfDay;
+                var date = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DATE")).ToString()).Date;
+                m.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                m.DateTime = new DateTime(date.Year, date.Month, date.Day, time.Hours, time.Minutes, time.Milliseconds);
+                m.Local = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDLOCAL ")).ToString());
+                list.Add(m);
+            }
+
+            return list;
         }
     }
 }

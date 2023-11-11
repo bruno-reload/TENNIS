@@ -13,7 +13,7 @@ namespace Tennis.DAO.controller
 
         public void insert(Award award)
         {
-            string sql = "INSERT INTO PLAYER (POSITION, VALUE, IDMATCH) VALUES (@POSITION, @VALUE, @IDMATCH);";
+            string sql = "INSERT INTO AWARD (POSITION, VALUE, IDMATCH) VALUES (@POSITION, @VALUE, @IDMATCH);";
 
             _command = new SqlCommand(sql, Connect());
             
@@ -25,7 +25,7 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDMATCH", award.Match.Id);
+            _parameter = new SqlParameter("@IDMATCH", award.Match);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
@@ -34,11 +34,16 @@ namespace Tennis.DAO.controller
 
         public void change(Award award)
         {
-            string sql = "UPDATE AWARD SET POSITION = @POSITION, VALUE = @VALUE WHERE  ID  = @ID;";
+            string sql = "UPDATE AWARD SET IDMATCH = @IDMATCH, POSITION = @POSITION, VALUE = @VALUE WHERE  ID  = @ID;";
 
             _command = new SqlCommand(sql, Connect());
 
-            _parameter = new SqlParameter("@IDMATCH", award.Match.Id);
+
+            _parameter = new SqlParameter("@ID", award.Id);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+
+            _parameter = new SqlParameter("@IDMATCH", award.Match);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
@@ -72,7 +77,7 @@ namespace Tennis.DAO.controller
 
             _command = new SqlCommand(sql, Connect());
 
-            _parameter = new SqlParameter("@NICKNAME", id);
+            _parameter = new SqlParameter("@ID", id);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
@@ -85,9 +90,35 @@ namespace Tennis.DAO.controller
                 a.Id = int.Parse(id);
                 a.Position = _reader.GetValue(_reader.GetOrdinal("POSITION")).ToString();
                 a.Value = _reader.GetValue(_reader.GetOrdinal("VALUE")).ToString();
+                a.Match = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMATCH")).ToString());
             }
 
             return a;
+        }
+        public List<Award> getAwardList()
+        {
+            string sql = "SELECT POSITION, VALUE, IDMATCH FROM AWARD;";
+
+            _command = new SqlCommand(sql, Connect());
+            
+
+            _reader = _command.ExecuteReader();
+
+            List<Award> list = new List<Award>();
+
+            if (_reader.Read())
+            {
+                Award a = new Award();
+
+                a.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                a.Position = _reader.GetValue(_reader.GetOrdinal("POSITION")).ToString();
+                a.Value = _reader.GetValue(_reader.GetOrdinal("VALUE")).ToString();
+                a.Match = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMATCH")).ToString());
+
+                list.Add(a);
+            }
+
+            return list;
         }
     }
 }

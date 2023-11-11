@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using Tennis.DAO.controller;
 using Tennis.DAO.model;
@@ -13,7 +14,7 @@ namespace Tennis.DAO.controller
 
             _command = new SqlCommand(sql, Connect());
 
-            _parameter = new SqlParameter("@NICKNAME", player.Nicknane);
+            _parameter = new SqlParameter("@NICKNAME", player.Nickname);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
@@ -30,11 +31,11 @@ namespace Tennis.DAO.controller
 
         public void change(Player player)
         {
-            string sql = "UPDATE PLAYER SET PLAYER_NAME = @PLAYER_NAME, PASSWORD = @PASSWORD WHERE  NICKNAME  = @NICKNAME;";
+            string sql = "UPDATE PLAYER SET PLAYER_NAME = @PLAYER_NAME, PASSWORD = @PASSWORD WHERE  NICKNAME = @NICKNAME;";
 
             _command = new SqlCommand(sql, Connect());
 
-            _parameter = new SqlParameter("@NICKNAME", player.Nicknane);
+            _parameter = new SqlParameter("@NICKNAME", player.Nickname);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
@@ -55,7 +56,7 @@ namespace Tennis.DAO.controller
 
             _command = new SqlCommand(sql, Connect());
 
-            _parameter = new SqlParameter("@NICKNAME", player.Nicknane);
+            _parameter = new SqlParameter("@NICKNAME", player.Nickname);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
@@ -78,12 +79,35 @@ namespace Tennis.DAO.controller
             Player p = new Player();
             if (_reader.Read())
             {
-                p.Nicknane = _reader.GetValue(_reader.GetOrdinal("NICKNAME")).ToString();
+                p.Nickname = _reader.GetValue(_reader.GetOrdinal("NICKNAME")).ToString();
                 p.Name = _reader.GetValue(_reader.GetOrdinal("PLAYER_NAME")).ToString();
                 p.Password = _reader.GetValue(_reader.GetOrdinal("PASSWORD")).ToString();
             }
 
             return p;
+        }
+
+        public List<Player> getPlayerList()
+        {
+            string sql = "SELECT NICKNAME, PLAYER_NAME, PASSWORD FROM PLAYER;";
+
+            _command = new SqlCommand(sql, Connect());
+            
+
+            _reader = _command.ExecuteReader();
+
+
+            List<Player> list = new List<Player>();
+            while(_reader.Read())
+            {
+                Player p = new Player();
+                p.Nickname = _reader.GetValue(_reader.GetOrdinal("NICKNAME")).ToString();
+                p.Name = _reader.GetValue(_reader.GetOrdinal("PLAYER_NAME")).ToString();
+                p.Password = _reader.GetValue(_reader.GetOrdinal("PASSWORD")).ToString();
+                list.Add(p);
+            }
+
+            return list;
         }
     }
 }

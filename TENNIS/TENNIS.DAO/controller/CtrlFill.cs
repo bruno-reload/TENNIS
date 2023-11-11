@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using Tennis.DAO.controller;
 using Tennis.DAO.model;
@@ -9,20 +10,20 @@ namespace Tennis.DAO.controller
     {
         public void insert(Fill fill)
         {
-            string sql = "INSERT INTO FIL (POSITION, PLAYER_NICKNAME , IDTEAM ) VALUES (@POSITION, @PLAYER_NICKNAME , @IDTEAM );";
+            string sql = "INSERT INTO FILL (POSITION, PLAYER_NICKNAME , IDTEAM ) VALUES (@POSITION, @PLAYER_NICKNAME , @IDTEAM );";
 
             _command = new SqlCommand(sql, Connect());
 
-            _parameter = new SqlParameter("@POSITION", fill.Postion);
+            _parameter = new SqlParameter("@POSITION", fill.Position);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@PLAYER_NICKNAME", fill.player.Nicknane);
+            _parameter = new SqlParameter("@PLAYER_NICKNAME", fill.player);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDTEAM", fill.Team.Name);
-            _parameter.SqlDbType = SqlDbType.VarChar;
+            _parameter = new SqlParameter("@IDTEAM", fill.Team);
+            _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
             _command.ExecuteNonQuery();
@@ -34,16 +35,21 @@ namespace Tennis.DAO.controller
 
             _command = new SqlCommand(sql, Connect());
 
-            _parameter = new SqlParameter("@POSITION", fill.Postion);
+
+            _parameter = new SqlParameter("@ID", fill.Id);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+
+            _parameter = new SqlParameter("@POSITION", fill.Position);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@PLAYER_NICKNAME", fill.player.Nicknane);
+            _parameter = new SqlParameter("@PLAYER_NICKNAME", fill.player);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDTEAM", fill.Team.Name);
-            _parameter.SqlDbType = SqlDbType.VarChar;
+            _parameter = new SqlParameter("@IDTEAM", fill.Team);
+            _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
             _command.ExecuteNonQuery();
@@ -56,13 +62,13 @@ namespace Tennis.DAO.controller
             _command = new SqlCommand(sql, Connect());
 
             _parameter = new SqlParameter("@ID", fill.Id);
-            _parameter.SqlDbType = SqlDbType.VarChar;
+            _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
             _command.ExecuteNonQuery();
         }
 
-        public Fill getPlayer(string id)
+        public Fill getFill(string id)
         {
             string sql = "SELECT FILL, POSITION, PLAYER_NICKNAME, IDTEAM FROM PLAYER WHERE NICKNAME = @NICKNAME;";
 
@@ -78,12 +84,39 @@ namespace Tennis.DAO.controller
             Fill f = new Fill();
             if (_reader.Read())
             {
-                f.Postion = _reader.GetValue(_reader.GetOrdinal("POSITION")).ToString();
-                f.player.Nicknane = _reader.GetValue(_reader.GetOrdinal("PLAYER_NICKNAME")).ToString();
-                f.Team.Name = _reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString();
+                f.Id = int.Parse(id);
+                f.Position = _reader.GetValue(_reader.GetOrdinal("POSITION")).ToString();
+                f.player = _reader.GetValue(_reader.GetOrdinal("PLAYER_NICKNAME")).ToString();
+                f.Team = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString());
             }
 
             return f;
+        }
+
+        public List<Fill> getFillList()
+        {
+            string sql = "SELECT ID, POSITION, PLAYER_NICKNAME, IDTEAM FROM FILL;";
+
+            _command = new SqlCommand(sql, Connect());
+            
+            _reader = _command.ExecuteReader();
+
+
+            List<Fill> list = new List<Fill>();
+
+            while (_reader.Read())
+            {
+                Fill f = new Fill();
+
+                f.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                f.Position = _reader.GetValue(_reader.GetOrdinal("POSITION")).ToString();
+                f.player = _reader.GetValue(_reader.GetOrdinal("PLAYER_NICKNAME")).ToString();
+                f.Team = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString());
+
+                list.Add(f);
+            }
+
+            return list;
         }
     }
 }

@@ -5,10 +5,10 @@ namespace Tennis.DAO.model
     [System.Serializable]
     public class Challeng
     {
-        public int Id;
-        public bool Finished;
-        public DateTime Duraction;
-        public Marked Marked;
-        public Phase Phase;
+        public int Id { set; get; }
+        public bool Finished { set; get; }
+        public DateTime Duraction { set; get; }
+        public int Marked { set; get; }
+        public int Phase { set; get; }
     }
 }

@@ -5,8 +5,8 @@ namespace Tennis.DAO.model
     [System.Serializable]
     public class Marked
     {
-        public int Id;
-        public DateTime DateTime;
-        public Local Local;
+        public int Id { set; get; }
+        public DateTime DateTime { set; get; }
+        public int Local { set; get; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using Tennis.DAO.controller;
@@ -10,7 +11,7 @@ namespace Tennis.DAO.controller
     {
         public void insert(Challeng challeng)
         {
-            string sql = "INSERT INTO PLAYER (FINISHED , DURATCTION , IDPHASE) VALUES (@FINISHED , @DURATCTION , @IDPHASE);";
+            string sql = "INSERT INTO CHALLENGS (FINISHED , DURATCTION , IDPHASE, IDMARKED ) VALUES (@FINISHED , @DURATCTION , @IDPHASE, @IDMARKED );";
 
             _command = new SqlCommand(sql, Connect());
 
@@ -22,7 +23,11 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.Date;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDPHASE", challeng.Phase.Id);
+            _parameter = new SqlParameter("@IDPHASE", challeng.Phase);
+            _parameter.SqlDbType = SqlDbType.Int;
+            _command.Parameters.Add(_parameter);
+
+            _parameter = new SqlParameter("@IDMARKED", challeng.Marked);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
@@ -40,18 +45,18 @@ namespace Tennis.DAO.controller
             _command.Parameters.Add(_parameter);
 
             _parameter = new SqlParameter("@FINISHED", challeng.Finished);
-            _parameter.SqlDbType = SqlDbType.VarChar;
+            _parameter.SqlDbType = SqlDbType.Bit;
             _command.Parameters.Add(_parameter);
 
             _parameter = new SqlParameter("@DURATCTION", challeng.Duraction);
             _parameter.SqlDbType = SqlDbType.Date;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDPHASE", challeng.Phase.Id);
+            _parameter = new SqlParameter("@IDPHASE", challeng.Phase);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDMARKED", challeng.Marked.Id);
+            _parameter = new SqlParameter("@IDMARKED", challeng.Marked);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
@@ -87,13 +92,42 @@ namespace Tennis.DAO.controller
             Challeng c = new Challeng();
             if (_reader.Read())
             {
+
+                c.Id = int.Parse(id);
                 c.Finished = bool.Parse(_reader.GetValue(_reader.GetOrdinal("FINISHED")).ToString());
                 c.Duraction = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DURATCTION")).ToString());
-                c.Marked.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMARKED")).ToString());
-                c.Phase.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("PASSWORD")).ToString());
+                c.Marked = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMARKED")).ToString());
+                c.Phase = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDPHASE")).ToString());
             }
 
             return c;
+        }
+        public List<Challeng> getChallengList()
+        {
+            string sql = "SELECT FINISHED , DURATCTION , IDPHASE, IDMARKED  FROM CHALLENGS;";
+
+            _command = new SqlCommand(sql, Connect());
+           
+
+            _reader = _command.ExecuteReader();
+
+
+            List<Challeng> list = new List<Challeng>();
+
+            while (_reader.Read())
+            {
+                Challeng c = new Challeng();
+
+                c.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                c.Finished = bool.Parse(_reader.GetValue(_reader.GetOrdinal("FINISHED")).ToString());
+                c.Duraction = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DURATCTION")).ToString());
+                c.Marked = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMARKED")).ToString());
+                c.Phase = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDPHASE")).ToString());
+
+                list.Add(c);
+            }
+
+            return list;
         }
     }
 }

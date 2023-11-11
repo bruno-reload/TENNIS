@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using Tennis.DAO.controller;
 using Tennis.DAO.model;
@@ -21,11 +22,11 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.Bit;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDTEAM", find.Challeng.Id);
+            _parameter = new SqlParameter("@IDTEAM", find.Challeng);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDCHALLENGS", find.team.Name);
+            _parameter = new SqlParameter("@IDCHALLENGS", find.team);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
@@ -50,12 +51,12 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.Bit;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDTEAM", find.Challeng.Id);
+            _parameter = new SqlParameter("@IDTEAM", find.Challeng);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDCHALLENGS", find.team.Name);
-            _parameter.SqlDbType = SqlDbType.VarChar;
+            _parameter = new SqlParameter("@IDCHALLENGS", find.team);
+            _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
             _command.ExecuteNonQuery();
@@ -90,13 +91,39 @@ namespace Tennis.DAO.controller
             Find f = new Find();
             if (_reader.Read())
             {
+                f.Id = int.Parse(id);
                 f.Points =int.Parse(_reader.GetValue(_reader.GetOrdinal("POINTS")).ToString());
                 f.Winner = bool.Parse(_reader.GetValue(_reader.GetOrdinal("WINNER")).ToString());
-                f.Challeng.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDCHALLENGS")).ToString());
-                f.team.Name = _reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString();
+                f.Challeng = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDCHALLENGS")).ToString());
+                f.team = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString());
             }
 
             return f;
+        }
+
+        public List<Find> getFindList()
+        {
+            string sql = "SELECT POINTS, WINNER, IDTEAM, IDCHALLENGS FROM FIND;";
+
+            _command = new SqlCommand(sql, Connect());
+            
+            _reader = _command.ExecuteReader();
+
+            List<Find> list = new List<Find>();
+
+            while (_reader.Read())
+            {
+                Find f = new Find();
+
+                f.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                f.Points = int.Parse(_reader.GetValue(_reader.GetOrdinal("POINTS")).ToString());
+                f.Winner = bool.Parse(_reader.GetValue(_reader.GetOrdinal("WINNER")).ToString());
+                f.Challeng = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDCHALLENGS")).ToString());
+                f.team = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString());
+                list.Add(f);
+            }
+
+            return list;
         }
     }
 }

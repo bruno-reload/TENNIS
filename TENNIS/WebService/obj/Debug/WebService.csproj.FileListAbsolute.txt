@@ -52,9 +52,7 @@ D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\TENNIS.DAO.dll
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\TENNIS.VIEW.dll
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\WebGrease.dll
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\TENNIS.DAO.pdb
-D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\TENNIS.DAO.dll.config
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\TENNIS.VIEW.pdb
-D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\TENNIS.VIEW.dll.config
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.AI.DependencyCollector.xml
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.AI.Web.xml
@@ -80,8 +78,6 @@ D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.Owin.Secur
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.Owin.Security.Twitter.xml
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.Owin.Security.OAuth.xml
-D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.csproj.AssemblyReference.cache
-D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache
-D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.csproj.CopyComplete
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.dll
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.pdb
+D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache

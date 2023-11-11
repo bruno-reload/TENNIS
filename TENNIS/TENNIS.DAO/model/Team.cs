@@ -6,8 +6,8 @@ namespace Tennis.DAO.model
     [System.Serializable]
     public class Team
     {
-        public int Id;
-        public string Name;
-        public List<Find> Historic;
+        public int Id { set; get; }
+        public string Name { set; get; }
+        public List<int> Historic;
     }
 }

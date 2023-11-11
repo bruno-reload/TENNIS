@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using Tennis.DAO.controller;
 using Tennis.DAO.model;
@@ -74,7 +75,7 @@ namespace Tennis.DAO.controller
             _command.ExecuteNonQuery();
         }
 
-        public Local getPlayer(string id)
+        public Local getLocal(string id)
         {
             string sql = "SELECT NEIGHBORHOOD , STREET , CITY, ZIP_CODE FROM LOCAL WHERE ID = @ID;";
 
@@ -90,6 +91,7 @@ namespace Tennis.DAO.controller
             Local l = new Local();
             if (_reader.Read())
             {
+                l.Id = int.Parse(id);
                 l.Neighborhood = _reader.GetValue(_reader.GetOrdinal("NEIGHBORHOOD")).ToString();
                 l.Street = _reader.GetValue(_reader.GetOrdinal("STREET")).ToString();
                 l.City = _reader.GetValue(_reader.GetOrdinal("CITY")).ToString();
@@ -97,6 +99,32 @@ namespace Tennis.DAO.controller
             }
 
             return l;
+        }
+        public List<Local> getLocalList()
+        {
+            string sql = "SELECT NEIGHBORHOOD , STREET , CITY, ZIP_CODE FROM LOCAL;";
+
+            _command = new SqlCommand(sql, Connect());
+            
+
+            _reader = _command.ExecuteReader();
+
+            List<Local> list = new List<Local>();
+
+            while (_reader.Read())
+            {
+                Local l = new Local();
+
+                l.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                l.Neighborhood = _reader.GetValue(_reader.GetOrdinal("NEIGHBORHOOD")).ToString();
+                l.Street = _reader.GetValue(_reader.GetOrdinal("STREET")).ToString();
+                l.City = _reader.GetValue(_reader.GetOrdinal("CITY")).ToString();
+                l.ZipCode = _reader.GetValue(_reader.GetOrdinal("ZIP_CODE")).ToString();
+
+                list.Add(l);
+            }
+
+            return list;
         }
     }
 }

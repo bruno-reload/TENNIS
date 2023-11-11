@@ -10,7 +10,7 @@ namespace Tennis.DAO.model
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
         public string Name { get; set; }
-        public List<Phase> Phases { get; set; }
-        public List<Award> Awards { get; set; }
+        public List<int> Phases;
+        public List<int> Awards;
     }
 }

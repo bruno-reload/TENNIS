@@ -3,10 +3,10 @@
     [System.Serializable]
     public class Find
     {
-        public int Id;
-        public int Points;
-        public bool Winner;
-        public Challeng Challeng;
-        public Team team;
+        public int Id { set; get; }
+        public int Points { set; get; }
+        public bool Winner { set; get; }
+        public int Challeng { set; get; }
+        public int team { set; get; }
     }
 }

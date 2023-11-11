@@ -3,9 +3,9 @@
     [System.Serializable]
     public class Award
     {
-        public int Id;
-        public string Position;
-        public string Value;
-        public Match Match;
+        public int Id { set; get; }
+        public string Position { set; get; }
+        public string Value { set; get; }
+        public int Match { set; get; }
     }
 }

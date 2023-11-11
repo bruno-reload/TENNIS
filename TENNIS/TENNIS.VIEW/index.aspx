@@ -8,17 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        Player<p>
-            Nickname<asp:TextBox ID="nickname" runat="server"></asp:TextBox>
-        </p>
-        password<asp:TextBox ID="password" runat="server"></asp:TextBox>
         <p>
-            Name<asp:TextBox ID="name" runat="server"></asp:TextBox>
-        </p>
-        <asp:Button ID="novo" runat="server" OnClick="novo_Click" Text="novo" />
-        <asp:Button ID="cadastrar" runat="server" Text="cadastrar" OnClick="cadastrar_Click" />
-        <asp:Button ID="alterar" runat="server" Text="alterar" OnClick="alterar_Click" />
-        <asp:Button ID="excluir" runat="server" Text="excluir" OnClick="excluir_Click" />
+            Home</p>
+        <asp:Button ID="player" runat="server" OnClick="Button1_Click1" Text="Player" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Team" />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="fill" />
     </form>
 </body>
 </html>

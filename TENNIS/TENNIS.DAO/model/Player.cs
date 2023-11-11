@@ -3,8 +3,8 @@
     [System.Serializable]
     public class Player
     {
-        public string Nicknane;
-        public string Name;
-        public string Password;
+        public string Nickname { set; get; }
+        public string Name { set; get; }
+        public string Password { set; get; }
     }
 }

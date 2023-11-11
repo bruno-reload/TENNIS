@@ -13,48 +13,21 @@ namespace TENNIS.VIEW
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
-        protected void novo_Click(object sender, EventArgs e)
+        protected void Button1_Click1(object sender, EventArgs e)
         {
-         
-
-        }
-        protected void cadastrar_Click(object sender, EventArgs e)
-        {
-            Player p = new Player();
-            p.Nicknane = nickname.Text;
-            p.Password = password.Text;
-            p.Name = name.Text;
-
-            CtrlPlayer ctrlP = new CtrlPlayer();
-
-            ctrlP.insert(p);
+            Response.Redirect("forms/PlayerForm.aspx");
         }
 
-        protected void excluir_Click(object sender, EventArgs e)
+        protected void Button1_Click(object sender, EventArgs e)
         {
-            Player p = new Player();
-            p.Nicknane = nickname.Text;
-            p.Password = password.Text;
-            p.Name = name.Text;
-
-            CtrlPlayer ctrlP = new CtrlPlayer();
-
-            ctrlP.delete(p);
+            Response.Redirect("forms/TeamForm.aspx");
         }
 
-        protected void alterar_Click(object sender, EventArgs e)
+        protected void Button2_Click(object sender, EventArgs e)
         {
-            Player p = new Player();
-            p.Nicknane = nickname.Text;
-            p.Password = password.Text;
-            p.Name = name.Text;
-
-            CtrlPlayer ctrlP = new CtrlPlayer();
-
-            ctrlP.change(p);
+            Response.Redirect("forms/FillForm.aspx");
         }
     }
 }
