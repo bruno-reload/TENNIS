@@ -95,7 +95,7 @@ namespace Tennis.DAO.controller
         }
         public List<Marked> getMarkedList()
         {
-            string sql = "SELECT DATE, TIME, IDLOCAL FROM MARKED;";
+            string sql = "SELECT ID, DATE, TIME, IDLOCAL FROM MARKED;";
 
             _command = new SqlCommand(sql, Connect());
             
@@ -107,11 +107,13 @@ namespace Tennis.DAO.controller
             while (_reader.Read())
             {
                 Marked m = new Marked();
-                var time = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("TIME")).ToString()).TimeOfDay;
+                var Hour = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("TIME")).ToString()).Hour;
+                var Minute = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("TIME")).ToString()).Minute;
+                var Second = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("TIME")).ToString()).Second;
                 var date = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DATE")).ToString()).Date;
                 m.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
-                m.DateTime = new DateTime(date.Year, date.Month, date.Day, time.Hours, time.Minutes, time.Milliseconds);
-                m.Local = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDLOCAL ")).ToString());
+                m.DateTime = new DateTime(date.Year, date.Month, date.Day, Hour, Minute, Second);
+                m.Local = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDLOCAL")).ToString());
                 list.Add(m);
             }
 

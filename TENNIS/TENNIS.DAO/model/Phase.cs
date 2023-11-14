@@ -8,7 +8,7 @@ namespace Tennis.DAO.model
         public int Id { set; get; }
         public string Name { set; get; }
         public int MinPoints { set; get; }
-        public Match Match;
+        public int Match { set; get; }
         public List<int> Challengs;
     }
 }

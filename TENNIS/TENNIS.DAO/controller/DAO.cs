@@ -17,7 +17,8 @@ namespace Tennis.DAO.controller
         {
             try
             {
-                string strConnection = ConfigurationManager.ConnectionStrings["Banco"].ConnectionString;
+                //string strConnection = ConfigurationManager.ConnectionStrings["Banco"].ConnectionString;
+                string strConnection = "Data Source=DESKTOP-2KE21E2\\MSSQLSERVER01;Initial Catalog=TENNIS;Persist Security Info=True;User ID=Vivih_Athena;pwd=santuario0379";
 
                 SqlConnection Connection  = new SqlConnection(strConnection);
                 Connection.Open();

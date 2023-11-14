@@ -103,7 +103,7 @@ namespace Tennis.DAO.controller
 
         public List<Find> getFindList()
         {
-            string sql = "SELECT POINTS, WINNER, IDTEAM, IDCHALLENGS FROM FIND;";
+            string sql = "SELECT ID, POINTS, WINNER, IDTEAM, IDCHALLENGS FROM FIND;";
 
             _command = new SqlCommand(sql, Connect());
             

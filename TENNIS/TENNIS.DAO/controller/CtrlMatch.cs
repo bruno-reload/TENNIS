@@ -96,7 +96,7 @@ namespace Tennis.DAO.controller
         }
         public List<Match >getMatchList()
         {
-            string sql = "SELECT DATE, TIME, IDLOCAL FROM THE_MATCH;";
+            string sql = "SELECT ID, START_TIME, END_TIME, MATCH_NAME FROM THE_MATCH;";
 
             _command = new SqlCommand(sql, Connect());
             

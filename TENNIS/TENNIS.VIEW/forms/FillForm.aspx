@@ -27,11 +27,13 @@
             <asp:TextBox ID="team" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="insere" />
-            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="altera" />
-            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="exclue" />
-            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="lista" />
+            <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+            <asp:TextBox ID="TextBox1" runat="server" TextMode="Range"></asp:TextBox>
         </p>
+        <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <p>
+            &nbsp;</p>
         <asp:GridView ID="grid" runat="server" AutoGenerateColumns="False">
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="Id" />
@@ -40,6 +42,13 @@
                 <asp:BoundField DataField="player" HeaderText="nikname" />
             </Columns>
         </asp:GridView>
+        <p>
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="insere" />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="altera" />
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="exclue" />
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="lista" />
+            <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="return" />
+        </p>
     </form>
 </body>
 </html>

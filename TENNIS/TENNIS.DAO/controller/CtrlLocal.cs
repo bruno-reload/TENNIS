@@ -102,7 +102,7 @@ namespace Tennis.DAO.controller
         }
         public List<Local> getLocalList()
         {
-            string sql = "SELECT NEIGHBORHOOD , STREET , CITY, ZIP_CODE FROM LOCAL;";
+            string sql = "SELECT ID, NEIGHBORHOOD , STREET , CITY, ZIP_CODE FROM LOCAL;";
 
             _command = new SqlCommand(sql, Connect());
             

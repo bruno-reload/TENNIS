@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using Tennis.DAO.controller;
 using Tennis.DAO.model;
 
@@ -11,16 +12,16 @@ namespace Tennis.DAO.controller
     {
         public void insert(Challeng challeng)
         {
-            string sql = "INSERT INTO CHALLENGS (FINISHED , DURATCTION , IDPHASE, IDMARKED ) VALUES (@FINISHED , @DURATCTION , @IDPHASE, @IDMARKED );";
+            string sql = "INSERT INTO CHALLENGS (FINISHED , DURATION , IDPHASE, IDMARKED ) VALUES (@FINISHED , @DURATION , @IDPHASE, @IDMARKED );";
 
             _command = new SqlCommand(sql, Connect());
 
             _parameter = new SqlParameter("@FINISHED", challeng.Finished);
-            _parameter.SqlDbType = SqlDbType.VarChar;
+            _parameter.SqlDbType = SqlDbType.Bit;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@DURATCTION", challeng.Duraction);
-            _parameter.SqlDbType = SqlDbType.Date;
+            _parameter = new SqlParameter("@DURATION", challeng.Duration.TimeOfDay);
+            _parameter.SqlDbType = SqlDbType.Time;
             _command.Parameters.Add(_parameter);
 
             _parameter = new SqlParameter("@IDPHASE", challeng.Phase);
@@ -36,7 +37,7 @@ namespace Tennis.DAO.controller
 
         public void change(Challeng challeng)
         {
-            string sql = "UPDATE CHALLENGS SET FINISHED = @FINISHED, DURATCTION = @DURATCTION, IDPHASE = @IDPHASE, IDMARKED = @IDMARKED WHERE  ID  = @ID;";
+            string sql = "UPDATE CHALLENGS SET FINISHED = @FINISHED, DURATION = @DURATION, IDPHASE = @IDPHASE, IDMARKED = @IDMARKED WHERE  ID  = @ID;";
 
             _command = new SqlCommand(sql, Connect());
 
@@ -48,8 +49,8 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.Bit;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@DURATCTION", challeng.Duraction);
-            _parameter.SqlDbType = SqlDbType.Date;
+            _parameter = new SqlParameter("@DURATION", challeng.Duration.TimeOfDay);
+            _parameter.SqlDbType = SqlDbType.Time;
             _command.Parameters.Add(_parameter);
 
             _parameter = new SqlParameter("@IDPHASE", challeng.Phase);
@@ -78,7 +79,7 @@ namespace Tennis.DAO.controller
 
         public Challeng getChalleng(string id)
         {
-            string sql = "SELECT FINISHED , DURATCTION , IDPHASE, IDMARKED  FROM CHALLENGS WHERE ID = @ID;";
+            string sql = "SELECT ID, FINISHED , DURATION , IDPHASE, IDMARKED  FROM CHALLENGS WHERE ID = @ID;";
 
             _command = new SqlCommand(sql, Connect());
 
@@ -95,7 +96,7 @@ namespace Tennis.DAO.controller
 
                 c.Id = int.Parse(id);
                 c.Finished = bool.Parse(_reader.GetValue(_reader.GetOrdinal("FINISHED")).ToString());
-                c.Duraction = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DURATCTION")).ToString());
+                c.Duration = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DURATION")).ToString());
                 c.Marked = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMARKED")).ToString());
                 c.Phase = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDPHASE")).ToString());
             }
@@ -104,7 +105,7 @@ namespace Tennis.DAO.controller
         }
         public List<Challeng> getChallengList()
         {
-            string sql = "SELECT FINISHED , DURATCTION , IDPHASE, IDMARKED  FROM CHALLENGS;";
+            string sql = "SELECT ID, FINISHED , DURATION , IDPHASE, IDMARKED  FROM CHALLENGS;";
 
             _command = new SqlCommand(sql, Connect());
            
@@ -120,8 +121,12 @@ namespace Tennis.DAO.controller
 
                 c.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
                 c.Finished = bool.Parse(_reader.GetValue(_reader.GetOrdinal("FINISHED")).ToString());
-                c.Duraction = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DURATCTION")).ToString());
-                c.Marked = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMARKED")).ToString());
+                c.Duration = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DURATION")).ToString());
+                int  outValue = 0;
+                if (int.TryParse(_reader.GetValue(_reader.GetOrdinal("IDMARKED")).ToString(), out outValue))
+                {
+                    c.Marked = outValue;
+                }
                 c.Phase = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDPHASE")).ToString());
 
                 list.Add(c);

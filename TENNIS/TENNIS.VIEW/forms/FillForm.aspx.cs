@@ -21,8 +21,7 @@ namespace TENNIS.VIEW.forms
             CtrlFill ctrlF = new CtrlFill();
 
             Fill f = new Fill();
-
-            f.Id = int.Parse(id.Text);
+            
             f.Position = position.Text;
             f.player = nickname.Text;
             f.Team = int.Parse(team.Text);
@@ -68,6 +67,11 @@ namespace TENNIS.VIEW.forms
 
             grid.DataSource = ctrlF.getFillList();
             grid.DataBind();
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../index.aspx");
         }
     }
 }

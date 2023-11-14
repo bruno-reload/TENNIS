@@ -7,7 +7,7 @@ using Tennis.DAO.model;
 
 namespace Tennis.DAO.controller
 {
-    public class CtrlPahse: DAO
+    public class CtrlPhase: DAO
     {
         public void insert(Phase phase)
         {
@@ -23,7 +23,7 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDMATCH", phase.Match.Id);
+            _parameter = new SqlParameter("@IDMATCH", phase.Match);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
@@ -48,9 +48,12 @@ namespace Tennis.DAO.controller
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
 
-            _parameter = new SqlParameter("@IDMATCH", phase.Match.Id);
+            _parameter = new SqlParameter("@IDMATCH", phase.Match);
             _parameter.SqlDbType = SqlDbType.Int;
             _command.Parameters.Add(_parameter);
+
+
+            _command.ExecuteNonQuery();
         }
 
         public void delete(Phase phase)
@@ -85,8 +88,7 @@ namespace Tennis.DAO.controller
                 p.Id = int.Parse(id);
                 p.Name = _reader.GetValue(_reader.GetOrdinal("PHASE_NAME")).ToString();
                 p.MinPoints = int.Parse(_reader.GetValue(_reader.GetOrdinal("MIN_POINTS")).ToString());
-                p.Match = new Match();
-                p.Match.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMATCH")).ToString());
+                p.Match = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMATCH")).ToString());
 
                 //os desafios devem ser carregados através de querys e armazenados aqui todas as dispultas que compartilharem da mesma fase id
             }
@@ -95,7 +97,7 @@ namespace Tennis.DAO.controller
         }
         public List<Phase >getPhaseList()
         {
-            string sql = "SELECT PHASE_NAME, MIN_POINTS, IDMATCH FROM PHASE;";
+            string sql = "SELECT ID, PHASE_NAME, MIN_POINTS, IDMATCH FROM PHASE;";
 
             _command = new SqlCommand(sql, Connect());
             
@@ -111,8 +113,7 @@ namespace Tennis.DAO.controller
                 p.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
                 p.Name = _reader.GetValue(_reader.GetOrdinal("PHASE_NAME")).ToString();
                 p.MinPoints = int.Parse(_reader.GetValue(_reader.GetOrdinal("MIN_POINTS")).ToString());
-                p.Match = new Match();
-                p.Match.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMATCH")).ToString());
+                p.Match = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMATCH")).ToString());
 
                 //os desafios devem ser carregados através de querys e armazenados aqui todas as dispultas que compartilharem da mesma fase id
                 list.Add(p);

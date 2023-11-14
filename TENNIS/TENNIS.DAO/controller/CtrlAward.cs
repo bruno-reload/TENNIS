@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using Tennis.DAO.model;
@@ -13,7 +14,7 @@ namespace Tennis.DAO.controller
 
         public void insert(Award award)
         {
-            string sql = "INSERT INTO AWARD (POSITION, VALUE, IDMATCH) VALUES (@POSITION, @VALUE, @IDMATCH);";
+            string sql = "INSERT INTO AWARDS (POSITION, VALUE, IDMATCH) VALUES (@POSITION, @VALUE, @IDMATCH);";
 
             _command = new SqlCommand(sql, Connect());
             
@@ -34,7 +35,7 @@ namespace Tennis.DAO.controller
 
         public void change(Award award)
         {
-            string sql = "UPDATE AWARD SET IDMATCH = @IDMATCH, POSITION = @POSITION, VALUE = @VALUE WHERE  ID  = @ID;";
+            string sql = "UPDATE AWARDS SET IDMATCH = @IDMATCH, POSITION = @POSITION, VALUE = @VALUE WHERE  ID  = @ID;";
 
             _command = new SqlCommand(sql, Connect());
 
@@ -60,7 +61,7 @@ namespace Tennis.DAO.controller
 
         public void delete(Award award)
         {
-            string sql = "DELETE FROM AWARD WHERE ID  = @ID;";
+            string sql = "DELETE FROM AWARDS WHERE ID  = @ID;";
 
             _command = new SqlCommand(sql, Connect());
 
@@ -73,7 +74,7 @@ namespace Tennis.DAO.controller
 
         public Award getAward(string id)
         {
-            string sql = "SELECT POSITION, VALUE, IDMATCH FROM AWARD WHERE ID = @ID;";
+            string sql = "SELECT POSITION, VALUE, IDMATCH FROM AWARDS WHERE ID = @ID;";
 
             _command = new SqlCommand(sql, Connect());
 
@@ -97,7 +98,7 @@ namespace Tennis.DAO.controller
         }
         public List<Award> getAwardList()
         {
-            string sql = "SELECT POSITION, VALUE, IDMATCH FROM AWARD;";
+            string sql = "SELECT ID, POSITION, VALUE, IDMATCH FROM AWARDS;";
 
             _command = new SqlCommand(sql, Connect());
             
@@ -106,7 +107,7 @@ namespace Tennis.DAO.controller
 
             List<Award> list = new List<Award>();
 
-            if (_reader.Read())
+            while (_reader.Read())
             {
                 Award a = new Award();
 

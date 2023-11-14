@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using System;
 using System.IO;
 using System.Net.Sockets;
@@ -33,7 +34,7 @@ public class PlayerLogin : MonoBehaviour
         player = new Player();
 
         player.Name = "novo";
-        player.Nicknane = "novo1";
+        player.Nickname = "novo1";
         player.Password = "novo";
 
 
@@ -41,7 +42,7 @@ public class PlayerLogin : MonoBehaviour
         //ctrlP.insert(player);
 
 
-        Debug.Log(JsonUtility.ToJson(player));
+        Debug.Log(JsonConvert.SerializeObject(player));
 
         //PlayerWS pws = new PlayerWS();
 
@@ -59,9 +60,10 @@ public class PlayerLogin : MonoBehaviour
     }
     void Update()
     {
-        if (Input.anyKeyDown)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            writer.WriteLine(JsonUtility.ToJson(player));
+            Debug.Log(JsonConvert.SerializeObject(player));
+            writer.WriteLine(JsonConvert.SerializeObject(player));
             writer.Flush();
         }
     }
