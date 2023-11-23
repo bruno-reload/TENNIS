@@ -12933,7 +12933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XsdValidator_FindId_m00BE7A29F
 		String_t* L_2 = ___0_name;
 		NullCheck(L_1);
 		RuntimeObject* L_3;
-		L_3 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_1, L_2);
 		return L_3;
 	}
 
@@ -14689,7 +14689,7 @@ IL_036f:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_215 = L_214->___keyrefTable;
 		NullCheck(L_215);
 		RuntimeObject* L_216;
-		L_216 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(37, L_215);
+		L_216 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(38, L_215);
 		NullCheck(L_216);
 		RuntimeObject* L_217;
 		L_217 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131_il2cpp_TypeInfo_var, L_216);

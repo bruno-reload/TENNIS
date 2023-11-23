@@ -22,11 +22,11 @@ static Il2CppMethodPointer s_methodPointers[5] =
 };
 static const int32_t s_InvokerIndices[5] = 
 {
-	11562,
-	11101,
-	11101,
-	11510,
-	11510,
+	12702,
+	12156,
+	12156,
+	12648,
+	12648,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_Owin_Host_SystemWeb_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_Owin_Host_SystemWeb_CodeGenModule = 

@@ -5717,7 +5717,7 @@ IL_00f8:
 				String_t* L_4 = ___0_name;
 				NullCheck(L_3);
 				RuntimeObject* L_5;
-				L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_3, L_4);
+				L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_3, L_4);
 				V_0 = L_5;
 				RuntimeObject* L_6 = V_0;
 				if (!L_6)
@@ -5737,7 +5737,7 @@ IL_0027_1:
 				String_t* L_9 = ___0_name;
 				NullCheck(L_8);
 				RuntimeObject* L_10;
-				L_10 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_8, L_9);
+				L_10 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_8, L_9);
 				V_1 = ((String_t*)CastclassSealed((RuntimeObject*)L_10, il2cpp_defaults.string_class));
 				String_t* L_11 = V_1;
 				if (L_11)
@@ -5756,7 +5756,7 @@ IL_0044_1:
 				String_t* L_13 = V_1;
 				NullCheck(L_12);
 				RuntimeObject* L_14;
-				L_14 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_12, L_13);
+				L_14 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_12, L_13);
 				V_2 = ((Assembly_t*)CastclassClass((RuntimeObject*)L_14, Assembly_t_il2cpp_TypeInfo_var));
 				Assembly_t* L_15 = V_2;
 				bool L_16;
@@ -5826,7 +5826,7 @@ IL_0095_1:
 				String_t* L_28 = V_1;
 				Assembly_t* L_29 = V_2;
 				NullCheck(L_27);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(30, L_27, L_28, L_29);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(31, L_27, L_28, L_29);
 			}
 
 IL_00a2_1:

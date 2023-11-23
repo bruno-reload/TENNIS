@@ -1721,9 +1721,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66110218511672e49a1396f6034efd1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nickName: {fileID: 305835123}
-  name: {fileID: 2114275691}
-  password: {fileID: 1171372119}
 --- !u!1 &1171372117
 GameObject:
   m_ObjectHideFlags: 0

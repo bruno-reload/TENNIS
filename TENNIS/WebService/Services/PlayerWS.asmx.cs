@@ -20,9 +20,22 @@ namespace WebService
     {
 
         [WebMethod]
-        public string HelloWorld()
+        public Player CreatePlayer(string name, string nickname, string passwrod)
         {
-            return "Hello World";
+            CtrlPlayer ctrlP = new CtrlPlayer();
+            //mudar issnicknameo para uma consulta SQL
+            if (!ctrlP.Check(nickname)) { 
+                Player player = new Player();
+
+                player.Name = name;
+                player.Nickname = nickname;
+                player.Password = passwrod;
+
+                ctrlP.insert(player);
+
+                return player;
+           }
+            return null;
         }
 
 
@@ -32,12 +45,25 @@ namespace WebService
             CtrlPlayer ctrlP = new CtrlPlayer();
             Player p = ctrlP.getPlayer(id);
 
-            if (p.Password.Equals(passwrod)) {
+            if (p.Password == passwrod) {
                 return p;
             }
             return null;
         }
 
+        [WebMethod]
+        public List<Player> GetAllies(string team)
+        {
+            CtrlPlayer ctrlP = new CtrlPlayer();
 
+            return ctrlP.GetPlayersByTeam(team);
+        }
+        [WebMethod]
+        public List<Player> GetOpponents(string team)
+        {
+            CtrlPlayer ctrlP = new CtrlPlayer();
+
+            return ctrlP.GetPlayersOpponentsByChallenge(team);
+        }
     }
 }

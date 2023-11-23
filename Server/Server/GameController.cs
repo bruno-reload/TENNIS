@@ -13,7 +13,7 @@ namespace Server
 {
     class GameController
     {
-        const int MAX = 2;
+        const int MAX = 6;
         int id = 0;
         bool ready = false;
 

@@ -353,7 +353,6 @@ struct AssemblyKeyFileAttribute_tB0EC930762855DB7BE70FEE34F70977A7D238DD1;
 struct AssemblyMetadataAttribute_tC5FB9DAC21EE77DAA8CF2105D01E2D9569A23812;
 struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2;
 struct AssemblyProductAttribute_t7612F95ED37D3566B8B89A062375A09ABC00CD6A;
-struct AssemblySignatureKeyAttribute_tE53C959D3F09E6206424C5263EE31247E2AD3EED;
 struct AssemblyTitleAttribute_tD662898804D6F2837455D81BA60B9F75C67636F1;
 struct AssemblyTrademarkAttribute_tFD7599C8542FAD4B472C20F8DBA514DF1A163BE3;
 struct AsyncMethodBuilderAttribute_t6B43FAAB8FD9E2B55C394CFEAF3EEEC453C72BAB;
@@ -1841,11 +1840,6 @@ struct AssemblyMetadataAttribute_tC5FB9DAC21EE77DAA8CF2105D01E2D9569A23812  : pu
 struct AssemblyProductAttribute_t7612F95ED37D3566B8B89A062375A09ABC00CD6A  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
 	String_t* ___U3CProductU3Ek__BackingField;
-};
-struct AssemblySignatureKeyAttribute_tE53C959D3F09E6206424C5263EE31247E2AD3EED  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	String_t* ___U3CPublicKeyU3Ek__BackingField;
-	String_t* ___U3CCountersignatureU3Ek__BackingField;
 };
 struct AssemblyTitleAttribute_tD662898804D6F2837455D81BA60B9F75C67636F1  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -27380,7 +27374,7 @@ IL_001a:
 	{
 		NullCheck(G_B2_0);
 		RuntimeObject* L_4;
-		L_4 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(31, G_B2_0);
+		L_4 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(32, G_B2_0);
 		return L_4;
 	}
 }
@@ -27633,7 +27627,7 @@ IL_0028:
 		String_t* L_6 = ___0_name;
 		NullCheck(G_B4_0);
 		RuntimeObject* L_7;
-		L_7 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, G_B4_0, L_6);
+		L_7 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, G_B4_0, L_6);
 		return L_7;
 	}
 }
@@ -27688,7 +27682,7 @@ IL_001b:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_8 = V_0;
 		NullCheck(L_8);
 		RuntimeObject* L_9;
-		L_9 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(31, L_8);
+		L_9 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(32, L_8);
 		V_2 = L_9;
 		goto IL_004b;
 	}
@@ -27731,7 +27725,7 @@ IL_005a:
 		String_t* L_19 = ___0_name;
 		NullCheck(L_18);
 		RuntimeObject* L_20;
-		L_20 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_18, L_19);
+		L_20 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_18, L_19);
 		return L_20;
 	}
 }
@@ -28000,27 +27994,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyProductAttribute__ctor_m84860884
 		String_t* L_0 = ___0_product;
 		__this->___U3CProductU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CProductU3Ek__BackingField), (void*)L_0);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblySignatureKeyAttribute__ctor_mDBCA555FF975A7BE95E16EAF8A393DD0C63D5E94 (AssemblySignatureKeyAttribute_tE53C959D3F09E6206424C5263EE31247E2AD3EED* __this, String_t* ___0_publicKey, String_t* ___1_countersignature, const RuntimeMethod* method) 
-{
-	{
-		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
-		String_t* L_0 = ___0_publicKey;
-		__this->___U3CPublicKeyU3Ek__BackingField = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPublicKeyU3Ek__BackingField), (void*)L_0);
-		String_t* L_1 = ___1_countersignature;
-		__this->___U3CCountersignatureU3Ek__BackingField = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCountersignatureU3Ek__BackingField), (void*)L_1);
 		return;
 	}
 }

@@ -26,14 +26,6 @@
             <asp:Label ID="Label4" runat="server" Text="id team"></asp:Label>
             <asp:TextBox ID="team" runat="server"></asp:TextBox>
         </p>
-        <p>
-            <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server" TextMode="Range"></asp:TextBox>
-        </p>
-        <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-        <p>
-            &nbsp;</p>
         <asp:GridView ID="grid" runat="server" AutoGenerateColumns="False">
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="Id" />

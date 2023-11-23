@@ -1026,7 +1026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamExtensions_Write_m4DCBDAB6633ABB40
 		int64_t L_1;
 		L_1 = DateTimeOffset_get_UtcTicks_mADA0A7B073B9AD2DC81ABC3343382567119D4705((&___1_value), NULL);
 		NullCheck(L_0);
-		VirtualActionInvoker1< int64_t >::Invoke(20, L_0, L_1);
+		VirtualActionInvoker1< int64_t >::Invoke(21, L_0, L_1);
 		return;
 	}
 }

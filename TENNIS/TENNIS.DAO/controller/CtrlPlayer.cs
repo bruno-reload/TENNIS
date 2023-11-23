@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using Tennis.DAO.controller;
 using Tennis.DAO.model;
 
@@ -86,6 +88,53 @@ namespace Tennis.DAO.controller
 
             return p;
         }
+        public List<Player> GetPlayersByTeam(string teamName)
+        {
+            _command = new SqlCommand("GetPlayersByTeam", Connect());
+            _command.CommandType = CommandType.StoredProcedure;
+
+            _parameter = new SqlParameter("@TeamName", SqlDbType.VarChar);
+            _parameter.Value = teamName;
+            _command.Parameters.Add(_parameter);
+
+            _reader = _command.ExecuteReader();
+
+            List<Player> players = new List<Player>();
+            while (_reader.Read())
+            {
+                Player player = new Player();
+                player.Nickname = _reader["NICKNAME"].ToString();
+                player.Name = _reader["PLAYER_NAME"].ToString();
+
+                players.Add(player);
+            }
+
+            return players;
+        }
+
+        public List<Player> GetPlayersOpponentsByChallenge(string teamName)
+        {
+            _command = new SqlCommand("GET_PLAYERS_OF_OTHER_TEAM_IN_SAME_CHALLENGE", Connect());
+            _command.CommandType = CommandType.StoredProcedure;
+
+            _parameter = new SqlParameter("@TEAM_NAME", SqlDbType.VarChar);
+            _parameter.Value = teamName;
+            _command.Parameters.Add(_parameter);
+
+            _reader = _command.ExecuteReader();
+
+            List<Player> players = new List<Player>();
+            while (_reader.Read())
+            {
+                Player player = new Player();
+                player.Nickname = _reader["NICKNAME"].ToString();
+                player.Name = _reader["PLAYER_NAME"].ToString();
+
+                players.Add(player);
+            }
+
+            return players;
+        }
 
         public List<Player> getPlayerList()
         {
@@ -108,6 +157,21 @@ namespace Tennis.DAO.controller
             }
 
             return list;
+        }
+
+        public bool Check(string nickname) {
+            string sql = "SELECT COUNT(*) FROM PLAYER WHERE NICKNAME = @NICKNAME;";
+            
+
+            _command = new SqlCommand(sql, Connect());
+
+            _parameter = new SqlParameter("@NICKNAME", nickname);
+            _parameter.SqlDbType = SqlDbType.VarChar;
+            _command.Parameters.Add(_parameter);
+
+            int count = Convert.ToInt32(_command.ExecuteScalar());
+
+            return count > 0;
         }
     }
 }

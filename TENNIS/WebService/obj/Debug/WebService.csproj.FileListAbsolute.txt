@@ -78,6 +78,6 @@ D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.Owin.Secur
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.Owin.Security.Twitter.xml
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\bin\Microsoft.Owin.Security.OAuth.xml
+D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.dll
 D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.pdb
-D:\vitória\multplayer\product\TENNIS\TENNIS\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache

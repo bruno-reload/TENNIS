@@ -74,6 +74,6 @@ D:\vitória\multplayer\product\TENNIS\TENNIS\TENNIS.DAO\bin\Microsoft.Owin.Secur
 D:\vitória\multplayer\product\TENNIS\TENNIS\TENNIS.DAO\bin\Microsoft.Owin.Security.Twitter.xml
 D:\vitória\multplayer\product\TENNIS\TENNIS\TENNIS.DAO\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\vitória\multplayer\product\TENNIS\TENNIS\TENNIS.DAO\bin\Microsoft.Owin.Security.OAuth.xml
+D:\vitória\multplayer\product\TENNIS\TENNIS\TENNIS.DAO\obj\Debug\TENNIS.DAO.csprojResolveAssemblyReference.cache
 D:\vitória\multplayer\product\TENNIS\TENNIS\TENNIS.DAO\obj\Debug\TENNIS.DAO.dll
 D:\vitória\multplayer\product\TENNIS\TENNIS\TENNIS.DAO\obj\Debug\TENNIS.DAO.pdb
-D:\vitória\multplayer\product\TENNIS\TENNIS\TENNIS.DAO\obj\Debug\TENNIS.DAO.csprojResolveAssemblyReference.cache

@@ -7896,7 +7896,7 @@ IL_0041_2:
 					String_t* L_18;
 					L_18 = Convert_ToString_m833ABF9C901B707B28FB10DEBFCC511A87E6C827(L_16, (RuntimeObject*)L_17, NULL);
 					NullCheck(L_14);
-					VirtualActionInvoker1< String_t* >::Invoke(23, L_14, L_18);
+					VirtualActionInvoker1< String_t* >::Invoke(24, L_14, L_18);
 					BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_19 = __this->___U3CwriterU3E5__2;
 					String_t* L_20 = __this->___purpose;
 					String_t* L_21 = L_20;
@@ -7917,7 +7917,7 @@ IL_0041_2:
 IL_00a1_2:
 				{
 					NullCheck(G_B7_1);
-					VirtualActionInvoker1< String_t* >::Invoke(23, G_B7_1, G_B7_0);
+					VirtualActionInvoker1< String_t* >::Invoke(24, G_B7_1, G_B7_0);
 					__this->___U3CstampU3E5__3 = (String_t*)NULL;
 					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstampU3E5__3), (void*)(String_t*)NULL);
 					UserManager_2_t9318BC0BE8E85F4A40E0B5FB18BE2559B450CCAB* L_22 = __this->___manager;
@@ -8007,7 +8007,7 @@ IL_014e_2:
 IL_0163_2:
 				{
 					NullCheck(G_B14_1);
-					VirtualActionInvoker1< String_t* >::Invoke(23, G_B14_1, G_B14_0);
+					VirtualActionInvoker1< String_t* >::Invoke(24, G_B14_1, G_B14_0);
 					goto IL_0181_1;
 				}
 			}
@@ -8521,7 +8521,7 @@ IL_0041_2:
 					String_t* L_19;
 					L_19 = Convert_ToString_m833ABF9C901B707B28FB10DEBFCC511A87E6C827(L_17, (RuntimeObject*)L_18, NULL);
 					NullCheck(L_14);
-					VirtualActionInvoker1< String_t* >::Invoke(23, L_14, L_19);
+					VirtualActionInvoker1< String_t* >::Invoke(24, L_14, L_19);
 					BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_20 = __this->___U3CwriterU3E5__2;
 					String_t* L_21 = __this->___purpose;
 					String_t* L_22 = L_21;
@@ -8542,7 +8542,7 @@ IL_0041_2:
 IL_00a1_2:
 				{
 					NullCheck(G_B7_1);
-					VirtualActionInvoker1< String_t* >::Invoke(23, G_B7_1, G_B7_0);
+					VirtualActionInvoker1< String_t* >::Invoke(24, G_B7_1, G_B7_0);
 					__this->___U3CstampU3E5__3 = (String_t*)NULL;
 					Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstampU3E5__3), (void*)(String_t*)NULL);
 					UserManager_2_t17227F4AF7CB4160172786396E8195F3D5802D3C* L_23 = __this->___manager;
@@ -8631,7 +8631,7 @@ IL_014e_2:
 IL_0163_2:
 				{
 					NullCheck(G_B14_1);
-					VirtualActionInvoker1< String_t* >::Invoke(23, G_B14_1, G_B14_0);
+					VirtualActionInvoker1< String_t* >::Invoke(24, G_B14_1, G_B14_0);
 					goto IL_0181_1;
 				}
 			}

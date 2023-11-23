@@ -42,7 +42,7 @@ namespace Server
 
             while (data != null)
             {
-                Console.WriteLine("Recebido do id: " + id + " | Messagem: " + data);
+                Console.WriteLine("Recebido no id: " + id + " | Messagem: " + data);
                 foreach (Player p in this.controller.players)
                 {
                     if (p != null && p.id != id)
@@ -58,7 +58,7 @@ namespace Server
         private void Send(string message)
         {
             Console.WriteLine("Enviado do id: " + id + " | Messagem: " + message);
-            writer.WriteLine(message);
+            writer.WriteLine("{\"id\": " +id+","+  message+ "}");
             writer.Flush();
         }
     }

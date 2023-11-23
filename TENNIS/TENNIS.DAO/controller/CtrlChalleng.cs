@@ -94,10 +94,14 @@ namespace Tennis.DAO.controller
             if (_reader.Read())
             {
 
-                c.Id = int.Parse(id);
+                c.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
                 c.Finished = bool.Parse(_reader.GetValue(_reader.GetOrdinal("FINISHED")).ToString());
                 c.Duration = DateTime.Parse(_reader.GetValue(_reader.GetOrdinal("DURATION")).ToString());
-                c.Marked = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDMARKED")).ToString());
+                int outValue = 0;
+                if (int.TryParse(_reader.GetValue(_reader.GetOrdinal("IDMARKED")).ToString(), out outValue))
+                {
+                    c.Marked = outValue;
+                }
                 c.Phase = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDPHASE")).ToString());
             }
 

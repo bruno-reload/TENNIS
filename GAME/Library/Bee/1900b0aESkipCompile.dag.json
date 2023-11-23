@@ -10,7 +10,8 @@
       "ToBuildDependencies": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "DebugActionIndex": 0
     },
@@ -24,54 +25,81 @@
       "DebugActionIndex": 1
     },
     {
+      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6097564273297756792.rsp",
+      "DisplayName": "Writing 6097564273297756792.rsp",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 83,
+      "PayloadLength": 7604,
+      "PayloadDebugContentSnippet": "-a=\"D:\\vitória\\multplayer\\pro",
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 2
+    },
+    {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Antlr3.Runtime.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\AspNet.ScriptManager.bootstrap.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\AspNet.ScriptManager.jQuery.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\EntityFramework.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\EntityFramework.SqlServer.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.Agent.Intercept.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.DependencyCollector.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.PerfCounterCollector.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.ServerTelemetryChannel.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.Web.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AI.WindowsServer.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.ApplicationInsights.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.FriendlyUrls.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.Identity.Core.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.Identity.EntityFramework.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.Identity.Owin.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.AspNet.Web.Optimization.WebForms.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Host.SystemWeb.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.Cookies.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.Facebook.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.Google.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.MicrosoftAccount.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.OAuth.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Owin.Security.Twitter.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.ScriptManager.MSAjax.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.ScriptManager.WebForms.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Microsoft.Web.Infrastructure.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Newtonsoft.Json.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\Owin.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\System.Web.Optimization.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\System.Web.Providers.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\TENNIS.DAO.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\\WebGrease.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N.CJK\\I18N.CJK.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N.West\\I18N.West.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N\\I18N.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\web_service_dll\\System.Web.Services.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\web_service_dll\\WebService.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\\nunit.framework.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\dao_dll\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N.CJK\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\sql_dll\\I18N.West\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Assets\\web_service_dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.16f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.16f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.16f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\\Facades\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\ScriptAssemblies\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"D:\\vitória\\multplayer\\product\\TENNIS\\GAME\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" @\"Library\\Bee\\artifacts\\rsp\\6097564273297756792.rsp\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
-        "Assets/dao_dll/Antlr3.Runtime.dll",
-        "Assets/dao_dll/AspNet.ScriptManager.bootstrap.dll",
-        "Assets/dao_dll/AspNet.ScriptManager.jQuery.dll",
-        "Assets/dao_dll/EntityFramework.dll",
-        "Assets/dao_dll/EntityFramework.SqlServer.dll",
-        "Assets/dao_dll/Microsoft.AI.Agent.Intercept.dll",
-        "Assets/dao_dll/Microsoft.AI.DependencyCollector.dll",
-        "Assets/dao_dll/Microsoft.AI.PerfCounterCollector.dll",
-        "Assets/dao_dll/Microsoft.AI.ServerTelemetryChannel.dll",
-        "Assets/dao_dll/Microsoft.AI.Web.dll",
-        "Assets/dao_dll/Microsoft.AI.WindowsServer.dll",
-        "Assets/dao_dll/Microsoft.ApplicationInsights.dll",
-        "Assets/dao_dll/Microsoft.AspNet.FriendlyUrls.dll",
-        "Assets/dao_dll/Microsoft.AspNet.Identity.Core.dll",
-        "Assets/dao_dll/Microsoft.AspNet.Identity.EntityFramework.dll",
-        "Assets/dao_dll/Microsoft.AspNet.Identity.Owin.dll",
-        "Assets/dao_dll/Microsoft.AspNet.Web.Optimization.WebForms.dll",
-        "Assets/dao_dll/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
-        "Assets/dao_dll/Microsoft.Owin.dll",
-        "Assets/dao_dll/Microsoft.Owin.Host.SystemWeb.dll",
-        "Assets/dao_dll/Microsoft.Owin.Security.Cookies.dll",
-        "Assets/dao_dll/Microsoft.Owin.Security.dll",
-        "Assets/dao_dll/Microsoft.Owin.Security.Facebook.dll",
-        "Assets/dao_dll/Microsoft.Owin.Security.Google.dll",
-        "Assets/dao_dll/Microsoft.Owin.Security.MicrosoftAccount.dll",
-        "Assets/dao_dll/Microsoft.Owin.Security.OAuth.dll",
-        "Assets/dao_dll/Microsoft.Owin.Security.Twitter.dll",
-        "Assets/dao_dll/Microsoft.ScriptManager.MSAjax.dll",
-        "Assets/dao_dll/Microsoft.ScriptManager.WebForms.dll",
-        "Assets/dao_dll/Microsoft.Web.Infrastructure.dll",
-        "Assets/dao_dll/Newtonsoft.Json.dll",
-        "Assets/dao_dll/Owin.dll",
-        "Assets/dao_dll/System.Web.Optimization.dll",
-        "Assets/dao_dll/System.Web.Providers.dll",
-        "Assets/dao_dll/TENNIS.DAO.dll",
-        "Assets/dao_dll/WebGrease.dll",
+        "Assets/Plugins/Antlr3.Runtime.dll",
+        "Assets/Plugins/AspNet.ScriptManager.bootstrap.dll",
+        "Assets/Plugins/AspNet.ScriptManager.jQuery.dll",
+        "Assets/Plugins/EntityFramework.dll",
+        "Assets/Plugins/EntityFramework.SqlServer.dll",
+        "Assets/Plugins/Microsoft.AI.Agent.Intercept.dll",
+        "Assets/Plugins/Microsoft.AI.DependencyCollector.dll",
+        "Assets/Plugins/Microsoft.AI.PerfCounterCollector.dll",
+        "Assets/Plugins/Microsoft.AI.ServerTelemetryChannel.dll",
+        "Assets/Plugins/Microsoft.AI.Web.dll",
+        "Assets/Plugins/Microsoft.AI.WindowsServer.dll",
+        "Assets/Plugins/Microsoft.ApplicationInsights.dll",
+        "Assets/Plugins/Microsoft.AspNet.FriendlyUrls.dll",
+        "Assets/Plugins/Microsoft.AspNet.Identity.Core.dll",
+        "Assets/Plugins/Microsoft.AspNet.Identity.EntityFramework.dll",
+        "Assets/Plugins/Microsoft.AspNet.Identity.Owin.dll",
+        "Assets/Plugins/Microsoft.AspNet.Web.Optimization.WebForms.dll",
+        "Assets/Plugins/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+        "Assets/Plugins/Microsoft.Owin.dll",
+        "Assets/Plugins/Microsoft.Owin.Host.SystemWeb.dll",
+        "Assets/Plugins/Microsoft.Owin.Security.Cookies.dll",
+        "Assets/Plugins/Microsoft.Owin.Security.dll",
+        "Assets/Plugins/Microsoft.Owin.Security.Facebook.dll",
+        "Assets/Plugins/Microsoft.Owin.Security.Google.dll",
+        "Assets/Plugins/Microsoft.Owin.Security.MicrosoftAccount.dll",
+        "Assets/Plugins/Microsoft.Owin.Security.OAuth.dll",
+        "Assets/Plugins/Microsoft.Owin.Security.Twitter.dll",
+        "Assets/Plugins/Microsoft.ScriptManager.MSAjax.dll",
+        "Assets/Plugins/Microsoft.ScriptManager.WebForms.dll",
+        "Assets/Plugins/Microsoft.Web.Infrastructure.dll",
+        "Assets/Plugins/Newtonsoft.Json.dll",
+        "Assets/Plugins/Owin.dll",
+        "Assets/Plugins/roslyn/Microsoft.CodeAnalysis.CSharp.dll",
+        "Assets/Plugins/roslyn/Microsoft.CodeAnalysis.dll",
+        "Assets/Plugins/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "Assets/Plugins/roslyn/System.Collections.Immutable.dll",
+        "Assets/Plugins/roslyn/System.Reflection.Metadata.dll",
+        "Assets/Plugins/System.Web.Extensions.dll",
+        "Assets/Plugins/System.Web.Mvc.dll",
+        "Assets/Plugins/System.Web.Optimization.dll",
+        "Assets/Plugins/System.Web.Providers.dll",
+        "Assets/Plugins/System.Windows.Forms.dll",
+        "Assets/Plugins/TENNIS.DAO.dll",
+        "Assets/Plugins/TENNIS.VIEW.dll",
+        "Assets/Plugins/WebGrease.dll",
+        "Assets/Plugins/WebService.dll",
         "Assets/sql_dll/I18N.CJK/I18N.CJK.dll",
         "Assets/sql_dll/I18N.West/I18N.West.dll",
         "Assets/sql_dll/I18N/I18N.dll",
-        "Assets/web_service_dll/System.Web.Services.dll",
-        "Assets/web_service_dll/WebService.dll",
+        "Assets/System.Web.Services.dll",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Cinemachine.dll",
         "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -82,7 +110,8 @@
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
         "Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
-        "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
       ],
       "InputFlags": [
         0,
@@ -139,7 +168,18 @@
         0,
         0,
         0,
-        0
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
       ],
       "Outputs": [
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
@@ -147,9 +187,12 @@
       "OutputFlags": [
         0
       ],
+      "ToBuildDependencies": [
+        2
+      ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 2
+      "DebugActionIndex": 3
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -160,9 +203,9 @@
       "OutputFlags": [],
       "ToBuildDependencies": [
         1,
-        2
+        3
       ],
-      "DebugActionIndex": 3
+      "DebugActionIndex": 4
     }
   ],
   "FileSignatures": [
@@ -280,115 +323,145 @@
       "File": "Assets/csc.rsp"
     },
     {
-      "File": "Assets/dao_dll/Antlr3.Runtime.dll"
-    },
-    {
-      "File": "Assets/dao_dll/AspNet.ScriptManager.bootstrap.dll"
-    },
-    {
-      "File": "Assets/dao_dll/AspNet.ScriptManager.jQuery.dll"
-    },
-    {
-      "File": "Assets/dao_dll/EntityFramework.dll"
-    },
-    {
-      "File": "Assets/dao_dll/EntityFramework.SqlServer.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AI.Agent.Intercept.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AI.DependencyCollector.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AI.PerfCounterCollector.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AI.ServerTelemetryChannel.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AI.Web.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AI.WindowsServer.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.ApplicationInsights.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AspNet.FriendlyUrls.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AspNet.Identity.Core.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AspNet.Identity.EntityFramework.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AspNet.Identity.Owin.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.AspNet.Web.Optimization.WebForms.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.Host.SystemWeb.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.Security.Cookies.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.Security.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.Security.Facebook.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.Security.Google.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.Security.MicrosoftAccount.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.Security.OAuth.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Owin.Security.Twitter.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.ScriptManager.MSAjax.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.ScriptManager.WebForms.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Microsoft.Web.Infrastructure.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Newtonsoft.Json.dll"
-    },
-    {
-      "File": "Assets/dao_dll/Owin.dll"
-    },
-    {
-      "File": "Assets/dao_dll/System.Web.Optimization.dll"
-    },
-    {
-      "File": "Assets/dao_dll/System.Web.Providers.dll"
-    },
-    {
-      "File": "Assets/dao_dll/TENNIS.DAO.dll"
-    },
-    {
-      "File": "Assets/dao_dll/WebGrease.dll"
-    },
-    {
       "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/Plugins/Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Assets/Plugins/AspNet.ScriptManager.bootstrap.dll"
+    },
+    {
+      "File": "Assets/Plugins/AspNet.ScriptManager.jQuery.dll"
+    },
+    {
+      "File": "Assets/Plugins/EntityFramework.dll"
+    },
+    {
+      "File": "Assets/Plugins/EntityFramework.SqlServer.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AI.Agent.Intercept.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AI.DependencyCollector.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AI.PerfCounterCollector.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AI.ServerTelemetryChannel.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AI.Web.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AI.WindowsServer.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.ApplicationInsights.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AspNet.FriendlyUrls.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AspNet.Identity.Core.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AspNet.Identity.EntityFramework.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AspNet.Identity.Owin.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.AspNet.Web.Optimization.WebForms.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.Host.SystemWeb.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.Security.Cookies.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.Security.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.Security.Facebook.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.Security.Google.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.Security.MicrosoftAccount.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.Security.OAuth.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Owin.Security.Twitter.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.ScriptManager.MSAjax.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.ScriptManager.WebForms.dll"
+    },
+    {
+      "File": "Assets/Plugins/Microsoft.Web.Infrastructure.dll"
+    },
+    {
+      "File": "Assets/Plugins/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Assets/Plugins/Owin.dll"
+    },
+    {
+      "File": "Assets/Plugins/roslyn/Microsoft.CodeAnalysis.CSharp.dll"
+    },
+    {
+      "File": "Assets/Plugins/roslyn/Microsoft.CodeAnalysis.dll"
+    },
+    {
+      "File": "Assets/Plugins/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll"
+    },
+    {
+      "File": "Assets/Plugins/roslyn/System.Collections.Immutable.dll"
+    },
+    {
+      "File": "Assets/Plugins/roslyn/System.Reflection.Metadata.dll"
+    },
+    {
+      "File": "Assets/Plugins/System.Web.Extensions.dll"
+    },
+    {
+      "File": "Assets/Plugins/System.Web.Mvc.dll"
+    },
+    {
+      "File": "Assets/Plugins/System.Web.Optimization.dll"
+    },
+    {
+      "File": "Assets/Plugins/System.Web.Providers.dll"
+    },
+    {
+      "File": "Assets/Plugins/System.Windows.Forms.dll"
+    },
+    {
+      "File": "Assets/Plugins/TENNIS.DAO.dll"
+    },
+    {
+      "File": "Assets/Plugins/TENNIS.VIEW.dll"
+    },
+    {
+      "File": "Assets/Plugins/WebGrease.dll"
+    },
+    {
+      "File": "Assets/Plugins/WebService.dll"
     },
     {
       "File": "Assets/sql_dll/I18N.CJK/I18N.CJK.dll"
@@ -400,10 +473,7 @@
       "File": "Assets/sql_dll/I18N/I18N.dll"
     },
     {
-      "File": "Assets/web_service_dll/System.Web.Services.dll"
-    },
-    {
-      "File": "Assets/web_service_dll/WebService.dll"
+      "File": "Assets/System.Web.Services.dll"
     },
     {
       "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
@@ -419,6 +489,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Cinemachine.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
@@ -469,7 +542,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 1,
-          "ScriptAssembliesAndTypeDB": 3
+          "ScriptAssembliesAndTypeDB": 4
         }
 ,  "DefaultNodes": [
     0

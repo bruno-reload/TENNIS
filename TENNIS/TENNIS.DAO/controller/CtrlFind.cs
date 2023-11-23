@@ -106,7 +106,7 @@ namespace Tennis.DAO.controller
             string sql = "SELECT ID, POINTS, WINNER, IDTEAM, IDCHALLENGS FROM FIND;";
 
             _command = new SqlCommand(sql, Connect());
-            
+
             _reader = _command.ExecuteReader();
 
             List<Find> list = new List<Find>();
@@ -125,5 +125,65 @@ namespace Tennis.DAO.controller
 
             return list;
         }
+
+        public List<Find> getFindListByIDTEAM(int id)
+        {
+            string sql = "SELECT * FROM FIND WHERE IDTEAM = @ID;";
+
+            _command = new SqlCommand(sql, Connect());
+
+            _parameter = new SqlParameter("@ID", id);
+            _parameter.SqlDbType = SqlDbType.VarChar;
+            _command.Parameters.Add(_parameter);
+
+
+            _reader = _command.ExecuteReader();
+
+            List<Find> list = new List<Find>();
+
+            while (_reader.Read())
+            {
+                Find f = new Find();
+
+                f.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                f.Points = int.Parse(_reader.GetValue(_reader.GetOrdinal("POINTS")).ToString());
+                f.Winner = bool.Parse(_reader.GetValue(_reader.GetOrdinal("WINNER")).ToString());
+                f.Challeng = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDCHALLENGS")).ToString());
+                f.team = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString());
+                list.Add(f);
+            }
+
+            return list;
+        }
+
+        public List<Find> GetFindByChallenge(int id) {
+            string sql = "SELECT * FROM FIND WHERE IDTEAM = @ID;";
+
+            _command = new SqlCommand(sql, Connect());
+
+            _parameter = new SqlParameter("@ID", id);
+            _parameter.SqlDbType = SqlDbType.VarChar;
+            _command.Parameters.Add(_parameter);
+
+
+            _reader = _command.ExecuteReader();
+
+            List<Find> list = new List<Find>();
+
+            while (_reader.Read())
+            {
+                Find f = new Find();
+
+                f.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                f.Points = int.Parse(_reader.GetValue(_reader.GetOrdinal("POINTS")).ToString());
+                f.Winner = bool.Parse(_reader.GetValue(_reader.GetOrdinal("WINNER")).ToString());
+                f.Challeng = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDCHALLENGS")).ToString());
+                f.team = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString());
+                list.Add(f);
+            }
+
+            return list;
+        }
+
     }
 }

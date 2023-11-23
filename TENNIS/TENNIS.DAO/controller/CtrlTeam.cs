@@ -75,6 +75,30 @@ namespace Tennis.DAO.controller
 
             return t;
         }
+        public Team getTeamByName(string id)
+        {
+            string sql = "SELECT * FROM TEAM WHERE TEAM_NAME = @TEAM_NAME;";
+
+            _command = new SqlCommand(sql, Connect());
+
+            _parameter = new SqlParameter("@TEAM_NAME", id);
+            _parameter.SqlDbType = SqlDbType.VarChar;
+            _command.Parameters.Add(_parameter);
+
+            _reader = _command.ExecuteReader();
+
+
+            Team t = new Team();
+            if (_reader.Read())
+            {
+                t.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
+                t.Name = _reader.GetValue(_reader.GetOrdinal("TEAM_NAME")).ToString();
+                //o historico deve ser carregado através de querys e armazenado aqui todas as buscas que compartilharem da mesma team id
+
+            }
+
+            return t;
+        }
 
         public List<Team> getTeamList()
         {

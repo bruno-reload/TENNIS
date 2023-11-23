@@ -9902,7 +9902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EtwDiagnosticTrace_CreateEtwProvider_mC0
 		RuntimeObject* L_7 = Box(Guid_t_il2cpp_TypeInfo_var, &L_6);
 		NullCheck(L_4);
 		RuntimeObject* L_8;
-		L_8 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_4, L_7);
+		L_8 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_4, L_7);
 		__this->___etwProvider = ((EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479*)CastclassSealed((RuntimeObject*)L_8, EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___etwProvider), (void*)((EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479*)CastclassSealed((RuntimeObject*)L_8, EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479_il2cpp_TypeInfo_var)));
 		EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479* L_9 = __this->___etwProvider;
@@ -9953,7 +9953,7 @@ IL_009d:
 				RuntimeObject* L_17 = Box(Guid_t_il2cpp_TypeInfo_var, &L_16);
 				NullCheck(L_14);
 				RuntimeObject* L_18;
-				L_18 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_14, L_17);
+				L_18 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_14, L_17);
 				__this->___etwProvider = ((EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479*)CastclassSealed((RuntimeObject*)L_18, EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479_il2cpp_TypeInfo_var));
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___etwProvider), (void*)((EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479*)CastclassSealed((RuntimeObject*)L_18, EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479_il2cpp_TypeInfo_var)));
 				EtwProvider_t495DB39F5FD87760F9D80BE57C296AB6800EC479* L_19 = __this->___etwProvider;

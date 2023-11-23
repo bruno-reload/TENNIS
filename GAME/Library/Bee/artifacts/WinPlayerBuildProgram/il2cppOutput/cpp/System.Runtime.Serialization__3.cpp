@@ -5655,7 +5655,7 @@ IL_0022:
 		Type_t* L_13 = ___3_type;
 		NullCheck(L_12);
 		RuntimeObject* L_14;
-		L_14 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_12, L_13);
+		L_14 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_12, L_13);
 		V_3 = ((DataContract_tC6689A52E5BA843D360C067B3B64BA067391160A*)CastclassClass((RuntimeObject*)L_14, DataContract_tC6689A52E5BA843D360C067B3B64BA067391160A_il2cpp_TypeInfo_var));
 		DataContract_tC6689A52E5BA843D360C067B3B64BA067391160A* L_15 = V_3;
 		if (!L_15)
@@ -5811,7 +5811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TypeInformation_t6D67FD7197D5574043623DC278A2
 		Type_t* L_1 = ___0_type;
 		NullCheck(L_0);
 		RuntimeObject* L_2;
-		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30, L_0, L_1);
 		V_1 = L_2;
 		RuntimeObject* L_3 = V_1;
 		if (L_3)
@@ -5870,7 +5870,7 @@ IL_0054:
 			Type_t* L_16 = ___0_type;
 			TypeInformation_t6D67FD7197D5574043623DC278A2D5D3C3C7F97A* L_17 = V_0;
 			NullCheck(L_15);
-			VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(30, L_15, L_16, L_17);
+			VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(31, L_15, L_16, L_17);
 			goto IL_005c;
 		}
 		catch(Il2CppExceptionWrapper& e)

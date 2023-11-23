@@ -1,8 +1,59 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
-		<type fullname="PlayerLogin">
+		<type fullname="GameConnect">
 			<method name="Connect"/>
-			<method name="Find"/>
+		</type>
+		<type fullname="GameController">
+			<method name="FindedOwner"/>
+		</type>
+		<type fullname="Menu">
+			<method name="SetName"/>
+			<method name="SetTeam"/>
+		</type>
+		<type fullname="TeamManager">
+			<method name="CreateFill"/>
+			<method name="CreateTeam"/>
+			<method name="DeletTeam"/>
+			<method name="LoadButtonSelect"/>
+			<method name="LoadButtonSelect"/>
+			<method name="SetFill"/>
+			<method name="SetTeam"/>
+		</type>
+		<type fullname="UserManager">
+			<method name="Create"/>
+			<method name="Login"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
 		</type>
 	</assembly>
 </linker>

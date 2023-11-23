@@ -68,13 +68,13 @@ namespace Tennis.DAO.controller
             _command.ExecuteNonQuery();
         }
 
-        public Fill getFill(string id)
+        public Fill getFill(string nickname)
         {
-            string sql = "SELECT FILL, POSITION, PLAYER_NICKNAME, IDTEAM FROM PLAYER WHERE NICKNAME = @NICKNAME;";
+            string sql = "SELECT ID, POSITION, IDTEAM FROM FILL WHERE PLAYER_NICKNAME = @PLAYER_NICKNAME;";
 
             _command = new SqlCommand(sql, Connect());
 
-            _parameter = new SqlParameter("@NICKNAME", id);
+            _parameter = new SqlParameter("@PLAYER_NICKNAME", nickname);
             _parameter.SqlDbType = SqlDbType.VarChar;
             _command.Parameters.Add(_parameter);
 
@@ -84,10 +84,10 @@ namespace Tennis.DAO.controller
             Fill f = new Fill();
             if (_reader.Read())
             {
-                f.Id = int.Parse(id);
-                f.Position = _reader.GetValue(_reader.GetOrdinal("POSITION")).ToString();
-                f.player = _reader.GetValue(_reader.GetOrdinal("PLAYER_NICKNAME")).ToString();
+                f.player = nickname;
+                f.Id = int.Parse(_reader.GetValue(_reader.GetOrdinal("ID")).ToString());
                 f.Team = int.Parse(_reader.GetValue(_reader.GetOrdinal("IDTEAM")).ToString());
+                f.Position = _reader.GetValue(_reader.GetOrdinal("POSITION")).ToString();
             }
 
             return f;
