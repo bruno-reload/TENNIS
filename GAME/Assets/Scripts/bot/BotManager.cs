@@ -3,7 +3,9 @@ using PlayerPackage;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class BotManager : MonoBehaviour
 {
@@ -26,61 +28,53 @@ public class BotManager : MonoBehaviour
     {
         botList = new List<GameObject>();
     }
-    public static void OrganizePlayers()
+    public static void SetBot(EntityDTO entity)
     {
-        if (GameConnect.data == null) {
-            return;
-        }
-        int count = 0;
-        EntityDTO another = JsonUtility.FromJson<EntityDTO>(GameConnect.data);
-        foreach (GameObject bot in BotManager.botList)
+        if (entity.game.TeamData.Id == Player.instance.GetTeam().Id)
         {
-            int id = another.id;
-            if (bot.GetComponent<PlayerPackage.Player>().Entity.id == id && count < botList.Count)
-            {
-                count++;
-            }
+            Debug.Log("aliado " + entity.game.nickname + " " +  Player.instance.GetPlayer().Nickname);
+            GameObject bot = Instantiate(BotManager.instance.bot, BotManager.instance.alies.position, BotManager.instance.alies.rotation);
+            bot.GetComponent<BotController>().BotName.text = entity.game.nickname;
+            bot.GetComponent<BotController>().entity = entity;
+            botList.Add(bot);
         }
-        if (count < botList.Count)
+        else
         {
-            if (another.game.TeamData.Id == Player.instance.GetTeam().Id)
-            {
-                GameObject bot = Instantiate(BotManager.instance.bot, BotManager.instance.alies.position, BotManager.instance.alies.rotation);
-                bot.GetComponent<PlayerPackage.Player>().Entity = another;
-                botList.Add(bot);
-            }
-            else
-            {
-                GameObject bot = Instantiate(BotManager.instance.bot, BotManager.instance.opponets.position, BotManager.instance.opponets.rotation);
-                bot.GetComponent<PlayerPackage.Player>().Entity = another;
-                botList.Add(bot);
-            }
-        }
-    }
-    public static bool IsReady(int max)
-    {
-        return max >= botList.Count;
-    }
-
-    internal static void UpdatePlayersIds()
-    {
-        foreach (GameObject bot in botList)
-        {
-            string json = JsonConvert.SerializeObject(bot.GetComponent<Player>().Entity.game);
-            GameConnect.instance.GetWriter().WriteLine(json);
-            GameConnect.instance.GetWriter().Flush();
+            Debug.Log("oponent" + entity.game.nickname + " " + Player.instance.GetPlayer().Nickname);
+            GameObject bot = Instantiate(BotManager.instance.bot, BotManager.instance.opponets.position, BotManager.instance.opponets.rotation);
+            bot.GetComponent<BotController>().BotName.text = entity.game.nickname;
+            bot.GetComponent<BotController>().entity = entity;
+            botList.Add(bot);
         }
     }
 
-    public static void AlertBots()
+    private void Update()
     {
-        EntityDTO somebody = JsonUtility.FromJson<EntityDTO>(GameConnect.data);
-        foreach (GameObject bot in BotManager.botList)
+        if (GameController.inGame)
         {
-            if (somebody.id == bot.GetComponent<BotController>().entity.id)
+            if (GameConnect.data != null)
             {
-            if (somebody.id == bot.GetComponent<BotController>().entity.id)
-                   bot.transform.position = somebody.game.position.ToVector3();
+                EntityDTO player = JsonConvert.DeserializeObject<EntityDTO>(GameConnect.data);
+
+                int i = 0;
+                foreach (GameObject go in BotManager.botList)
+                {
+                    if (BotManager.botList.Count > 0)
+                    {
+                        if (go.GetComponent<BotController>().entity.game.nickname == player.game.nickname)
+                        {
+                            break;
+                        }
+                    }
+                    i++;
+                }
+                if (i == BotManager.botList.Count)
+                {
+                    if (player.game.nickname != Player.instance.Entity.game.nickname)
+                    {
+                        BotManager.SetBot(player);
+                    }
+                }
             }
         }
     }

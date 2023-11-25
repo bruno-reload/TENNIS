@@ -1,17 +1,49 @@
 using Microsoft.ApplicationInsights.Web.Implementation;
 using Newtonsoft.Json;
+using NUnit.Framework;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Metadata.Edm;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web.Services.Description;
+using System.Windows.Forms;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 
 namespace PlayerPackage
 {
+    [System.Serializable]
+    public struct InputDTO
+    {
+
+        public bool up;
+        public bool left;
+        public bool right;
+        public bool down;
+
+        public static bool operator !=(InputDTO a, InputDTO b)
+        {
+            return a.up != b.up || a.down != b.down || a.left != b.left || a.right != b.right ;
+        }
+        public static bool operator ==(InputDTO a, InputDTO b)
+        {
+            return a.up == b.up && a.down == b.down && a.left == b.left && a.right == b.right;
+        }
+
+        public override string ToString()
+        {
+            return "{up: " + up + ", left: " + left + ", right: " + right + ", down: " + down + "}";
+        }
+
+        internal bool HasDown()
+        {
+            return up || left || right || down;
+        }
+    }
 
     [System.Serializable]
     public struct Pos
@@ -41,6 +73,7 @@ namespace PlayerPackage
         public string nickname;
         public Tennis.DAO.model.Team TeamData;
         public Pos position;
+        public InputDTO InputDTO;
     }
     [System.Serializable]
     public struct EntityDTO
@@ -51,12 +84,14 @@ namespace PlayerPackage
     public class Player : MonoBehaviour
     {
         public EntityDTO Entity;
+        private float delay = 0.5f;
 
         public static Player instance;
-        private Vector3 Lastposition;
         private int lastPlayer = -1;
 
         private Tennis.DAO.model.Player PlayerData;
+        private InputDTO lastInputDTO;
+
         public Tennis.DAO.model.Player GetPlayer() { return PlayerData; }
         public Tennis.DAO.model.Team GetTeam() { return Entity.game.TeamData; }
         public void SetPlayer(Tennis.DAO.model.Player player)
@@ -67,86 +102,59 @@ namespace PlayerPackage
         public void SetTeam(Tennis.DAO.model.Team team) { this.Entity.game.TeamData = team; }
         void Awake()
         {
+            instance = this;
+        }
+        private void Start()
+        {
             Entity = new EntityDTO();
-            Entity.id = -1;
             Entity.game = new GameDTO();
             Entity.game.owner = OWNER.I_DO_KNOW;
-            instance = this;
-            Lastposition = transform.position;
             Entity.game.position = new Pos(Vector3.zero);
+            lastInputDTO = Entity.game.InputDTO;
+            Entity.game.InputDTO = new InputDTO();
         }
-
-
         private void Update()
         {
-            if (GameConnect.data != null)
+            if (!GameController.inGame && GameConnect.connected)
             {
-                string json = JsonConvert.SerializeObject(Entity);
-                Debug.Log("log: " + json + " " + GameConnect.data);
-            }
-            if (!GameController.inGame)
-            {
-                if (GameConnect.connected && !GameController.ClosedLooby)
+                if (GameConnect.data != null)
                 {
-                    if (GameConnect.data != null && Entity.game.owner == OWNER.I_DO_KNOW)
+                    EntityDTO player = JsonConvert.DeserializeObject<EntityDTO>(GameConnect.data);
+                    if (player.game.nickname == Entity.game.nickname && player.game.owner == OWNER.I_DO_KNOW)
                     {
-                        Debug.Log("novo erro: " + GameConnect.data);
-                        EntityDTO another = JsonUtility.FromJson<EntityDTO>(GameConnect.data);
-                        if (another.id == 0)
-                        {
-                            Entity.game.owner = OWNER.IT_IS_NOT_ME;
-                        }
-                        if (another.id >= lastPlayer)
-                        {
-                            lastPlayer = another.id;
-                        }
-                    }
-                    if (Entity.game.owner == OWNER.I_DO_KNOW)
-                    {
-                        SayHi();
-                    }
-                }
-                if (GameController.ClosedLooby)
-                {
-                    if (GameController.ClosedLooby && Entity.game.owner == OWNER.I_DO_KNOW)
-                    {
-                        Entity.id = 0;
-                        BotManager.OrganizePlayers();
-                        if (BotManager.IsReady(lastPlayer))
+                        if (player.id == 0)
                         {
                             Entity.game.owner = OWNER.IT_IS_ME;
                         }
-                    }
-                    if (Entity.id == 0)
-                    {
-                        BotManager.UpdatePlayersIds();
-                    }
-                    else if (Entity.id == -1)
-                    {
-                        EntityDTO somebody = JsonUtility.FromJson<EntityDTO>(GameConnect.data);
-                        if (Entity.game.nickname == somebody.game.nickname)
-                        {
-                            Entity.id = somebody.id;
-                            Entity.game.owner = OWNER.DOES_NOT_MATTER;
-                        }
                         else
                         {
-                            SayHi();
+                            Entity.game.owner = OWNER.IT_IS_NOT_ME;
                         }
                     }
                 }
             }
-            else
+            if (Entity.game.InputDTO != lastInputDTO)
             {
-                //BotManager.AlertBots();
+                Debug.Log(Entity.game.InputDTO.ToString());
+
+                Entity.game.position = transform.position;
+                lastInputDTO = Entity.game.InputDTO;
+                SayHi();
             }
         }
 
         public void SayHi()
         {
-            string json = JsonConvert.SerializeObject(PlayerPackage.Player.instance.Entity.game);
-            GameConnect.instance.GetWriter().WriteLine("\"game\":" + json);
-            GameConnect.instance.GetWriter().Flush();
+            string json = JsonConvert.SerializeObject(Entity.game);
+            if (json != null)
+            {
+                StreamWriter writer = GameConnect.instance.GetWriter();
+                if (writer != null)
+                {
+                    writer.WriteLine("\"game\":" + json);
+                    writer.Flush();
+                }
+            }
         }
     }
 }

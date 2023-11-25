@@ -1,3 +1,5 @@
+using PlayerPackage;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +8,14 @@ public class Moviment : MonoBehaviour
 {
     public float velocidade = 5f;
     public float gravidade = 9.8f;
-    private Rigidbody rb;   
+    private Rigidbody rb;
+
+    public static Moviment instance;
+  
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -17,8 +26,18 @@ public class Moviment : MonoBehaviour
         if (!GameConnect.connected) {
             return;
         }
-        float movimentoHorizontal = Input.GetKey(KeyCode.D) ? 1f : (Input.GetKey(KeyCode.A) ? -1f : 0f);
-        float movimentoVertical = Input.GetKey(KeyCode.W) ? 1f : (Input.GetKey(KeyCode.S) ? -1f : 0f);
+        GameDTO game = PlayerPackage.Player.instance.Entity.game;
+
+        game.InputDTO.up = Input.GetKey(KeyCode.W);
+        game.InputDTO.down = Input.GetKey(KeyCode.S);
+        game.InputDTO.left = Input.GetKey(KeyCode.A);
+        game.InputDTO.right = Input.GetKey(KeyCode.D);
+
+        PlayerPackage.Player.instance.Entity.game = game;
+
+        float movimentoHorizontal = game.InputDTO.right ? 1f : (game.InputDTO.left ? -1f : 0f);
+        float movimentoVertical = game.InputDTO.up ? 1f : (game.InputDTO.down ? -1f : 0f);
+
 
         Vector3 direcao = new Vector3(movimentoHorizontal, 0f, movimentoVertical).normalized;
 

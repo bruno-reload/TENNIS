@@ -2,6 +2,7 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="PlayerPackage.EntityDTO" preserve="nothing" serialized="true"/>
 		<type fullname="PlayerPackage.GameDTO" preserve="nothing" serialized="true"/>
+		<type fullname="PlayerPackage.InputDTO" preserve="nothing" serialized="true"/>
 		<type fullname="PlayerPackage.OWNER" preserve="nothing" serialized="true"/>
 		<type fullname="PlayerPackage.Pos" preserve="nothing" serialized="true"/>
 	</assembly>

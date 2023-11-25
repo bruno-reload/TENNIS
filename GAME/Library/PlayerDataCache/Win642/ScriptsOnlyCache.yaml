@@ -57,6 +57,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp:
     - PlayerPackage.EntityDTO
     - PlayerPackage.GameDTO
+    - PlayerPackage.InputDTO
     - PlayerPackage.OWNER
     - PlayerPackage.Pos
     Cinemachine:
@@ -127,12 +128,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: TeamManager
     methodName: LoadButtonSelect
-  - assembly: Assembly-CSharp
-    fullTypeName: GameController
-    methodName: FindedOwner
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameController
+    methodName: StartGame
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -154,9 +155,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Menu
     methodName: SetTeam
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -320,27 +318,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20272}
     - Class: 114
-      Script: {instanceID: 20410}
+      Script: {instanceID: 20670}
     - Class: 114
-      Script: {instanceID: 20672}
+      Script: {instanceID: 20860}
     - Class: 114
-      Script: {instanceID: 20862}
+      Script: {instanceID: 20926}
     - Class: 114
-      Script: {instanceID: 20928}
+      Script: {instanceID: 21038}
     - Class: 114
-      Script: {instanceID: 21040}
+      Script: {instanceID: 21054}
     - Class: 114
-      Script: {instanceID: 21056}
+      Script: {instanceID: 21316}
     - Class: 114
-      Script: {instanceID: 21318}
+      Script: {instanceID: 21412}
     - Class: 114
-      Script: {instanceID: 21414}
+      Script: {instanceID: 21650}
     - Class: 114
-      Script: {instanceID: 21652}
+      Script: {instanceID: 21686}
     - Class: 114
-      Script: {instanceID: 21688}
+      Script: {instanceID: 21870}
     - Class: 114
-      Script: {instanceID: 21872}
+      Script: {instanceID: 21874}
     - Class: 114
       Script: {instanceID: 22220}
     - Class: 114
@@ -355,8 +353,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 23590}
     - Class: 114
       Script: {instanceID: 24018}
-    - Class: 114
-      Script: {instanceID: 39268}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -692,7 +688,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a40ce4269a9448bdbfe43dece9f6edbb
+      Hash: 16df09354bab1481e6eb98d07d5b073a
     assemblyName: Assembly-CSharp
     namespaceName: PlayerPackage
     className: Player
@@ -1238,6 +1234,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: de718b76ccb6c9d1e75506864d7da741
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BotManager
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1466,7 +1468,7 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 294e0b381406a07039ffbca8547589ce
+      Hash: 09ddb4525df0beb18d7da69f6a88d9a1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BotController
@@ -1560,12 +1562,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: de718b76ccb6c9d1e75506864d7da741
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BotManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main.unity

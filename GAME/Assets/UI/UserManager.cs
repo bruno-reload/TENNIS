@@ -42,6 +42,7 @@ public class UserManager : MonoBehaviour
         }
 
         Tennis.DAO.model.Player p = playerWS.GetPlayer(nickname.text, password.text);
+        
 
         if (p != null)
         {

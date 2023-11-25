@@ -228,11 +228,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6510017962155014491}
-  - component: {fileID: 7074729243428321418}
   - component: {fileID: 9091620210472387470}
   - component: {fileID: 4707725186550272646}
   - component: {fileID: 6899881884878248821}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,29 +255,6 @@ Transform:
   - {fileID: 5872088312966420507}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &7074729243428321418
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5871595866529068088}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &9091620210472387470
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -333,7 +309,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3988ae1ee6be69c41aad70b806227010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 0, z: 0}
+  entity:
+    id: 0
+    game:
+      owner: 0
+      nickname: 
+      position:
+        x: 0
+        y: 0
+        z: 0
+      InputDTO:
+        up: 0
+        left: 0
+        right: 0
+        down: 0
+  BotName: {fileID: 2061702431255611050}
 --- !u!33 &6899881884878248821
 MeshFilter:
   m_ObjectHideFlags: 0

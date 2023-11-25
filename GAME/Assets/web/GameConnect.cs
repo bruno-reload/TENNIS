@@ -60,6 +60,7 @@ public class GameConnect : MonoBehaviour
             thread.Start();
 
             connected = true;
+
         }
         catch (Exception e)
         {
@@ -71,7 +72,7 @@ public class GameConnect : MonoBehaviour
         data = reader.ReadLine();
         while (data != null)
         {
-            Debug.Log(data);
+            Debug.LogWarning(data);
             data = reader.ReadLine();
         }
         reader.Close();
